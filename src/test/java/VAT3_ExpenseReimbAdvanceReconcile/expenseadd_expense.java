@@ -16,7 +16,7 @@ import utilities.testmodeller.TestModellerLogger;
 //https://nomisma.cloud.testinsights.io/app/#!/model-engine/guid/10ba7e74-2b0d-4199-962f-6108eeb15d5f
 @Listeners(TestNGListener.class)
 @TestModellerSuite(id = 1426, profileId = 101297)
-public class expenseadd_expense1 extends TestBase
+public class expenseadd_expense extends TestBase
 {
     
 
