@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "ScriptEditSettingToVATType_DefaultProfile" enabled="true">  
+ 			<classes> 
+    				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.ScriptEditSettingToVATType_DefaultProfile"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "SaleInToReconcileForJonral_DefaultProfile" enabled="true">  
+ 			<classes> 
+    				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.SaleInToReconcileForJonral_DefaultProfile"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "CreditNoteToReconcileForJonral_DefaultProfile" enabled="true">  
+ 			<classes> 
+    				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.CreditNoteToReconcileForJonral_DefaultProfile"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "VATOnlyToReconcileForJonral_DefaultProfile" enabled="true">  
+ 			<classes> 
+    				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.VATOnlyToReconcileForJonral_DefaultProfile"/>
+   			</classes> 
+ 	</test>
+ 		<test name= "ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
+ 			<classes> 
+    				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+   			</classes> 
+ 	</test>
+	<test name= "ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
+ 			<classes> 
+    				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
+ 			<classes> 
+    				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+   			</classes> 
+ 	</test>
+   	</suite>

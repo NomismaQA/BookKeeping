@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SalesDsb" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+ 	<test name= "TC01_NewPreviewPage_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC01NewPreviewPage_DefaultProfile"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC02_Email_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC02Email_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC03_EditOption" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC03EditOption"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC04_DeleteInvoide" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC04DeleteInvoide"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC05_ThreeDotIcon" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC05ThreeDotIcon"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC06TransactionBookStatus" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC06TransactionBookStatus"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC07DateRange" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC07UpdateButton"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	</suite>

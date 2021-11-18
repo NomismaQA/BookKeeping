@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="reports.TestNGListener"/>
+    <listener class-name="reports.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="SaleInToPartialReconcile_DebitNote_DefaultProfile_1(failed)" verbose="10">
+    <classes>
+      <class name="VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_DebitNote_DefaultProfile_1">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_DebitNote_DefaultProfile_1 -->
+    </classes>
+  </test> <!-- SaleInToPartialReconcile_DebitNote_DefaultProfile_1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

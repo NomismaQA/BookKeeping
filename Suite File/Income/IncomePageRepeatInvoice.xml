@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Customer_List" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+ 	<test name= "Income_Copy_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_Edit_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC02"/>
+   			</classes> 
+   			
+  			
+ 	</test>
+ 	<test name= "Income_Delete_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	<test name= "Income_RaiseSelectedInvoicesOnNextRunDate_TC04" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC04"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Income_Upload_TC05" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC05"/>
+   			</classes> 
+  			
+ 	
+ 	
+ 		</test>
+ 	<test name= "Income_CSV_Download_TC06" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC06"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	</suite>

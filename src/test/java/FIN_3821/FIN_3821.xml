@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "Script_UnprocessRcpt" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "FIN_3821.Script_UnprocessRcpt"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "script_UnprocessTrans" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "FIN_3821.script_UnprocessTrans"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "SA_SAClient" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "FIN_3821.SA_SAClient"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "BankFeedbnkact_Bankfeed" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "FIN_3821.BankFeedbnkact_Bankfeed"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "businesswithoutuser_busineswithoutuser" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "FIN_3821.businesswithoutuser_busineswithoutuser"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 		
+  	</suite>

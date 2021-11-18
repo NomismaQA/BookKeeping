@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BankCr" verbose="10">
+
+  <test name="test.ashiv.Rule2_rule2" enabled="true">
+    <classes>
+      <class name="test.ashiv.Rule2_rule2">
+    </class>
+    </classes>
+  </test> 
+</suite> 

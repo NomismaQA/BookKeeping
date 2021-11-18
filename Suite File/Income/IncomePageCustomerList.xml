@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Customer_List" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+ 	<test name= "Income_Search_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestCustomerList_Income_Search_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_AddNewCustomer_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestCustomer_List_Income_AddNewCuts_TC02"/>
+   			</classes> 
+   			
+  			
+ 	</test>
+ 	<test name= "Income_Email_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestCustomer_List_Income_Email_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	</suite>

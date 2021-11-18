@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SimpleInvoice" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+ 	<test name= "Income_Create_Invoice_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestSimpleInvoiceTemplate_Create_Invoice_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_Recall_Last_Invoice_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestSimpleInvoiceTemplate_RecallLast_TC02"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	</suite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OtherInvoiceTemp" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+ 	<test name= "Credit_Note_No_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Select_Customer_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC02"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Credit_Note_Date_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Transaction_book_Status_Tc04" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC04"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Line_Items_Tc05" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC05"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	</suite>

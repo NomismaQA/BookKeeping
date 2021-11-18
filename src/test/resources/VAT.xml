@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ <suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener"/>
+</listeners>
+ 	<test name= "ScriptStandardToFlat_DefaultProfile" enabled="true">  
+  		 	<classes> 
+    				<class name= "tests.ScriptStandardToFlat_DefaultProfile"></class>
+   			</classes> 
+   	</test>
+ 	<test name= "Script1_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.Script1_DefaultProfile"></class>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptSaleCreditNote_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.ScriptSaleCreditNote_DefaultProfile"></class>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATOnlyInvoice_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.ScriptVATOnlyInvoice_DefaultProfile"></class>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 		
+  	</suite>

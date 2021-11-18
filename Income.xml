@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OtherInvoiceTemp" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+
+ 	<test name= "TC01_NewPreviewPage_Sales_Dsb" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC01NewPreviewPage_DefaultProfile"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC02_Email_Sales_Dsb" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC02Email_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC03_EditOption_Sales_Dsb" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC03EditOption"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC04_DeleteInvoide_Sales_Dsb" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC04DeleteInvoide"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC05_ThreeDotIcon_Sales_Dsb" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC05ThreeDotIcon"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC06TransactionBookStatus_Sales_Dsb" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC06TransactionBookStatus"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC07DateRange_Sales_Dsb" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC07UpdateButton"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+
+<test name= "Income_Cust_List_Search_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestCustomerList_Income_Search_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_Cust_List_AddNewCustomer_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestCustomer_List_Income_AddNewCuts_TC02"/>
+   			</classes> 
+   			
+  			
+ 	</test>
+ 	<test name= "Income__Cust_List_Email_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestCustomer_List_Income_Email_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+
+ 	<test name= "Income_Simple_Inv_Create_Invoice_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestSimpleInvoiceTemplate_Create_Invoice_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_Recall_Simple_Inv_Last_Invoice_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestSimpleInvoiceTemplate_RecallLast_TC02"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+<test name= "Income_Other_Inv_Preview_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestOtherInvoiceTemplate_SelectTemplate_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_Other_Inv_Email_Functionality_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestOtherInvoiceTemplate_EmailFunctionality_TC02"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Income_Other_Inv_Success Message_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_OtherInvoiceTemplate_SuccessEmail_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+
+<test name= "Income_Rep_Inv_Copy_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_Rep_Inv_Edit_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC02"/>
+   			</classes> 
+   			
+  			
+ 	</test>
+ 	<test name= "Income_Rep_Inv_Delete_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	<test name= "Income_Rep_Inv_RaiseSelectedInvoicesOnNextRunDate_TC04" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC04"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Income_Rep_Inv_Upload_TC05" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC05"/>
+   			</classes> 
+  			
+ 	
+ 	
+ 		</test>
+ 	<test name= "Income_Rep_Inv_CSV_Download_TC06" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestRepeatInvoice_TC06"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "Credit_Note_No_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Credit_Note_Select_Customer_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC02"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Credit_Note_Date_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Credit_Note_Transaction_book_Status_Tc04" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC04"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Credit_Note_Line_Items_Tc05" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.IncomeCreditNote_TC05"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+<test name= "Income_New_Quotes_Transaction_book_Status_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_NewQuotes_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_New_Quotes_ without_Quote_No_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_NewQuotes_TC02"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Income_New_Quotes_Enter_Quote_No_Without_Q_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_NewQuotes_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_New_Quotes_Default_Date_TC04" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_NewQuotes_TC04"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_New_Quotes_Line_Items_TC05_T0_TC14" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_NewQuotes_TC05_TC15"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+
+ 	<test name= "Income_ViewQuotes" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestViewQuotes_UserStories"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "Income_New_Batch_Customerlist_SelectedCustomer_TC01_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestNewBatchEntry_TC01_TC02"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_New_Batch_AddMoreLine_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestNewBatchEntry_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Income_New_Batch_WithoutFillLineMsg_DefaultDate_TC04_TC05" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestNewBatchEntry_TC04_TC05"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_New_Batch_success message on top of the screen_TC06" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestNewBatchEntry_TC06"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 		<test name= "Income_New_Job_AddNew_Job_TC01" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_Newjob_AddNew_TC01"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Income_New_Job_job_Edit_TC02" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_Newjob_Edit_TC02"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Income_New_Job_Job_Delete_TC03" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_Newjob_Delete_TC03"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	  <test name= "Repeat Invoice" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.New_Repeat_Invoice"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "New Vat Only" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.Test_VATOnlyInvoice"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+  
+  <test name= "Ledger_Reconciliation" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TestLadgerRecon_DefaultProfile"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	</suite>

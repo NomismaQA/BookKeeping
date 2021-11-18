@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "ScriptEditSettingToFlatRate_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptEditSettingToFlatRate_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "Script_Invoice_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.Script_Invoice_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptSaleCreditNote_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptSaleCreditNote_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATOnlyInvoice_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptVATOnlyInvoice_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATReturn1stVATReturnReport_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptVATReturn1stVATReturnReport_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATReturn2stVATReturnReport_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptVATReturn3stVATReturnReport_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "ScriptVATReturn3stVATReturnReport_FlatToStandard.DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptVATReturn3stVATReturnReport_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "ScriptFRSTOStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptFRSTOStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "ScriptVerifyNewAddedRecord_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptVerifyNewAddedRecord_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "ScriptPostVATReturn1stVATReturnReport_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptPostVATReturn1stVATReturnReport_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptPostVATReturn2stVATReturnReport_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptPostVATReturn2stVATReturnReport_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "ScriptPostVATReturn3stVATReturnReport_FlatToStandard_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptPostVATReturn3stVATReturnReport_FlatToStandard_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	<test name= "ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "test.FlatToStandard.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 		
+  	</suite>

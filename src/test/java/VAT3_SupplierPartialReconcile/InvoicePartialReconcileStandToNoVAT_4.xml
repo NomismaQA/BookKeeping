@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "ScriptEditSettingToVATType_DefaultProfileFullyReconcile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptEditSettingToVATType_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "SaleInToPartialReconcile_SupplierBill_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_SupplierBill_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	
+ 	<test name= "SaleInToPartialReconcile_DebitNote_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_DebitNote_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	
+ 	<test name= "SaleInToPartialReconcile_VATOnlyBill_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	
+ 		<test name= "ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+
+		<test name= "ScriptSubmitVAT_DefaultProfileSupAdvanceReconcile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptSubmitVAT_DefaultProfileSupPartialReconcile_4"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptStandardToFlat_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptStandardToFlat_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+	
+   	</suite>

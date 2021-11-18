@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="tr_nidbanktrn" enabled="true">
+<classes>
+<class name="tests.Bank_Rule.tr_nidbanktrn">
+</class>
+</classes>
+</test>
+<test name="Rule1_rule1" enabled="true">
+<classes>
+<class name="tests.Bank_Rule.Rule1_rule1">
+</class>
+</classes>
+</test>
+<test name="UnreconsiledInterface_RunRule1" enabled="true">
+<classes>
+<class name="tests.Bank_Rule.UnreconsiledInterface_RunRule1">
+</class>
+</classes>
+</test>
+</suite>    
+         
+         
+         
+
+ 

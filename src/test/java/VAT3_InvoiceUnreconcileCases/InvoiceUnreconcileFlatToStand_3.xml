@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "ScriptEditSettingToVATType_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptEditSettingToVATType_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "Script_Invoice_StandToFlat_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.Script_Invoice_StandToFlat_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	
+ 	<test name= "ScriptSaleCreditNoteStandToFlat_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSaleCreditNoteStandToFlat_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	
+ 	<test name= "ScriptVATOnlyInvoiceStandToFlat_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATOnlyInvoiceStandToFlat_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	
+ 		<test name= "ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+
+		<test name= "ScriptSubmitVAT_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSubmitVAT_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptStandardToFlat_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptStandardToFlat_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+ 	<test name= "ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+	
+   	</suite>

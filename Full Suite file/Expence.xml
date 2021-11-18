@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterFile" verbose="10">
+
+
+
+
+	<test name="UseOfHome" enabled="true">
+		<classes>
+		<class name="test.ashiv.TestUseOfHome_TestCases">
+		</class>
+		</classes>
+		</test>
+
+
+
+
+	<test name="Ledger_Reconciliation" enabled="true">
+		<classes>
+		<class name="test.ashiv.TestLadgerRecon_DefaultProfile">
+		</class>
+		</classes>
+		</test>
+
+
+ 	
+  
+ 	 <test name="NewVatOnly" enabled="true">
+		<classes>
+		<class name="test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile">
+		</class>
+		</classes>
+		</test>
+
+	<test name="NewDebitNote" enabled="true">
+		<classes>
+		<class name="test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile">
+		</class>
+		</classes>
+		</test>
+
+	<test name="NewSubcontractorBill" enabled="true">
+		<classes>
+		<class name="test.ashiv.SubcontractorBill_DefaultProfile">
+		</class>
+		</classes>
+		</test>
+
+  	<test name="NewSupplierBill" enabled="true">
+ 		<classes>
+ 		<class name="test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile">
+ 		</class>
+ 		</classes>
+ 		</test>
+  
+  	<test name="NewSupplierList" enabled="true">
+		<classes>
+		<class name="test.ashiv.TestSupplierList_TestCases">
+		</class>
+		</classes>
+		</test>
+  
+ 	 <test name="NewSupplierBillBatch" enabled="true">
+		<classes>
+		<class name="test.ashiv.TestNewSupplierBillBatch_UserStories">
+		</class>
+		</classes>
+		</test>
+  
+  	
+
+  
+  
+ 	 <test name="ExpenseReimbursement" enabled="true">
+		<classes>
+		<class name="test.ashiv.TestEnpenseReimbursement_DefaultProfile">
+		</class>
+		</classes>
+		</test>
+
+</suite>    
+         
+         
+         
+
+ 

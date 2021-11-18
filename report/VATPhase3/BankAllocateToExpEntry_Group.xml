@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "ScriptEditVATFlatP_StandToFlat_DefaultProfile_1" enabled="true">  
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptEditVATFlatP_StandToFlat_DefaultProfile_1"/>
+   			</classes> 
+ 	</test>
+	<test name= "BankingTr_VATPH3_StandToFlatDefaultProfile_1" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.BankingTr_VATPH3_StandToFlatDefaultProfile_1"/>
+   			</classes> 
+  	</test>
+  	
+ 	<test name= "ScriptVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptFlatToFlatP__StandToFlat_DefaultProfile_1" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptFlatToFlatP__StandToFlat_DefaultProfile_1"/>
+   			</classes> 
+  	</test>
+ 	<test name= "ScriptPostVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptPostVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptPostVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptEditVATFlatP_FlatToStand_DefaultProfile_2" enabled="true">  
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptEditVATFlatP_FlatToStand_DefaultProfile_2"/>
+   			</classes> 
+ 	</test>
+	<test name= "BankingTr_VATPH3_FlatToStandDefaultProfile_2" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.BankingTr_VATPH3_FlatToStandDefaultProfile_2"/>
+   			</classes> 
+  	</test>
+  	
+ 	<test name= "Script_FlatToStand_VATReturn1stVATReturnReport_DefaultProfile_2" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.Script_FlatToStand_VATReturn1stVATReturnReport_DefaultProfile_2"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "Script_FlatToStand_VATReturn2stVATReturnReport_DefaultProfile_2" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.Script_FlatToStand_VATReturn2stVATReturnReport_DefaultProfile_2"/>
+   			</classes> 
+  	</test>
+  	<test name= "Script_FlatToStand_VATReturn3stVATReturnReport_DefaultProfile_2" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.Script_FlatToStand_VATReturn3stVATReturnReport_DefaultProfile_2"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptFlatToFlatP_FlatToStand_DefaultProfile_2" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptFlatToFlatP_FlatToStand_DefaultProfile_2"/>
+   			</classes> 
+  	</test>
+ 	<test name= "Script_FlatToStand_PostVATReturn1stVATReturnReport_DefaultProfile_2" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.Script_FlatToStand_PostVATReturn1stVATReturnReport_DefaultProfile_2"/>
+   			</classes> 
+  	</test>
+ 	<test name= "Script_FlatToStand_PostVATReturn2stVATReturnReport_DefaultProfile_2" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.Script_FlatToStand_PostVATReturn2stVATReturnReport_DefaultProfile_2"/>
+   			</classes> 
+  	</test>
+  	<test name= "Script_FlatToStand_PostVATReturn3stVATReturnReport_DefaultProfile_2" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.Script_FlatToStand_PostVATReturn3stVATReturnReport_DefaultProfile_2"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptEditVATFlatP_FlatToNoVAT_DefaultProfile_3" enabled="true">  
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptEditVATFlatP_FlatToNoVAT_DefaultProfile_3"/>
+   			</classes> 
+ 	</test>
+	<test name= "BankingTr_VATPH3_StandToFlatDefaultProfile_3" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3"/>
+   			</classes> 
+  	</test>
+  	
+ 	<test name= "ScriptVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptFlatToFlatP_FlatToNoVAT_DefaultProfile_3" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptFlatToFlatP_FlatToNoVAT_DefaultProfile_3"/>
+   			</classes> 
+  	</test>
+ 	<test name= "ScriptPostVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptPostVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptPostVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptEditVATFlatP_StandToNoVAT_DefaultProfile_4" enabled="true">  
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptEditVATFlatP_StandToNoVAT_DefaultProfile_4"/>
+   			</classes> 
+ 	</test>
+	<test name= "BankingTr_VATPH3_StandToNoVATDefaultProfile_4" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.BankingTr_VATPH3_StandToNoVATDefaultProfile_4"/>
+   			</classes> 
+  	</test>
+  	
+ 	<test name= "ScriptVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptFlatToFlatP_StandToNoVAT_DefaultProfile_4" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptFlatToFlatP_StandToNoVAT_DefaultProfile_4"/>
+   			</classes> 
+  	</test>
+ 	<test name= "ScriptPostVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptPostVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptPostVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptEditVATFlatP_FlatToFlatPer_DefaultProfile_5" enabled="true">  
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptEditVATFlatP_FlatToFlatPer_DefaultProfile_5"/>
+   			</classes> 
+ 	</test>
+	<test name= "BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5"/>
+   			</classes> 
+  	</test>
+  	
+ 	<test name= "ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
+  			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+   			</classes> 
+  	</test>
+ 	<test name= "ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptFlatToFlatP_FlatToFlatPer_DefaultProfile_5" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptFlatToFlatP_FlatToFlatPer_DefaultProfile_5"/>
+   			</classes> 
+  	</test>
+ 	<test name= "ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
+  		 
+ 			<classes> 
+    				<class name= "VATPhase3_Banking_allocateToExp.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+   			</classes> 
+  	</test>
+   	</suite>

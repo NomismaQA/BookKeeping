@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="VAT_Type">  
+  <test name="TC1" enabled="true">  
+    <classes>
+      <class name="tests.ScriptStandardToFlat_DefaultProfile.java"></class>
+    </classes>
+</test>
+<test name ="TC2" enabled ="true">
+	<classes>
+		<class name="tests.Script1_DefaultProfile.java"/>
+	</classes>
+</test>
+</suite>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+		<test name= "TC05ThreeDotIcon" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TC05ThreeDotIcon"/>
+   			</classes> 
+  			
+ 		</test>
+
+
+
+			<test name= "TC01NewPreviewPage_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TC01NewPreviewPage_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC02Email_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TC02Email_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC03EditOption" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TC03EditOption"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC04DeleteInvoide" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TC04DeleteInvoide"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	<test name= "TC06TransactionBookStatus" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TC06TransactionBookStatus"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC07UpdateButton" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TC07UpdateButton"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC08SalesDsbDateRange" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TC08SalesDsbDateRange"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TCsaleinvoice_searchtest" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "SaleDashboardTest.TCsaleinvoice_searchtest"/>
+   			</classes> 
+  			
+ 	</test>
+ 	 
+   	</suite>

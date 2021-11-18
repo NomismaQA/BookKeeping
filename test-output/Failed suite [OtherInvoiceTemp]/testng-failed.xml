@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [OtherInvoiceTemp]]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="reports.TestNGListener"/>
+    <listener class-name="reports.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Income_Other_Inv_Preview_TC01(failed)(failed)" verbose="10">
+    <classes>
+      <class name="Test_Income.TestOtherInvoiceTemplate_SelectTemplate_TC01">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlLoginApplicationWithValidCredentialsClickNewClickCreateInvoiceCreateNewInvoiceVerifyNewInvoiceAddedSuccessfullyChoseOtherTemplateOtherInvoiceTemp_TC01"/>
+        </methods>
+      </class> <!-- Test_Income.TestOtherInvoiceTemplate_SelectTemplate_TC01 -->
+    </classes>
+  </test> <!-- Income_Other_Inv_Preview_TC01(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [OtherInvoiceTemp]] -->

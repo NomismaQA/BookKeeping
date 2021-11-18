@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Advance Reconcilation" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+ 	<test name= "Invoice Reconciled with Advanced banking" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Advance_Reconcilation_WithBank_TC"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Invoice Reconciled with Advanced Journal" enabled="true">  
+  		 
+ 			<classes> 
+ 			 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Advance_Reconcilation_JournalEntry_TC"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Full Reconciled with Credit Note" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Full_CreditNote_Reconcilation_WithBank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Advance Reconciled Credit Note With Banking" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Advance_CreditNote_Reconcilation_Bnk"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Advance Reconciled Credit Note With Journal" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Advance_CreditNote_Reconcilation_JouEny"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Partial Reconciled Credit Note With Journal" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Partial_CreditNote_Reconcilation_JouEny"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Partial Reconciled Credit Note With Banking" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Partial_CreditNote_Reconcilation_Bank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "three dots of right of sale dashboard invoice, don't recocnile just create Credit note" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Credit_Note_Partial_Advance_JustCreateCreditNote"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Supplier bill Reconciled with Advanced banking" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Supplier_Reconciled_With_Advanced_Banking"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "Supplier bill Reconciled with Advanced Journal" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Supplier_Reconciled_With_Advanced_Journal"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Debit Note Reconciled with Advanced Banking" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Advance_DebitNote_Reconcilation_WithBank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Debit Note Reconciled with Advanced Journal" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Advance_DebitNote_Reconcilation_Journal"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Debit Note Reconciled with Partial Banking" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Partial_DebitNote_Reconcilation_WithBank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "Debit Note Reconciled with Partial Journal" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Partial_DebitNote_Reconcilation_WithJournal"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "Copy Debit Note Partial Advance" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_AS_Advance_Reconcilation.Test_Debit_Note_Partial_Advance_JustCreateDebitNote"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	</suite>
