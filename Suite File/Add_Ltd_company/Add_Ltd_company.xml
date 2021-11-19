@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="LtdAdd_AddLTD" enabled="true">
+<classes>
+<class name="tests.banking_add_ltd_company.LtdAdd_AddLTD">
+</class>
+</classes>
+</test>
+
+ </suite>    
+         
+ 
+ 
+         
+
+ 
