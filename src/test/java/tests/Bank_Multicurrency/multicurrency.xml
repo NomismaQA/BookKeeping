@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="tr_StandardSchem_Receivedamt" enabled="true">
+<classes>
+<class name="tests.Bank_Multicurrency.tr_StandardSchem_Receivedamt">
+</class>
+</classes>
+</test>
+<test name="tr_Standard_Schem_Spent" enabled="true">
+<classes>
+<class name="tests.Bank_Multicurrency.tr_Standard_Schem_Spent">
+</class>
+</classes>
+</test>
+<test name="tr_NoVatSchem_Receive" enabled="true">
+<classes>
+<class name="tests.Bank_Multicurrency.tr_NoVatSchem_Receive">
+</class>
+</classes>
+</test>
+<test name="tr_NoVATSchem_Spent" enabled="true">
+<classes>
+<class name="tests.Bank_Multicurrency.tr_NoVATSchem_Spent">
+</class>
+</classes>
+</test>
+<test name="tr_Flat10Schem_Receive" enabled="true">
+<classes>
+<class name="tests.Bank_Multicurrency.tr_Flat10Schem_Receive">
+</class>
+</classes>
+</test>
+<test name="trFlat01schem_Spent" enabled="true">
+<classes>
+<class name="tests.Bank_Multicurrency.trFlat01schem_Spent">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+ 
+ 
+         
+
+ 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="bank_trans_ledgercode" enabled="true">
+<classes>
+<class name="tests.Bank_new_Trans.bank_trans_ledgercode">
+</class>
+</classes>
+</test>
+<test name="bank_Bulk" enabled="true">
+<classes>
+<class name="tests.Bank_new_Trans.bank_Bulk">
+</class>
+</classes>
+</test>
+<test name="bank_trans_Spntamt" enabled="true">
+<classes>
+<class name="tests.Bank_new_Trans.bank_trans_Spntamt">
+</class>
+</classes>
+</test>
+<test name="bank_Bulk_spent" enabled="true">
+<classes>
+<class name="tests.Bank_new_Trans.bank_Bulk_spent">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+ 
+ 
+         
+
+ 
