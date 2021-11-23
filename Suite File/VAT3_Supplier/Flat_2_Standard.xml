@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="Un_F2S_EditVATType_Standard" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_EditVATType_Standard">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_SupplierBill" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_SupplierBill">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ReconcileForDebitNote" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ReconcileForDebitNote">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ReconcileForVATOnly" enabled ="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ReconcileForVATOnly">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_SupplierBil" enabled ="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_SupplierBill">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ScriptSubmitVAT" enabled ="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptSubmitVAT">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ScriptVATReturn1stVATReturnReport" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptVATReturn1stVATReturnReport">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ScriptVATReturn2stVATReturnReport" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptVATReturn2stVATReturnReport">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ScriptVATReturn3stVATReturnReport" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptVATReturn3stVATReturnReport">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_addvatrate_Addvat" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_addvatrate_Addvat">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ScriptPostVATReturn1stVATReturnReport" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptPostVATReturn1stVATReturnReport">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ScriptPostVATReturn2stVATReturnReport" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptPostVATReturn2stVATReturnReport">
+</class>
+</classes>
+</test>
+<test name="Un_F2S_ScriptPostVATReturn3stVATReturnReport" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptPostVATReturn3stVATReturnReport">
+</class>
+</classes>
+</test>
+
+
+
+
+
+
+ </suite>    
+         
+         
+         
+
+ 

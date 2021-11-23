@@ -20,6 +20,7 @@ import org.testng.asserts.SoftAssert;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
+import utilities.ClosePopup;
 import utilities.reports.ExtentReportManager;
 import utilities.testmodeller.TestModellerLogger;
 
@@ -120,6 +121,9 @@ public class Addltdbus extends BasePage
 			Assert.fail("Unable to locate object: " + Click_Plus_Sign1Elem.toString());
         }
 
+		ClosePopup.ValidateAndPopUp(m_Driver);
+		
+		
 		elem.click();
 		Thread.sleep(1000);
        utilities.PassScreenshot.Getscreenshot11("plusign clicked", "plusign");
@@ -586,10 +590,11 @@ public class Addltdbus extends BasePage
 
  			Assert.fail("Unable to locate object: " + Choosefile_touploadElem.toString());
          }
+WebElement ele1=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_divSubContent']/div[3]/div/div[3]/div/div[2]/div/div/div/input"));
 
- 		elem.sendKeys(Choosefile_toupload);
+ 		ele1.sendKeys(Choosefile_toupload);
  		
- 		utilities.PassScreenshot.Getscreenshot11("browsefile","Upload");
+ 	//	utilities.PassScreenshot.Getscreenshot11("browsefile","Upload");
   		ExtentReportManager.passStep(m_Driver, "Enter_Choosefile_toupload " + Choosefile_toupload);
 
   		TestModellerLogger.PassStep(m_Driver, "Enter_Choosefile_toupload " + Choosefile_toupload);
@@ -799,6 +804,8 @@ public void Enter_House_Search3(String House_Search) throws InterruptedException
 	
 	}
 	
+
+
 
 
 }

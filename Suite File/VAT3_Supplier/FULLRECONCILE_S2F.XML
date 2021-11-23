@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="Supplier_EditVATType_Standard" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_EditVATType_Standard">
+</class>
+</classes>
+</test>
+<test name="Supplier__SupplierBill_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier__SupplierBill_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_ReconcileForDebitNote_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_ReconcileForDebitNote_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_SubmitVAT_DefaultProfileFullyReconcile_2" enabled ="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_SubmitVAT_DefaultProfileFullyReconcile_2">
+</class>
+</classes>
+</test>
+<test name="Supplier_VATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1" enabled ="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_VATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_VATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_VATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_VATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_VATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_addvatrate_Addvat" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_addvatrate_Addvat">
+</class>
+</classes>
+</test>
+<test name="Supplier_PostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_PostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_PostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier_PostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="Supplier__postVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_S2_FLAT.Supplier__postVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+</suite>    
+         
+         
+         
+
+ 

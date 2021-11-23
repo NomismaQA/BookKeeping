@@ -41,10 +41,10 @@ public class nlogin extends BasePage
 	//private By LoginElem = By.xpath("*[@id='ctl00_cPH_btnLogin']");
 	public void GoToUrl() throws InterruptedException
 	{
-		m_Driver.get("http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=8e14a0e8-5c7d-4f7d-8889-4487f962ed5a");
+		m_Driver.get("http://sandbox3.nomismasolution.co.uk/ssoui/Signin.aspx?token=8e14a0e8-5c7d-4f7d-8889-4487f962ed5a");
 
-		ExtentReportManager.passStepWithScreenshot(m_Driver, "Go to URL","Go to URL - http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=8e14a0e8-5c7d-4f7d-8889-4487f962ed5a");
-		TestModellerLogger.PassStepWithScreenshot(m_Driver, "Go to URL","Go to URL - http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=8e14a0e8-5c7d-4f7d-8889-4487f962ed5a");
+		ExtentReportManager.passStepWithScreenshot(m_Driver, "Go to URL","Go to URL - http://sandbox3.nomismasolution.co.uk/ssoui/Signin.aspx?token=8e14a0e8-5c7d-4f7d-8889-4487f962ed5a");
+		TestModellerLogger.PassStepWithScreenshot(m_Driver, "Go to URL","Go to URL - http://sandbox3.nomismasolution.co.uk/ssoui/Signin.aspx?token=8e14a0e8-5c7d-4f7d-8889-4487f962ed5a");
 		
 	Thread.sleep(1000);
 			}

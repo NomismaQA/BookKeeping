@@ -42,6 +42,7 @@ public class EditSettingToStandard extends BasePage
 
 	private By SaveButtonElem = By.xpath("//A[@id='ctl00_cphFooter_btnSave']");
 
+	private By DateElem = By.xpath("//INPUT[@name='ctl00$cPH$txtDate']");
 
 	
 	public void GoToUrl()
@@ -208,7 +209,39 @@ public class EditSettingToStandard extends BasePage
  		TestModellerLogger.PassStep(m_Driver, "Select_SelectVATType " + SelectVATType);
  	}
 
-     
+    public void Enter_Date(String Date) throws InterruptedException
+ 	{
+ 	    
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[6]/div/div/div/div[2]/div[2]/div/div/div/div[4]/div/div/div[2]/iframe")));
+
+ 		WebElement elem = getWebElement(DateElem);
+
+ 		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_Date", "Enter_Date failed. Unable to locate object: " + DateElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_Date", "Enter_Date failed. Unable to locate object: " + DateElem.toString());
+
+ 			Assert.fail("Unable to locate object: " + DateElem.toString());
+         }
+// 		elem.clear();
+// 		
+// 		elem.sendKeys(Keys.ENTER);
+//		elem.sendKeys(Date);
+// 		
+ 		
+ 		for(int i=0;i<=9;i++)
+ 		{
+			m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_txtDate']")).sendKeys(Keys.BACK_SPACE);
+ 		}
+		
+ 		elem.sendKeys(Date);
+		m_Driver.findElement(By.xpath("//INPUT[@name='ctl00$cPH$txtDate']")).sendKeys(Keys.TAB);
+		   m_Driver.switchTo().defaultContent();
+  		ExtentReportManager.passStep(m_Driver, "Enter_Date " + Date);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_Date " + Date);
+  		Thread.sleep(6000);
+ 	}
 	/**
  	 * Click SaveButton
 	 * @throws AWTException 
