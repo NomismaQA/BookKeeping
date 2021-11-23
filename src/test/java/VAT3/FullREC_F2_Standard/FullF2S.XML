@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="Suppler_EditVATType_Standard1_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Suppler_EditVATType_Standard1_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_SupplierBill_StoF__1_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_SupplierBill_StoF__1_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_ReconcileForDebitNote_2" enabled="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_ReconcileForDebitNote_2">
+</class>
+</classes>
+</test>
+<test name="Supplier_ScriptSubmitVA6" enabled ="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptSubmitVA6">
+</class>
+</classes>
+</test>
+<test name="Supplier_ScriptVATReturn1stVATReturnReport_PRE_1" enabled ="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptVATReturn1stVATReturnReport_PRE_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_ScriptVATReturn2stVATReturnReport_PRE_2" enabled ="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptVATReturn2stVATReturnReport_PRE_2">
+</class>
+</classes>
+</test>
+<test name="Supplier_ScriptVATReturn3stVATReturnReport_PRE_3" enabled="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptVATReturn3stVATReturnReport_PRE_3">
+</class>
+</classes>
+</test>
+<test name="Suplier_addvatrate_Addvat1_6" enabled="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Suplier_addvatrate_Addvat1_6">
+</class>
+</classes>
+</test>
+<test name="Supplier_ScriptPostVATReturn1stVATReturnReport_1" enabled="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptPostVATReturn1stVATReturnReport_1">
+</class>
+</classes>
+</test>
+<test name="Supplier_ScriptPostVATReturn2stVATReturnReport_2" enabled="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptPostVATReturn2stVATReturnReport_2">
+</class>
+</classes>
+</test>
+<test name="Supplier_ScriptPostVATReturn3stVATReturnReport_3" enabled="true">
+<classes>
+<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptPostVATReturn3stVATReturnReport_3">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+         
+         
+
+ 

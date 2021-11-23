@@ -24,7 +24,7 @@ public class ClosePopup extends BasePage
 	        {
 	            Thread.sleep(5000);
 	         
-	            WebElement ele = driver.findElement(By.xpath("//*[@id='11394c15-ac28-4325-a3b7-d45ca1f10148']"));
+	            WebElement ele = driver.findElement(By.xpath("//*[@id='511c883c-9080-9093-3c51-1bbcba61b65a']/div"));
 	         
 	          //*[@id='861c5dc3-bdbe-477f-97b2-c5b619f59cc2']
 	            WebDriverWait wait = new WebDriverWait(driver, 180);

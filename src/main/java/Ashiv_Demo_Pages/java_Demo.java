@@ -8,6 +8,7 @@ public class java_Demo {
 
 	
 	String a="Transaction #23 inserted successfully.";
+	
 	String out[]=a.split("#");
 	String o=out[1];
 	String[] Out2=o.split(" ");

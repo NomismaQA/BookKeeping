@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="UN_EditVATType_Standard_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_EditVATType_Standard_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_SupplierBill_StoF__Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_SupplierBill_StoF__Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ReconcileForDebitNote_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ReconcileForDebitNote_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ReconcileForVATOnly_Flat2NOVAT" enabled ="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ReconcileForVATOnly_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_SubcontractorBill_SubContractor_Flat2NOVAT" enabled ="false">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_SubcontractorBill_SubContractor_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptSubmitVAT_Flat2NOVAT" enabled ="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptSubmitVAT_Flat2NOVAT">
+</class>
+</classes>
+</test>
+
+<test name="UN_ScriptVATReturn1stVATReturnReport_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptVATReturn1stVATReturnReport_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptVATReturn2stVATReturnReport_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptVATReturn2stVATReturnReport_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptVATReturn3stVATReturnReport_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptVATReturn3stVATReturnReport_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="Un_addvatrate_Addvat_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.Un_addvatrate_Addvat_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptPostVATReturn1stVATReturnReport_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptPostVATReturn1stVATReturnReport_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptPostVATReturn2stVATReturnReport_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptPostVATReturn2stVATReturnReport_Flat2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptPostVATReturn3stVATReturnReport_Flat2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptPostVATReturn3stVATReturnReport_Flat2NOVAT">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+         
+         
+
+ 

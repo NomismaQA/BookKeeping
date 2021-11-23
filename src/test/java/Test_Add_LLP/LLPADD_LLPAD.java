@@ -33,12 +33,12 @@ public class LLPADD_LLPAD extends TestBase
     
     @Test  (groups= {"LLP_ADD","LLP_ADD - LLP_AD"})
     @TestModellerPath(guid = "026256f3-4dd6-446e-8e22-84c311f89ec8")
-    public void GoToUrlClickLLPClick1ClickMannualLLP2PositiveEnterCompanyName3EnterRegNo4EnterUTRNoLLP5Positi16() throws InvalidFormatException, InterruptedException, IOException, HeadlessException, AWTException
+    public void GoToUrlClickLLPClick1ClickMannualLLP2PositiveEnterCompanyName3EnterRegNo4EnterUTRNoLLP5Positi116() throws InvalidFormatException, InterruptedException, IOException, HeadlessException, AWTException
     {
     	sTestCaseID="TC116";
        	Sheet="Banking";
         data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
-        pages.banking.ashiv.nlogin _nlogin = new    pages.banking.ashiv.nlogin(driver);
+        pages.nlogin _nlogin = new    pages.nlogin(driver);
         TestModellerLogger.SetLastNodeGuid("566fb1ff-88ab-4390-9620-fa0a45cdcec0");
         _nlogin.GoToUrl();
         
@@ -83,8 +83,8 @@ public class LLPADD_LLPAD extends TestBase
         _addbu.Click_Click_New_Client2();      
        Pages_LLP.LLPManual _LLPManual = new Pages_LLP.LLPManual(driver);
         
-    TestModellerLogger.SetLastNodeGuid("75010886-3948-4b0d-8a8e-08bf2ea951f0");
-    _LLPManual.GoToUrl();
+  //  TestModellerLogger.SetLastNodeGuid("75010886-3948-4b0d-8a8e-08bf2ea951f0");
+ //   _LLPManual.GoToUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("2d7c4fbf-c4ea-4269-961a-b755b05d8b52");
@@ -186,8 +186,8 @@ public class LLPADD_LLPAD extends TestBase
         _addbu.Click_Click_New_Client2();      
         Pages_LLP.LLPManual _LLPManual = new Pages_LLP.LLPManual(driver);
         
-    TestModellerLogger.SetLastNodeGuid("75010886-3948-4b0d-8a8e-08bf2ea951f0");
-    _LLPManual.GoToUrl();
+ //   TestModellerLogger.SetLastNodeGuid("75010886-3948-4b0d-8a8e-08bf2ea951f0");
+   // _LLPManual.GoToUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("2d7c4fbf-c4ea-4269-961a-b755b05d8b52");

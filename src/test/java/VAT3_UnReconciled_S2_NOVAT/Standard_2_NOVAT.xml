@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="UN_EditVATType_Standard_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_EditVATType_Standard_S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_SupplierBill_StoF__S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_SupplierBill_StoF__S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ReconcileForDebitNote_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_ReconcileForDebitNote_S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptSubmitVAT_S2NOVAT" enabled ="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptSubmitVAT_S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptVATReturn1stVATReturnReport_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptVATReturn1stVATReturnReport_S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptVATReturn2stVATReturnReport_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptVATReturn2stVATReturnReport_S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptVATReturn3stVATReturnReport_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptVATReturn3stVATReturnReport_S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="Un_addvatrate_Addvat_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.Un_addvatrate_Addvat_S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptPostVATReturn1stVATReturnReport_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptPostVATReturn1stVATReturnReport_S2NOVAT">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptPostVATReturn2stVATReturnReport_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptPostVATReturn2stVATReturnReport_S2NOVAT">
+</class>
+</classes>
+</test>
+
+<test name="UN_ScriptPostVATReturn3stVATReturnReport_S2NOVAT" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptPostVATReturn3stVATReturnReport_S2NOVAT">
+</class>
+</classes>
+</test>
+
+
+
+
+
+
+ </suite>    
+         
+         
+         
+
+ 

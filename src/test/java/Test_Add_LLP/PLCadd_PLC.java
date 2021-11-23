@@ -26,7 +26,7 @@ public class PLCadd_PLC extends TestBase
     public void GoToUrlClickPLCClicked1ClickPLCManualclicked2PositiveEnterEnterComName3EnterEnterRegNo4Positiv()
     {
         
-        pages.Add_PLC_BUS.PLCMANNUAL _PLCMANNUAL = new pages.Add_PLC_BUS.PLCMANNUAL(driver);
+        Pages_LLP.PLCMANNUAL _PLCMANNUAL = new Pages_LLP.PLCMANNUAL(driver);
     TestModellerLogger.SetLastNodeGuid("03ee5231-8931-49d0-adb6-ea1b951816d8");
     _PLCMANNUAL.GoToUrl();
     
@@ -74,7 +74,7 @@ public class PLCadd_PLC extends TestBase
     public void GoToUrlClickPLCClicked1ClickPLCManualclicked2PositiveEnterEnterComName3EnterEnterRegNo4Positiv1()
     {
         
-    	pages.Add_PLC_BUS.PLCMANNUAL _PLCMANNUAL = new pages.Add_PLC_BUS.PLCMANNUAL(driver);
+      Pages_LLP.PLCMANNUAL _PLCMANNUAL = new Pages_LLP.PLCMANNUAL(driver);
     TestModellerLogger.SetLastNodeGuid("03ee5231-8931-49d0-adb6-ea1b951816d8");
     _PLCMANNUAL.GoToUrl();
     
@@ -122,7 +122,7 @@ public class PLCadd_PLC extends TestBase
     public void GoToUrlClickPLCClicked1ClickPLCManualclicked2PositiveEnterEnterComName3EnterEnterRegNo4Positiv2()
     {
         
-    	pages.Add_PLC_BUS.PLCMANNUAL _PLCMANNUAL = new pages.Add_PLC_BUS.PLCMANNUAL(driver);
+    	 Pages_LLP.PLCMANNUAL _PLCMANNUAL = new Pages_LLP.PLCMANNUAL(driver);
     TestModellerLogger.SetLastNodeGuid("03ee5231-8931-49d0-adb6-ea1b951816d8");
     _PLCMANNUAL.GoToUrl();
     

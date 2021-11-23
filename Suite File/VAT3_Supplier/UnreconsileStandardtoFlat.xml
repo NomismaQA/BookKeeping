@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="UN_EditVATType_Standard" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_EditVATType_Standard">
+</class>
+</classes>
+</test>
+<test name="UN_SupplierBill_StoF__Default1" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_SupplierBill_StoF__Default1">
+</class>
+</classes>
+</test>
+<test name="UN_ReconcileForDebitNote_1" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ReconcileForDebitNote_1">
+</class>
+</classes>
+</test>
+<test name="UN_SubcontractorBill_SubContractor" enabled ="false">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_SubcontractorBill_SubContractor">
+</class>
+</classes>
+</test>
+<test name="UN_ReconcileForVATOnly_2" enabled ="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ReconcileForVATOnly_2">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptSubmitVAT_DefaultProfileFullyReconcile_2" enabled ="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ScriptSubmitVAT_DefaultProfileFullyReconcile_2">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="Un_addvatrate_Addvat" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.Un_addvatrate_Addvat">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptPostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ScriptPostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptPostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ScriptPostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+<test name="UN_ScriptPostVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_1" enabled="true">
+<classes>
+<class name="VAT3_UnReconciled_STOF.UN_ScriptPostVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_1">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+         
+         
+
+ 
