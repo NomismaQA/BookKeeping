@@ -119,32 +119,32 @@ pages.VAT3.VATReturn1stVATReturnReport _VATReturn1stVATReturnReport = new pages.
 //    _VATReturn1stVATReturnReport.GoToUrl();
 //    
 
-//    TestModellerLogger.SetLastNodeGuid("7c81e8c0-e177-491c-a441-a01d789ff0fa");
-//    _VATReturn1stVATReturnReport.Click_VATReturnsTAB();
+    TestModellerLogger.SetLastNodeGuid("7c81e8c0-e177-491c-a441-a01d789ff0fa");
+    _VATReturn1stVATReturnReport.Click_VATReturnsTAB();
     
-
-    TestModellerLogger.SetLastNodeGuid("cb9cd54f-a2b2-40b3-b845-54c49d333854");
-    _VATReturn1stVATReturnReport.Click_SettingTAB();
+//
+//    TestModellerLogger.SetLastNodeGuid("cb9cd54f-a2b2-40b3-b845-54c49d333854");
+//    _VATReturn1stVATReturnReport.Click_SettingTAB();
 
  
 
-    TestModellerLogger.SetLastNodeGuid("df3f386c-b63c-44ff-b704-acbd9eeaf56b");
-    _VATReturn1stVATReturnReport.Click_VATReturnReport();
-    
-//    TestModellerLogger.SetLastNodeGuid("cb9cd54f-a2b2-40b3-b845-54c49d333854");
-//    _VATReturn1stVATReturnReport.Select_VATTypeCategory("VAT INPUT (0)");
-
-    TestModellerLogger.SetLastNodeGuid("5f8d8e85-edcc-47c9-a904-c82deec4e161");
-    _VATReturn1stVATReturnReport.Click_DownloadReturnReportPDF();
-    
-
-    TestModellerLogger.SetLastNodeGuid("651ce399-df59-49c6-9332-d68d27008348");
-    _VATReturn1stVATReturnReport.Click_PDF();
-    
-
-    TestModellerLogger.SetLastNodeGuid("83a931cb-c9bc-4447-9488-90d6ad08bb2e");
-    _VATReturn1stVATReturnReport.Click__VATReturnReportClose();
-    
+//    TestModellerLogger.SetLastNodeGuid("df3f386c-b63c-44ff-b704-acbd9eeaf56b");
+//    _VATReturn1stVATReturnReport.Click_VATReturnReport();
+//    
+////    TestModellerLogger.SetLastNodeGuid("cb9cd54f-a2b2-40b3-b845-54c49d333854");
+////    _VATReturn1stVATReturnReport.Select_VATTypeCategory("VAT INPUT (0)");
+//
+//    TestModellerLogger.SetLastNodeGuid("5f8d8e85-edcc-47c9-a904-c82deec4e161");
+//    _VATReturn1stVATReturnReport.Click_DownloadReturnReportPDF();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("651ce399-df59-49c6-9332-d68d27008348");
+//    _VATReturn1stVATReturnReport.Click_PDF();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("83a931cb-c9bc-4447-9488-90d6ad08bb2e");
+//    _VATReturn1stVATReturnReport.Click__VATReturnReportClose();
+//    
 
     }
 

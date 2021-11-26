@@ -34,7 +34,7 @@ public class Subcontractorbill extends BasePage
 	
 	private By Expenditure_Menu1Elem = By.xpath("//*[@id='ctl00_SideMenu1_ExpensesMenu']/a/span");
 	//private By Expenditure_Menu1Elem =By.xpath("//*[@id="ctl00_divMainContent"]/header/div/div[3]/a");
-	private By New_menu2Elem = By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[3]/a");
+	private By New_menu2Elem = By.xpath("//*[@id='ctl00_divMainContent']/header/div/div[4]/a/i");
 	private By New_Subcontractor_Bill3Elem = By.xpath("//*[@id='ctl00_cpHeaderRight_btnAddSubContractorBill']");
 	//private By Expense_type1 = By.xpath("//*[@id='myTable']/tbody[2]/tr[1]/td[1]");
 	//private By Expense_type8Elem = By.xpath("//*[@id='myTable']/tbody[2]/tr[1]/td[1]");

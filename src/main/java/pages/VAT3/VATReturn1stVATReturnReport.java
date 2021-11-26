@@ -42,7 +42,7 @@ private By VATReturnsTABElem = By.xpath("//span[contains(text(),'VAT Returns')]"
 	private By SettingTABElem =  By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div/div/div/table/tbody/tr[1]/td[12]/a/img");
   public String dumpname=null;
 	//private By VATReturnReportElem = By.xpath("//A[@id='ctl00_cPH_rptrDisplayRecords_ctl00_lnkVATReturnReport']");
-  private By VATReturnReportElem =By.xpath("//*[@id='ctl00_cPH_rptrDisplayRecords_ctl01_lnkVATReturnReport']/span");
+  private By VATReturnReportElem =By.xpath("//*[@id='ctl00_cPH_rptrDisplayRecords_ctl00_lnkVATReturnReport']");
 		  //By.xpath("///*[@id='ctl00_cPH_rptrDisplayRecords_ctl00_lnkVATReturnReport']/figure");
 
 	private By DownloadReturnReportPDFElem = By.xpath("//A[@title='Export drop down menu']");
@@ -148,15 +148,15 @@ WebElement ele1 =m_Driver.findElement(By.xpath("//SELECT[@name='ctl00$cPHFilter$
 	public void Click_SettingTAB() throws InterruptedException
 	{
         
-		WebElement elem = getWebElement(SettingTABElem);
+	//	WebElement elem = getWebElement(SettingTABElem);
 
-		if (elem == null) {
-    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_SettingTAB", "Click_SettingTAB failed. Unable to locate object: " + SettingTABElem.toString());
-
-    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_SettingTAB", "Click_SettingTAB failed. Unable to locate object: " + SettingTABElem.toString());
-
-			Assert.fail("Unable to locate object: " + SettingTABElem.toString());
-        }
+//		if (elem == null) {
+//    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_SettingTAB", "Click_SettingTAB failed. Unable to locate object: " + SettingTABElem.toString());
+//
+//    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_SettingTAB", "Click_SettingTAB failed. Unable to locate object: " + SettingTABElem.toString());
+//
+//			Assert.fail("Unable to locate object: " + SettingTABElem.toString());
+//        }
 		
 		
 		m_Driver.findElement(By.id("ctl00_cpHeaderRight_btnVatExportToExcel")).click();
@@ -166,9 +166,9 @@ WebElement ele1 =m_Driver.findElement(By.xpath("//SELECT[@name='ctl00$cPHFilter$
 		Thread.sleep(1000);
 		
 	
-		ExtentReportManager.passStep(m_Driver, "Click_SettingTAB");
-
-		TestModellerLogger.PassStep(m_Driver, "Click_SettingTAB");
+//		ExtentReportManager.passStep(m_Driver, "Click_SettingTAB");
+//
+//		TestModellerLogger.PassStep(m_Driver, "Click_SettingTAB");
 	}
 
      

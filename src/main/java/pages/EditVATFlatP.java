@@ -240,7 +240,7 @@ public class EditVATFlatP extends BasePage
          }
 
  		elem.sendKeys(Date);
- 		
+ 		elem.sendKeys(Keys.TAB);
 		m_Driver.switchTo().defaultContent();
 
  		
@@ -252,9 +252,10 @@ public class EditVATFlatP extends BasePage
      
 	/**
  	 * Click UseDefaultRate
+	 * @throws InterruptedException 
      * @name Click UseDefaultRate
      */
-	public void Click_UseDefaultRate()
+	public void Click_UseDefaultRate() throws InterruptedException
 	{
         
 		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[6]/div/div/div/div[2]/div[2]/div/div/div/div[4]/div/div/div[2]/iframe")));
@@ -268,7 +269,28 @@ public class EditVATFlatP extends BasePage
 
 			Assert.fail("Unable to locate object: " + UseDefaultRateElem.toString());
         }
-		elem.click();
+		Thread.sleep(1000);
+		
+		
+		
+		
+		WebElement op=m_Driver.findElement(By.xpath("//input[@name='ctl00$cPH$chkUseDefaultRate']"));
+		//WebElement chk=m_Driver.findElement(By.xpath("//*[@checked='checked']")).
+	      op.click();
+		
+//		System.out.println(op.isSelected());
+		
+//		if(op.)
+//		{
+//			System.out.println("on");
+//		}
+//		else
+//		{
+//			op.click();
+//			System.out.println("ok");
+//		}
+
+		//elem.click();
 		//m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']")).click();
 		//jsExec.executeScript("arguments[0].click();", elem);
 		//*[@id="ctl00_cPH_chkUseDefaultRate"]

@@ -111,7 +111,7 @@ public class UN_ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReco
         TestModellerLogger.SetLastNodeGuid("f1e00766-382f-4b93-9262-8ebbf4c5872c");
         _Searchclient.Click__NidhiEnt();
         
-    
+     
 
 pages.VAT3.VATReturn1stVATReturnReport _VATReturn1stVATReturnReport = new pages.VAT3.VATReturn1stVATReturnReport(driver);
 //    TestModellerLogger.SetLastNodeGuid("1f9cfbdc-c35f-4a18-b1be-f70e9bb456c8");
@@ -131,20 +131,25 @@ pages.VAT3.VATReturn1stVATReturnReport _VATReturn1stVATReturnReport = new pages.
 //_VATReturn1stVATReturnReport.Select_VATTypeCategory("VAT INPUT(0)");
 
 
-   TestModellerLogger.SetLastNodeGuid("df3f386c-b63c-44ff-b704-acbd9eeaf56b");
-    _VATReturn1stVATReturnReport.Click_VATReturnReport();
    
-
-    TestModellerLogger.SetLastNodeGuid("5f8d8e85-edcc-47c9-a904-c82deec4e161");
-   _VATReturn1stVATReturnReport.Click_DownloadReturnReportPDF();
-    
-
-    TestModellerLogger.SetLastNodeGuid("651ce399-df59-49c6-9332-d68d27008348");
-    _VATReturn1stVATReturnReport.Click_PDF();
    
-    TestModellerLogger.SetLastNodeGuid("83a931cb-c9bc-4447-9488-90d6ad08bb2e");
-   _VATReturn1stVATReturnReport.Click__VATReturnReportClose();
-    
+//   _VATReturn1stVATReturnReport.Click_SettingTAB();
+//   
+// 
+//   
+//    TestModellerLogger.SetLastNodeGuid("5f8d8e85-edcc-47c9-a904-c82deec4e161");
+//   _VATReturn1stVATReturnReport.Click_DownloadReturnReportPDF();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("651ce399-df59-49c6-9332-d68d27008348");
+//    _VATReturn1stVATReturnReport.Click_PDF();
+//   
+//    TestModellerLogger.SetLastNodeGuid("83a931cb-c9bc-4447-9488-90d6ad08bb2e");
+//   _VATReturn1stVATReturnReport.Click__VATReturnReportClose();
+//    
+   
+   /////////////
+   
 
     }
 

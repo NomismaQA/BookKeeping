@@ -134,13 +134,14 @@ public class Un_F2S_SupplierBill extends TestBase
      TestModellerLogger.SetLastNodeGuid("fc395eef-59ac-4e0c-8092-d11ecdb61b84");
      _SupplierBillSToFRS.Click_NewSupplierBill();
      
-     TestModellerLogger.SetLastNodeGuid("6516ccf8-ae24-42b1-b271-2bb390a6f8c3");
-     _SupplierBillSToFRS.Enter_BillNo(data[5]);
+   
      
      TestModellerLogger.SetLastNodeGuid("9ed916b8-79f8-4b59-a274-ed9c520242c8");
-     _SupplierBillSToFRS.Select_SupplierName(data[6]);
+     _SupplierBillSToFRS.Select_SupplierName(data[5]);
      
-
+     TestModellerLogger.SetLastNodeGuid("6516ccf8-ae24-42b1-b271-2bb390a6f8c3");
+     _SupplierBillSToFRS.Enter_BillNo(data[6]);
+     
 //     TestModellerLogger.SetLastNodeGuid("6cbb598e-673a-45cd-9f0a-ec53cb56f09d");
 //     _SupplierBillSToFRS.Enter_DefaultCurrency(data[6]);
  //    

@@ -2,157 +2,645 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="MasterFile" verbose="10">
 
+
+
+<test name= "VAT3_UnReconciled_FLAT2_NOVAT" enabled="true">  
+ 	<classes>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_EditVATType_Standard_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_SupplierBill_StoF__Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ReconcileForDebitNote_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ReconcileForVATOnly_Flat2NOVAT"/>
+			
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptSubmitVAT_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptVATReturn1stVATReturnReport_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptVATReturn2stVATReturnReport_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptVATReturn3stVATReturnReport_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.Un_addvatrate_Addvat_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptPostVATReturn1stVATReturnReport_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptPostVATReturn2stVATReturnReport_Flat2NOVAT"/>
+			<class name="VAT3_UnReconciled_FLAT2_NOVAT.UN_ScriptPostVATReturn3stVATReturnReport_Flat2NOVAT"/>
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT3_UnReconciled_FtoS" enabled="true">  
+ 	<classes>
+ 	
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_EditVATType_Standard"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_SupplierBill"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ReconcileForDebitNote"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ReconcileForVATOnly"/>
+				
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptSubmitVAT"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptVATReturn1stVATReturnReport"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptVATReturn2stVATReturnReport"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptVATReturn3stVATReturnReport"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_addvatrate_Addvat"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptPostVATReturn1stVATReturnReport"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptPostVATReturn2stVATReturnReport"/>
+				<class name="VAT3_UnReconciled_FtoS.Un_F2S_ScriptPostVATReturn3stVATReturnReport"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT3_UnReconciled_S2_NOVAT" enabled="true">  
+ 	<classes>
+ 	
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_EditVATType_Standard_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_SupplierBill_StoF__S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_ReconcileForDebitNote_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptSubmitVAT_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptVATReturn1stVATReturnReport_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptVATReturn2stVATReturnReport_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptVATReturn3stVATReturnReport_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.Un_addvatrate_Addvat_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptPostVATReturn1stVATReturnReport_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptPostVATReturn2stVATReturnReport_S2NOVAT"/>
+				<class name="VAT3_UnReconciled_S2_NOVAT.UN_ScriptPostVATReturn3stVATReturnReport_S2NOVAT"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	<test name= "VAT3_UnReconciled_STOF" enabled="true">  
+ 	<classes>
+			 	
+				<class name="VAT3_UnReconciled_STOF.UN_EditVATType_Standard"/>
+				<class name="VAT3_UnReconciled_STOF.UN_SupplierBill_StoF__Default1"/>
+				<class name="VAT3_UnReconciled_STOF.UN_ReconcileForDebitNote_1"/>
+				
+				<class name="VAT3_UnReconciled_STOF.UN_ReconcileForVATOnly_2"/>
+				<class name="VAT3_UnReconciled_STOF.UN_ScriptSubmitVAT_DefaultProfileFullyReconcile_2"/>
+				<class name="VAT3_UnReconciled_STOF.UN_ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3_UnReconciled_STOF.UN_ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3_UnReconciled_STOF.UN_ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3_UnReconciled_STOF.Un_addvatrate_Addvat"/>
+				<class name="VAT3_UnReconciled_STOF.UN_ScriptPostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3_UnReconciled_STOF.UN_ScriptPostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3_UnReconciled_STOF.UN_ScriptPostVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	
+ 		<test name= "VAT3.FullREC_F2_NOVAT" enabled="true">  
+ 	<classes>
+			 	
+				<class name="VAT3.FullREC_F2_NOVAT.Suppler_EditVATType_Standard1"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Supplier_SupplierBill_Default2"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Supplier_ReconcileForDebitNote3"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Supplier__ScriptSubmitVA61"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptVATReturn1stVATReturnReport_PRE1"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptVATReturn2stVATReturnReport_PRE2"/>
+				<class name="VAT3.FullREC_F2_NOVAT.ScriptVATReturn3stVATReturnReport_SToFRS_PRE3"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Suplier_addvatrate_Addvat1"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn1stVATReturnReport1"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn2stVATReturnReport2"/>
+				<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn3stVATReturnReport3"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 		<test name= "VAT3.FullREC_F2_Standard" enabled="true">  
+ 	<classes>
+				<class name="VAT3.FullREC_F2_Standard.Suppler_EditVATType_Standard1_1"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_SupplierBill_StoF__1_1"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_ReconcileForDebitNote_2"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptSubmitVA6"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptVATReturn1stVATReturnReport_PRE_1"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptVATReturn2stVATReturnReport_PRE_2"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptVATReturn3stVATReturnReport_PRE_3"/>
+				<class name="VAT3.FullREC_F2_Standard.Suplier_addvatrate_Addvat1_6"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptPostVATReturn1stVATReturnReport_1"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptPostVATReturn2stVATReturnReport_2"/>
+				<class name="VAT3.FullREC_F2_Standard.Supplier_ScriptPostVATReturn3stVATReturnReport_3"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	
+ 	<test name= "VAT3.FullREC_S2_FLAT" enabled="true">  
+ 	<classes>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_EditVATType_Standard"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier__SupplierBill_1"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_ReconcileForDebitNote_1"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_SubmitVAT_DefaultProfileFullyReconcile_2"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_VATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_VATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_VATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_addvatrate_Addvat"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_PostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier_PostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+				<class name="VAT3.FullREC_S2_FLAT.Supplier__postVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT3.FullREC_S2_NOVAT" enabled="true">  
+ 	<classes>
+				<class name="VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2"/>
+				<class name="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3"/>
+
+
+ 	</classes> 
+ 	</test>
 	
-	<test name= "VAT3_ExpenseReimbAdvanceReconcile" enabled="true">  
+	<test name= "VAT3_ExpenseReimbAdvanceReconcile_1" enabled="true">  
  			<classes> 
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.SaleInToAdvanceReconcileForExpenseRemVAT3_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptSubmitVAT_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptStandardToFlat_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_1"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.SaleInToAdvanceReconcileForExpenseRemVAT3_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptSubmitVAT_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptStandardToFlat_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_2"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.SaleInToAdvanceReconcileForExpenseRemVAT3_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptSubmitVAT_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptStandardToFlat_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.SaleInToAdvanceReconcileForExpenseRemVAT3_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptSubmitVAT_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptStandardToFlat_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
-    				<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.SaleInToAdvanceReconcileForExpenseRemVAT3_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptSubmitVAT_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptStandardToFlat_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_1"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_1"/>
+					
+   			</classes> 
+ 	</test>
+			
+	<test name= "VAT3_ExpenseReimbAdvanceReconcile_2" enabled="true">  
+ 			<classes> 
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.SaleInToAdvanceReconcileForExpenseRemVAT3_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptSubmitVAT_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptStandardToFlat_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_2"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_2"/>
+			</classes> 
+ 	</test>
+			
+	<test name= "VAT3_ExpenseReimbAdvanceReconcile_3" enabled="true">  
+ 			<classes> 		
+			
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.SaleInToAdvanceReconcileForExpenseRemVAT3_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptSubmitVAT_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptStandardToFlat_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
+				</classes> 
+ 	</test>
+			
+	<test name= "VAT3_ExpenseReimbAdvanceReconcile_4" enabled="true">  
+ 			<classes>	
+			
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.SaleInToAdvanceReconcileForExpenseRemVAT3_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptSubmitVAT_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptStandardToFlat_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
+			<class name= "VAT3_ExpenseReimbAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
+    			
+    			
+    			
     				
    			</classes> 
  	</test>
 	
 	
 
-<test name= "VAT3_ExpenseReimbFullyReconcile" enabled="true">  
+<test name= "VAT3_ExpenseReimbFullyReconcile_1" enabled="true">  
  			<classes> 
     				
-    			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptEditSettingToVATType_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.SaleInToFullyReconcileForExpenseRem_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptSubmitVAT_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptStandardToFlat_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_1"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptEditSettingToVATType_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.SaleInToFullyReconcileForExpenseRem_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptSubmitVAT_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptStandardToFlat_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_2"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptEditSettingToVATType_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.SaleInToFullyReconcileForExpenseRem_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptSubmitVAT_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptStandardToFlat_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptEditSettingToVATType_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.SaleInToFullyReconcileForExpenseRem_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptSubmitVAT_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptStandardToFlat_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
-			<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
-
-    				
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptEditSettingToVATType_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.SaleInToFullyReconcileForExpenseRem_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptSubmitVAT_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptStandardToFlat_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_1"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_1"/>
+							
     				</classes> 
  	</test>
-
-
-
-
-
-<test name= "VAT3_ExpensesReinbr" enabled="true">  
+			<test name= "VAT3_ExpenseReimbFullyReconcile_2" enabled="true">  
+ 			<classes> 	
+				
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptEditSettingToVATType_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.SaleInToFullyReconcileForExpenseRem_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptSubmitVAT_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptStandardToFlat_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_2"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_2"/>
+				
+										
+    				</classes> 
+ 	</test>
+			<test name= "VAT3_ExpenseReimbFullyReconcile_3" enabled="true">  
  			<classes> 
-    				<class name= "VAT3_ExpensesReinbr.ScriptEditSettingToVATType_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ExpenseRemOnlyStandToFlat_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptStandardToFlat_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_1"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptEditSettingToVATType_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ExpenseRemOnly_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptStandardToFlat_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_2"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptEditSettingToVATType_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ExpenseRemOnly_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptStandardToFlat_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptEditSettingToVATType_DefaultProfile_4"/>
-			<class name= "VAT3_ExpensesReinbr.ExpenseRemOnly_DefaultProfile_4"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptStandardToFlat_DefaultProfile_4"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
-			<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
+ 			
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptEditSettingToVATType_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.SaleInToFullyReconcileForExpenseRem_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptSubmitVAT_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptStandardToFlat_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
+											
+    				</classes> 
+ 	</test>
+			<test name= "VAT3_ExpenseReimbFullyReconcile_4" enabled="true">  
+ 			<classes> 	
+				
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptEditSettingToVATType_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.SaleInToFullyReconcileForExpenseRem_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptSubmitVAT_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptStandardToFlat_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
+				<class name= "VAT3_ExpenseReimbFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
+    		
 
-
-
-
-   			</classes> 
+    				
+    </classes> 
  	</test>
 
 
 
 
 
+<test name= "VAT3_ExpensesReinbr_1" enabled="true">  
+ 	<classes> 
+				 <class name= "VAT3_ExpensesReinbr.ScriptEditSettingToVATType_DefaultProfile_1"/>
+				<class name= "VAT3_ExpensesReinbr.ExpenseRemOnlyStandToFlat_DefaultProfile_1"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptStandardToFlat_DefaultProfile_1"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_1"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_1"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_1"/>
+	</classes> 
+ 	</test>
 
+
+<test name= "VAT3_ExpensesReinbr_2" enabled="true">  
+ 	<classes> 		
+				
+				<class name= "VAT3_ExpensesReinbr.ScriptEditSettingToVATType_DefaultProfile_2"/>
+				<class name= "VAT3_ExpensesReinbr.ExpenseRemOnly_DefaultProfile_2"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptStandardToFlat_DefaultProfile_2"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_2"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_2"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_2"/>
+    </classes> 
+ 	</test>
+
+
+<test name= "VAT3_ExpensesReinbr_3" enabled="true">  
+ 	<classes> 	
+				<class name= "VAT3_ExpensesReinbr.ScriptEditSettingToVATType_DefaultProfile_3"/>
+				<class name= "VAT3_ExpensesReinbr.ExpenseRemOnly_DefaultProfile_3"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptStandardToFlat_DefaultProfile_3"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
+    </classes> 
+ 	</test>
+
+
+<test name= "VAT3_ExpensesReinbr_4" enabled="true">  
+ 	<classes> 	
+				<class name= "VAT3_ExpensesReinbr.ScriptEditSettingToVATType_DefaultProfile_4"/>
+				<class name= "VAT3_ExpensesReinbr.ExpenseRemOnly_DefaultProfile_4"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptStandardToFlat_DefaultProfile_4"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
+				<class name= "VAT3_ExpensesReinbr.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
+				    		
+
+
+
+   	</classes> 
+ 	</test>
+ 	
+<test name= "VAT3_InvoiceAdvanceReconcile_1" enabled="true">  
+ 	<classes> 	
+
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_1"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_1"/>
+				<class name="VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_1"/>
+			
+   	</classes> 
+ 	</test>
+ 	
+ <test name= "VAT3_InvoiceAdvanceReconcile_2" enabled="true">  
+ 	<classes> 
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_2"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_2"/>
+				<class name="VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_2"/>
+							
+   	 </classes> 
+ 	 </test>
+ 	
+<test name= "VAT3_InvoiceAdvanceReconcile_3" enabled="true">  
+ 	<classes> 
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_3"/>
+				<class name= "VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_3"/>
+				<class name="VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_3"/>
+
+
+   	</classes> 
+ 	</test>
+
+
+<test name= "VAT3_InvoiceFullyReconcile_1" enabled="true">  
+ 	<classes> 
+ 			
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptEditSettingToVATType_DefaultProfileFullyReconcile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.SaleInToFullyReconcile_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.SaleInToFullyReconcileForCreditNote_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptSubmitVAT_DefaultProfileFullyReconcile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptStandardToFlat_DefaultProfileFullyReconcile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_1"/>
+	</classes> 
+ 	</test>
+
+
+<test name= "VAT3_InvoiceFullyReconcile_2" enabled="true">  
+ 	<classes> 
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptEditSettingToVATType_DefaultProfileFullyReconcile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.SaleInToFullyReconcile_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.SaleInToFullyReconcileForCreditNote_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptSubmitVAT_DefaultProfileFullyReconcile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptStandardToFlat_DefaultProfileFullyReconcile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_2"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_2"/>
+	</classes> 
+ 	</test>
+
+
+<test name= "VAT3_InvoiceFullyReconcile_3" enabled="true">  
+ 	<classes> 
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptEditSettingToVATType_DefaultProfileFullyReconcile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.SaleInToFullyReconcile_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.SaleInToFullyReconcileForCreditNote_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptSubmitVAT_DefaultProfileFullyReconcile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptStandardToFlat_DefaultProfileFullyReconcile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfileFullyReconcile_3"/>
+				<class name= "VAT3_InvoiceFullyReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfileFullyReconcile_3"/>
+				 			
+ 			
+ 			
+   	</classes> 
+ 	</test>
+
+<test name= "VAT3_InvoiceUnreconcileCases_1" enabled="true">  
+ 	<classes> 
+ 			
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptEditSettingToVATType_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.Script_Invoice_StandToFlat_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSaleCreditNoteStandToFlat_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATOnlyInvoiceStandToFlat_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSubmitVAT_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptStandardToFlat_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_1"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_1"/>
+    </classes> 
+ 	</test>
+
+<test name= "VAT3_InvoiceUnreconcileCases_2" enabled="true">  
+ 	<classes> 
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptEditSettingToVATType_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.Script_Invoice_StandToFlat_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSaleCreditNoteStandToFlat_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATOnlyInvoiceStandToFlat_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSubmitVAT_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptStandardToFlat_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_2"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_2"/>
+	</classes> 
+ 	</test>
+
+<test name= "VAT3_InvoiceUnreconcileCases_3" enabled="true">  
+ 	<classes> 
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptEditSettingToVATType_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.Script_Invoice_StandToFlat_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSaleCreditNoteStandToFlat_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATOnlyInvoiceStandToFlat_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSubmitVAT_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptStandardToFlat_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
+	</classes> 
+ 	</test>
+
+<test name= "VAT3_InvoiceUnreconcileCases_4" enabled="true">  
+ 	<classes> 
+ 	
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptEditSettingToVATType_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.Script_Invoice_StandToFlat_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSaleCreditNoteStandToFlat_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATOnlyInvoiceStandToFlat_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSubmitVAT_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptStandardToFlat_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
+	</classes> 
+ 	</test>
+
+<test name= "VAT3_InvoiceUnreconcileCases_5" enabled="true">  
+ 	<classes> 
+ 	
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptEditVATFlatP_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.Script_Invoice_StandToFlat_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSaleCreditNoteStandToFlat_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATOnlyInvoiceStandToFlat_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptSubmitVAT_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptStandardToFlat_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_5"/>
+				<class name= "VAT3_InvoiceUnreconcileCases.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_5"/>
+ 			
+ 			
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT3_SupplierPartialReconcile_1" enabled="true">  
+ 	<classes>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptEditSettingToVATType_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_SupplierBill_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_DebitNote_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptSubmitVAT_DefaultProfileSupPartialReconcile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptStandardToFlat_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_1"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_1"/>
+				</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT3_SupplierPartialReconcile_2" enabled="true">  
+ 	<classes>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptEditSettingToVATType_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_SupplierBill_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_DebitNote_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptSubmitVAT_DefaultProfileSupPartialReconcile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptStandardToFlat_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_2"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_2"/>
+							</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT3_SupplierPartialReconcile_3" enabled="true">  
+ 	<classes>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptEditSettingToVATType_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_SupplierBill_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_DebitNote_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptSubmitVAT_DefaultProfileSupPartialReconcile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptStandardToFlat_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_3"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_3"/>
+							</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT3_SupplierPartialReconcile_4" enabled="true">  
+ 	<classes>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptEditSettingToVATType_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_SupplierBill_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_DebitNote_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptSubmitVAT_DefaultProfileSupPartialReconcile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptStandardToFlat_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfile_4"/>
+				<class name= "VAT3_SupplierPartialReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfile_4"/>
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
 </suite>    
          
          

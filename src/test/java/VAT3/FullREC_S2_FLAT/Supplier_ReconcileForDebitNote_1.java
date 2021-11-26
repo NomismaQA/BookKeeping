@@ -321,6 +321,10 @@ _ungroup.Click_Ungroup_linkselected();
   TestModellerLogger.SetLastNodeGuid("0a7bb1d7-72ea-4dd0-9b74-37bf18c628a1");
   _Reconsilecount.Click_ReconcileLink();
     
+
+  TestModellerLogger.SetLastNodeGuid("0a7bb1d7-72ea-4dd0-9b74-37bf18c628a1");
+  _Reconsilecount.Click_ReconcileLink();
+   
 }
 
 
@@ -920,7 +924,7 @@ _Reconsilecount.Click_ReconcileLink();
 
 @Test  (groups= {"SaleInToReconcile","SaleInToReconcile - Default Profile"})
     @TestModellerPath(guid = "7bcbc9d5-95fd-476f-8583-90d5c3eb232d")
-    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6() throws InterruptedException, InvalidFormatException, IOException, HeadlessException, AWTException
+    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4() throws InterruptedException, InvalidFormatException, IOException, HeadlessException, AWTException
     {
 	 sTestCaseID="FULL_Rec_S2F_DEB4";
  	Sheet="VAT3";
@@ -1214,7 +1218,7 @@ _Reconsilecount.Click_ReconcileLink();
 
 @Test  (groups= {"SaleInToReconcile","SaleInToReconcile - Default Profile"})
     @TestModellerPath(guid = "e0a24dbb-8b0f-4d96-9d24-7a2ff2feb0fb")
-    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7() throws InvalidFormatException, InterruptedException, HeadlessException, IOException, AWTException
+    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5() throws InvalidFormatException, InterruptedException, HeadlessException, IOException, AWTException
     {
 	 sTestCaseID="FULL_Rec_S2F_DEB5";
  	Sheet="VAT3";
@@ -1502,7 +1506,7 @@ _Reconsilecount.Click_ReconcileLink();
 }
 @Test  (groups= {"SaleInToReconcile","SaleInToReconcile - Default Profile"})
 @TestModellerPath(guid = "e0a24dbb-8b0f-4d96-9d24-7a2ff2feb0fb")
-public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71() throws InvalidFormatException, InterruptedException, HeadlessException, IOException, AWTException
+public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6() throws InvalidFormatException, InterruptedException, HeadlessException, IOException, AWTException
 {
 		
 	 sTestCaseID="FULL_Rec_S2F_DEB6";

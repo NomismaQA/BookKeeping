@@ -1,20 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Failed suite [MasterFile]]" guice-stage="DEVELOPMENT" verbose="10">
-  <test thread-count="5" name="test.ashiv.Rule1_rule1(failed)(failed)" verbose="10">
+  <test thread-count="5" name="VAT3_UnReconciled_STOF(failed)(failed)" verbose="10">
     <classes>
-      <class name="test.ashiv.Rule1_rule1">
+      <class name="VAT3_UnReconciled_STOF.UN_ScriptPostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1">
         <methods>
-          <include name="GoToUrlClickMenuBankRulesPositiveSelectConditionFormulaEnterRuleDescClickAccountSelectcodePositiveSelectGetdataOpenBankTrnsfillExptDrBankTrns"/>
           <include name="initDriver"/>
-          <include name="GoToUrlClickMenuBankRulesPositiveSelectConditionFormulaEnterRuleDescClickAccountSelectcodePositiveSelectGetdataOpenBankTrnsfillOutsBothBankTrns"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3_UnReconciled_STOF.UN_ScriptPostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1 -->
+    </classes>
+  </test> <!-- VAT3_UnReconciled_STOF(failed)(failed) -->
+  <test thread-count="5" name="VAT3.FullREC_F2_NOVAT(failed)(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_F2_NOVAT.Suppler_EditVATType_Standard1">
+        <methods>
+          <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="GoToUrlClickMenuBankRulesPositiveSelectConditionFormulaEnterRuleDescClickAccountSelectcodePositiveSelectGetdataOpenBankTrnsfillOutsDRBankTrns"/>
+          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2"/>
         </methods>
-      </class> <!-- test.ashiv.Rule1_rule1 -->
+      </class> <!-- VAT3.FullREC_F2_NOVAT.Suppler_EditVATType_Standard1 -->
     </classes>
-  </test> <!-- test.ashiv.Rule1_rule1(failed)(failed) -->
+  </test> <!-- VAT3.FullREC_F2_NOVAT(failed)(failed) -->
+  <test thread-count="5" name="VAT3.FullREC_F2_Standard(failed)(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_F2_Standard.Suppler_EditVATType_Standard1_1">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_F2_Standard.Suppler_EditVATType_Standard1_1 -->
+    </classes>
+  </test> <!-- VAT3.FullREC_F2_Standard(failed)(failed) -->
+  <test thread-count="5" name="VAT3.FullREC_S2_FLAT(failed)(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_S2_FLAT.Supplier_EditVATType_Standard">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_S2_FLAT.Supplier_EditVATType_Standard -->
+      <class name="VAT3.FullREC_S2_FLAT.Supplier_addvatrate_Addvat">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_S2_FLAT.Supplier_addvatrate_Addvat -->
+    </classes>
+  </test> <!-- VAT3.FullREC_S2_FLAT(failed)(failed) -->
+  <test thread-count="5" name="VAT3.FullREC_S2_NOVAT(failed)(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1 -->
+    </classes>
+  </test> <!-- VAT3.FullREC_S2_NOVAT(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [MasterFile]] -->

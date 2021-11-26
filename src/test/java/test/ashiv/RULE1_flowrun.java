@@ -4,8 +4,11 @@ import reports.TestNGListener;
 import tests.TestBase;
 import ie.curiositysoftware.testmodeller.TestModellerPath;
 import ie.curiositysoftware.testmodeller.TestModellerSuite;
+import pages.BankRule.BANKTRN_UNR;
+import pages.BankRule.BankRuleUNR_Runrl;
 
-
+import java.awt.AWTException;
+import java.awt.HeadlessException;
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -324,7 +327,7 @@ pages.banking.ashiv.bankmenu _bankmenu2 = new pages.banking.ashiv.bankmenu(drive
 
     @Test  (groups= {"Rule1","Rule1 - rule1"})
     @TestModellerPath(guid = "4520f772-f383-4c13-847a-fa828635477f")
-    public void GoToUrlClickMenuBankRulesPositiveSelectConditionFormulaEnterRuleDescClickAccountSelectcodePos1() throws InterruptedException, IOException, InvalidFormatException
+    public void GoToUrlClickMenuBankRulesPositiveSelectConditionFormulaEnterRuleDescClickAccountSelectcodePos1() throws InterruptedException, IOException, InvalidFormatException, HeadlessException, AWTException
     {
         
     	sTestCaseID="TS1.4";

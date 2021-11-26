@@ -173,8 +173,8 @@ pages.EditSettingToStandard _EditSettingToStandard = new pages.EditSettingToStan
     
 
 pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
-    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    _AgentSearch.GoToUrl();
+  //  TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+  //  _AgentSearch.GoToUrl();
     
 
 //    TestModellerLogger.SetLastNodeGuid("554b508e-c8b1-424a-a74b-723fc92f0453");
@@ -198,8 +198,8 @@ pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
     
 
 pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    _Searchclient.GoToUrl();
+  //  TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    //_Searchclient.GoToUrl();
     
 
 //    TestModellerLogger.SetLastNodeGuid("9b4a89f1-4dd6-4c9d-a653-42321721ed34");
@@ -250,6 +250,7 @@ pages.EditSettingToStandard _EditSettingToStandard = new pages.EditSettingToStan
     TestModellerLogger.SetLastNodeGuid("caa4ec7f-5c3f-4dc5-a5a0-b798ccb83a18");
     _EditSettingToStandard.Select_SelectVATType(data[5]);
     
+    _EditSettingToStandard.Enter_Date(data[6]);
 
     TestModellerLogger.SetLastNodeGuid("e4d8d7c9-bc58-407d-bc46-cbb6f678bad3");
     _EditSettingToStandard.Click_SaveButton();

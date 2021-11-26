@@ -37,7 +37,7 @@ public class VATOnlyBillSToFRS extends BasePage
 
 	private By ExpenditureTABElem = By.xpath("//span[contains(text(), 'Expenditure')]");
 	
-	private By NewTABElem = By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[3]/a");
+	private By NewTABElem = By.xpath("//*[@id='ctl00_divMainContent']/header/div/div[4]/a/i");
 
 	private By VATOnlyBillElem = By.xpath("//A[@id='ctl00_cpHeaderRight_btnAddVATSupplier']");
 
@@ -238,8 +238,13 @@ public class VATOnlyBillSToFRS extends BasePage
 
  			Assert.fail("Unable to locate object: " + InvoiceDateElem.toString());
          }
-
+ 		for(int i=0; i<10;i++)
+ 		{
+ 			elem.sendKeys(Keys.BACK_SPACE);
+ 		}
  		elem.sendKeys(InvoiceDate);
+ 		elem.sendKeys(Keys.TAB);
+ 	
  		
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_InvoiceDate " + InvoiceDate);

@@ -130,13 +130,14 @@ _DebitNoteSToFRS.Click_NewTAB();
 TestModellerLogger.SetLastNodeGuid("e0eca6d7-6b04-416d-855d-2a9e825dcd28");
 _DebitNoteSToFRS.Click_NewDebitNote();
 
-TestModellerLogger.SetLastNodeGuid("c9f1fef7-60b9-4d4b-a4a0-825e5638fb6e");
-_DebitNoteSToFRS.Enter_BillNo(data[5]);
+
 
 
 TestModellerLogger.SetLastNodeGuid("190c6323-be0b-4dd1-b552-dbe6423a4af8");
-_DebitNoteSToFRS.Select_SupplierName(data[6]);
+_DebitNoteSToFRS.Select_SupplierName(data[5]);
 
+TestModellerLogger.SetLastNodeGuid("c9f1fef7-60b9-4d4b-a4a0-825e5638fb6e");
+_DebitNoteSToFRS.Enter_BillNo(data[6]);
 
 TestModellerLogger.SetLastNodeGuid("a8f7d6e5-89f8-4f36-a154-0755a90aa5e9");
 _DebitNoteSToFRS.Enter_Date(data[7]);

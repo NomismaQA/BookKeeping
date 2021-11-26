@@ -607,6 +607,8 @@ pages.Reconcilation _Reconcilation = new pages.Reconcilation(driver);
    TestModellerLogger.SetLastNodeGuid("2018e2d9-51c8-4e54-8424-0f5147db31d6");
    _Reconcilation.Select_SelectAccount1(data[20]);
    
+  
+    
 
 //   TestModellerLogger.SetLastNodeGuid("0892baec-0422-496a-93f9-1028cef59d2c");
 //   _Reconcilation.Click_View_Reconciled_button1();
@@ -631,6 +633,10 @@ _ungroup.Click_Ungroup_linkselected();
 
   TestModellerLogger.SetLastNodeGuid("0fc72130-6b3a-4342-9d0e-19804563923c");
    _Reconsilecount.Click_R2();
+   
+   
+   TestModellerLogger.SetLastNodeGuid("0a7bb1d7-72ea-4dd0-9b74-37bf18c628a1");
+   _Reconsilecount.Click_ReconcileLink();
    
 //   pages.PartialReconcilationLAtest _PartialReconcilationLAtest = new pages.PartialReconcilationLAtest(driver);
 //   //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
@@ -682,10 +688,10 @@ _ungroup.Click_Ungroup_linkselected();
 
     @Test  (groups= {"SaleInToReconcile","SaleInToReconcile - Default Profile"})
     @TestModellerPath(guid = "70501952-6587-4385-a613-e1be47be081b")
-    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5() throws InterruptedException, IOException, HeadlessException, AWTException, InvalidFormatException
+    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3() throws InterruptedException, IOException, HeadlessException, AWTException, InvalidFormatException
     {
     	
-    	 sTestCaseID="Vat3_FR_F_NOVAT_Sb4";
+    	 sTestCaseID="Vat3_FR_F_NOVAT_Sb3";
      	Sheet="VAT3";
       data = ExcelData.toReadExcelData(sTestCaseID, Sheet);
          pages.nlogin _nlogin = new pages.nlogin(driver);
@@ -954,6 +960,9 @@ _ungroup.Click_Ungroup_linkselected();
 
     TestModellerLogger.SetLastNodeGuid("0fc72130-6b3a-4342-9d0e-19804563923c");
      _Reconsilecount.Click_R2();
+     
+     TestModellerLogger.SetLastNodeGuid("0a7bb1d7-72ea-4dd0-9b74-37bf18c628a1");
+     _Reconsilecount.Click_ReconcileLink();
      
 //     pages.PartialReconcilationLAtest _PartialReconcilationLAtest = new pages.PartialReconcilationLAtest(driver);
 //     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
@@ -1003,7 +1012,7 @@ _ungroup.Click_Ungroup_linkselected();
 
     @Test  (groups= {"SaleInToReconcile","SaleInToReconcile - Default Profile"})
     @TestModellerPath(guid = "7bcbc9d5-95fd-476f-8583-90d5c3eb232d")
-    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6() throws InterruptedException, IOException, HeadlessException, AWTException, InvalidFormatException
+    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4() throws InterruptedException, IOException, HeadlessException, AWTException, InvalidFormatException
     {
     	 sTestCaseID="Vat3_FR_F_NOVAT_Sb4";
      	Sheet="VAT3";
@@ -1274,6 +1283,10 @@ _ungroup.Click_Ungroup_linkselected();
 
     TestModellerLogger.SetLastNodeGuid("0fc72130-6b3a-4342-9d0e-19804563923c");
      _Reconsilecount.Click_R2();
+     
+     
+     TestModellerLogger.SetLastNodeGuid("0a7bb1d7-72ea-4dd0-9b74-37bf18c628a1");
+     _Reconsilecount.Click_ReconcileLink();
      
 //     pages.PartialReconcilationLAtest _PartialReconcilationLAtest = new pages.PartialReconcilationLAtest(driver);
 //     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
@@ -1324,7 +1337,7 @@ _ungroup.Click_Ungroup_linkselected();
 
     @Test  (groups= {"SaleInToReconcile","SaleInToReconcile - Default Profile"})
     @TestModellerPath(guid = "e0a24dbb-8b0f-4d96-9d24-7a2ff2feb0fb")
-    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7() throws InterruptedException, IOException, HeadlessException, AWTException, InvalidFormatException
+    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5() throws InterruptedException, IOException, HeadlessException, AWTException, InvalidFormatException
     {
     	 sTestCaseID="Vat3_FR_F_NOVAT_Sb5";
      	Sheet="VAT3";
@@ -1596,6 +1609,9 @@ _ungroup.Click_Ungroup_linkselected();
     TestModellerLogger.SetLastNodeGuid("0fc72130-6b3a-4342-9d0e-19804563923c");
      _Reconsilecount.Click_R2();
      
+     TestModellerLogger.SetLastNodeGuid("0a7bb1d7-72ea-4dd0-9b74-37bf18c628a1");
+     _Reconsilecount.Click_ReconcileLink();
+     
 //     pages.PartialReconcilationLAtest _PartialReconcilationLAtest = new pages.PartialReconcilationLAtest(driver);
 //     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
 //     //_PartialReconcilationLAtest.GoToUrl();
@@ -1646,7 +1662,7 @@ _ungroup.Click_Ungroup_linkselected();
 
     @Test  (groups= {"SaleInToReconcile","SaleInToReconcile - Default Profile"})
     @TestModellerPath(guid = "f3f33e29-1cf2-42e1-b7eb-e40e2a9271e9")
-    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP9() throws InvalidFormatException, InterruptedException, IOException, HeadlessException, AWTException
+    public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6() throws InvalidFormatException, InterruptedException, IOException, HeadlessException, AWTException
     {
     	    sTestCaseID="Vat3_FR_F_NOVAT_Sb6";
          	Sheet="VAT3";
@@ -1917,6 +1933,9 @@ _ungroup.Click_Ungroup_linkselected();
 
       TestModellerLogger.SetLastNodeGuid("0fc72130-6b3a-4342-9d0e-19804563923c");
        _Reconsilecount.Click_R2();
+       
+       TestModellerLogger.SetLastNodeGuid("0a7bb1d7-72ea-4dd0-9b74-37bf18c628a1");
+       _Reconsilecount.Click_ReconcileLink();
        
 //       pages.PartialReconcilationLAtest _PartialReconcilationLAtest = new pages.PartialReconcilationLAtest(driver);
 //       //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");

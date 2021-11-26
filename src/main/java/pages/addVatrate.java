@@ -39,7 +39,7 @@ public class addVatrate extends BasePage
 
 	private By Flat_Rate_chkboxElem = By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']");
 	
-	private By OverrideFLATRateElem = By.xpath("/html/body/form/div[3]/div[1]/div[2]/div[5]/div[2]/div/input");
+	private By OverrideFLATRateElem = By.xpath("//*[@id='ctl00_cPH_txtRate']");
 
 	private By btn_Save_1Elem = By.xpath("//A[@id='ctl00_cphFooter_btnSave']");
 
@@ -242,6 +242,7 @@ public class addVatrate extends BasePage
 
 		//elem.click();
 		jsExec.executeScript("arguments[0].click();", elem);
+		
 		//m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']")).click();
 		   m_Driver.switchTo().defaultContent();
 		//m_Driver.switchTo().defaultContent();
@@ -250,16 +251,16 @@ public class addVatrate extends BasePage
 		ExtentReportManager.passStep(m_Driver, "Click_Flat_Rate_chkbox");
 
 		TestModellerLogger.PassStep(m_Driver, "Click_Flat_Rate_chkbox");
-		m_Driver.navigate().refresh();
+	//	m_Driver.navigate().refresh();
 	
-		Thread.sleep(9000);
-		elem.sendKeys(Keys.TAB);
+	//	Thread.sleep(9000);
+		
 			
 	}
 	public void Enter_OverrideFLATRate(String OverrideFLATRate) throws IOException
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[6]/div/div/div/div[2]/div[2]/div/div/div/div[4]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[6]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/iframe")));
 
  		WebElement elem = getWebElement(OverrideFLATRateElem);
  			
@@ -272,9 +273,9 @@ public class addVatrate extends BasePage
  			Assert.fail("Unable to locate object: " + OverrideFLATRateElem.toString());
          }
           
- 		elem.sendKeys(Keys.ENTER);
+ 		  //elem.sendKeys(Keys.ENTER);
  		//elem.sendKeys(Keys.BACK_SPACE);
- 		elem.clear();
+ 	      elem.clear();
  		elem.sendKeys(OverrideFLATRate);
  		
  		//elem.sendKeys(Keys.BACK_SPACE);
@@ -295,9 +296,10 @@ public class addVatrate extends BasePage
      
 	/**
  	 * Click btn_Save 1
+	 * @throws InterruptedException 
      * @name Click btn_Save 1
      */
-	public void Click_btn_Save_1()
+	public void Click_btn_Save_1() throws InterruptedException
 	{
         
 		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[6]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/iframe")));
@@ -311,7 +313,7 @@ public class addVatrate extends BasePage
 
 			Assert.fail("Unable to locate object: " + btn_Save_1Elem.toString());
         }
-
+       Thread.sleep(1000);
 		elem.click();
         
 		m_Driver.switchTo().defaultContent();

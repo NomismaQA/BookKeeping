@@ -1,64 +1,680 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-23T19:25:58 IST" name="Default suite" finished-at="2021-11-23T19:26:43 IST" duration-ms="44862">
+  <suite started-at="2021-11-26T21:10:47 IST" name="Suite" finished-at="2021-11-26T21:39:51 IST" duration-ms="1743778">
     <groups>
-      <group name="PLC_add">
-        <method signature="Test_Add_PLC.GoToUrlClickPLCClicked_FileUploadSection_TC_4()[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5]" name="GoToUrlClickPLCClicked_FileUploadSection_TC_4" class="Test_Add_LLP.Test_Add_PLC"/>
-      </group> <!-- PLC_add -->
-      <group name="PLC_add - PLC">
-        <method signature="Test_Add_PLC.GoToUrlClickPLCClicked_FileUploadSection_TC_4()[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5]" name="GoToUrlClickPLCClicked_FileUploadSection_TC_4" class="Test_Add_LLP.Test_Add_PLC"/>
-      </group> <!-- PLC_add - PLC -->
+      <group name="ScriptVATReturn3stVATReturnReport - Default Profile">
+        <method signature="Supplier_ScriptVATReturn3stVATReturnReport_PRE3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3@4de41af9]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3"/>
+        <method signature="Supplier_PostVATReturn3stVATReturnReport_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3"/>
+      </group> <!-- ScriptVATReturn3stVATReturnReport - Default Profile -->
+      <group name="ScriptVATReturn1stVATReturnReport">
+        <method signature="Supplier__ScriptSubmitVA6.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6@7a8fa663]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6"/>
+        <method signature="Supplie_VATReturn1stVATReturnReport_PRE1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1@c260bdc]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1"/>
+        <method signature="Supplier_PostVATReturn1stVATReturnReport_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1@31e75d13]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1"/>
+      </group> <!-- ScriptVATReturn1stVATReturnReport -->
+      <group name="ScriptVATReturn2stVATReturnReport - Default Profile">
+        <method signature="Supplier_VATReturn2stVATReturnReport_PRE2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2@22d6f11]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2"/>
+        <method signature="Supplier_PostVATReturn2stVATReturnReport_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2@6b5894c8]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2"/>
+      </group> <!-- ScriptVATReturn2stVATReturnReport - Default Profile -->
+      <group name="SaleInToReconcile - Default Profile">
+        <method signature="Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" class="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+        <method signature="Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4" class="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+        <method signature="Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5" class="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+        <method signature="Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6" class="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+      </group> <!-- SaleInToReconcile - Default Profile -->
+      <group name="ScriptVATReturn2stVATReturnReport">
+        <method signature="Supplier_VATReturn2stVATReturnReport_PRE2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2@22d6f11]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2"/>
+        <method signature="Supplier_PostVATReturn2stVATReturnReport_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2@6b5894c8]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2"/>
+      </group> <!-- ScriptVATReturn2stVATReturnReport -->
+      <group name="SaleInToReconcile">
+        <method signature="Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" class="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+        <method signature="Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4" class="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+        <method signature="Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5" class="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+        <method signature="Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6" class="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+        <method signature="Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71" class="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3"/>
+      </group> <!-- SaleInToReconcile -->
+      <group name="addvatrate">
+        <method signature="Suplier_addvatrat_6.GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6@5ed731d0]" name="GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines" class="VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6"/>
+      </group> <!-- addvatrate -->
+      <group name="ScriptVATReturn3stVATReturnReport">
+        <method signature="Supplier_ScriptVATReturn3stVATReturnReport_PRE3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3@4de41af9]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3"/>
+        <method signature="Supplier_PostVATReturn3stVATReturnReport_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3"/>
+      </group> <!-- ScriptVATReturn3stVATReturnReport -->
+      <group name="ScriptEditSettingToVATType - Default Profile">
+        <method signature="Suppler_EditVATType_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1@306851c7]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2" class="VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1"/>
+      </group> <!-- ScriptEditSettingToVATType - Default Profile -->
+      <group name="addvatrate - Addvat">
+        <method signature="Suplier_addvatrat_6.GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6@5ed731d0]" name="GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines" class="VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6"/>
+      </group> <!-- addvatrate - Addvat -->
+      <group name="ScriptEditSettingToVATType">
+        <method signature="Suppler_EditVATType_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1@306851c7]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2" class="VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1"/>
+      </group> <!-- ScriptEditSettingToVATType -->
+      <group name="ScriptVATReturn1stVATReturnReport - Default Profile">
+        <method signature="Supplier__ScriptSubmitVA6.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6@7a8fa663]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6"/>
+        <method signature="Supplie_VATReturn1stVATReturnReport_PRE1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1@c260bdc]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1"/>
+        <method signature="Supplier_PostVATReturn1stVATReturnReport_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1@31e75d13]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" class="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1"/>
+      </group> <!-- ScriptVATReturn1stVATReturnReport - Default Profile -->
     </groups>
-    <test started-at="2021-11-23T19:25:58 IST" name="Default test" finished-at="2021-11-23T19:26:43 IST" duration-ms="44862">
-      <class name="Test_Add_LLP.Test_Add_PLC">
-        <test-method is-config="true" signature="allocateData(org.testng.ITestContext)[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5]" started-at="2021-11-23T19:25:58 IST" name="allocateData" finished-at="2021-11-23T19:25:58 IST" duration-ms="7" status="PASS">
+    <test started-at="2021-11-26T21:10:47 IST" name="Suppler_EditVATType_1" finished-at="2021-11-26T21:11:41 IST" duration-ms="53995">
+      <class name="VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1@306851c7]" started-at="2021-11-26T21:10:47 IST" name="initDriver" finished-at="2021-11-26T21:10:48 IST" duration-ms="1367" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@126f8f24]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allocateData -->
-        <test-method is-config="true" signature="setupReporter()[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5]" started-at="2021-11-23T19:25:58 IST" name="setupReporter" finished-at="2021-11-23T19:25:58 IST" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupReporter -->
-        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5]" started-at="2021-11-23T19:25:58 IST" name="initDriver" finished-at="2021-11-23T19:26:01 IST" duration-ms="3011" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Test_Add_LLP.Test_Add_PLC.GoToUrlClickPLCClicked_FileUploadSection_TC_4() throws org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.awt.HeadlessException,java.awt.AWTException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="GoToUrlClickPLCClicked_FileUploadSection_TC_4()[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5]" started-at="2021-11-23T19:26:01 IST" name="GoToUrlClickPLCClicked_FileUploadSection_TC_4" finished-at="2021-11-23T19:26:41 IST" duration-ms="39903" status="PASS">
+        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1@306851c7]" started-at="2021-11-26T21:10:48 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2" finished-at="2021-11-26T21:11:40 IST" duration-ms="51537" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoToUrlClickPLCClicked_FileUploadSection_TC_4 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5]" started-at="2021-11-23T19:26:42 IST" name="tearDown" finished-at="2021-11-23T19:26:43 IST" duration-ms="1189" status="PASS">
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1@306851c7]" started-at="2021-11-26T21:11:40 IST" name="tearDown" finished-at="2021-11-26T21:11:41 IST" duration-ms="684" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GoToUrlClickPLCClicked_FileUploadSection_TC_4 status=SUCCESS method=Test_Add_PLC.GoToUrlClickPLCClicked_FileUploadSection_TC_4()[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5] output={null}]]]>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2 status=SUCCESS method=Suppler_EditVATType_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1@306851c7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeReporter()[pri:0, instance:Test_Add_LLP.Test_Add_PLC@7446d8d5]" started-at="2021-11-23T19:26:43 IST" name="closeReporter" finished-at="2021-11-23T19:26:44 IST" duration-ms="945" status="PASS">
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Suppler_EditVATType_1 -->
+    </test> <!-- Suppler_EditVATType_1 -->
+    <test started-at="2021-11-26T21:11:41 IST" name="Supplier_SupplierBill_2" finished-at="2021-11-26T21:22:06 IST" duration-ms="625235">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:11:41 IST" name="initDriver" finished-at="2021-11-26T21:11:42 IST" duration-ms="1192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1() throws java.lang.InterruptedException,java.io.IOException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.awt.HeadlessException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:11:42 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1" finished-at="2021-11-26T21:13:27 IST" duration-ms="104584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:13:27 IST" name="tearDown" finished-at="2021-11-26T21:13:28 IST" duration-ms="694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1 status=SUCCESS method=Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:13:28 IST" name="initDriver" finished-at="2021-11-26T21:13:29 IST" duration-ms="1360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2() throws java.lang.InterruptedException,java.io.IOException,java.awt.HeadlessException,java.awt.AWTException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:13:29 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2" finished-at="2021-11-26T21:15:11 IST" duration-ms="101771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:15:11 IST" name="tearDown" finished-at="2021-11-26T21:15:12 IST" duration-ms="713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2 status=SUCCESS method=Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:15:12 IST" name="initDriver" finished-at="2021-11-26T21:15:13 IST" duration-ms="1125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3() throws java.lang.InterruptedException,java.io.IOException,java.awt.HeadlessException,java.awt.AWTException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:15:13 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" finished-at="2021-11-26T21:16:55 IST" duration-ms="101909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:16:55 IST" name="tearDown" finished-at="2021-11-26T21:16:56 IST" duration-ms="709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3 status=SUCCESS method=Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:16:56 IST" name="initDriver" finished-at="2021-11-26T21:16:57 IST" duration-ms="1222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4() throws java.lang.InterruptedException,java.io.IOException,java.awt.HeadlessException,java.awt.AWTException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:16:57 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4" finished-at="2021-11-26T21:18:38 IST" duration-ms="100519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:18:38 IST" name="tearDown" finished-at="2021-11-26T21:18:39 IST" duration-ms="716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4 status=SUCCESS method=Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:18:39 IST" name="initDriver" finished-at="2021-11-26T21:18:40 IST" duration-ms="1381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5() throws java.lang.InterruptedException,java.io.IOException,java.awt.HeadlessException,java.awt.AWTException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:18:40 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5" finished-at="2021-11-26T21:20:23 IST" duration-ms="103227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:20:23 IST" name="tearDown" finished-at="2021-11-26T21:20:24 IST" duration-ms="677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5 status=SUCCESS method=Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:20:24 IST" name="initDriver" finished-at="2021-11-26T21:20:25 IST" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6() throws org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException,java.io.IOException,java.awt.HeadlessException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:20:25 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6" finished-at="2021-11-26T21:22:06 IST" duration-ms="100429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13]" started-at="2021-11-26T21:22:06 IST" name="tearDown" finished-at="2021-11-26T21:22:06 IST" duration-ms="701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6 status=SUCCESS method=Supplier_SupplierBill_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2@207ea13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplier_SupplierBill_2 -->
+    </test> <!-- Supplier_SupplierBill_2 -->
+    <test started-at="2021-11-26T21:22:07 IST" name="Supplier_debitNote_3" finished-at="2021-11-26T21:32:42 IST" duration-ms="635794">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:22:07 IST" name="initDriver" finished-at="2021-11-26T21:22:08 IST" duration-ms="1197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1() throws java.lang.InterruptedException,java.io.IOException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.awt.HeadlessException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:22:08 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1" finished-at="2021-11-26T21:23:51 IST" duration-ms="103684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:23:52 IST" name="tearDown" finished-at="2021-11-26T21:23:52 IST" duration-ms="701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1 status=SUCCESS method=Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:23:52 IST" name="initDriver" finished-at="2021-11-26T21:23:54 IST" duration-ms="1247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2() throws java.awt.HeadlessException,java.io.IOException,java.lang.InterruptedException,java.awt.AWTException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:23:54 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2" finished-at="2021-11-26T21:25:39 IST" duration-ms="104884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:25:39 IST" name="tearDown" finished-at="2021-11-26T21:25:40 IST" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2 status=SUCCESS method=Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:25:40 IST" name="initDriver" finished-at="2021-11-26T21:25:41 IST" duration-ms="1406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3() throws org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException,java.io.IOException,java.awt.HeadlessException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:25:41 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" finished-at="2021-11-26T21:27:24 IST" duration-ms="102988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:27:24 IST" name="tearDown" finished-at="2021-11-26T21:27:25 IST" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3 status=SUCCESS method=Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:27:25 IST" name="initDriver" finished-at="2021-11-26T21:27:26 IST" duration-ms="1151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.awt.HeadlessException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:27:26 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6" finished-at="2021-11-26T21:29:08 IST" duration-ms="101607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:29:08 IST" name="tearDown" finished-at="2021-11-26T21:29:09 IST" duration-ms="714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6 status=SUCCESS method=Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:29:09 IST" name="initDriver" finished-at="2021-11-26T21:29:10 IST" duration-ms="1197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7() throws org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException,java.awt.HeadlessException,java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:29:10 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7" finished-at="2021-11-26T21:30:55 IST" duration-ms="104912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:30:55 IST" name="tearDown" finished-at="2021-11-26T21:30:55 IST" duration-ms="673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7 status=SUCCESS method=Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:30:55 IST" name="initDriver" finished-at="2021-11-26T21:30:57 IST" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71() throws org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException,java.awt.HeadlessException,java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:30:57 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71" finished-at="2021-11-26T21:32:41 IST" duration-ms="104697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a]" started-at="2021-11-26T21:32:42 IST" name="tearDown" finished-at="2021-11-26T21:32:42 IST" duration-ms="708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71 status=SUCCESS method=Supplier_debitNote_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplier_debitNote_3 -->
+    </test> <!-- Supplier_debitNote_3 -->
+    <test started-at="2021-11-26T21:32:42 IST" name="Supplier__ScriptSubmitVA6" finished-at="2021-11-26T21:34:17 IST" duration-ms="94405">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6@7a8fa663]" started-at="2021-11-26T21:32:42 IST" name="initDriver" finished-at="2021-11-26T21:32:44 IST" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6@7a8fa663]" started-at="2021-11-26T21:32:44 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" finished-at="2021-11-26T21:34:16 IST" duration-ms="92335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6@7a8fa663]" started-at="2021-11-26T21:34:16 IST" name="tearDown" finished-at="2021-11-26T21:34:17 IST" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl status=SUCCESS method=Supplier__ScriptSubmitVA6.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6@7a8fa663] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplier__ScriptSubmitVA6 -->
+    </test> <!-- Supplier__ScriptSubmitVA6 -->
+    <test started-at="2021-11-26T21:34:17 IST" name="Supplie_VATReturn1stVATReturnReport_PRE1" finished-at="2021-11-26T21:35:01 IST" duration-ms="44092">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1@c260bdc]" started-at="2021-11-26T21:34:17 IST" name="initDriver" finished-at="2021-11-26T21:34:18 IST" duration-ms="1196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.awt.HeadlessException,java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1@c260bdc]" started-at="2021-11-26T21:34:18 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" finished-at="2021-11-26T21:35:00 IST" duration-ms="41913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1@c260bdc]" started-at="2021-11-26T21:35:00 IST" name="tearDown" finished-at="2021-11-26T21:35:01 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl status=SUCCESS method=Supplie_VATReturn1stVATReturnReport_PRE1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1@c260bdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplie_VATReturn1stVATReturnReport_PRE1 -->
+    </test> <!-- Supplie_VATReturn1stVATReturnReport_PRE1 -->
+    <test started-at="2021-11-26T21:35:01 IST" name="Supplier_VATReturn2stVATReturnReport_PRE2" finished-at="2021-11-26T21:36:04 IST" duration-ms="62519">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2@22d6f11]" started-at="2021-11-26T21:35:01 IST" name="initDriver" finished-at="2021-11-26T21:35:02 IST" duration-ms="1220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2@22d6f11]" started-at="2021-11-26T21:35:02 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" finished-at="2021-11-26T21:36:03 IST" duration-ms="60410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2@22d6f11]" started-at="2021-11-26T21:36:03 IST" name="tearDown" finished-at="2021-11-26T21:36:04 IST" duration-ms="694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl status=SUCCESS method=Supplier_VATReturn2stVATReturnReport_PRE2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2@22d6f11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplier_VATReturn2stVATReturnReport_PRE2 -->
+    </test> <!-- Supplier_VATReturn2stVATReturnReport_PRE2 -->
+    <test started-at="2021-11-26T21:36:04 IST" name="Supplier_ScriptVATReturn3stVATReturnReport_PRE3" finished-at="2021-11-26T21:36:43 IST" duration-ms="38856">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3@4de41af9]" started-at="2021-11-26T21:36:04 IST" name="initDriver" finished-at="2021-11-26T21:36:05 IST" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3@4de41af9]" started-at="2021-11-26T21:36:05 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" finished-at="2021-11-26T21:36:42 IST" duration-ms="36824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3@4de41af9]" started-at="2021-11-26T21:36:42 IST" name="tearDown" finished-at="2021-11-26T21:36:43 IST" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl status=SUCCESS method=Supplier_ScriptVATReturn3stVATReturnReport_PRE3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3@4de41af9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplier_ScriptVATReturn3stVATReturnReport_PRE3 -->
+    </test> <!-- Supplier_ScriptVATReturn3stVATReturnReport_PRE3 -->
+    <test started-at="2021-11-26T21:36:43 IST" name="Suplier_addvatrat_6" finished-at="2021-11-26T21:37:28 IST" duration-ms="44976">
+      <class name="VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6@5ed731d0]" started-at="2021-11-26T21:36:43 IST" name="initDriver" finished-at="2021-11-26T21:36:44 IST" duration-ms="1153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6.GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6@5ed731d0]" started-at="2021-11-26T21:36:44 IST" name="GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines" finished-at="2021-11-26T21:37:27 IST" duration-ms="42874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6@5ed731d0]" started-at="2021-11-26T21:37:27 IST" name="tearDown" finished-at="2021-11-26T21:37:28 IST" duration-ms="681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines status=SUCCESS method=Suplier_addvatrat_6.GoToUrlAssertUrlPositiveSelectVATStatus1PositiveEnterEffectiveDatePositiveSelectFlatrateBusines()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6@5ed731d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Suplier_addvatrat_6 -->
+    </test> <!-- Suplier_addvatrat_6 -->
+    <test started-at="2021-11-26T21:37:28 IST" name="Supplier_PostVATReturn1stVATReturnReport_1" finished-at="2021-11-26T21:38:10 IST" duration-ms="42870">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1@31e75d13]" started-at="2021-11-26T21:37:28 IST" name="initDriver" finished-at="2021-11-26T21:37:29 IST" duration-ms="1158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.awt.HeadlessException,java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1@31e75d13]" started-at="2021-11-26T21:37:29 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" finished-at="2021-11-26T21:38:10 IST" duration-ms="40732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1@31e75d13]" started-at="2021-11-26T21:38:10 IST" name="tearDown" finished-at="2021-11-26T21:38:10 IST" duration-ms="675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl status=SUCCESS method=Supplier_PostVATReturn1stVATReturnReport_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1@31e75d13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn1stVATReturnReport_1 -->
+    </test> <!-- Supplier_PostVATReturn1stVATReturnReport_1 -->
+    <test started-at="2021-11-26T21:38:11 IST" name="Supplier_PostVATReturn2stVATReturnReport_2" finished-at="2021-11-26T21:39:14 IST" duration-ms="63216">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2@6b5894c8]" started-at="2021-11-26T21:38:11 IST" name="initDriver" finished-at="2021-11-26T21:38:12 IST" duration-ms="1205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2@6b5894c8]" started-at="2021-11-26T21:38:12 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" finished-at="2021-11-26T21:39:13 IST" duration-ms="61011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2@6b5894c8]" started-at="2021-11-26T21:39:13 IST" name="tearDown" finished-at="2021-11-26T21:39:14 IST" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl status=SUCCESS method=Supplier_PostVATReturn2stVATReturnReport_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2@6b5894c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn2stVATReturnReport_2 -->
+    </test> <!-- Supplier_PostVATReturn2stVATReturnReport_2 -->
+    <test started-at="2021-11-26T21:39:14 IST" name="Supplier_PostVATReturn3stVATReturnReport_3" finished-at="2021-11-26T21:39:51 IST" duration-ms="36983">
+      <class name="VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3">
+        <test-method is-config="true" signature="allocateData(org.testng.ITestContext)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3]" started-at="2021-11-26T21:10:47 IST" name="allocateData" finished-at="2021-11-26T21:10:47 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9c8fdd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allocateData -->
+        <test-method is-config="true" signature="setupReporter()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3]" started-at="2021-11-26T21:10:47 IST" name="setupReporter" finished-at="2021-11-26T21:10:47 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReporter -->
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3]" started-at="2021-11-26T21:39:14 IST" name="initDriver" finished-at="2021-11-26T21:39:15 IST" duration-ms="1295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3]" started-at="2021-11-26T21:39:15 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl" finished-at="2021-11-26T21:39:50 IST" duration-ms="34759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3]" started-at="2021-11-26T21:39:50 IST" name="tearDown" finished-at="2021-11-26T21:39:51 IST" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl status=SUCCESS method=Supplier_PostVATReturn3stVATReturnReport_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeReporter()[pri:0, instance:VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3@458342d3]" started-at="2021-11-26T21:39:51 IST" name="closeReporter" finished-at="2021-11-26T21:39:51 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReporter -->
-      </class> <!-- Test_Add_LLP.Test_Add_PLC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- VAT3.FullREC_S2_NOVAT.Supplier_PostVATReturn3stVATReturnReport_3 -->
+    </test> <!-- Supplier_PostVATReturn3stVATReturnReport_3 -->
+  </suite> <!-- Suite -->
 </testng-results>

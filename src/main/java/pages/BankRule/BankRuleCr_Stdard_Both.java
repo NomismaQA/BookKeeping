@@ -400,7 +400,7 @@ public class BankRuleCr_Stdard_Both extends BasePage
         //                 Thread.sleep(1000);
                          WebElement save1=m_Driver.findElement(By.xpath("//A[@id='ctl00_cphFooter_btnSave']")); 
                          jsExec.executeScript("arguments[0].scrollIntoView();", save1);
-                         utilities.Rule.rulecreate("data",2,5,descriptiondata);
+                        
                          System.out.println("Save has been clicked");
                      //    Thread.sleep(1000);
                          save1.click();

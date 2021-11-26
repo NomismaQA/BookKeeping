@@ -560,7 +560,7 @@ pages.PartialReconciledCases.Reconcilation _Reconcilation = new pages.PartialRec
 //    TestModellerLogger.SetLastNodeGuid("0892baec-0422-496a-93f9-1028cef59d2c");
 //    _Reconcilation.Click_View_Reconciled_button1();
 //    
-    pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill(driver);
+    pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1 _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1(driver);
     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
     //_PartialReconcilationLAtest.GoToUrl();
     //
@@ -847,7 +847,7 @@ pages.PartialReconciledCases.Reconcilation _Reconcilation = new pages.PartialRec
 
 
 
-    pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill(driver);
+    pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1 _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1(driver);
     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
     //_PartialReconcilationLAtest.GoToUrl();
     //
@@ -1129,7 +1129,7 @@ pages.PartialReconciledCases.Reconcilation _Reconcilation = new pages.PartialRec
 //    _Reconcilation.Click_View_Reconciled_button1();
 //    
 
-    pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill(driver);
+    pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1 _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1(driver);
     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
     //_PartialReconcilationLAtest.GoToUrl();
     //
@@ -1414,7 +1414,7 @@ pages.PartialReconciledCases.Reconcilation _Reconcilation = new pages.PartialRec
 //    _Reconcilation.Click_View_Reconciled_button1();
 //    
 
-    pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill(driver);
+    pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1 _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1(driver);
     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
     //_PartialReconcilationLAtest.GoToUrl();
     //
@@ -1701,7 +1701,7 @@ pages.PartialReconciledCases.Reconcilation _Reconcilation = new pages.PartialRec
 //    _Reconcilation.Click_View_Reconciled_button1();
 //    
 
-    pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill(driver);
+    pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1 _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1(driver);
     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
     //_PartialReconcilationLAtest.GoToUrl();
     //
