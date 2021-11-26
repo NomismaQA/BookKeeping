@@ -5,6 +5,8 @@ import tests.TestBase;
 import ie.curiositysoftware.testmodeller.TestModellerPath;
 import ie.curiositysoftware.testmodeller.TestModellerSuite;
 
+import java.awt.AWTException;
+import java.awt.HeadlessException;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -32,7 +34,7 @@ public class tr_new_bank extends TestBase
     
     @Test  (groups= {"1tr","1tr - nidbanktrn"})
     @TestModellerPath(guid = "e267114f-419d-45e6-885e-92b14bc1b012")
-    public void nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl1() throws InterruptedException, IOException, InvalidFormatException
+    public void nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl1() throws InterruptedException, IOException, InvalidFormatException, HeadlessException, AWTException
     {
     	sTestCaseID="TC6";
     	Sheet="Banking";
@@ -103,7 +105,7 @@ public class tr_new_bank extends TestBase
   TestModellerLogger.SetLastNodeGuid("cd431e1c-5f14-4042-85e6-c92307a9ba2b");
    _bankmenu.Click_Bankingmenu();
    
-   pages.banking.ashiv.BankRule.BANKTRN_New _BK=new pages.banking.ashiv.BankRule.BANKTRN_New(driver);
+   pages.banking.ashiv.BANKTRN_New _BK=new pages.banking.ashiv.BANKTRN_New(driver);
   _BK.Banktrans();
     
 }

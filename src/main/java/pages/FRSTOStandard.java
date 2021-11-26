@@ -254,8 +254,9 @@ public class FRSTOStandard extends BasePage
 
 			Assert.fail("Unable to locate object: " + SaveButtonElem.toString());
         }
+		jsExec.executeScript("arguments[0].click();",elem);
 
-		elem.click();
+		//elem.click();
         
 		m_Driver.switchTo().defaultContent();
   	

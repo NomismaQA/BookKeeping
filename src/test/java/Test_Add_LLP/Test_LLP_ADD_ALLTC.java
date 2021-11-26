@@ -1085,7 +1085,7 @@ public class Test_LLP_ADD_ALLTC extends TestBase
     
     @Test  (groups= {"LLP_ADD","LLP_ADD - LLP_AD"})
     @TestModellerPath(guid = "014b3ac9-220c-4d51-a609-3087c639f149")
-    public void Click_Client_ClickAddClient_HomeSearchlistWillDisplayAsPerTheSearchCriteriaOnASamePageAndAddCompanyPopupWillBeShownRegardingTheBusinessInformation_TC013() throws InterruptedException, InvalidFormatException, IOException
+    public void Click_Client_ClickAddClient_Click_BackBtn__TC013() throws InterruptedException, InvalidFormatException, IOException
     {
     	sTestCaseID="TC118";
        	Sheet="Banking";

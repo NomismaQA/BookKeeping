@@ -110,7 +110,7 @@ public class bankmenu extends BasePage
 
 		elem.click();
 
-		m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHeaderRight_btnAdd']")).click();
+		//m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHeaderRight_btnAdd']")).click();
 
 		ExtentReportManager.passStep(m_Driver, "Click_Newmenu");
 

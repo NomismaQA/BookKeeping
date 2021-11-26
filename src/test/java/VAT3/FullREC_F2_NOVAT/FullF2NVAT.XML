@@ -8,67 +8,67 @@
 </listeners>
 <test name="Suppler_EditVATType_Standard" enabled="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Suppler_EditVATType_Standard1">
+		<class name="VAT3.FullREC_F2_NOVAT.Suppler_EditVATType_Standard1">
 </class>
 </classes>
 </test>
 <test name="Supplier_SupplierBill_Default2" enabled="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Supplier_SupplierBill_Default2">
+		<class name="VAT3.FullREC_F2_NOVAT.Supplier_SupplierBill_Default2">
 </class>
 </classes>
 </test>
 <test name="Supplier_ReconcileForDebitNote3" enabled="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Supplier_ReconcileForDebitNote3">
+		<class name="VAT3.FullREC_F2_NOVAT.Supplier_ReconcileForDebitNote3">
 </class>
 </classes>
 </test>
 <test name="Supplier__ScriptSubmitVA6" enabled ="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Supplier__ScriptSubmitVA61">
+		<class name="VAT3.FullREC_F2_NOVAT.Supplier__ScriptSubmitVA61">
 </class>
 </classes>
 </test>
 <test name="Supplier_ScriptVATReturn1stVATReturnReport_PRE1" enabled ="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptVATReturn1stVATReturnReport_PRE1">
+		<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptVATReturn1stVATReturnReport_PRE1">
 </class>
 </classes>
 </test>
 <test name="Supplier_ScriptVATReturn2stVATReturnReport_PRE2" enabled ="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptVATReturn2stVATReturnReport_PRE2">
+		<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptVATReturn2stVATReturnReport_PRE2">
 </class>
 </classes>
 </test>
 <test name="ScriptVATReturn3stVATReturnReport_SToFRS_PRE3" enabled="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.ScriptVATReturn3stVATReturnReport_SToFRS_PRE3">
+		<class name="VAT3.FullREC_F2_NOVAT.ScriptVATReturn3stVATReturnReport_SToFRS_PRE3">
 </class>
 </classes>
 </test>
 <test name="Suplier_addvatrate_Addvat1" enabled="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Suplier_addvatrate_Addvat1">
+		<class name="VAT3.FullREC_F2_NOVAT.Suplier_addvatrate_Addvat1">
 </class>
 </classes>
 </test>
 <test name="Supplier_ScriptPostVATReturn1stVATReturnReport1" enabled="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn1stVATReturnReport1">
+		<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn1stVATReturnReport1">
 </class>
 </classes>
 </test>
 <test name="Supplier_ScriptPostVATReturn2stVATReturnReport2" enabled="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn2stVATReturnReport2">
+		<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn2stVATReturnReport2">
 </class>
 </classes>
 </test>
 <test name="Supplier_ScriptPostVATReturn3stVATReturnReport3" enabled="true">
 <classes>
-<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn3stVATReturnReport3">
+		<class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn3stVATReturnReport3">
 </class>
 </classes>
 </test>

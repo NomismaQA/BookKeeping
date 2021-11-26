@@ -141,8 +141,8 @@ pages.Searchclient _Searchclient = new pages.Searchclient(driver);
         TestModellerLogger.SetLastNodeGuid("6e060c6a-4d91-4fcb-83c9-1b01a39e2e6c");
         _addVatrate.Click_AddVatbtn();
 //
-//    TestModellerLogger.SetLastNodeGuid("6e060c6a-4d91-4fcb-83c9-1b01a39e2e6c");
-//    _addVatrate.Select_VAT_Status1(data[5]);
+   //   TestModellerLogger.SetLastNodeGuid("6e060c6a-4d91-4fcb-83c9-1b01a39e2e6c");
+   //   _addVatrate.Select_VAT_Status1(data[5]);
     
 
     TestModellerLogger.SetLastNodeGuid("b81fccd4-7cd8-416f-868f-575a580512c7");

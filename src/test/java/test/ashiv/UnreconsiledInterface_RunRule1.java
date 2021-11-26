@@ -1,4 +1,4 @@
-package tests.Bank_Rule;
+package test.ashiv;
 
 import reports.TestNGListener;
 import tests.TestBase;

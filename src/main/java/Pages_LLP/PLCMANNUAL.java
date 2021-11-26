@@ -205,7 +205,27 @@ public class PLCMANNUAL extends BasePage
  			Assert.fail("Unable to locate object: " + Enter_Buss_RegDate_5Elem.toString());
          }
 
- 		elem.sendKeys(Enter_Buss_RegDate_5);
+String dtformat="DD/MM/YYYY";
+ 		
+
+        String dt1=Enter_Buss_RegDate_5;
+
+       elem.sendKeys(dt1);
+
+
+    if(dt1.matches(dtformat))
+    {
+    	
+    	
+    	System.out.println("added sucessfully");
+    	
+    }
+    else
+    {
+    	System.out.println("date needs_formatcheck()");
+    	
+    }
+ 	
  		
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_Enter_Buss_RegDate_5 " + Enter_Buss_RegDate_5);
@@ -370,6 +390,10 @@ public void ClickClientEle() {
 		NewClient.click();
 	}
 	
+	public void ClickBackBtn()
+	{
+		m_Driver.findElement(By.xpath("//*[@id='BackButton']")).click();
+	}
 	
 	public void HighLightPLC()
 	{
@@ -378,15 +402,16 @@ public void ClickClientEle() {
 
 	}
 	
+	
 	public void HighLightBusinessList()
 	{
 		
 		WebElement Business=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_divSubContent']/div[3]/div/div/table/tbody"));
-		WebElement Busi=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_rowCompany' or @id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl01_rowCompany']"));
-		jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", Busi);
+	//	WebElement Busi=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl00_rowCompany' or @id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl01_rowCompany']"));
+		jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", Business);
 
 	}
-	public void Enter_House_Search_Popup(String House_Search) throws InterruptedException
+	public void Enter_House_Search(String House_Search) throws InterruptedException
  	{
  	    
  		WebElement elem = getWebElement(House_SearchElem);
@@ -402,11 +427,11 @@ public void ClickClientEle() {
 		elem.sendKeys(House_Search);
 		
 		Thread.sleep(2000);
- 	
-		WebElement el2=m_Driver.findElement(By.xpath("//*[@id='tblCompanies']/tbody/tr[2]/td[1]"));
-		companyname=el2.getText();
-		System.out.println("company name is:"+companyname);
-		jsExec.executeScript("arguments[0].click();",el2);
+// 	
+//		WebElement el2=m_Driver.findElement(By.xpath("//*[@id='tblCompanies']/tbody/tr[2]/td[1]"));
+//		companyname=el2.getText();
+//		System.out.println("company name is:"+companyname);
+//		jsExec.executeScript("arguments[0].click();",el2);
 		
 		//  utilities.Screenshotcapture.Getscreenshot("Company house Search list display_TC04", "Add LLP Business");
 //	    m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/div[2]/div[1]/div[2]/div[2]/div[1]/iframe")));
@@ -493,6 +518,54 @@ public void ClickClientEle() {
 		ExtentReportManager.passStep(m_Driver, "Click_Click_Plus_Sign1");
 
 		TestModellerLogger.PassStep(m_Driver, "Click_Click_Plus_Sign1");
+	}
+	
+	public void Enter_House_Search_PopupInformation(String House_Search) throws InterruptedException
+ 	{
+ 	    
+ 		WebElement elem = getWebElement(House_SearchElem);
+ 		
+
+		if (elem == null) {
+  		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_House_Search", "Enter_House_Search failed. Unable to locate object: " + House_SearchElem.toString());
+
+   		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_House_Search", "Enter_House_Search failed. Unable to locate object: " + House_SearchElem.toString());
+
+		Assert.fail("Unable to locate object: " + House_SearchElem.toString());
+       }
+		elem.sendKeys(House_Search);
+		
+		Thread.sleep(2000);
+ 	
+		WebElement el2=m_Driver.findElement(By.xpath("//*[@id='tblCompanies']/tbody/tr[2]/td[1]"));
+		companyname=el2.getText();
+		System.out.println("company name is:"+companyname);
+		jsExec.executeScript("arguments[0].click();",el2);
+		
+		//  utilities.Screenshotcapture.Getscreenshot("Company house Search list display_TC04", "Add LLP Business");
+//	    m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/div[2]/div[1]/div[2]/div[2]/div[1]/iframe")));
+	 //   m_Driver.manage().window().setSize(d);
+//		  Thread.sleep(1000);
+ //		WebElement create=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cpHFooter_btnSave']")));
+//		jsExec.executeScript("arguments[0].scrollIntoView();", create);
+//		create.click();
+ //		Thread.sleep(1000);
+	//	utilities.PassScreenshot.Getscreenshot11("CreateCompany", House_Search);
+		/*Search created company name*/
+		
+//		m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPHFilter_txtSearchCompany']")).sendKeys(companyname);
+//		WebElement el6=	jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPHFilter_btnSearch']")));
+//		jsExec.executeScript("arguments[0].click()", el6);
+		
+		Thread.sleep(2000);
+ 		
+ 	
+ 	}
+	public void HighlightPayroll()
+	{
+		WebElement elem=m_Driver.findElement(By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_rptrDisplayRecords_ctl02_rowCompany']"));
+		jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+
 	}
 	
 }

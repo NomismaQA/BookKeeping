@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Add_LLP.Test_Add_PLC">
+      <class name="VAT3_UnReconciled_FtoS.Un_F2S_EditVATType_Standard">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
-          <include name="GoToUrlClickPLCClicked_FileUploadSection_TC_4"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2"/>
         </methods>
-      </class> <!-- Test_Add_LLP.Test_Add_PLC -->
+      </class> <!-- VAT3_UnReconciled_FtoS.Un_F2S_EditVATType_Standard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -34,7 +34,7 @@ String BNO;
 
      private By ExpenditureTABElem = By.xpath("//span[contains(text(), 'Expenditure')]");
 
-	private By NewTABElem = By.xpath("//*[@id='ctl00_divMainContent']/header/div/div[3]/a");
+	private By NewTABElem = By.xpath("//*[@id='ctl00_divMainContent']/header/div/div[4]/a");
 
 	private By NewDebitNoteElem = By.xpath("//A[contains(text(),'New Debit Note')]");
 
@@ -209,18 +209,19 @@ String BNO;
 
  			Assert.fail("Unable to locate object: " + SupplierNameElem.toString());
          }
-
-//	Select dropdown = new Select(elem);
+ 
+ 		  WebElement ele =m_Driver.findElement(By.xpath("//Select[@id='ctl00_cPH_ddlSupplier']"));
+          Select dropdown = new Select(ele);
 //
-// 		dropdown.selectByVisibleText(SupplierName);
+     		dropdown.selectByVisibleText(SupplierName);
 // 		elem.sendKeys(Keys.UP);
  		
- 	elem.sendKeys(Keys.ENTER);
- 		String sup=SupplierName;
- 		
- 		System.out.println(" " +sup);
- 		m_Driver.findElement(By.xpath("//*[contains(text(),'"+sup+"')]")).click();
- 		
+// 	elem.sendKeys(Keys.ENTER);
+// 		String sup=SupplierName;
+// 		
+// 		System.out.println(" " +sup);
+// 		m_Driver.findElement(By.xpath("//*[contains(text(),'"+sup+"')]")).click();
+// 		
  		
  		ExtentReportManager.passStep(m_Driver, "Select_SupplierName " + SupplierName);
 
@@ -248,10 +249,12 @@ String BNO;
  			Assert.fail("Unable to locate object: " + DateElem.toString());
          }
 System.out.println("enter date");
- 		elem.sendKeys(Date);
- 	
- 		elem.sendKeys(Keys.TAB);
- 		elem.sendKeys(Keys.TAB);
+      for(int i=0; i<10;i++)
+	{
+		elem.sendKeys(Keys.BACK_SPACE);
+	}
+	   elem.sendKeys(Date);
+	   elem.sendKeys(Keys.TAB);
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_Date " + Date);
 
