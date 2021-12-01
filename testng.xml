@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="test.ashiv.Rule1_rule1"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+ 
+    
+    <suite-files>
+    
+    
+    
+    
+    
+    
+    
+    
+    <suite-file path="\Full Suite file\Find_Match.xml"></suite-file>
+    
+     <suite-file path="\Full Suite file\RunBankRule.xml"></suite-file>
+     
+     <suite-file path="\src\test\java\tests\Bank_Upload_CSV\uploadbankcsv.xml"></suite-file>
+     
+     <suite-file path="\src\test\java\tests\Bank_new_Trans\new_bnk_trn_50code.xml"></suite-file>
+     
+      <suite-file path="\src\test\java\tests\Bank_Multicurrency\multicurrency.xml"></suite-file>
+      
+      
+     
+    </suite-files>
+    
+    
+</suite> 

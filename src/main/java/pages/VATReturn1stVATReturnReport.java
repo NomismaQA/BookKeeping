@@ -114,6 +114,13 @@ public class VATReturn1stVATReturnReport extends BasePage
 		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit']/img")).click();
 		Thread.sleep(1000);
 		
+		WebElement VATType=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlVATTypeCategory']"));
+		Select sl=new Select(VATType);
+		VATType.click();
+				VATType.sendKeys(Keys.ARROW_DOWN);
+				VATType.sendKeys(Keys.ENTER);
+		
+		
 		m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHeaderRight_btnVatExportToExcel']")).click();
 		//m_Driver.findElement(By.id("ctl00_cpHeaderRight_btnVatExportToExcel")).click();
 		Thread.sleep(1500);

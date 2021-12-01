@@ -4,7 +4,7 @@
 
   <test name="test.ashiv.SaleInvoice_DefaultProfile" enabled="true">
     <classes>
-      <class name="test.ashiv.SaleInvoice_DefaultProfile">
+      <class name="test.ashiv.Test_Find_Match">
     </class>
     </classes>
   </test> 

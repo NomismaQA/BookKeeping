@@ -221,6 +221,7 @@ public class SaleCreditNote extends BasePage
 
  	      String CustomerList=	elem.getText();
  	     System.out.println("Customer List = "+CustomerList);
+ 	     
  		Select dropdown = new Select(elem);
 
  		dropdown.selectByVisibleText(CustomerName);

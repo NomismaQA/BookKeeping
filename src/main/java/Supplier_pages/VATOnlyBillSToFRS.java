@@ -7,6 +7,7 @@ import java.awt.HeadlessException;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -234,8 +235,13 @@ public class VATOnlyBillSToFRS extends BasePage
 
  			Assert.fail("Unable to locate object: " + InvoiceDateElem.toString());
          }
-
+ 		for(int i=0; i<10;i++)
+ 		{
+ 			elem.sendKeys(Keys.BACK_SPACE);
+ 		}
  		elem.sendKeys(InvoiceDate);
+ 		elem.sendKeys(Keys.TAB);
+ 		
  		
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_InvoiceDate " + InvoiceDate);

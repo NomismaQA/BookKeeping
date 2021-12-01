@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (1)]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="reports.TestNGListener"/>
+    <listener class-name="reports.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="scriptaddvatrate_addvatrate1(failed)" verbose="10">
+    <classes>
+      <class name="VAT2.F2S.scriptaddvatrate_addvatrate1">
+        <methods>
+          <include name="addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7"/>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT2.F2S.scriptaddvatrate_addvatrate1 -->
+    </classes>
+  </test> <!-- scriptaddvatrate_addvatrate1(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->

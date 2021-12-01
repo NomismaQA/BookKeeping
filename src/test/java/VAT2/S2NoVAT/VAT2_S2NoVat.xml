@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="S2noVAT_ScriptEditSettingToVATType_StoF_55" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_ScriptEditSettingToVATType_StoF_55">
+</class>
+</classes>
+</test>
+<test name="S2noVAT_SaleInToReconcile_11" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcile_11">
+</class>
+</classes>
+</test>
+<test name="SaleInToReconcileForCreditNote_22" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForCreditNote_22">
+</class>
+</classes>
+</test>
+<test name="S2noVAT_SaleInToReconcileForVATOnly_StoF_33" enabled ="false">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForVATOnly_StoF_33">
+</class>
+</classes>
+</test>
+<test name="S2noVAT_ScriptVATReturn1stVATReturnReport_SToFlat_60" enabled ="true">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_ScriptVATReturn1stVATReturnReport_SToFlat_60">
+</class>
+</classes>
+</test>
+<test name="ScriptVATReturn2stVATReturnReport_SToFlat_cus" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.ScriptVATReturn2stVATReturnReport_SToFlat_cus">
+</class>
+</classes>
+</test>
+<test name="ScriptVATReturn3stVATReturnReport_SToFlat_cus" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.ScriptVATReturn3stVATReturnReport_SToFlat_cus">
+</class>
+</classes>
+</test>
+<test name="S2noVAT_scriptaddvatrate_addvatrate_StoF_44" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_scriptaddvatrate_addvatrate_StoF_44">
+</class>
+</classes>
+</test>
+<test name="S2noVAT_ScriptPostVATReturn2stVATReturnReport_56" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn2stVATReturnReport_56">
+</class>
+</classes>
+</test>
+<test name="S2noVAT_ScriptPostVATReturn2stVATReturnReport_SToFlat_57" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn2stVATReturnReport_SToFlat_57">
+</class>
+</classes>
+</test>
+<test name="S2noVAT_ScriptPostVATReturn3stVATReturnReport_58" enabled="true">
+<classes>
+		<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn3stVATReturnReport_58">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+         
+         
+
+ 
+
+         
+         
+         
+
+ 

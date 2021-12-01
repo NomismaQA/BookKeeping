@@ -299,10 +299,11 @@ public class SaleInvoice extends BasePage
 // 		InvDate1=InvoiceDate;
 // 		System.out.println(InvDate1);
 // 		//elem.clear();
-//		for(int i=0;i<=9;i++)
-// 		{
-//			m_Driver.findElement(By.id("ctl00_cPH_txtInvoiceDate")).sendKeys(Keys.BACK_SPACE);
-// 		}
+		for(int i=0;i<=9;i++)
+ 		{
+			//*[@id="ctl00_cPH_txtInvoiceDate"]
+			m_Driver.findElement(By.id("ctl00_cPH_txtInvoiceDate")).sendKeys(Keys.BACK_SPACE);
+ 		}
  		elem.sendKeys(InvoiceDate);
  		elem.sendKeys(Keys.TAB);
  		Thread.sleep(1000);

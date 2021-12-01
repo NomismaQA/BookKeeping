@@ -637,9 +637,77 @@
  	</test>
  	
  	
+ 	<test name= "VAT2.F2NOVAT" enabled="true">  
+ 	<classes>
+ 	
+ 		<class name="VAT2.F2NOVAT.F2novat_EditVATType"/>
+		<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1"/>
+		<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1"/>
+		<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1"/>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1"/>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2"/>
+		<class name="VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3"/>
+		<class name="VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1"/>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1"/>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2"/>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3"/>
+ 	
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT2.F2S" enabled="true">  
+ 	<classes>
+ 	
+			<class name="VAT2.F2S.ScriptEditSettingToVATType_DefaultProfile1"/>
+			<class name="VAT2.F2S.SaleInToReconcile_DefaultProfile1"/>
+			<class name="VAT2.F2S.SaleInToReconcileForCreditNote_DefaultProfile1"/>
+			<class name="VAT2.F2S.SaleInToReconcileForVATOnly_DefaultProfile1"/>
+			<class name="VAT2.F2S.ScriptVATReturn1stVATReturnReport_SToNOVAT_DefaultProfile1"/>
+			<class name="VAT2.F2S.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile1"/>
+			<class name="VAT2.F2S.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile1"/>
+			<class name="VAT2.F2S.scriptaddvatrate_addvatrate1"/>
+			<class name="VAT2.F2S.ScriptPostVATReturn1stVATReturnReport_SToNOVAT_DefaultProfile1"/>
+			<class name="VAT2.F2S.ScriptPostVATReturn2stVATReturnReport_SToFlat_DefaultProfile1"/>
+			<class name="VAT2.F2S.ScriptPostVATReturn3stVATReturnReport_SToFlat_DefaultProfile1"/>
+		</classes> 
+ 	</test>	 	
+ 	
+ 	<test name= "VAT2.S2F" enabled="true">  
+ 	<classes>
+ 	
+			<class name="VAT2.S2F.ScriptEditSettingToVATType_StoF_Cus"/>
+			<class name="VAT2.S2F.SaleInToReconcile_DefaultProfile_StoF_Cus"/>
+			<class name="VAT2.S2F.SaleInToReconcileForCreditNote_StoF_Cus"/>
+			<class name="VAT2.S2F.SaleInToReconcileForVATOnly_StoF_Cus"/>
+			<class name="VAT2.S2F.pre1_ScriptVATReturn1stVATReturnReport_SToFlat_cus"/>
+			<class name="VAT2.S2F.pre2_ScriptVATReturn2stVATReturnReport_SToFlat_cus"/>
+			<class name="VAT2.S2F.pre3_ScriptVATReturn3stVATReturnReport_SToFlat_cus"/>
+			<class name="VAT2.S2F.scriptaddvatrate_addvatrate_StoF_Cus"/>
+			<class name="VAT2.S2F.ScriptPostVATReturn2stVATReturnReport_SToFlat"/>
+			<class name="VAT2.S2F.ScriptPostVATReturn3stVATReturnReport_SToFlat_cus"/>
+			<class name="VAT2.S2F.ScriptPostVATReturn3stVATReturnReport_SToFlat"/>
+ 	
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT2.S2NoVAT" enabled="true">  
+ 	<classes>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptEditSettingToVATType_StoF_55"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcile_11"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForCreditNote_22"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForVATOnly_StoF_33"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptVATReturn1stVATReturnReport_SToFlat_60"/>
+				<class name="VAT2.S2NoVAT.ScriptVATReturn2stVATReturnReport_SToFlat_cus"/>
+				<class name="VAT2.S2NoVAT.ScriptVATReturn3stVATReturnReport_SToFlat_cus"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_scriptaddvatrate_addvatrate_StoF_44"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn2stVATReturnReport_56"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn2stVATReturnReport_SToFlat_57"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn3stVATReturnReport_58"/>
  	
  	
  	
+ 	</classes> 
+ 	</test>
  	
 </suite>    
          

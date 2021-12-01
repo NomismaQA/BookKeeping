@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (9)]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="reports.TestNGListener"/>
+    <listener class-name="reports.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Supplier_SupplierBill_Default2(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_F2_NOVAT.Supplier_SupplierBill_Default2">
+        <methods>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+          <include name="initDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4"/>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_F2_NOVAT.Supplier_SupplierBill_Default2 -->
+    </classes>
+  </test> <!-- Supplier_SupplierBill_Default2(failed) -->
+  <test thread-count="5" name="Supplier_ReconcileForDebitNote3(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_F2_NOVAT.Supplier_ReconcileForDebitNote3">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_F2_NOVAT.Supplier_ReconcileForDebitNote3 -->
+    </classes>
+  </test> <!-- Supplier_ReconcileForDebitNote3(failed) -->
+  <test thread-count="5" name="Supplier_ScriptVATReturn1stVATReturnReport_PRE1(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptVATReturn1stVATReturnReport_PRE1">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_F2_NOVAT.Supplier_ScriptVATReturn1stVATReturnReport_PRE1 -->
+    </classes>
+  </test> <!-- Supplier_ScriptVATReturn1stVATReturnReport_PRE1(failed) -->
+  <test thread-count="5" name="Supplier_ScriptPostVATReturn1stVATReturnReport1(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn1stVATReturnReport1">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_F2_NOVAT.Supplier_ScriptPostVATReturn1stVATReturnReport1 -->
+    </classes>
+  </test> <!-- Supplier_ScriptPostVATReturn1stVATReturnReport1(failed) -->
+</suite> <!-- Failed suite [Suite (9)] -->

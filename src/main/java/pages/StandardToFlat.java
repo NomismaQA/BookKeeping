@@ -202,9 +202,10 @@ public class StandardToFlat extends BasePage
          }
 
  		Select dropdown = new Select(elem);
-elem.click();
+ 		
  		dropdown.selectByVisibleText(VATStatus);
- 		elem.sendKeys(Keys.TAB);
+ 		
+// 		elem.sendKeys(Keys.TAB);
 		m_Driver.switchTo().defaultContent();
 
  		
@@ -236,10 +237,10 @@ elem.click();
  			Assert.fail("Unable to locate object: " + SchemeEffectiveDateElem.toString());
          }
  		
- 		for(int i=0;i<=9;i++)
- 		{
-			m_Driver.findElement(By.xpath("//INPUT[@name='ctl00$cPH$txtDate']")).sendKeys(Keys.BACK_SPACE);
- 		}
+ 	//	for(int i=0;i<=9;i++)
+ //		{
+	//		m_Driver.findElement(By.xpath("//INPUT[@name='ctl00$cPH$txtDate']")).sendKeys(Keys.BACK_SPACE);
+ 	//	}
 		
  		elem.sendKeys(SchemeEffectiveDate);
 		m_Driver.findElement(By.xpath("//INPUT[@name='ctl00$cPH$txtDate']")).sendKeys(Keys.TAB);
@@ -342,7 +343,7 @@ elem.click();
         }
 
 //	elem.click();
-		m_Driver.navigate().refresh();
+	//	m_Driver.navigate().refresh();
 		Thread.sleep(2000);
 		jsExec.executeScript("arguments[0].scrollIntoView(true);",  elem);
 		
