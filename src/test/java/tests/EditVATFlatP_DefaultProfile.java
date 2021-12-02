@@ -28,7 +28,7 @@ public class EditVATFlatP_DefaultProfile extends TestBase
     
     @Test  (groups= {"EditVATFlatP","EditVATFlatP - Default Profile"})
     @TestModellerPath(guid = "dcf12d5c-ab89-453f-9fc7-c4ed6dfbe5a1")
-    public void GoToUrlAssertUrlClickSettingsTABClickVATTABClickEditButtonClickEditButton2PositiveSelectVATSt1() throws HeadlessException, IOException, AWTException
+    public void GoToUrlAssertUrlClickSettingsTABClickVATTABClickEditButtonClickEditButton2PositiveSelectVATSt1() throws HeadlessException, IOException, AWTException, InterruptedException
     {
         
         pages.EditVATFlatP _EditVATFlatP = new pages.EditVATFlatP(driver);
@@ -80,7 +80,7 @@ public class EditVATFlatP_DefaultProfile extends TestBase
 
     @Test  (groups= {"EditVATFlatP","EditVATFlatP - Default Profile"})
     @TestModellerPath(guid = "3be6dcd9-710b-4daf-80c2-2cd905674dc0")
-    public void GoToUrlAssertUrlClickSettingsTABClickVATTABClickEditButtonClickEditButton2PositiveSelectVATSt2() throws HeadlessException, IOException, AWTException
+    public void GoToUrlAssertUrlClickSettingsTABClickVATTABClickEditButtonClickEditButton2PositiveSelectVATSt2() throws HeadlessException, IOException, AWTException, InterruptedException
     {
         
         pages.EditVATFlatP _EditVATFlatP = new pages.EditVATFlatP(driver);
@@ -132,7 +132,7 @@ public class EditVATFlatP_DefaultProfile extends TestBase
 
     @Test  (groups= {"EditVATFlatP","EditVATFlatP - Default Profile"})
     @TestModellerPath(guid = "5cdec866-1ec0-4a76-9160-b5de35890469")
-    public void GoToUrlAssertUrlClickSettingsTABClickVATTABClickEditButtonClickEditButton2PositiveSelectVATSt3() throws HeadlessException, IOException, AWTException
+    public void GoToUrlAssertUrlClickSettingsTABClickVATTABClickEditButtonClickEditButton2PositiveSelectVATSt3() throws HeadlessException, IOException, AWTException, InterruptedException
     {
         
         pages.EditVATFlatP _EditVATFlatP = new pages.EditVATFlatP(driver);
@@ -169,6 +169,7 @@ public class EditVATFlatP_DefaultProfile extends TestBase
     
 
     TestModellerLogger.SetLastNodeGuid("63f4ddd4-cb02-49f7-829f-adc6ad538cba");
+    
     _EditVATFlatP.Click_UseDefaultRate();
     
 

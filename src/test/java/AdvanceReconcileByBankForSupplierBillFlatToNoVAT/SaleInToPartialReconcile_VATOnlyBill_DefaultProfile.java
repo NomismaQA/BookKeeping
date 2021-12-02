@@ -183,7 +183,7 @@ pages.PartialReconciledCases.bankmenu _bankmenu = new pages.PartialReconciledCas
     _bankmenu.Click_Newmenu();
     
 
-pages.PartialReconciledCases.nBANKTRN _nBANKTRN = new pages.PartialReconciledCases.nBANKTRN(driver);
+pages.PartialReconciledCases.nBANKTRN_VATOnly _nBANKTRN = new pages.PartialReconciledCases.nBANKTRN_VATOnly(driver);
 //    TestModellerLogger.SetLastNodeGuid("04a80b29-ca7e-432d-aae4-cc8cb6604a1e");
 //    _nBANKTRN.GoToUrl();
 //    
@@ -262,7 +262,7 @@ pages.PartialReconciledCases.Reconcilation _Reconcilation = new pages.PartialRec
 //    
 
 
-   pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill(driver);
+   pages.PartialReconciledCases.PartialReconcilationLAtestForVATOnly _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForVATOnly(driver);
   //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
   //_PartialReconcilationLAtest.GoToUrl();
   //
@@ -461,7 +461,7 @@ pages.PartialReconciledCases.bankmenu _bankmenu = new pages.PartialReconciledCas
     _bankmenu.Click_Newmenu();
     
 
-pages.PartialReconciledCases.nBANKTRN _nBANKTRN = new pages.PartialReconciledCases.nBANKTRN(driver);
+pages.PartialReconciledCases.nBANKTRN_VATOnly _nBANKTRN = new pages.PartialReconciledCases.nBANKTRN_VATOnly(driver);
 //    TestModellerLogger.SetLastNodeGuid("04a80b29-ca7e-432d-aae4-cc8cb6604a1e");
 //    _nBANKTRN.GoToUrl();
 //    
@@ -538,7 +538,7 @@ pages.PartialReconciledCases.Reconcilation _Reconcilation = new pages.PartialRec
 //    TestModellerLogger.SetLastNodeGuid("0892baec-0422-496a-93f9-1028cef59d2c");
 //    _Reconcilation.Click_View_Reconciled_button1();
 //    
-    pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForSupplierBill(driver);
+    pages.PartialReconciledCases.PartialReconcilationLAtestForVATOnly _PartialReconcilationLAtest = new pages.PartialReconciledCases.PartialReconcilationLAtestForVATOnly(driver);
     //TestModellerLogger.SetLastNodeGuid("511bd3c6-4bfe-44f1-85bd-d9c919623efb");
     //_PartialReconcilationLAtest.GoToUrl();
     //

@@ -275,9 +275,13 @@ public class SaleCreditNote extends BasePage
 
  			Assert.fail("Unable to locate object: " + CreditNoteDateElem.toString());
          }
-
+ 		for(int i=0;i<=9;i++)
+ 		{
+			//*[@id="ctl00_cPH_txtInvoiceDate"]
+			m_Driver.findElement(By.id("ctl00_cPH_txtInvoiceDate")).sendKeys(Keys.BACK_SPACE);
+ 		}
  		elem.sendKeys(CreditNoteDate);
- 		
+ 		elem.sendKeys(Keys.TAB);
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_CreditNoteDate " + CreditNoteDate);
 

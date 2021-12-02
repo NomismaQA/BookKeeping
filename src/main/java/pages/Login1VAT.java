@@ -33,11 +33,11 @@ public class Login1VAT extends BasePage
 	
 	public void GoToUrl()
 	{
-		m_Driver.get("http://sandbox3.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633");
+		m_Driver.get("http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633");
 
-		ExtentReportManager.passStepWithScreenshot(m_Driver, "Go to URL", "Go to URL - http://sandbox3.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633");
+		ExtentReportManager.passStepWithScreenshot(m_Driver, "Go to URL", "Go to URL - http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633");
 		
-		TestModellerLogger.PassStepWithScreenshot(m_Driver, "Go to URL", "Go to URL - http://sandbox3.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633");
+		TestModellerLogger.PassStepWithScreenshot(m_Driver, "Go to URL", "Go to URL - http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633");
 	}
 
      
@@ -48,9 +48,9 @@ public class Login1VAT extends BasePage
    public void AssertUrl()
     {
         String currentUrl = m_Driver.getCurrentUrl();
-        String expectedUrl = "http://sandbox3.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633";
+        String expectedUrl = "http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633";
 
-        if (!currentUrl.equals("http://sandbox3.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633")) {
+        if (!currentUrl.equals("http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=668f28ac-236f-4d7a-9aa3-2a9457140633")) {
             Assert.fail("Expecting URL - "  + expectedUrl + " Found " + currentUrl);
         }
     }

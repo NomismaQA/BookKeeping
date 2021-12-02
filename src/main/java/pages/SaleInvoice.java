@@ -566,7 +566,7 @@ public class SaleInvoice extends BasePage
 		//elem.click();
 		jsExec.executeScript("arguments[0].scrollIntoView(true);",  m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnPreviewOnsave']")));
 		jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnPreviewOnsave']")));
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		m_Driver.findElement(By.xpath("//*[@id='ctl00_cphError_btnSaveinvoice']")).click();
 //		BufferedImage image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));

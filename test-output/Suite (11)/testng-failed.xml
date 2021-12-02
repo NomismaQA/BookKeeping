@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (11)]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="reports.TestNGListener"/>
+    <listener class-name="reports.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Supplier__SupplierBill_1(failed)" verbose="10">
+    <classes>
+      <class name="VAT3.FullREC_S2_FLAT.Supplier__SupplierBill_1">
+        <methods>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5"/>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- VAT3.FullREC_S2_FLAT.Supplier__SupplierBill_1 -->
+    </classes>
+  </test> <!-- Supplier__SupplierBill_1(failed) -->
+</suite> <!-- Failed suite [Suite (11)] -->

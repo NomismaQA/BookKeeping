@@ -35,13 +35,7 @@
    			</classes> 
   			
  	</test>
- 	<test name= "SaleInToPartialReconcile_Subcontractor_DefaultProfile" enabled="true">  
-  		 
- 			<classes> 
-    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.SaleInToPartialReconcile_Subcontractor_DefaultProfile"/>
-   			</classes> 
-  			
- 	</test>
+ 	
  	
  	<test name= "ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
   		 

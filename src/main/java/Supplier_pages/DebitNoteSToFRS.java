@@ -240,8 +240,13 @@ String BNO;
 
  			Assert.fail("Unable to locate object: " + DateElem.toString());
          }
-
+ 		for(int i=0; i<10;i++)
+ 		{
+ 			elem.sendKeys(Keys.BACK_SPACE);
+ 		}
  		elem.sendKeys(Date);
+ 		elem.sendKeys(Keys.TAB);
+ 		
  		
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_Date " + Date);

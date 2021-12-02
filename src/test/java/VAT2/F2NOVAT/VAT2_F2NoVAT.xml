@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="F2novat_EditVATType" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2novat_EditVATType">
+</class>
+</classes>
+</test>
+<test name="F2noVat_SaleInToReconcile_1" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1">
+</class>
+</classes>
+</test>
+<test name="F2noVat_SaleInToReconcileForCreditNote_1" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1">
+</class>
+</classes>
+</test>
+<test name="F2noVat_SaleInToReconcileForVATOnly_1" enabled ="false">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1">
+</class>
+</classes>
+</test>
+<test name="F2noVat_ScriptVATReturn1stVATReturnReport_1" enabled ="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1">
+</class>
+</classes>
+</test>
+<test name="F2noVat_ScriptVATReturn2stVATReturnReport" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2">
+</class>
+</classes>
+</test>
+<test name="ScriptVATReturn3stVATReturnReport_SToFlat_3" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3">
+</class>
+</classes>
+</test>
+<test name="F2noVat_scriptaddvatrate_addvatrate1_1" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1">
+</class>
+</classes>
+</test>
+<test name="F2noVat_ScriptPostVATReturn1stVATReturnReport_1" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1">
+</class>
+</classes>
+</test>
+<test name="F2noVat_ScriptPostVATReturn2stVATReturnReport_2" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2">
+</class>
+</classes>
+</test>
+<test name="F2noVat_ScriptPostVATReturn3stVATReturnReport_3" enabled="true">
+<classes>
+		<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3">
+</class>
+</classes>
+</test>
+ </suite>    
+         
+         
+         
+
+ 
+
+         
+         
+         
+
+ 

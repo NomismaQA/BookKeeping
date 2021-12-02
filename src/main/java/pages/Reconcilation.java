@@ -37,7 +37,7 @@ public class Reconcilation extends BasePage
 	private By plussignElem = By.xpath("//*[@id='ctl00_cPH_Divtab']/div/div[2]/div/div/div/table[2]/tbody/tr/td/table[2]/tbody/tr/td/a/i");
 	private By SelectAccountType1Elem = By.xpath("//SELECT[@name='ctl00$cPHFilter$ddlAccountType']");
 
-	private By SelectAccount1Elem = By.xpath("//SELECT[@name='ctl00$cPHFilter$ddlAccount']");
+	private By SelectAccount1Elem = By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlAccount']");
 
 	private By View_Reconciled_button1Elem = By.xpath("//A[@id='ctl00_cpHeaderRight_btnReconciled']");
 
@@ -198,9 +198,21 @@ dropdown.selectByVisibleText(SelectAccountType1);
 
  			Assert.fail("Unable to locate object: " + SelectAccount1Elem.toString());
          }
+ 		
+// 		elem.sendKeys(Keys.ENTER);
+// 		Thread.sleep(1000);
+// 		
+// 		Select dropdown = new Select(elem);
+//
+// 		dropdown.selectByVisibleText(SelectAccount1);
+ 		
+ 		
 	elem.sendKeys(Keys.ENTER);
+	
 	elem.sendKeys(Keys.DOWN);
+	
 	elem.sendKeys(Keys.ARROW_DOWN,Keys.RETURN);
+//	
 //	Thread.sleep(1000);
 //	elem.sendKeys(Keys.ARROW_DOWN);
 //String k=SelectAccount1;

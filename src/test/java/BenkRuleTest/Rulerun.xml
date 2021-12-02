@@ -7,19 +7,19 @@
 </listeners>
 <test name="tr_nidbanktrn" enabled="true">
 <classes>
-<class name="tests.Bank_Rule.tr_nidbanktrn">
+<class name="BenkRuleTest.tr_nidbanktrn">
 </class>
 </classes>
 </test>
 <test name="Rule1_rule1" enabled="true">
 <classes>
-<class name="tests.Bank_Rule.Rule1_rule1">
+<class name="BenkRuleTest.Rule1_rule1">
 </class>
 </classes>
 </test>
 <test name="UnreconsiledInterface_RunRule1" enabled="true">
 <classes>
-<class name="tests.Bank_Rule.UnreconsiledInterface_RunRule1">
+<class name="BenkRuleTest.UnreconsiledInterface_RunRule1">
 </class>
 </classes>
 </test>
