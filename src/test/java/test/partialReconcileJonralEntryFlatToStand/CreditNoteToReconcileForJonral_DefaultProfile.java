@@ -169,8 +169,8 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
 //  _SaleCreditNote.Click_Tickformorelineitems();
   
 
-  TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
-  _SaleCreditNote.Enter_Note(data[13]);
+ // TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
+ // _SaleCreditNote.Enter_Note(data[13]);
   
 
   TestModellerLogger.SetLastNodeGuid("ff1a8f18-679c-4fbe-b321-b4eb48b484a1");
@@ -454,8 +454,8 @@ _SaleCreditNote.Select_VATRateType(data[12]);
 //_SaleCreditNote.Click_Tickformorelineitems();
 
 
-TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
-_SaleCreditNote.Enter_Note(data[13]);
+//TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
+//_SaleCreditNote.Enter_Note(data[13]);
 
 
 TestModellerLogger.SetLastNodeGuid("ff1a8f18-679c-4fbe-b321-b4eb48b484a1");
@@ -739,8 +739,8 @@ _SaleCreditNote.Select_VATRateType(data[12]);
 //_SaleCreditNote.Click_Tickformorelineitems();
 
 
-TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
-_SaleCreditNote.Enter_Note(data[13]);
+//TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
+//_SaleCreditNote.Enter_Note(data[13]);
 
 
 TestModellerLogger.SetLastNodeGuid("ff1a8f18-679c-4fbe-b321-b4eb48b484a1");
@@ -1023,8 +1023,8 @@ _SaleCreditNote.Select_VATRateType(data[12]);
 //_SaleCreditNote.Click_Tickformorelineitems();
 
 
-TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
-_SaleCreditNote.Enter_Note(data[13]);
+//TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
+//_SaleCreditNote.Enter_Note(data[13]);
 
 
 TestModellerLogger.SetLastNodeGuid("ff1a8f18-679c-4fbe-b321-b4eb48b484a1");
@@ -1307,8 +1307,8 @@ _SaleCreditNote.Select_VATRateType(data[12]);
 //_SaleCreditNote.Click_Tickformorelineitems();
 
 
-TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
-_SaleCreditNote.Enter_Note(data[13]);
+//TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
+//_SaleCreditNote.Enter_Note(data[13]);
 
 
 TestModellerLogger.SetLastNodeGuid("ff1a8f18-679c-4fbe-b321-b4eb48b484a1");
@@ -1591,8 +1591,8 @@ _SaleCreditNote.Select_VATRateType(data[12]);
 //_SaleCreditNote.Click_Tickformorelineitems();
 
 
-TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
-_SaleCreditNote.Enter_Note(data[13]);
+//TestModellerLogger.SetLastNodeGuid("fa3946b2-757a-40c9-9974-911d0544a386");
+//_SaleCreditNote.Enter_Note(data[13]);
 
 
 TestModellerLogger.SetLastNodeGuid("ff1a8f18-679c-4fbe-b321-b4eb48b484a1");

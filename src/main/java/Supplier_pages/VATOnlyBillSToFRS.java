@@ -427,7 +427,7 @@ public class VATOnlyBillSToFRS extends BasePage
 	
 	for(int i=1; i<rowcount; i++)
 	{
-		//int j=i-1;
+		int j=i-1;
 		System.out.println("Hi loop"+i);
 		//*[@id="ctl00_cPH_divfiltrec"]/div/div/table/tbody/tr[1]/td[2]
 		

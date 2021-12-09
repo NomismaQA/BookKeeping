@@ -6,69 +6,69 @@
 <listener class-name="reports.ExtentTestListener" />
 </listeners>
 <test name="ScriptEditSettingToVATType_StoF_Cus" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.ScriptEditSettingToVATType_StoF_Cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="SaleInToReconcile_DefaultProfile_StoF_Cus" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.SaleInToReconcile_DefaultProfile_StoF_Cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="SaleInToReconcileForCreditNote_StoF_Cus" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.SaleInToReconcileForCreditNote_StoF_Cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="SaleInToReconcileForVATOnly_StoF_Cus" enabled ="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.SaleInToReconcileForVATOnly_StoF_Cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="ScriptVATReturn1stVATReturnReport_SToFlat_cus" enabled ="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.pre1_ScriptVATReturn1stVATReturnReport_SToFlat_cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="ScriptVATReturn2stVATReturnReport_SToFlat_cus" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.pre2_ScriptVATReturn2stVATReturnReport_SToFlat_cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="ScriptVATReturn3stVATReturnReport_SToFlat_cus" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.pre3_ScriptVATReturn3stVATReturnReport_SToFlat_cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="scriptaddvatrate_addvatrate_StoF_Cus" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.scriptaddvatrate_addvatrate_StoF_Cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="ScriptPostVATReturn2stVATReturnReport_SToFlat" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.ScriptPostVATReturn2stVATReturnReport_SToFlat">
-</class>
+	</class>
 </classes>
 </test>
 <test name="ScriptPostVATReturn3stVATReturnReport_SToFlat_cus" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.ScriptPostVATReturn3stVATReturnReport_SToFlat_cus">
-</class>
+	</class>
 </classes>
 </test>
 <test name="ScriptPostVATReturn3stVATReturnReport_SToFlat" enabled="true">
-<classes>
+	<classes>
 		<class name="VAT2.S2F.ScriptPostVATReturn3stVATReturnReport_SToFlat">
-</class>
+	</class>
 </classes>
 </test>
  </suite>    

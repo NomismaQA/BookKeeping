@@ -116,9 +116,57 @@ public class VATReturn1stVATReturnReport extends BasePage
 		
 		WebElement VATType=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlVATTypeCategory']"));
 		Select sl=new Select(VATType);
-		VATType.click();
+		          VATType.click();
 				VATType.sendKeys(Keys.ARROW_DOWN);
 				VATType.sendKeys(Keys.ENTER);
+		
+		
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHeaderRight_btnVatExportToExcel']")).click();
+		//m_Driver.findElement(By.id("ctl00_cpHeaderRight_btnVatExportToExcel")).click();
+		Thread.sleep(1500);
+		//elem.click();
+         	
+          	
+		ExtentReportManager.passStep(m_Driver, "Click_VATReturnsTAB");
+
+		TestModellerLogger.PassStep(m_Driver, "Click_VATReturnsTAB");
+	}
+
+	public void Click_VATReturnsTAB1() throws InterruptedException, HeadlessException, IOException, AWTException
+	{
+        
+		WebElement elem = getWebElement(VATReturnsTABElem);
+		
+		if (elem == null) {
+    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Click_VATReturnsTAB", "Click_VATReturnsTAB failed. Unable to locate object: " + VATReturnsTABElem.toString());
+
+    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Click_VATReturnsTAB", "Click_VATReturnsTAB failed. Unable to locate object: " + VATReturnsTABElem.toString());
+
+			Assert.fail("Unable to locate object: " + VATReturnsTABElem.toString());
+        }
+		
+		//elem//.click();
+		
+		
+		jsExec.executeScript("arguments[0].click();", elem);
+		Thread.sleep(100);
+		ClientSelect c=new ClientSelect(m_Driver);
+		dumpname=c.client1();
+		String finaldumpname = dumpname+"AfterVATRetDump";
+		Screenshotcapture.captureAsImage(m_Driver, finaldumpname);
+	
+		//Thread.sleep(1000);
+		//ChangeWindow.tabswitch(m_Driver);
+		//Thread.sleep(1000);
+		//*[@id="ctl00_cPH_rptrDisplayRecords_ctl00_lnkView"]/img
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit']/img")).click();
+		Thread.sleep(1000);
+		
+//		WebElement VATType=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlVATTypeCategory']"));
+//		Select sl=new Select(VATType);
+//		          VATType.click();
+//				VATType.sendKeys(Keys.ARROW_DOWN);
+//				VATType.sendKeys(Keys.ENTER);
 		
 		
 		m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHeaderRight_btnVatExportToExcel']")).click();

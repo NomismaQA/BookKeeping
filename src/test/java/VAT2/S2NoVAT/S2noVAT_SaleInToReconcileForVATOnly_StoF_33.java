@@ -332,7 +332,7 @@ pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
     
 
     TestModellerLogger.SetLastNodeGuid("9afd81f0-5ffc-4b6b-9602-9604f0d3d258");
-    _AgentSearch.Enter_ctl00cPHFiltertxtAgentName("Nidhi1");
+    _AgentSearch.Enter_ctl00cPHFiltertxtAgentName(data[3]);
     
 
     TestModellerLogger.SetLastNodeGuid("07dbb419-90f6-4465-abc7-dbab418b3c97");
@@ -351,7 +351,7 @@ pages.Searchclient _Searchclient = new pages.Searchclient(driver);
     
 
     TestModellerLogger.SetLastNodeGuid("a71cb6de-7787-4e86-ac83-a09ab1ce3b13");
-    _Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany("NidhiEnt");
+    _Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(data[4]);
     
 
     TestModellerLogger.SetLastNodeGuid("0bc6f8c0-4fab-4c48-8dae-0d9405954fc9");

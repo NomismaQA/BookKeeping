@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterFile" verbose="10">
+
+
+
+<test name= "SupplierAdvanceReconcileByBank_FlatToNoVAT" enabled="true">  
+ 	<classes>
+			
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.ScriptEditVATFlatP_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.SaleInToPartialReconcile_SupplierBill_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.SaleInToPartialReconcile_DebitNote_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.ScriptFlatToFlatP_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.ScriptPostVATReturn2stVATReturnReport_DefaultProfile"/>
+			<class name= "AdvanceReconcileByBankForSupplierBillFlatToNoVAT.ScriptPostVATReturn3stVATReturnReport_DefaultProfile"/>
+			
+
+ 	</classes> 
+ 	</test>
+
+ 	
+  <test name= "SupplierAdvanceReconcileByBank_FlatToStandard" enabled="true">  
+ 	<classes>
+			
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn2stVATReturnReport_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn3stVATReturnReport_DefaultProfile"/>
+
+			
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "SupplierAdvanceReconcileByBank_StandToFlat" enabled="true">  
+ 	<classes>
+			
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.SaleInToPartialReconcile_SupplierBill_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.SaleInToPartialReconcile_DebitNote_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptFlatToFlatP_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptPostVATReturn2stVATReturnReport_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptPostVATReturn3stVATReturnReport_DefaultProfile"/>
+
+
+			
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "SupplierAdvanceReconcileByBank_StandToNoVAT" enabled="true">  
+ 	<classes>
+			
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.SaleInToPartialReconcile_SupplierBill_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.SaleInToPartialReconcile_DebitNote_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.ScriptFlatToFlatP_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.ScriptPostVATReturn2stVATReturnReport_DefaultProfile"/>
+				<class name= "AdvanceReconcileByBankForSupplierBillStandToNoVAT.ScriptPostVATReturn3stVATReturnReport_DefaultProfile"/>
+
+
+
+			
+
+ 	</classes> 
+ 	</test>
+ 	 
+ 	 
+ 	 <test name= "Supplier_FlatToFlatPer" enabled="true">  
+ 	<classes>
+				<class name= "Supplier_FRSToFRSP.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptSupplierBill_FRSToFRSP_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptDebitNoteFRSToFRSP_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptVATOnlyBill_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptSubcontractorBill_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptVATReturn1stVATReturnReport_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptVATReturn2stVATReturnReport_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptVATReturn3stVATReturnReport_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.Script5FlatToFlatPercentage_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptVerifySupplierAddRecord_FRSTOStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptPostVATReturn1stVATReturnReport_FRSTOStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptPostVATReturn2stVATReturnReport_FRSTOStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptPostVATReturn3stVATReturnReport_FRSTOStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_FRSToFRSP.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
+
+
+
+ 	</classes> 
+ 	</test>
+
+ <test name= "Supplier_FlatToNoVAT" enabled="true">  
+ 	<classes>
+				<class name= "Supplier_FRSToNoVAT.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptSupplierBill_FRSToNoVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptDebitNoteFRSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptVATOnlyBill_FRSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptSubcontractorBill_FRSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptVATReturn1stVATReturnReport_FRSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptVATReturn2stVATReturnReport_FRSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptVATReturn3stVATReturnReport_FRSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptFRSToNoVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptVerifySupplierAddRecord_FRSTONOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptPostVATReturn1stVATReturnReport_FRSTONOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptPostVATReturn2stVATReturnReport_FRSTONOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptPostVATReturn3stVATReturnReport_FRSTONOVAT_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_FRSToNoVAT.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "Supplier_FlatToStandard" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "Supplier_FRSToStandard.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptSupplierBill_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptDebitNoteFRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptVATOnlyBill_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptSubcontractorBill_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptVATReturn1stVATReturnReport_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptVATReturn2stVATReturnReport_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptVATReturn1stVATReturnReport_FRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptFRSToStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptVerifySupplierAddRecord_FRSTOStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptPostVATReturn1stVATReturnReport_FRSTOStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptPostVATReturn2stVATReturnReport_FRSTOStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptPostVATReturn3stVATReturnReport_FRSTOStandard_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_FRSToStandard.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
+
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "Supplier_StandardToFlat" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "Supplier_STNDToFRS.ScriptEditSettingToVATType_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptSupplierBillSToFRS_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptDebitNoteSToFRS_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptVATOnlyBillSToFRS_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptSubcontractorBillSToFRS_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptStandardToFlat_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptVerifySupplierAddRecordSTOFRS_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_STNDToFRS.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "Supplier_StandardToNoVAT" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "Supplier_SToNoVAT.ScriptEditSettingToVATType_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptSupplierBillSToNoVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptDebitNoteSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptVATOnlyBillSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptSubcontractorBillSToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptVATReturn1stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptVATReturn2stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptVATReturn3stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.Script_Suopplier_StandardToNOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptVerifySupplierAddRecordSTONOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptPostVATReturn1stVATReturnReport_STONOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptPostVATReturn2stVATReturnReport_STONOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptPostVATReturn3stVATReturnReport_STONOVAT_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile"/>
+				<class name= "Supplier_SToNoVAT.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "AdvanceReconcileFLATTOFLATP" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.SaleInToReconcile_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.SaleInToReconcileForCreditNote_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.SaleInToReconcileForVATOnly_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.ScriptFlatToFlatPercentage_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOFLATP.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "AdvanceReconcileFLATTOSTAND" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.SaleInToReconcile_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.SaleInToReconcileForCreditNote_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.SaleInToReconcileForVATOnly_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.ScriptFRSTOStandard_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationFLATTOSTAND.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "AdvanceReconcileSToFlat" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "test.AdvanceReconcilationSTOFLAT.ScriptEditSettingToVATType_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.SaleInToReconcile_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.SaleInToReconcileForCreditNote_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.SaleInToReconcileForVATOnly_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.ScriptFlatToFlatPercentage_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.AdvanceReconcilationSTOFLAT.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	
+ 	<test name= "FlatToFlatP" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "test.FlatToFlatPer.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.Script_Invoice_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptSaleCreditNote_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptVATOnlyInvoice_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptVATReturn1stVATReturnReport_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptVATReturn2stVATReturnReport_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptVATReturn3stVATReturnReport_FlatToFlatPDefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptFlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptVerifyNewAddedRecord_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptPostVATReturn1stVATReturnReport_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptPostVATReturn2stVATReturnReport_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptPostVATReturn3stVATReturnReport_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptVerifyByTrialBalanceDefaultProfile_FlatToFlatP"/>
+				<class name= "test.FlatToFlatPer.ScriptVesrifyByTrialBalancePDF_FlatToFlatP_DefaultProfile"/>
+				<class name= "test.FlatToFlatPer.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_FlatToFlatP"/>
+
+
+ 	</classes> 
+ 	</test>
+
+	<test name= "FlatToStad" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "test.FlatToStandard.ScriptEditSettingToFlatRate_DefaultProfile"/>
+				<class name= "test.FlatToStandard.Script_Invoice_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptSaleCreditNote_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptVATOnlyInvoice_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptVATReturn1stVATReturnReport_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptVATReturn3stVATReturnReport_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptVATReturn3stVATReturnReport_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptFRSTOStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptVerifyNewAddedRecord_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptPostVATReturn1stVATReturnReport_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptPostVATReturn2stVATReturnReport_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptPostVATReturn3stVATReturnReport_FlatToStandard_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptVesrifyByTrialBalancePDFDefaultProfile_FlatToStand_DefaultProfile"/>
+				<class name= "test.FlatToStandard.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "FRSToNoVAT" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "tests.ScriptEditSettingToVATType_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.Script_Invoice_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptSaleCreditNote_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptVATOnlyInvoice_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptVATReturn1stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptVATReturn2stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptVATReturn3stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptStandardToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptVerifyNewAddedRecord_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptPostVATReturn1stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptPostVATReturn2stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptPostVATReturn3stVATReturnReport_SToNOVAT_DefaultProfile"/>
+				<class name= "tests.ScriptVerifyByTrialBalanceDefaultProfile_SToNOVAT"/>
+				<class name= "tests.ScriptVesrifyByTrialBalancePDFDefaultProfile_SToNOVAT"/>
+				<class name= "tests.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_SToNOVAT"/>
+
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "PartialReconcilationforFlatRate" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "test.PartialReconcileOnFlatRate.ScriptEditVATFlatP_OnlyFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.SaleInToReconcile_OnlyFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.SaleInToReconcileForCreditNote_OnlyFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.SaleInToReconcileForVATOnly_OnlyFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptVATReturn1stVATReturnReport__OnlyFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptVATReturn2stVATReturnReport__OnlyFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptVATReturn3stVATReturnReport__OnlyFlat_DefaultProfile"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	
+ 	<test name= "PartialReconcilationforStandardRate" enabled="true">  
+ 	<classes>
+ 	
+				<class name= "test.PartialReconcileOnStandard.ScriptEditSettingToVATType_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnStandard.SaleInToReconcile_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnStandard.SaleInToReconcileForCreditNote_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnStandard.SaleInToReconcileForVATOnly_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnStandard.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnStandard.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnStandard.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 		<test name= "PartialReconcilationforFlatRateToStandard" enabled="true">  
+ 	<classes>
+				 	
+				<class name= "test.PartialReconcileOnFlatRate.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.SaleInToReconcile_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.SaleInToReconcileForCreditNote_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.SaleInToReconcileForVATOnly_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptFRSTOStandard_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptPostVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptPostVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconcileOnFlatRate.ScriptPostVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 		<test name= "ReconciledStandardToFlatForCnote_VatOnly" enabled="true">  
+ 	<classes>
+				 	
+				<class name= "test.PartialReconciledCases.ScriptEditSettingToVATTypeForVatOnlyParReconci_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.SaleInToReconcileForCreditNote_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.SaleInToReconcileForVATOnly_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn1stVATReturnReport_NoVATOnly_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn2stVATReturnReport_NoVATOnly_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn3stVATReturnReport_NoVATOnly_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptStandardToFlat_CNAndVATOnly_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptPostVATReturn1stVATReturnReport_NoVATOnly"/>
+				<class name= "test.PartialReconciledCases.ScriptPostVATReturn2stVATReturnReport_NoVATOnly"/>
+				<class name= "test.PartialReconciledCases.ScriptPostVATReturn3stVATReturnReport_NoVATOnly"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 		<test name= "ReconciledStandardToFlatForInvoice" enabled="true">  
+ 	<classes>
+				 	
+				<class name= "test.PartialReconciledCases.ScriptEditSettingToVATType_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.SaleInToReconcile_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptStandardToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn1stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile"/>
+				<class name= "test.PartialReconciledCases.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT2_F2NoVAT" enabled="true">  
+ 	<classes>
+				 	
+				<class name="VAT2.F2NOVAT.F2novat_EditVATType"/>
+				<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1"/>
+				<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1"/>
+				<class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1"/>
+				<class name="VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1"/>
+				<class name="VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2"/>
+				<class name="VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3"/>
+				<class name="VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1"/>
+				<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1"/>
+				<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2"/>
+				<class name="VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3"/>
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT2_F2S" enabled="true">  
+ 	<classes>
+				 	
+				<class name="VAT2.F2S.ScriptEditSettingToVATType_DefaultProfile1"/>
+				<class name="VAT2.F2S.SaleInToReconcile_DefaultProfile1"/>
+				<class name="VAT2.F2S.SaleInToReconcileForCreditNote_DefaultProfile1"/>
+				<class name="VAT2.F2S.SaleInToReconcileForVATOnly_DefaultProfile1"/>
+				<class name="VAT2.F2S.ScriptVATReturn1stVATReturnReport_SToNOVAT_DefaultProfile1"/>
+				<class name="VAT2.F2S.ScriptVATReturn2stVATReturnReport_SToFlat_DefaultProfile1"/>
+				<class name="VAT2.F2S.ScriptVATReturn3stVATReturnReport_SToFlat_DefaultProfile1"/>
+				<class name="VAT2.F2S.scriptaddvatrate_addvatrate1"/>
+				<class name="VAT2.F2S.ScriptPostVATReturn1stVATReturnReport_SToNOVAT_DefaultProfile1"/>
+				<class name="VAT2.F2S.ScriptPostVATReturn2stVATReturnReport_SToFlat_DefaultProfile1"/>
+				<class name="VAT2.F2S.ScriptPostVATReturn3stVATReturnReport_SToFlat_DefaultProfile1"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "VAT2_S2F" enabled="true">  
+ 	<classes>
+				 	
+				<class name="VAT2.S2F.ScriptEditSettingToVATType_StoF_Cus"/>
+				<class name="VAT2.S2F.SaleInToReconcile_DefaultProfile_StoF_Cus"/>
+				<class name="VAT2.S2F.SaleInToReconcileForCreditNote_StoF_Cus"/>
+				<class name="VAT2.S2F.SaleInToReconcileForVATOnly_StoF_Cus"/>
+				<class name="VAT2.S2F.pre1_ScriptVATReturn1stVATReturnReport_SToFlat_cus"/>
+				<class name="VAT2.S2F.pre2_ScriptVATReturn2stVATReturnReport_SToFlat_cus"/>
+				<class name="VAT2.S2F.pre3_ScriptVATReturn3stVATReturnReport_SToFlat_cus"/>
+				<class name="VAT2.S2F.scriptaddvatrate_addvatrate_StoF_Cus"/>
+				<class name="VAT2.S2F.ScriptPostVATReturn2stVATReturnReport_SToFlat"/>
+				<class name="VAT2.S2F.ScriptPostVATReturn3stVATReturnReport_SToFlat_cus"/>
+				<class name="VAT2.S2F.ScriptPostVATReturn3stVATReturnReport_SToFlat"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	
+ 	<test name= "VAT2_S2NoVat" enabled="true">  
+ 	<classes>
+				 	
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptEditSettingToVATType_StoF_55"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcile_11"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForCreditNote_22"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForVATOnly_StoF_33"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptVATReturn1stVATReturnReport_SToFlat_60"/>
+				<class name="VAT2.S2NoVAT.ScriptVATReturn2stVATReturnReport_SToFlat_cus"/>
+				<class name="VAT2.S2NoVAT.ScriptVATReturn3stVATReturnReport_SToFlat_cus"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_scriptaddvatrate_addvatrate_StoF_44"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn2stVATReturnReport_56"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn2stVATReturnReport_SToFlat_57"/>
+				<class name="VAT2.S2NoVAT.S2noVAT_ScriptPostVATReturn3stVATReturnReport_58"/>
+
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "PartialReconcileForJonralEntryFlatToStand" enabled="true">  
+ 	<classes>
+				 	
+				<class name= "test.partialReconcileJonralEntryFlatToStand.ScriptEditSettingToVATType_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.SaleInToReconcileForJonral_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.CreditNoteToReconcileForJonral_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.VATOnlyToReconcileForJonral_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.ScriptStandardToFlat_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.ScriptPostVATReturn2stVATReturnReport_DefaultProfile"/>
+				<class name= "test.partialReconcileJonralEntryFlatToStand.ScriptPostVATReturn3stVATReturnReport_DefaultProfile"/>
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "PartialReconcileForJonralEntryOnlyforFlat" enabled="true">  
+ 	<classes>
+				 	
+				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.ScriptEditSettingToVATType_DefaultProfile"/>
+				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.SaleInToReconcileForJonral_DefaultProfile"/>
+				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.CreditNoteToReconcileForJonral_DefaultProfile"/>
+				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.VATOnlyToReconcileForJonral_DefaultProfile"/>
+				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "test.PartialReconcilationforOnlyFlatthroughJournalEntry.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+
+
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "ExpensesRembFlatToFlateP" enabled="true">  
+ 	<classes>
+				 	
+				<class name= "ExpenceRemFlatToFlatPer.ScriptEditVATFlatP_DefaultProfile"/>
+				<class name= "ExpenceRemFlatToFlatPer.SaleInToReconcileForExpenseRem_DefaultProfile"/>
+				<class name= "ExpenceRemFlatToFlatPer.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "ExpenceRemFlatToFlatPer.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "ExpenceRemFlatToFlatPer.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+				<class name= "ExpenceRemFlatToFlatPer.ScriptFlatToFlatP_DefaultProfile"/>
+				<class name= "ExpenceRemFlatToFlatPer.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+				<class name= "ExpenceRemFlatToFlatPer.ScriptPostVATReturn2stVATReturnReport_DefaultProfile"/>
+				<class name= "ExpenceRemFlatToFlatPer.ScriptPostVATReturn3stVATReturnReport_DefaultProfile"/>
+
+ 	</classes> 
+ 	</test>
+ 	
+</suite>    
+         
+         
+         
+
+ 

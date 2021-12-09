@@ -35,7 +35,7 @@ public class Test_Find_Match extends TestBase
 //    
     @Test  (groups= {"SaleInvoice","SaleInvoice - Default Profile"})
     @TestModellerPath(guid = "a6ea7f10-1830-474a-b799-15d8c748d678")
-    public void GoToUrlAssertUrlClickSalesTabClickNewButtonClickNewInvoicePositiveSelectCustomerNamePositiveGoToUrlAssertUrlClickSalesTabClickNewButtonClickNewInvoicePositiveSelectCustomerNamePositiveunreconciledtTransactionNewTransactionLedgerCode1070FindAndSearchIconInvoiceReconciledClickReconcileButton() throws InterruptedException, HeadlessException, IOException, AWTException, InvalidFormatException
+    public void GoToUrlAssertUrlClickSalesTabClickNewButtonClickNewInvoicePositiveSelectCustomerNamePositiveGoToUrlAssertUrlClickSalesTabClickNewButtonClickNewInvoicePositiveSelectCustomerNamePositiveunreconciledtTransactionNewTransactionLedgerCode1070FindAndSearchIconInvoiceReconciledClickReconcileButton_1() throws InterruptedException, HeadlessException, IOException, AWTException, InvalidFormatException
     {
     	 sTestCaseID="TC7"; 
    	  Sheet="BankingBank"; 
@@ -357,7 +357,7 @@ TestModellerLogger.SetLastNodeGuid("d0e7d4a2-32cb-48b0-b4da-56a9fea2e49b");
   
   Thread.sleep(5000);
   
-  _Search_Find.Select_Invoice();
+  _Search_Find.Select_Invoice(data[7]);
   
   pages.BankNewTransaction _ReconcilationTransaction2 = new  pages.BankNewTransaction(driver); 
 
@@ -745,7 +745,7 @@ TestModellerLogger.SetLastNodeGuid("d0e7d4a2-32cb-48b0-b4da-56a9fea2e49b");
   
   Thread.sleep(5000);
   
-  _Search_Find.Select_Invoicepartial();
+  _Search_Find.Select_Invoicepartial(data[7]);
   
   pages.BankNewTransaction _ReconcilationTransaction2 = new  pages.BankNewTransaction(driver); 
 
@@ -1133,7 +1133,7 @@ _Search_Find.Click_Search_btn_click6();
 
 Thread.sleep(5000);
 
-_Search_Find.Select_Invoicejou();
+_Search_Find.Select_Invoicejou(data[7]);
 //
 pages.BankNewTransaction _ReconcilationTransaction2 = new  pages.BankNewTransaction(driver); 
 

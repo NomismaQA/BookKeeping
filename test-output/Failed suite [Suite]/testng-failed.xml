@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="reports.TestNGListener"/>
+    <listener class-name="reports.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="bank_trans_Spntamt(failed)(failed)" verbose="10">
+    <classes>
+      <class name="tests.Bank_new_Trans.bank_trans_Spntamt">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl1"/>
+        </methods>
+      </class> <!-- tests.Bank_new_Trans.bank_trans_Spntamt -->
+    </classes>
+  </test> <!-- bank_trans_Spntamt(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -271,8 +271,22 @@ public class FlatToFlat extends BasePage
 			Assert.fail("Unable to locate object: " + DefaultFlatRateElem.toString());
         }
 
+		WebElement ele=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']"));
+		boolean a=ele.isSelected();
+		
+		if(true==a)
+		{
+			ele.click();
+		}
+		else
+		{
+			System.out.println("ok");
+		}
+		
+		
+		
 		//elem.click();
-		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']")).click();
+	
         
 		m_Driver.switchTo().defaultContent();
   	

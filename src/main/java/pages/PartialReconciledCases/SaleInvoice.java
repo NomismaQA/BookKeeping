@@ -46,7 +46,7 @@ public class SaleInvoice extends BasePage
 
 	private By InvoiceNoElem = By.id("ctl00_cPH_txtInvoiceNo");
 
-	private By InvoiceDateElem = By.id("ctl00_cPH_txtInvoiceDate");
+	private By InvoiceDateElem = By.xpath("//*[@id='ctl00_cPH_txtInvoiceDate']");
 
 	private By IncomeTypeElem = By.id("ctl00_cPH_rptrProduct_ctl00_ddProduct");
 
@@ -259,18 +259,23 @@ public class SaleInvoice extends BasePage
 
  			Assert.fail("Unable to locate object: " + InvoiceDateElem.toString());
          }
- 		elem.sendKeys(Keys.ENTER);
+ 		
 		//elem.sendKeys(InvoiceDate);
 		for(int i=0;i<=9;i++)
 		{
-			m_Driver.findElement(By.id("ctl00_cPH_txtInvoiceDate")).sendKeys(Keys.DELETE);
+			m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_txtInvoiceDate']")).sendKeys(Keys.BACK_SPACE);
  		}
+		elem.sendKeys(InvoiceDate);
+		elem.sendKeys(Keys.TAB);
+		
+		
+		
  		//elem.clear();
 		//elem.sendKeys(InvoiceDate);
-		m_Driver.findElement(By.id("ctl00_cPH_txtInvoiceDate")).sendKeys(InvoiceDate);
- 	
-
-	m_Driver.findElement(By.id("ctl00_cPH_txtInvoiceDate")).sendKeys(Keys.TAB);
+//		m_Driver.findElement(By.id("ctl00_cPH_txtInvoiceDate")).sendKeys(InvoiceDate);
+// 	
+//
+//	m_Driver.findElement(By.id("ctl00_cPH_txtInvoiceDate")).sendKeys(Keys.TAB);
 // 		
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_InvoiceDate " + InvoiceDate);

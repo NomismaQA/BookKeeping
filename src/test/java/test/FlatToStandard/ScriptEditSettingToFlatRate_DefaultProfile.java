@@ -250,6 +250,8 @@ pages.EditSettingToStandard _EditSettingToStandard = new pages.EditSettingToStan
     TestModellerLogger.SetLastNodeGuid("caa4ec7f-5c3f-4dc5-a5a0-b798ccb83a18");
     _EditSettingToStandard.Select_SelectVATType(data[5]);
     
+   
+    
 
     TestModellerLogger.SetLastNodeGuid("e4d8d7c9-bc58-407d-bc46-cbb6f678bad3");
     _EditSettingToStandard.Click_SaveButton();

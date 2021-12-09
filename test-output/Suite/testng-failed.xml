@@ -5,18 +5,34 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="ScriptStandardToFlat_DefaultProfile(failed)" verbose="10">
+  <test thread-count="5" name="SaleInToReconcileForJonral_DefaultProfile(failed)" verbose="10">
     <classes>
-      <class name="AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile">
+      <class name="test.partialReconcileJonralEntrySToFlat.SaleInToReconcileForJonral_DefaultProfile">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.partialReconcileJonralEntrySToFlat.SaleInToReconcileForJonral_DefaultProfile -->
+    </classes>
+  </test> <!-- SaleInToReconcileForJonral_DefaultProfile(failed) -->
+  <test thread-count="5" name="CreditNoteToReconcileForJonral_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="test.partialReconcileJonralEntrySToFlat.CreditNoteToReconcileForJonral_DefaultProfile">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
           <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4"/>
         </methods>
-      </class> <!-- AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile -->
+      </class> <!-- test.partialReconcileJonralEntrySToFlat.CreditNoteToReconcileForJonral_DefaultProfile -->
     </classes>
-  </test> <!-- ScriptStandardToFlat_DefaultProfile(failed) -->
+  </test> <!-- CreditNoteToReconcileForJonral_DefaultProfile(failed) -->
 </suite> <!-- Failed suite [Suite] -->

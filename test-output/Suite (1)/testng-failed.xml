@@ -5,18 +5,18 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="scriptaddvatrate_addvatrate1(failed)" verbose="10">
+  <test thread-count="5" name="SaleInToReconcile_DefaultProfile(failed)" verbose="10">
     <classes>
-      <class name="VAT2.F2S.scriptaddvatrate_addvatrate1">
+      <class name="test.PartialReconcileOnStandard.SaleInToReconcile_DefaultProfile">
         <methods>
-          <include name="addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7"/>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6"/>
         </methods>
-      </class> <!-- VAT2.F2S.scriptaddvatrate_addvatrate1 -->
+      </class> <!-- test.PartialReconcileOnStandard.SaleInToReconcile_DefaultProfile -->
     </classes>
-  </test> <!-- scriptaddvatrate_addvatrate1(failed) -->
+  </test> <!-- SaleInToReconcile_DefaultProfile(failed) -->
 </suite> <!-- Failed suite [Suite (1)] -->

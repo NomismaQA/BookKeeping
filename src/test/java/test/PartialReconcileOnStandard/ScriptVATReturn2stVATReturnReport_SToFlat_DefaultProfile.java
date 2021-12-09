@@ -117,7 +117,7 @@ pages.VATReturn2stVATReturnReport _VATReturn2stVATReturnReport = new pages.VATRe
     TestModellerLogger.SetLastNodeGuid("21719f97-70cf-400b-841d-fcd475e03ef5");
     _VATReturn2stVATReturnReport.Click_VATReturnsTAB2();
     
-
+    
     TestModellerLogger.SetLastNodeGuid("49135dbe-f8dd-4acd-9409-1debc577f7b8");
     _VATReturn2stVATReturnReport.Click_SettingTab2();
     

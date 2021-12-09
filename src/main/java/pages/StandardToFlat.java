@@ -274,11 +274,17 @@ public class StandardToFlat extends BasePage
 
 			Assert.fail("Unable to locate object: " + DefaultFlatRateElem.toString());
         }
-//jsExec.executeScript("arguments", null)
-		//elem.click();
-		//m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']")).click();
-        
-		//*[@id="ctl00_cPH_chkUseDefaultRate"]
+		WebElement ele=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']"));
+		boolean a=ele.isSelected();
+		
+		if(true==a)
+		{
+			ele.click();
+		}
+		else
+		{
+			System.out.println("ok");
+		}
 		m_Driver.switchTo().defaultContent();
   	
 
@@ -307,7 +313,7 @@ public class StandardToFlat extends BasePage
  			Assert.fail("Unable to locate object: " + OverrideFlatRateElem.toString());
          }
  		//elem.clear();
- 		elem.sendKeys(Keys.DELETE);
+ 		elem.sendKeys(Keys.CLEAR);
  		elem.sendKeys(OverrideFlatRate);
  		
 		m_Driver.switchTo().defaultContent();

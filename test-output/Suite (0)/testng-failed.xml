@@ -5,18 +5,18 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="F2noVat_SaleInToReconcileForCreditNote_1(failed)" verbose="10">
+  <test thread-count="5" name="SaleInToReconcile_OnlyFlat_DefaultProfile(failed)" verbose="10">
     <classes>
-      <class name="VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1">
+      <class name="test.PartialReconcileOnFlatRate.SaleInToReconcile_OnlyFlat_DefaultProfile">
         <methods>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6"/>
           <include name="initDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1 -->
+      </class> <!-- test.PartialReconcileOnFlatRate.SaleInToReconcile_OnlyFlat_DefaultProfile -->
     </classes>
-  </test> <!-- F2noVat_SaleInToReconcileForCreditNote_1(failed) -->
+  </test> <!-- SaleInToReconcile_OnlyFlat_DefaultProfile(failed) -->
 </suite> <!-- Failed suite [Suite (0)] -->

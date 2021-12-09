@@ -999,7 +999,7 @@ System.out.println("Transaction number is"    +krno2);
 /*Click on Back Button*/
 m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHeaderRight_btnCancel']")).click();
 pages.new_bank_trans.src_Trans_num _t=new pages.new_bank_trans.src_Trans_num(m_Driver);
-_t.Select_Sbnk_act("Bank_st");
+_t.Select_Sbnk_act("AA@Ashiv");
 	_t.Select_Search_category("Transaction No");
 			_t.Enter_Enter_code(krno2);
 	_t.Click_Update_btn();

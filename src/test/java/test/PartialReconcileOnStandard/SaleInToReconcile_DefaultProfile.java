@@ -164,9 +164,9 @@ pages.PartialReconciledCases.SaleInvoice _SaleInvoice = new pages.PartialReconci
 //    TestModellerLogger.SetLastNodeGuid("cb6d5101-0be0-4519-b1aa-5e71dcdfbef3");
 //    _SaleInvoice.Click_Tickformorelineitems();
     
-
-    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
-    _SaleInvoice.Enter_Note(data[13]);
+//
+//    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
+//    _SaleInvoice.Enter_Note(data[13]);
     
 
     TestModellerLogger.SetLastNodeGuid("2508d3fa-348f-48f2-914a-4d43591ded90");
@@ -446,8 +446,8 @@ pages.PartialReconciledCases.SaleInvoice _SaleInvoice = new pages.PartialReconci
 //    _SaleInvoice.Click_Tickformorelineitems();
 //    
 
-    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
-    _SaleInvoice.Enter_Note(data[13]);
+ //   TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
+ //   _SaleInvoice.Enter_Note(data[13]);
     
 
     TestModellerLogger.SetLastNodeGuid("2508d3fa-348f-48f2-914a-4d43591ded90");
@@ -728,8 +728,8 @@ pages.PartialReconciledCases.SaleInvoice _SaleInvoice = new pages.PartialReconci
 //    _SaleInvoice.Click_Tickformorelineitems();
 //    
 
-    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
-    _SaleInvoice.Enter_Note(data[13]);
+//   TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
+//    _SaleInvoice.Enter_Note(data[13]);
     
 
     TestModellerLogger.SetLastNodeGuid("2508d3fa-348f-48f2-914a-4d43591ded90");
@@ -1012,8 +1012,8 @@ pages.PartialReconciledCases.SaleInvoice _SaleInvoice = new pages.PartialReconci
 //    _SaleInvoice.Click_Tickformorelineitems();
 //    
 
-    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
-    _SaleInvoice.Enter_Note(data[13]);
+//    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
+  //  _SaleInvoice.Enter_Note(data[13]);
     
 
     TestModellerLogger.SetLastNodeGuid("2508d3fa-348f-48f2-914a-4d43591ded90");
@@ -1291,8 +1291,8 @@ pages.PartialReconciledCases.SaleInvoice _SaleInvoice = new pages.PartialReconci
 //    _SaleInvoice.Click_Tickformorelineitems();
 //    
 
-    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
-    _SaleInvoice.Enter_Note(data[13]);
+ //   TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
+  //  _SaleInvoice.Enter_Note(data[13]);
     
 
     TestModellerLogger.SetLastNodeGuid("2508d3fa-348f-48f2-914a-4d43591ded90");
@@ -1551,8 +1551,9 @@ pages.PartialReconciledCases.SaleInvoice _SaleInvoice = new pages.PartialReconci
     TestModellerLogger.SetLastNodeGuid("294097b8-ccc5-4eb7-baec-1a26ca1364f0");
     _SaleInvoice.Select_IncomeType(data[8]);
     
-
-    TestModellerLogger.SetLastNodeGuid(data[9]);
+    
+    _SaleInvoice.Enter_Description(data[9]);
+   
     
 
     TestModellerLogger.SetLastNodeGuid("73677a32-1892-47f6-9783-a1072478778a");
@@ -1571,8 +1572,8 @@ pages.PartialReconciledCases.SaleInvoice _SaleInvoice = new pages.PartialReconci
 //    _SaleInvoice.Click_Tickformorelineitems();
     
 
-    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
-    _SaleInvoice.Enter_Note(data[13]);
+//    TestModellerLogger.SetLastNodeGuid("6aeae28b-fd85-4712-8710-18e4b190dd19");
+ //   _SaleInvoice.Enter_Note(data[13]);
     
 
     TestModellerLogger.SetLastNodeGuid("2508d3fa-348f-48f2-914a-4d43591ded90");

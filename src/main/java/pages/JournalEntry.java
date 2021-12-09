@@ -139,8 +139,8 @@ public class JournalEntry extends BasePage
      */
  	public void Enter_Enter_tDate(String Enter_tDate) throws InterruptedException
  	{
- 	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+ 		//*[@id="ctl00_cPH_journalmodal1Iframe1"]
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
 
  		WebElement elem = getWebElement(Enter_tDateElem);
 
@@ -167,8 +167,8 @@ public class JournalEntry extends BasePage
  	public void Enter_Reverse_Date(String Reverse_Date)
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
  		WebElement elem = getWebElement(Reverse_DateElem);
 
  		if (elem == null) {
@@ -197,8 +197,8 @@ public class JournalEntry extends BasePage
     public void Select_Slect_Currency(String Slect_Currency) throws InterruptedException
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+		//m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
  		WebElement elem = getWebElement(Slect_CurrencyElem);
 
  		if (elem == null) {
@@ -228,8 +228,8 @@ public class JournalEntry extends BasePage
  	public void Enter_Enter_Description(String Enter_Description) throws InterruptedException
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+		//m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
  		WebElement elem = getWebElement(Enter_DescriptionElem);
 
  		if (elem == null) {
@@ -262,8 +262,8 @@ public class JournalEntry extends BasePage
  	public void Enter_Clickaccountbox(String Clickaccountbox) throws InterruptedException
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
  		WebElement elem = getWebElement(ClickaccountboxElem);
 
 // 		if (elem == null) {
@@ -288,7 +288,7 @@ public class JournalEntry extends BasePage
  try {
 	Thread.sleep(3000);
 } catch (InterruptedException e) {
-	// TODO Auto-generated catch block18002585970   2094
+	
 	e.printStackTrace();
 }
  		//elem.sendKeys(Clickaccountbox);
@@ -310,8 +310,8 @@ public class JournalEntry extends BasePage
  	public void Enter_Enter_Debit(String Enter_Debit)
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
  		WebElement elem = getWebElement(Enter_DebitElem);
 
  		if (elem == null) {
@@ -339,8 +339,8 @@ public class JournalEntry extends BasePage
  	public void Enter_Enter_Note(String Enter_Note)
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
  		WebElement elem = getWebElement(Enter_NoteElem);
 
  		if (elem == null) {
@@ -367,8 +367,8 @@ public class JournalEntry extends BasePage
  	public void Enter_Clickaccountbox2(String Clickaccountbox2) throws InterruptedException
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
  		WebElement elem = getWebElement(ClickaccountboxElem2);
 
 // 		if (elem == null) {
@@ -400,7 +400,7 @@ m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(Ke
  try {
 	Thread.sleep(3000);
 } catch (InterruptedException e) {
-	// TODO Auto-generated catch block18002585970   2094
+
 	e.printStackTrace();
 }
  		//elem.sendKeys(Clickaccountbox);
@@ -421,8 +421,8 @@ m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(Ke
  	public void Enter_Enter_Credit(String Enter_Credit)
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+		//m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
  		WebElement elem = getWebElement(Enter_CreditElem);
 
  		if (elem == null) {
@@ -489,8 +489,8 @@ m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(Ke
 	public void Click_Click_Checkbox()
 	{
         
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
 		WebElement elem = getWebElement(Click_CheckboxElem);
 
 		if (elem == null) {
@@ -520,8 +520,8 @@ m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(Ke
 	public void Click_Click_Save_btn() throws InterruptedException
 	{
         
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
-
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
 		WebElement elem = getWebElement(Click_Save_btnElem);
 
 		if (elem == null) {

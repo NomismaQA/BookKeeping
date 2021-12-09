@@ -873,8 +873,8 @@ pages.addVatrate _addVatrate = new pages.addVatrate(driver);
     
 
 pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
-    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    _AgentSearch.GoToUrl();
+ //   TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+ //   _AgentSearch.GoToUrl();
     
 
 //    TestModellerLogger.SetLastNodeGuid("554b508e-c8b1-424a-a74b-723fc92f0453");

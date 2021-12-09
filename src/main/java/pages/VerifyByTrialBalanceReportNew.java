@@ -120,7 +120,9 @@ public class VerifyByTrialBalanceReportNew extends BasePage
 		System.out.println(str);
 		String strname = "Trial"+str;
 		System.out.println(strname);
-		jsExec.executeScript("arguments[0].scrollIntoView(true);", m_Driver.findElement(By.xpath("//*[@id='table1']/tbody[2]/tr[25]/td[3]")));
+		jsExec.executeScript("window.scrollBy(0,250)","");
+	
+	//	jsExec.executeScript("arguments[0].scrollIntoView(true);", m_Driver.findElement(By.xpath("//*[@id='table1']/tbody[2]/tr[25]/td[5]")));
 		Screenshotcapture.captureAsImage(m_Driver,strname);
           	
 

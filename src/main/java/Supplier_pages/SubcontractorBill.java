@@ -25,7 +25,7 @@ public class SubcontractorBill extends BasePage
 	private By ExpenditueTABElem = By.xpath("//span[contains(text(), 'Expenditure')]");
 	//private By ExpenditueTABElem = By.xpath("//A[@href='../AccountUI/SupplierBill.aspx?FYCode=52907&CompanyCode=13590']");
 
-	private By NewTABElem = By.cssSelector("A[aria-expanded='true']");
+	private By NewTABElem =  By.xpath("//*[@id='ctl00_divMainContent']/header/div/div[4]/a/i");
 
 	private By NewSubcontractorBillElem = By.xpath("//A[@id='ctl00_cpHeaderRight_btnAddSubContractorBill']");
 
@@ -125,6 +125,7 @@ System.out.println("Click_ExpenditueTAB");
 			Assert.fail("Unable to locate object: " + NewTABElem.toString());
         }
 		System.out.println("Click_NewTAB");
+	//	jsExec.executeScript("arguments[0].click();",elem);
 		elem.click();
           	
 

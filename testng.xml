@@ -6,23 +6,14 @@
     <suite-files>
     
     
-    
-    
-    
-    
-    
-    
-    <suite-file path="\Full Suite file\Find_Match.xml"></suite-file>
-    
-     <suite-file path="\Full Suite file\RunBankRule.xml"></suite-file>
+   		   <suite-file path="\src\test\java\ExpenceRemFlatToStand\ExpensesRembFlatToStand.xml"></suite-file>
      
-     <suite-file path="\src\test\java\tests\Bank_Upload_CSV\uploadbankcsv.xml"></suite-file>
+    	   <suite-file path="\src\test\java\ExpenceRemSToFlat\ExpensesRembSToFlat.xml"></suite-file>
      
-     <suite-file path="\src\test\java\tests\Bank_new_Trans\new_bnk_trn_50code.xml"></suite-file>
-     
-      <suite-file path="\src\test\java\tests\Bank_Multicurrency\multicurrency.xml"></suite-file>
+    	  
       
-      
+     	  
+    
      
     </suite-files>
     

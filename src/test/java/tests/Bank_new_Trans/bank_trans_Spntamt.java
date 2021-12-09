@@ -53,8 +53,8 @@ public class bank_trans_Spntamt extends TestBase
     
 
 pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
-    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    _AgentSearch.GoToUrl();
+//    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+ //   _AgentSearch.GoToUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
@@ -74,8 +74,8 @@ pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
     
 
 pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    _Searchclient.GoToUrl();
+ //   TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+  //  _Searchclient.GoToUrl();
     
     TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
     _Searchclient.Click__Clients_();
@@ -142,8 +142,8 @@ pages.bankmenu _bankmenu = new pages.bankmenu(driver);
     
 
 pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
-    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    _AgentSearch.GoToUrl();
+  //  TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+  //  _AgentSearch.GoToUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
@@ -163,8 +163,8 @@ pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
     
 
 pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    _Searchclient.GoToUrl();
+ //   TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+ //   _Searchclient.GoToUrl();
     
     TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
     _Searchclient.Click__Clients_();
@@ -228,8 +228,8 @@ _tr.Flaterate_scheme_spent();
     
 
 pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
-    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    _AgentSearch.GoToUrl();
+  //  TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+  //  _AgentSearch.GoToUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
@@ -249,8 +249,8 @@ pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
     
 
 pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    _Searchclient.GoToUrl();
+  //  TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+  //  _Searchclient.GoToUrl();
     
     TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
     _Searchclient.Click__Clients_();
