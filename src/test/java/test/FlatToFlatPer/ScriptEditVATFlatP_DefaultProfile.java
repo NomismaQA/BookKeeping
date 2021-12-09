@@ -387,9 +387,8 @@ pages.EditVATFlatP _EditVATFlatP = new pages.EditVATFlatP(driver);
 //    TestModellerLogger.SetLastNodeGuid("be7c6bc8-01b6-47f4-8c1e-d0f3eb10f652");
 //    _EditVATFlatP.Enter_Date(data[6]);
 //    
-
-//    TestModellerLogger.SetLastNodeGuid("63f4ddd4-cb02-49f7-829f-adc6ad538cba");
-//    _EditVATFlatP.Click_UseDefaultRate();
+    TestModellerLogger.SetLastNodeGuid("63f4ddd4-cb02-49f7-829f-adc6ad538cba");
+   _EditVATFlatP.Click_UseDefaultRate();
 //    
 
     TestModellerLogger.SetLastNodeGuid("d8142d91-2dbf-4e7f-a99e-b52e2ea1b76b");

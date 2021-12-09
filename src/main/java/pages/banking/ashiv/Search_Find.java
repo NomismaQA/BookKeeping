@@ -343,23 +343,40 @@ Thread.sleep(2000);
 		TestModellerLogger.PassStep(m_Driver, "Click_Search_btn_click6");
 	}
 	
-	public void Select_Invoice() throws InterruptedException, HeadlessException, IOException, AWTException
+	public void Select_Invoice(String Data) throws InterruptedException, HeadlessException, IOException, AWTException
 
 	{
- 	
+ 
  	    
 		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div[2]/div/div/div[2]/iframe")));
 
+		String Out="";
+        List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[4]"));
+       int size1=  list2.size();
+         for(int i=0;i<size1;i++)
+         {
+         String D=list2.get(i).getText();
+               Out=Out+"_"+D;
+               
+         }
+        
+         
+         String[]a=Out.trim().split("_");
+         
          List<WebElement>list =m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
 int size=list.size();
 for(int i=0;i<size;i++)
 {
-	
-	WebElement ele=list.get(i);
+	List<WebElement>list3=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
+	WebElement ele=list3.get(i);
 	ele.click();
-	if(i==1)
+	int b=i+1;
+	String d=a[b];
+	String c=d.replaceAll(" ", "");
+	if(Data.equals(c))
 	{
-		WebElement ele2=list.get(i);
+		List<WebElement>list4=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
+		WebElement ele2=list4.get(i);
 		ele2.click();
 	}
 }
@@ -419,21 +436,42 @@ for(int i=0;i<size;i++)
   		
  	}
 	
-	public void Select_Invoicepartial() throws InterruptedException, HeadlessException, IOException, AWTException
+	public void Select_Invoicepartial(String Data) throws InterruptedException, HeadlessException, IOException, AWTException
 
 	{
  	
  	    
 		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div[2]/div/div/div[2]/iframe")));
 
+		String Out="";
+        List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[4]"));
+       int size1=  list2.size();
+         for(int i=0;i<size1;i++)
+         {
+         String D=list2.get(i).getText();
+               Out=Out+"_"+D;
+               
+         }
+        
+         
+         String[]a=Out.trim().split("_");
+         
          List<WebElement>list =m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
 int size=list.size();
 for(int i=0;i<size;i++)
 {
-	
-	WebElement ele=list.get(i);
+	List<WebElement>list3=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
+	WebElement ele=list3.get(i);
 	ele.click();
-	
+	int b=i+1;
+	String d=a[b];
+	String c=d.replaceAll(" ", "");
+	if(Data.equals(c))
+	{
+		List<WebElement>list4=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
+		WebElement ele2=list4.get(i);
+		ele2.click();
+	}
 }
  		
        
@@ -661,21 +699,42 @@ for(int i=0;i<size;i++)
   		
  	}
 	
-	public void Select_Invoicejou() throws InterruptedException, HeadlessException, IOException, AWTException
+	public void Select_Invoicejou(String Data) throws InterruptedException, HeadlessException, IOException, AWTException
 
 	{
  	
  	    
 		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div[2]/div/div/div[2]/iframe")));
 
+		String Out="";
+        List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[4]"));
+       int size1=  list2.size();
+         for(int i=0;i<size1;i++)
+         {
+         String D=list2.get(i).getText();
+               Out=Out+"_"+D;
+               
+         }
+        
+         
+         String[]a=Out.trim().split("_");
+         
          List<WebElement>list =m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
 int size=list.size();
 for(int i=0;i<size;i++)
 {
-	
-	WebElement ele=list.get(i);
+	List<WebElement>list3=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
+	WebElement ele=list3.get(i);
 	ele.click();
-
+	int b=i+1;
+	String d=a[b];
+	String c=d.replaceAll(" ", "");
+	if(Data.equals(c))
+	{
+		List<WebElement>list4=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_UpdatePanel1']/div[2]/div/div/div/div/table/tbody[2]/tr/td[1]"));
+		WebElement ele2=list4.get(i);
+		ele2.click();
+	}
 }
  		
        

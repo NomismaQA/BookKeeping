@@ -276,7 +276,25 @@ public class EditVATFlatP extends BasePage
 		
 		WebElement op=m_Driver.findElement(By.xpath("//input[@name='ctl00$cPH$chkUseDefaultRate']"));
 		//WebElement chk=m_Driver.findElement(By.xpath("//*[@checked='checked']")).
-	      op.click();
+//		System.out.println(op.isSelected());
+		boolean a=op.isSelected();
+		
+		if (true==a)
+		{
+			 op.click();
+		}
+	     if(false==a)
+	     {
+	    	 System.out.println("ok");
+	     }
+	      
+	      
+	      
+	      
+	      
+	    //*[@id="ctl00_cPH_chkUseDefaultRate"][@checked="checked"]
+	      
+	      
 		
 //		System.out.println(op.isSelected());
 		

@@ -82,7 +82,7 @@ public class SaleCreditNote extends BasePage
 
 	//private By VATRateTypeElem = By.xpath("//SELECT[@name='ctl00$cPH$rptrProduct$ctl00$ddVATRate']");
 	
-	private By VATRateTypeElem = By.id("ctl00_cPH_rptrProduct_ctl00_ddVATRate");
+	private By VATRateTypeElem = By.xpath("//Select[@id='ctl00_cPH_rptrProduct_ctl00_ddVATRate']");
 
 	private By VATAmountElem = By.xpath("//INPUT[@name='ctl00$cPH$rptrProduct$ctl00$ltVATAmount']");
 
@@ -277,7 +277,14 @@ public class SaleCreditNote extends BasePage
  			Assert.fail("Unable to locate object: " + CreditNoteDateElem.toString());
          }
 
+ 		
+ 		for(int i=0; i<10;i++)
+ 		{
+ 			elem.sendKeys(Keys.BACK_SPACE);
+ 		}
  		elem.sendKeys(CreditNoteDate);
+ 		elem.sendKeys(Keys.TAB);
+ 		
  		
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_CreditNoteDate " + CreditNoteDate);
@@ -399,6 +406,7 @@ public class SaleCreditNote extends BasePage
  		actPrice = (String) jsExec.executeScript("return document.getElementById('ctl00_cPH_rptrProduct_ctl00_txtUnitPrice').value"); 
  		System.out.println(actPrice);
  		Thread.sleep(1000);
+ 		elem.sendKeys(Keys.TAB);
   		ExtentReportManager.passStep(m_Driver, "Enter_UnitPrice " + UnitPrice);
 
   		TestModellerLogger.PassStep(m_Driver, "Enter_UnitPrice " + UnitPrice);
@@ -423,9 +431,10 @@ public class SaleCreditNote extends BasePage
 
  			Assert.fail("Unable to locate object: " + QuantityElem.toString());
          }
- 		elem.sendKeys(Keys.ENTER);
+ 		
  		elem.clear();
  		elem.sendKeys(Quantity);
+ 		elem.sendKeys(Keys.TAB);
  		
  		//m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_txtQuantity']")).sendKeys(Quantity);
  	
@@ -458,25 +467,19 @@ public class SaleCreditNote extends BasePage
 
  			Assert.fail("Unable to locate object: " + VATRateTypeElem.toString());
          }
- 		String VatType=elem.getText();
- 		System.out.println("VatType List="+VatType);
+ 	//	String VatType=elem.getText();
+ //		System.out.println("VatType List="+VatType);
  		
  		//elem.click();
- 		Thread.sleep(2000);
- 		elem.sendKeys(Keys.ENTER);
- 		Select dropdown = new Select(elem);
+ //		Thread.sleep(2000);
+ 	
+ 		WebElement VAT=m_Driver.findElement(By.xpath("//Select[@id='ctl00_cPH_rptrProduct_ctl00_ddVATRate']"));
+ 		Select dropdown = new Select(VAT);
  		
- 		// jsExec.executeScript("arguments[0].click();", elem);
-
  		
  		dropdown.selectByVisibleText(VATRateType);
  		
- 		//elem.sendKeys(Keys.TAB);
-// 		VATVerification verify = new VATVerification(m_Driver);
-// 		int TRate = (int) verify.VatVerify(VATRateType, actPrice, actQuan);
-// 		
-// 		SoftAssert ass = new SoftAssert();
-// 		ass.assertEquals(str, ttotal);
+ 	
 	ExtentReportManager.passStep(m_Driver, "Select_VATRateType " + VATRateType);
 
  		TestModellerLogger.PassStep(m_Driver, "Select_VATRateType " + VATRateType);

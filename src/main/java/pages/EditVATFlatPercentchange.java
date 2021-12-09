@@ -268,10 +268,27 @@ elem.click();
 
 			Assert.fail("Unable to locate object: " + UseDefaultRateElem.toString());
         }
-Thread.sleep(1000);
-		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']")).click();
-		Thread.sleep(1000);	
+			Thread.sleep(1000);
+		WebElement ele=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkUseDefaultRate']"));
+			
+		Boolean a=ele.isSelected();
+		System.out.println(a);
+		if(true==a)
+		{
+			jsExec.executeScript("arguments[0].click();",ele);;
+		}
+		else
+		{
+			System.out.println("Ok");
+		}
+		
+		
+		
 		//*[@id="ctl00_cPH_chkUseDefaultRate"]
+		
+		
+		
+		
 	    m_Driver.switchTo().defaultContent();
   	
 

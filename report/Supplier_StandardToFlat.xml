@@ -10,7 +10,7 @@
 <test name= "ScriptEditSettingToVATType_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptEditSettingToVATType_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptEditSettingToVATType_DefaultProfile"/>
    			</classes> 
   			
  	</test>
@@ -18,7 +18,7 @@
  	<test name= "ScriptSupplierBillSToFRS_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptSupplierBillSToFRS_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptSupplierBillSToFRS_DefaultProfile"/>
    			</classes> 
   			
  	</test>
@@ -26,7 +26,7 @@
  	<test name= "ScriptDebitNoteSToFRS_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptDebitNoteSToFRS_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptDebitNoteSToFRS_DefaultProfile"/>
    			</classes> 
   			
  	</test>
@@ -34,7 +34,7 @@
  	<test name= "ScriptVATOnlyBillSToFRS_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptVATOnlyBillSToFRS_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptVATOnlyBillSToFRS_DefaultProfile"/>
    			</classes> 
   			
  	</test>
@@ -42,7 +42,7 @@
  	<test name= "ScriptSubcontractorBillSToFRS_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptSubcontractorBillSToFRS_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptSubcontractorBillSToFRS_DefaultProfile"/>
    			</classes> 
   			
  	</test>
@@ -51,21 +51,21 @@
  	<test name= "ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
    			</classes> 
   			
  	</test>
  	<test name= "ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
    			</classes> 
   			
  	</test>
  	<test name= "ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
    			</classes> 
   			
  	</test>
@@ -73,53 +73,53 @@
  	<test name= "ScriptStandardToFlat_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptStandardToFlat_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptStandardToFlat_DefaultProfile"/>
    			</classes> 
   			
  	</test>
  	<test name= "ScriptVerifySupplierAddRecordSTOFRS_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptVerifySupplierAddRecordSTOFRS_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptVerifySupplierAddRecordSTOFRS_DefaultProfile"/>
    			</classes> 
   	</test>
   	
   	<test name= "ScriptPostVATReturn1stVATReturnReport_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
    			</classes> 
   	</test>
   	<test name= "ScriptPostVATReturn2stVATReturnReport_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
    			</classes> 
   	</test>
   	<test name= "ScriptPostVATReturn3stVATReturnReport_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
    			</classes> 
   	</test>
  	
  	<test name= "ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptVerifyByTrialBalanceDefaultProfile_DefaultProfile"/>
    			</classes> 
   	</test>
   	
   	<test name= "ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptVesrifyByTrialBalancePDFDefaultProfile_DefaultProfile"/>
    			</classes> 
   	</test>
   		<test name= "ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Supplier_test.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
+    				<class name= "Supplier_FRStoSTND.ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile"/>
    			</classes> 
   	</test>
   	</suite>

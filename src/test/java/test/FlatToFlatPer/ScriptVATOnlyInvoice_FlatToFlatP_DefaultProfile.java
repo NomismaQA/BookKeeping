@@ -36,8 +36,7 @@ public class ScriptVATOnlyInvoice_FlatToFlatP_DefaultProfile extends TestBase
     public void GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1() throws InterruptedException, InvalidFormatException, HeadlessException, IOException, AWTException
     {
     	sTestCaseID="TC118";
-    	
-    	Sheet="Sale_NewInvoice";
+    Sheet="Sale_NewInvoice";
     data = ExcelUtility.toReadExcelData(sTestCaseID, Sheet);
         
         pages.Login1VAT _Login1VAT = new pages.Login1VAT(driver);

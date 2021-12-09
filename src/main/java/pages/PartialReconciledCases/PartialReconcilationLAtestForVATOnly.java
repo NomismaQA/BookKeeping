@@ -172,81 +172,100 @@ public class PartialReconcilationLAtestForVATOnly extends BasePage
 //		  
 		    
 	          Rpno=t.confirmation();
-	       // InvoiceNo = in.message();
-	         int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
-	         int cl = rowcount-1;
-	        // System.out.println("Row Count"+rowcount);
-	         System.out.println("BankTR return value"   +Rpno);
-	        // System.out.println("InvoiceNO "+InvoiceNo);
 	         
-		    System.out.println(rowcount);
-		
-		   for(int i=1;i<=rowcount-1;i++)
-		   {
-		    	  int j = i-1;
-		    	  int jj=i-3;
-		    	  System.out.println("i value "+i);
-		    	  
-		    	  /*column path to get data which is like bank trans number */
-		    		WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
+		       // InvoiceNo = in.message();
+		         int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
+		         int cl = rowcount-1;
+		         System.out.println("Row Count"+rowcount);
+		         System.out.println("BankTR no"   +Rpno);
+		        // System.out.println("InvoiceNO "+InvoiceNo);
+		         
+			    System.out.println(rowcount);
+			
+			   for(int i=1;i<=rowcount;i++)
+			   {
+			    	  int j = i-1;
+			    	  int jj=i-3;
+			    	  System.out.println("i value "+i);
+			    	  
+			    	  /*column path to get data which is like bank trans number */
+			    		WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
+			   
+			    		String p=m.getText();
+		    	  System.out.println("what is in p"   +p);
+		    	 /*check bank transaction if there in aboeve xpath or not*/
+		          if(Rpno.equalsIgnoreCase(p))
+		         {   
+		        	  
+		       System.out.println("in loop");
 		   
-		    		String p=m.getText();
-	    	  System.out.println("what is in p"   +p);
-	    	 /*check bank transaction if there in aboeve xpath or not*/
-	          if(Rpno.equalsIgnoreCase(p))
-	         {   
-	        	  
-	       System.out.println("in loop");
-	   
-	     Thread.sleep(1000);
-	    
-	 // System.out.println("i valuejjjj "+i+"   j "+j); 
-		if(j>9)
-			{
-				WebElement ele= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']"));
+		     Thread.sleep(1000);
+		    
+		  System.out.println("i valuejjjj "+i+"   j "+j); 
+			if(j>9)
+				{
+				System.out.println("graterthan 10 R1");
+				//*[@id="ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ct"+j+"_tr1"]/td[2]
+				
+				WebElement ele= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_tr1']/td[2]"));
 				 jsExec.executeScript("arguments[0].scrollIntoView();", ele);
 			
 				 System.out.println("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']");
+				 jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']")));
 				 
-				jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']")));
-				  
-//				 WebElement ele1= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']"));
-//				 String link = ele1.getText();
-//				 System.out.println("link   "+ link);
-//				 m_Driver.findElement(By.xpath("//*[contains(text(), '"+link+"')]")).click();
-//				 m_Driver.findElement(By.xpath(" //*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+cl+"_cbSelect']")).click();
-//				 								//*[@id="ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl11_cbSelect"]
+				//jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_tr1']/td[1]")));
+//				  
+//					WebElement ele= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']"));
+//					 jsExec.executeScript("arguments[0].scrollIntoView();", ele);
+//				
+//					 System.out.println("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']");
+//					 
+//					jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']")));
+//					  
+		
 				 break; 
-		}
+			}
+				
+			else
+				{ 
+				System.out.println("lessthan 10 R2");
+				
+				WebElement ele= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_tr1']/td[1]"));
+				 jsExec.executeScript("arguments[0].scrollIntoView();", ele);
 			
-		else
-			{ 
-			WebElement ele= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']"));
-			 jsExec.executeScript("arguments[0].scrollIntoView();", ele);
-			System.out.println("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']");
-			//int k=j-2;
-			  jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']")));
-			 // jsExec.executeScript("arguments[0].scrollIntoView(true);", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+k+"_cbSelect']")));
-			 // Screenshotcapture.captureAsImage(m_Driver, InvoiceNo);
-//			  
-//		 WebElement ele1= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']"));
-//		 String link = ele1.getText();
-//			 System.out.println("link   "+ link);
-//		 m_Driver.findElement(By.xpath("//*[contains(text(), '"+link+"')]")).click();
-//		 m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+cl+"_cbSelect']")).click();
-//		 break;
-		
-			}	
-		
-		   }
-	          
-	    }
-//          	
-//
-//		ExtentReportManager.passStep(m_Driver, "Click_R1");
-//
-//		TestModellerLogger.PassStep(m_Driver, "Click_R1");
-	}
+				 System.out.println("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']");
+				 jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']")));
+				//jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_tr1']/td[1]")));
+//				  
+//				WebElement ele= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']"));
+//				 jsExec.executeScript("arguments[0].scrollIntoView();", ele);
+//				System.out.println("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']");
+//				int k=j-2;
+//				  jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']")));
+//				  jsExec.executeScript("arguments[0].scrollIntoView(true);", m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']")));
+//				 
+				  
+				  // Screenshotcapture.captureAsImage(m_Driver, InvoiceNo);
+				  
+//			 WebElement ele1= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+j+"_cbSelect']"));
+//			 String link = ele1.getText();
+//				 System.out.println("link   "+ link);
+//			 m_Driver.findElement(By.xpath("//*[contains(text(), '"+link+"')]")).click();
+//			 m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl0"+cl+"_cbSelect']")).click();
+//			 break;
+			
+				}	
+			
+			   }
+		          
+		    }
+//	          	
+	//
+//			ExtentReportManager.passStep(m_Driver, "Click_R1");
+	//
+//			TestModellerLogger.PassStep(m_Driver, "Click_R1");
+		}
+
 
      
 	/**
@@ -264,9 +283,9 @@ public class PartialReconcilationLAtestForVATOnly extends BasePage
 		System.out.println("R2");
 
 	   
-	    pages.PartialReconciledCases.VATOnlyInvoice in = new pages.PartialReconciledCases.VATOnlyInvoice(m_Driver);
+	  //  pages.PartialReconciledCases.VATOnlyInvoice in = new pages.PartialReconciledCases.VATOnlyInvoice(m_Driver);
 		int num = Integer.parseInt(Rpno)-1;
-	    String InvoiceNo = String.valueOf(num);
+	    InvoiceNo = String.valueOf(num);
 	int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
 
       System.out.println("Row Count2  "+rowcount);
@@ -299,6 +318,7 @@ System.out.println("i valuejjjj "+i+"   j "+j);
 
 		if(j>9)
 		{
+			
 			WebElement ele= m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrReconcile_ctl00_rptrDebitCredit_ctl"+j+"_cbSelect']"));
 			 jsExec.executeScript("arguments[0].scrollIntoView();", ele);
 			 

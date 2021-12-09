@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Failed suite [Failed suite [MasterFile]]]" guice-stage="DEVELOPMENT" verbose="10">
-  <test thread-count="5" name="test.ashiv.Rule1_rule1(failed)(failed)(failed)" verbose="10">
+  <test thread-count="5" name="VAT2_S2NoVat(failed)(failed)(failed)" verbose="10">
     <classes>
-      <class name="test.ashiv.Rule1_rule1">
+      <class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForVATOnly_StoF_33">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="GoToUrlClickMenuBankRulesPositiveSelectConditionFormulaEnterRuleDescClickAccountSelectcodePositiveSelectGetdataOpenBankTrnsfillRRBothBankTrns"/>
         </methods>
-      </class> <!-- test.ashiv.Rule1_rule1 -->
+      </class> <!-- VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForVATOnly_StoF_33 -->
     </classes>
-  </test> <!-- test.ashiv.Rule1_rule1(failed)(failed)(failed) -->
+  </test> <!-- VAT2_S2NoVat(failed)(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Failed suite [MasterFile]]] -->

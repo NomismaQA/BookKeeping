@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "ScriptEditVATFlatP_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptEditVATFlatP_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+
+ 	<test name= "SaleInToPartialReconcile_SupplierBill_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.SaleInToPartialReconcile_SupplierBill_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "SaleInToPartialReconcile_DebitNote_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.SaleInToPartialReconcile_DebitNote_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "SaleInToPartialReconcile_VATOnlyBill_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "ScriptFlatToFlatP_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptFlatToFlatP_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+   	
+  	<test name= "ScriptPostVATReturn1stVATReturnReport_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptPostVATReturn1stVATReturnReport_DefaultProfile"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptPostVATReturn2stVATReturnReport_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptPostVATReturn2stVATReturnReport_DefaultProfile"/>
+   			</classes> 
+  	</test>
+  	<test name= "ScriptPostVATReturn3stVATReturnReport_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "AdvanceReconcileByBankForSupplierBillSToFlat.ScriptPostVATReturn3stVATReturnReport_DefaultProfile"/>
+   			</classes> 
+  	</test>
+    	</suite>

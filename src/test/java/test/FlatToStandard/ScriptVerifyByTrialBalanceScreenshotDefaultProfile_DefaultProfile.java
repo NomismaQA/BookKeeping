@@ -34,7 +34,7 @@ public class ScriptVerifyByTrialBalanceScreenshotDefaultProfile_DefaultProfile e
     @TestModellerPath(guid = "b97fefdb-8e1e-40ef-a08d-651b66ebe4a3")
     public void GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl() throws InterruptedException, InvalidFormatException, HeadlessException, IOException, AWTException
     {
-    	sTestCaseID="TC1";
+    	sTestCaseID="TC78";
     	Sheet="Sale_NewInvoice";
     data = ExcelUtility.toReadExcelData(sTestCaseID, Sheet);
         
