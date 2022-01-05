@@ -330,7 +330,7 @@ pages.PartialReconciledCases.nBANKTRN_ForBanktran _nBANKTRN = new pages.PartialR
     @TestModellerPath(guid = "b1ba9307-29ad-4bbf-8371-fbf2057bb849")
     public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3() throws InvalidFormatException, InterruptedException, IOException, HeadlessException, AWTException
     {
-    	sTestCaseID="T116";
+    	sTestCaseID="TC116";
        	Sheet="VATP3";
         data = ExcelUtility.toReadExcelData(sTestCaseID, Sheet);
         

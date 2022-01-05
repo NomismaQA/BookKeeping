@@ -254,7 +254,7 @@ pages.EditVATFlatP _EditSettingToStandard = new pages.EditVATFlatP(driver);
     _EditSettingToStandard.Enter_Date(data[6]);
     
     TestModellerLogger.SetLastNodeGuid("e4d8d7c9-bc58-407d-bc46-cbb6f678bad3");
-  //  _EditSettingToStandard.Click_UseDefaultRate();
+    _EditSettingToStandard.Click_UseDefaultRate();
     
     TestModellerLogger.SetLastNodeGuid("e4d8d7c9-bc58-407d-bc46-cbb6f678bad3");
     _EditSettingToStandard.Enter_OverrideFLATRate(data[7]);

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "TC_44_3_NonTradingItems_7958_7962__JournalEntry_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_44_3_NonTradingItems_7958_7962__JournalEntry_Bank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_45_3_NonTradingItems_7953_7956__JournalEntry_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_45_3_NonTradingItems_7953_7956__JournalEntry_Bank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_51_3_IncomeType_4000_4030__JournalEntry_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_51_3_IncomeType_4000_4030__JournalEntry_Bank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_53_3_ProfitAndLoss_3100_3103__JournalEntry_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_53_3_ProfitAndLoss_3100_3103__JournalEntry_Bank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	 	<test name= "TC_72_2_Taxation_1200_1205_JournalEntry_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_72_2_Taxation_1200_1205_JournalEntry_Bank"/>
+   			</classes> 
+  			
+ 	</test>
+ 		<test name= "TC_76_2_Person_1323_1323_JournalEntry_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_76_2_Person_1323_1323_JournalEntry_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_82_3_ExpenseHead_7203_7204__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_82_3_ExpenseHead_7203_7204__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_83_3_ExpenseHead_7305_7512__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_83_3_ExpenseHead_7305_7512__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_84_3_ExpenseHead_7525_7011__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_84_3_ExpenseHead_7525_7011__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	</test>
+ 		
+	
+  	</suite>

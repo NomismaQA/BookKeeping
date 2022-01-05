@@ -62,7 +62,7 @@ public class nBANKTRN extends BasePage
 
       
 
-	private By _Save_Elem = By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div/a[1]");
+	private By _Save_Elem = By.xpath("//*[@id='ctl00_cpHeaderRight_btnSaveAndOpenDashbord']");
 	
 	public void GoToUrl()
 	{
@@ -416,7 +416,7 @@ public class nBANKTRN extends BasePage
 		JavascriptExecutor jse = (JavascriptExecutor)m_Driver;
 		jse.executeScript("arguments[0].click()", elem);
 		Thread.sleep(2000);
-		 WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		 WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 	     String transnno=s.getText();
 	     String arr[]=transnno.split(" ");
 	     String stn=arr[2];

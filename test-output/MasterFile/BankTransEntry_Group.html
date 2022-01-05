@@ -1,0 +1,976 @@
+<html>
+<head>
+<title>TestNG:  BankTransEntry_Group</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BankTransEntry_Group</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>63/7/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 19 00:44:47 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>3362 seconds (3362779 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&apos;ctl00_ctl00_ParentContent_cPHFilter_txtSearchCompany&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.ClientSelect.Enter_ClientName(ClientSelect.java:107)
+	at VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace574164011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace574164011'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&apos;ctl00_ctl00_ParentContent_cPHFilter_txtSearchCompany&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.ClientSelect.Enter_ClientName(ClientSelect.java:107)
+	at VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>53</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1@472a11ae</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[@class=&apos;toggleSettings&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.VATReturn3rdVATRetrunReport.Click_SettingsTAB(VATReturn3rdVATRetrunReport.java:106)
+	at VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1290254468", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1290254468'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[@class=&apos;toggleSettings&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.VATReturn3rdVATRetrunReport.Click_SettingsTAB(VATReturn3rdVATRetrunReport.java:106)
+	at VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>55</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5@7a0e7ecd</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit&apos;]/img&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 181ac943bb0c5b1294b877482dbd9ef8
+*** Element info: {Using=xpath, value=//*[@id=&apos;ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit&apos;]/img}
+	at jdk.internal.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.VATReturn1stVATReturnReport.Click_VATReturnsTAB1(VATReturn1stVATReturnReport.java:162)
+	at VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1012633070", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1012633070'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit&apos;]/img&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 181ac943bb0c5b1294b877482dbd9ef8
+*** Element info: {Using=xpath, value=//*[@id=&apos;ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit&apos;]/img}
+	at jdk.internal.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.VATReturn1stVATReturnReport.Click_VATReturnsTAB1(VATReturn1stVATReturnReport.java:162)
+	at VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>52</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5@2f5ac102</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[@class=&apos;toggleSettings&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.VATReturn2stVATReturnReport.Click_SettingTab2(VATReturn2stVATReturnReport.java:104)
+	at VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace557442625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace557442625'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[@class=&apos;toggleSettings&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.VATReturn2stVATReturnReport.Click_SettingTab2(VATReturn2stVATReturnReport.java:104)
+	at VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>57</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5@2849434b</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit&apos;]/img&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64588}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b62f9069df4ce85120a241c46349f240
+*** Element info: {Using=xpath, value=//*[@id=&apos;ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit&apos;]/img}
+	at jdk.internal.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.VATReturn1stVATReturnReport.Click_VATReturnsTAB1(VATReturn1stVATReturnReport.java:162)
+	at VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1070726584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1070726584'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit&apos;]/img&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64588}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b62f9069df4ce85120a241c46349f240
+*** Element info: {Using=xpath, value=//*[@id=&apos;ctl00_cPH_rptrDisplayRecords_ctl00_lnkEdit&apos;]/img}
+	at jdk.internal.reflect.GeneratedConstructorAccessor64.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.VATReturn1stVATReturnReport.Click_VATReturnsTAB1(VATReturn1stVATReturnReport.java:162)
+	at VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>49</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5@70228253</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[@class=&apos;toggleSettings&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.VATReturn3rdVATRetrunReport.Click_SettingsTAB(VATReturn3rdVATRetrunReport.java:106)
+	at VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace413524159", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace413524159'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[@class=&apos;toggleSettings&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.VATReturn3rdVATRetrunReport.Click_SettingsTAB(VATReturn3rdVATRetrunReport.java:106)
+	at VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>57</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5@2eae4349</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[@class=&apos;toggleSettings&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.VATReturn2stVATReturnReport.Click_SettingTab2(VATReturn2stVATReturnReport.java:104)
+	at VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2083934411", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2083934411'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //A[@class=&apos;toggleSettings&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.VATReturn2stVATReturnReport.Click_SettingTab2(VATReturn2stVATReturnReport.java:104)
+	at VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl(ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>56</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5@6edcad64</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptFlatToFlatP__StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: VATPhase3_Banking_ToSale.ScriptFlatToFlatP__StandToFlat_DefaultProfile_1</td>
+<td></td>
+<td>59</td>
+<td>VATPhase3_Banking_ToSale.ScriptFlatToFlatP__StandToFlat_DefaultProfile_1@60cf62ad</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3</td>
+<td></td>
+<td>35</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3@71904469</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5@3968bc60</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1</td>
+<td></td>
+<td>63</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1@33899f7a</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4</td>
+<td></td>
+<td>44</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4@262816a8</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5@3968bc60</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2@f951a7f</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2@f951a7f</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1</td>
+<td></td>
+<td>56</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1@4ee5b2d9</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3</td>
+<td></td>
+<td>39</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3@71904469</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4</td>
+<td></td>
+<td>46</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_StandToNoVAT_DefaultProfile_4@17f2dd85</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4</td>
+<td></td>
+<td>64</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4@7f353d99</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3</td>
+<td></td>
+<td>39</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3@71904469</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4@25290bca</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptEditVATFlatP_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3</b><br>Test class: VATPhase3_Banking_ToSale.ScriptEditVATFlatP_StandToFlat_DefaultProfile_1</td>
+<td></td>
+<td>49</td>
+<td>VATPhase3_Banking_ToSale.ScriptEditVATFlatP_StandToFlat_DefaultProfile_1@858d8b4</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1@672b72ba</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1</td>
+<td></td>
+<td>38</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1@672b72ba</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1@672b72ba</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1</td>
+<td></td>
+<td>66</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_StandToFlat_DefaultProfile_1@21079a12</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn3stVATReturnReport_DefaultProfile_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn3stVATReturnReport_DefaultProfile_2</td>
+<td></td>
+<td>44</td>
+<td>VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn3stVATReturnReport_DefaultProfile_2@2a3194c6</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3</td>
+<td></td>
+<td>38</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3@71904469</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3</td>
+<td></td>
+<td>64</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3@5633ed82</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3</b><br>Test class: VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToFlatPer_DefaultProfile_5</td>
+<td></td>
+<td>51</td>
+<td>VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToFlatPer_DefaultProfile_5@6403e24c</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2@f951a7f</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1@672b72ba</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToNoVAT_DefaultProfile_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3</b><br>Test class: VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToNoVAT_DefaultProfile_3</td>
+<td></td>
+<td>49</td>
+<td>VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToNoVAT_DefaultProfile_3@78d6447a</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3@71904469</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2@f951a7f</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4@25290bca</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptEditVATFlatP_StandToNoVAT_DefaultProfile_4.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3</b><br>Test class: VATPhase3_Banking_ToSale.ScriptEditVATFlatP_StandToNoVAT_DefaultProfile_4</td>
+<td></td>
+<td>49</td>
+<td>VATPhase3_Banking_ToSale.ScriptEditVATFlatP_StandToNoVAT_DefaultProfile_4@4a734c04</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn1stVATReturnReport_DefaultProfile_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn1stVATReturnReport_DefaultProfile_2</td>
+<td></td>
+<td>46</td>
+<td>VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn1stVATReturnReport_DefaultProfile_2@6944e53e</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn3stVATReturnReport_DefaultProfile_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn3stVATReturnReport_DefaultProfile_2</td>
+<td></td>
+<td>44</td>
+<td>VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn3stVATReturnReport_DefaultProfile_2@58ff8d79</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2</td>
+<td></td>
+<td>35</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2@f951a7f</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1</td>
+<td></td>
+<td>45</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1@288ca5f0</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToStandDefaultProfile_2@f951a7f</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3</td>
+<td></td>
+<td>63</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToNoVAT_DefaultProfile_3@5e1d03d7</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn2stVATReturnReport_DefaultProfile_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn2stVATReturnReport_DefaultProfile_2</td>
+<td></td>
+<td>65</td>
+<td>VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn2stVATReturnReport_DefaultProfile_2@1deceb67</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToNoVATDefaultProfile_3@71904469</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3</td>
+<td></td>
+<td>45</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3@5c77ba8f</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1@672b72ba</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4@25290bca</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4</td>
+<td></td>
+<td>43</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4@66273da0</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToStand_DefaultProfile_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToStand_DefaultProfile_2</td>
+<td></td>
+<td>49</td>
+<td>VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToStand_DefaultProfile_2@7e7f0216</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3</td>
+<td></td>
+<td>50</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3@5e65afb6</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToNoVAT_DefaultProfile_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToNoVAT_DefaultProfile_3</td>
+<td></td>
+<td>51</td>
+<td>VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToNoVAT_DefaultProfile_3@65bdd558</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5@3968bc60</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToFlatPer_DefaultProfile_5.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToFlatPer_DefaultProfile_5</td>
+<td></td>
+<td>50</td>
+<td>VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToFlatPer_DefaultProfile_5@7aac8884</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptFlatToFlatP_StandToNoVAT_DefaultProfile_4.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: VATPhase3_Banking_ToSale.ScriptFlatToFlatP_StandToNoVAT_DefaultProfile_4</td>
+<td></td>
+<td>52</td>
+<td>VATPhase3_Banking_ToSale.ScriptFlatToFlatP_StandToNoVAT_DefaultProfile_4@4fc3c165</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4</td>
+<td></td>
+<td>42</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_StandToNoVAT_DefaultProfile_4@7ff35a3f</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4</td>
+<td></td>
+<td>35</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4@25290bca</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5@3968bc60</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn2stVATReturnReport_DefaultProfile_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn2stVATReturnReport_DefaultProfile_2</td>
+<td></td>
+<td>64</td>
+<td>VATPhase3_Banking_ToSale.Script_FlatToStand_PostVATReturn2stVATReturnReport_DefaultProfile_2@4674d90</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1</td>
+<td></td>
+<td>45</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_StandToFlat_DefaultProfile_1@5292ceca</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToStand_DefaultProfile_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3</b><br>Test class: VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToStand_DefaultProfile_2</td>
+<td></td>
+<td>52</td>
+<td>VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToStand_DefaultProfile_2@1ba359bd</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3</td>
+<td></td>
+<td>46</td>
+<td>VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToNoVAT_DefaultProfile_3@6eb17ec8</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4</td>
+<td></td>
+<td>63</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_StandToNoVAT_DefaultProfile_4@5fa23c</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3</td>
+<td></td>
+<td>46</td>
+<td>VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToNoVAT_DefaultProfile_3@2f37f1f9</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4</td>
+<td></td>
+<td>35</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4@25290bca</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5</td>
+<td></td>
+<td>37</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5@3968bc60</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5</td>
+<td></td>
+<td>38</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5@3968bc60</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4</td>
+<td></td>
+<td>39</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToNoVATDefaultProfile_4@25290bca</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn1stVATReturnReport_DefaultProfile_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn1stVATReturnReport_DefaultProfile_2</td>
+<td></td>
+<td>46</td>
+<td>VATPhase3_Banking_ToSale.Script_FlatToStand_VATReturn1stVATReturnReport_DefaultProfile_2@2e8a1ab4</td></tr>
+<tr>
+<td title='VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1</td>
+<td></td>
+<td>36</td>
+<td>VATPhase3_Banking_ToSale.BankingTr_VATPH3_StandToFlatDefaultProfile_1@672b72ba</td></tr>
+</table><p>
+</body>
+</html>

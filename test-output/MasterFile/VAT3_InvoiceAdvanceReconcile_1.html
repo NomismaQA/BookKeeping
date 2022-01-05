@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>VAT3_InvoiceAdvanceReconcile_1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>19/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 25 05:56:34 IST 2021</td>
+<td>Started on:</td><td>Sat Dec 18 17:53:37 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>1583 seconds (1583513 ms)</td>
+<tr><td>Total time:</td><td>1570 seconds (1570176 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,338 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=95.0.4638.69)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2bf077b9218939e946dff343a697121a
-*** Element info: {Using=xpath, value=.//option[normalize-space(.) = &quot;Sale&quot;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
-	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:113)
-	at pages.PartialReconciledCases.SaleInvoice.Select_IncomeType(SaleInvoice.java:301)
-	at VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3(SaleInToPartioalReconcile_DefaultProfile_1.java:713)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace700680466", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace700680466'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=95.0.4638.69)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2bf077b9218939e946dff343a697121a
-*** Element info: {Using=xpath, value=.//option[normalize-space(.) = &quot;Sale&quot;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
-	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:113)
-	at pages.PartialReconciledCases.SaleInvoice.Select_IncomeType(SaleInvoice.java:301)
-	at VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3(SaleInToPartioalReconcile_DefaultProfile_1.java:713)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>34</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@51bde877</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
-<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&apos;ctl00_ctl00_ParentContent_cPHFilter_txtSearchCompany&apos;]
-	at org.testng.Assert.fail(Assert.java:99)
-	at pages.PartialReconciledCases.Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(Searchclient.java:106)
-	at VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4(SaleInToPartioalReconcile_DefaultProfile_1.java:953)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace993860212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace993860212'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&apos;ctl00_ctl00_ParentContent_cPHFilter_txtSearchCompany&apos;]
-	at org.testng.Assert.fail(Assert.java:99)
-	at pages.PartialReconciledCases.Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(Searchclient.java:106)
-	at VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4(SaleInToPartioalReconcile_DefaultProfile_1.java:953)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>44</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@51bde877</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;this.Rpno&quot; is null
-	at pages.PartialReconciledCases.PartialReconcilationLAtestForVATOnly.Click_R1(PartialReconcilationLAtestForVATOnly.java:196)
-	at VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2(SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.java:571)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2024451507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2024451507'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;this.Rpno&quot; is null
-	at pages.PartialReconciledCases.PartialReconcilationLAtestForVATOnly.Click_R1(PartialReconcilationLAtestForVATOnly.java:196)
-	at VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2(SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.java:571)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>60</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1@57dc9128</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;this.Rpno&quot; is null
-	at pages.PartialReconciledCases.PartialReconcilationLAtestForVATOnly.Click_R1(PartialReconcilationLAtestForVATOnly.java:196)
-	at VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1(SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.java:292)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace360576480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace360576480'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;this.Rpno&quot; is null
-	at pages.PartialReconciledCases.PartialReconcilationLAtestForVATOnly.Click_R1(PartialReconcilationLAtestForVATOnly.java:196)
-	at VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1(SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.java:292)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>59</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1@57dc9128</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -407,100 +75,120 @@ Session ID: 2bf077b9218939e946dff343a697121a
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
+<td title='VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_1</td>
 <td></td>
-<td>76</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@51bde877</td></tr>
+<td>85</td>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_1@44841b43</td></tr>
 <tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
 <td></td>
-<td>77</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@51bde877</td></tr>
+<td>72</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@11bd803</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1</td>
+<td></td>
+<td>66</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1@442f92e6</td></tr>
 <tr>
 <td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
 <td></td>
-<td>73</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@d71adc2</td></tr>
+<td>75</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@11bd803</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
+<td></td>
+<td>76</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@11bd803</td></tr>
 <tr>
 <td title='VAT3_InvoiceAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1</td>
 <td></td>
-<td>76</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1@7cc9ce8</td></tr>
+<td>63</td>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1@1431267b</td></tr>
 <tr>
-<td title='VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_1</td>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
 <td></td>
-<td>46</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_1@31198ceb</td></tr>
+<td>74</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@f1a45f8</td></tr>
 <tr>
-<td title='VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_1</td>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
 <td></td>
-<td>57</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_1@5a12c728</td></tr>
+<td>71</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@f1a45f8</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1</td>
+<td></td>
+<td>68</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForVATOnly_DefaultProfile_1@442f92e6</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
+<td></td>
+<td>69</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@f1a45f8</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
+<td></td>
+<td>71</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@11bd803</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_1</td>
+<td></td>
+<td>51</td>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_1@a137d7a</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_1</td>
+<td></td>
+<td>45</td>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_1@30d25c03</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
+<td></td>
+<td>68</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@f1a45f8</td></tr>
 <tr>
 <td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
 <td></td>
-<td>77</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@51bde877</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
-<td></td>
-<td>74</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@d71adc2</td></tr>
+<td>73</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@f1a45f8</td></tr>
 <tr>
 <td title='VAT3_InvoiceAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1</td>
 <td></td>
 <td>50</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1@5a772895</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_1</td>
-<td></td>
-<td>72</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_1@282308c3</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
-<td></td>
-<td>76</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@d71adc2</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
-<td></td>
-<td>75</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@d71adc2</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
-<td></td>
-<td>77</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@51bde877</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_1</td>
-<td></td>
-<td>93</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptSubmitVAT_DefaultProfilePartioalReconcile_1@3fcdcf</td></tr>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1@7f572c37</td></tr>
 <tr>
 <td title='VAT3_InvoiceAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1</td>
 <td></td>
-<td>45</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1@3b718392</td></tr>
+<td>46</td>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfilePartioalReconcile_1@67110f71</td></tr>
 <tr>
-<td title='VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_1</td>
+<td title='VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_1</td>
 <td></td>
 <td>49</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn3stVATReturnReport_DefaultProfilePartioalReconcile_1@3b4ef7</td></tr>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn1stVATReturnReport_DefaultProfilePartioalReconcile_1@2264e43c</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_1</td>
+<td></td>
+<td>51</td>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptEditSettingToVATType_DefaultProfilePartioalReconcile_1@4d7aaca2</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
+<td></td>
+<td>72</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@11bd803</td></tr>
+<tr>
+<td title='VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_1</td>
+<td></td>
+<td>65</td>
+<td>VAT3_InvoiceAdvanceReconcile.ScriptPostVATReturn2stVATReturnReport_DefaultProfilePartioalReconcile_1@3f49e266</td></tr>
 <tr>
 <td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
 <td></td>
-<td>72</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@d71adc2</td></tr>
+<td>70</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@11bd803</td></tr>
 <tr>
-<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1</td>
+<td title='VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1</td>
 <td></td>
-<td>75</td>
-<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcileForCreditNote_DefaultProfile_1@d71adc2</td></tr>
-<tr>
-<td title='VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_1</td>
-<td></td>
-<td>53</td>
-<td>VAT3_InvoiceAdvanceReconcile.ScriptStandardToFlat_DefaultProfilePartioalReconcile_1@5c371e13</td></tr>
+<td>84</td>
+<td>VAT3_InvoiceAdvanceReconcile.SaleInToPartioalReconcile_DefaultProfile_1@f1a45f8</td></tr>
 </table><p>
 </body>
 </html>

@@ -183,7 +183,7 @@ pages.PartialReconciledCases.bankmenu _bankmenu = new pages.PartialReconciledCas
     _bankmenu.Click_Newmenu();
     
 
-pages.PartialReconciledCases.nBANKTRN_VATOnly _nBANKTRN = new pages.PartialReconciledCases.nBANKTRN_VATOnly(driver);
+pages.PartialReconciledCases.nBANKTRN_Supplier _nBANKTRN = new pages.PartialReconciledCases.nBANKTRN_Supplier(driver);
 //    TestModellerLogger.SetLastNodeGuid("04a80b29-ca7e-432d-aae4-cc8cb6604a1e");
 //    _nBANKTRN.GoToUrl();
 //    
@@ -461,7 +461,7 @@ pages.PartialReconciledCases.bankmenu _bankmenu = new pages.PartialReconciledCas
     _bankmenu.Click_Newmenu();
     
 
-pages.PartialReconciledCases.nBANKTRN_VATOnly _nBANKTRN = new pages.PartialReconciledCases.nBANKTRN_VATOnly(driver);
+pages.PartialReconciledCases.nBANKTRN_Supplier _nBANKTRN = new pages.PartialReconciledCases.nBANKTRN_Supplier(driver);
 //    TestModellerLogger.SetLastNodeGuid("04a80b29-ca7e-432d-aae4-cc8cb6604a1e");
 //    _nBANKTRN.GoToUrl();
 //    

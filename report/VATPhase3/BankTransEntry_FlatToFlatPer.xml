@@ -9,58 +9,58 @@
 
 <test name= "ScriptEditVATFlatP_FlatToFlatPer_DefaultProfile_5" enabled="true">  
  			<classes> 
-    				<class name= "VATPhase3.ScriptEditVATFlatP_FlatToFlatPer_DefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptEditVATFlatP_FlatToFlatPer_DefaultProfile_5"/>
    			</classes> 
  	</test>
 	<test name= "BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.BankingTr_VATPH3_FlatToFlatPerDefaultProfile_5"/>
    			</classes> 
   	</test>
   	
  	<test name= "ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
    			</classes> 
   			
  	</test>
  	<test name= "ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
    			</classes> 
   	</test>
   	<test name= "ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
    			</classes> 
   	</test>
   	<test name= "ScriptFlatToFlatP_FlatToFlatPer_DefaultProfile_5" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.ScriptFlatToFlatP_FlatToFlatPer_DefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptFlatToFlatP_FlatToFlatPer_DefaultProfile_5"/>
    			</classes> 
   	</test>
  	<test name= "ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
    			</classes> 
   			
  	</test>
  	<test name= "ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
    			</classes> 
   	</test>
   	<test name= "ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5"/>
    			</classes> 
   	</test>
    	</suite>

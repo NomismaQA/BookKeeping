@@ -41,7 +41,7 @@
   	<test name= "ScriptFlatToFlatP__StandToFlat_DefaultProfile_1" enabled="true">
   		 
  			<classes> 
-    				<class name= "VATPhase3.ScriptFlatToFlatP__StandToFlat_DefaultProfile_1"/>
+    				<class name= "VATPhase3_Banking_ToSale.ScriptFlatToFlatP__StandToFlat_DefaultProfile_1"/>
    			</classes> 
   	</test>
  	<test name= "ScriptPostVATReturn1stVATReturnReport_StandToFlat_DefaultProfile_1" enabled="true">

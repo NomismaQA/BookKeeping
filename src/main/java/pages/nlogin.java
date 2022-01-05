@@ -7,6 +7,9 @@ import java.awt.HeadlessException;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -47,6 +50,11 @@ public class nlogin extends BasePage
 		TestModellerLogger.PassStepWithScreenshot(m_Driver, "Go to URL","Go to URL - http://sandbox4.nomismasolution.co.uk/ssoui/Signin.aspx?token=8e14a0e8-5c7d-4f7d-8889-4487f962ed5a");
 		
 	Thread.sleep(1000);
+	
+
+	
+	
+		
 			}
 
      

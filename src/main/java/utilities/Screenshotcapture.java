@@ -8,13 +8,18 @@ import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import pages.BasePage;
@@ -81,21 +86,71 @@ public static void Getscreenshot(String Filename,String Foldername)
 	}
 }
 
-public static void FullScreenshot(String Filename,String Foldername)
+public static void FullScreenshot(String Filename)
 {
-	String path="";
+//	String path="";
 	try 
 	{
-		String loc=System.getProperty("user.dir");
-		path=loc+"\\As_Screenshot\\"+Foldername+"\\"+Filename+".png";
-		Screenshot sc	  =new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(m_Driver);
-		ImageIO.write(sc.getImage(), "PNG", new File(path));
+		
+//		ArrayList<String> ta = new ArrayList<String> (m_Driver.getWindowHandles());         
+//	      int i=ta.size();         System.out.println(i);         
+//	      m_Driver.switchTo().window(ta.get(1));   
+	      
+//	      String loc=System.getProperty("user.dir");
+//	      path=loc+"\\As_Screenshot\\"+Foldername+"\\"+Filename+".png";
+	      
+		JavascriptExecutor js = (JavascriptExecutor)m_Driver;
+		
+		js.executeScript("document.body.style.zoom = '60%';");
+	     
+			Screenshot s=new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(m_Driver);
+			ImageIO.write(s.getImage(), "png", new File(System.getProperty("user.dir")+"\\report\\"+"\\Trial_Balance_Report\\"+Filename+".png"));
+	       
+		
+			
+		
+		
+//		
 		
 	} 
 	catch (Exception e) 
 	{
-		System.out.println("Issur In Full Screenshot"+e);
+	
+		e.printStackTrace();
 	}
 }
+
+public static void Full(String Filename)
+{
+	try 
+	{
+		
+//		ArrayList<String> ta = new ArrayList<String> (m_Driver.getWindowHandles());         
+//	      int i=ta.size();         System.out.println(i);         
+//	      m_Driver.switchTo().window(ta.get(1));   
+	      
+//	      String loc=System.getProperty("user.dir");
+//	      path=loc+"\\As_Screenshot\\"+Foldername+"\\"+Filename+".png";
+	      
+		
+	     
+			Screenshot s=new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(m_Driver);
+			ImageIO.write(s.getImage(), "png", new File(System.getProperty("user.dir")+"\\report\\"+"\\Trial_Balance_Report\\"+Filename+".png"));
+	       
+		
+			
+		
+		
+//		
+		
+	} 
+	catch (Exception e) 
+	{
+	
+		e.printStackTrace();
+	}
+}
+
+
 
 }

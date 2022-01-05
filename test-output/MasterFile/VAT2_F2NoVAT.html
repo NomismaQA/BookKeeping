@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>VAT2_F2NoVAT</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 09 08:12:11 IST 2021</td>
+<td>Started on:</td><td>Sat Dec 18 07:32:25 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>2066 seconds (2066114 ms)</td>
+<tr><td>Total time:</td><td>1687 seconds (1687483 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,194 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=96.0.4664.45)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a0e6a61d660dde56c70023430b6550c4
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at utilities.testmodeller.GetScreenShot.captureAsImage(GetScreenShot.java:16)
-	at utilities.reports.ExtentReportManager.failStepWithScreenshot(ExtentReportManager.java:80)
-	at pages.Searchclient.Click__Clients_(Searchclient.java:75)
-	at VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7(F2noVat_SaleInToReconcile_1.java:1382)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1455657760", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1455657760'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=96.0.4664.45)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a0e6a61d660dde56c70023430b6550c4
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at utilities.testmodeller.GetScreenShot.captureAsImage(GetScreenShot.java:16)
-	at utilities.reports.ExtentReportManager.failStepWithScreenshot(ExtentReportManager.java:80)
-	at pages.Searchclient.Click__Clients_(Searchclient.java:75)
-	at VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7(F2noVat_SaleInToReconcile_1.java:1382)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>378</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@2472c7d8</td></tr>
-<tr>
-<td title='VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1.addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7()'><b>addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7</b><br>Test class: VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1</td>
-<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //LI[@class=&apos;dashboard_nav active&apos;]/A/SPAN[@class=&apos;side_nav_text&apos;]
-	at org.testng.Assert.fail(Assert.java:99)
-	at pages.AgentSearch.Click_Agents(AgentSearch.java:81)
-	at VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1.addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7(F2noVat_scriptaddvatrate_addvatrate1_1.java:885)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace633677921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace633677921'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //LI[@class=&apos;dashboard_nav active&apos;]/A/SPAN[@class=&apos;side_nav_text&apos;]
-	at org.testng.Assert.fail(Assert.java:99)
-	at pages.AgentSearch.Click_Agents(AgentSearch.java:81)
-	at VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1.addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7(F2noVat_scriptaddvatrate_addvatrate1_1.java:885)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>18</td>
-<td>VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1@6c2f1700</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -263,105 +75,115 @@ Session ID: a0e6a61d660dde56c70023430b6550c4
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
 <td></td>
-<td>99</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@3b0f7d9d</td></tr>
+<td>96</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@5c84624f</td></tr>
 <tr>
 <td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
 <td></td>
-<td>103</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@3b0f7d9d</td></tr>
+<td>93</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@5c84624f</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2</td>
+<td title='VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3</td>
 <td></td>
-<td>55</td>
-<td>VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2@28f8e165</td></tr>
+<td>34</td>
+<td>VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3@41c62850</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
 <td></td>
-<td>102</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@3b0f7d9d</td></tr>
+<td>89</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@22175d4f</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
 <td></td>
-<td>84</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@2472c7d8</td></tr>
+<td>91</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@22175d4f</td></tr>
+<tr>
+<td title='VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1</td>
+<td></td>
+<td>40</td>
+<td>VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1@5fa47fea</td></tr>
+<tr>
+<td title='VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2</td>
+<td></td>
+<td>54</td>
+<td>VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2@76f10035</td></tr>
+<tr>
+<td title='VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1</td>
+<td></td>
+<td>37</td>
+<td>VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1@5298dead</td></tr>
+<tr>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
+<td></td>
+<td>89</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@22175d4f</td></tr>
+<tr>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
+<td></td>
+<td>99</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@5c84624f</td></tr>
+<tr>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1</td>
+<td></td>
+<td>94</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1@53cdecf6</td></tr>
+<tr>
+<td title='VAT2.F2NOVAT.F2novat_EditVATType.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2</b><br>Test class: VAT2.F2NOVAT.F2novat_EditVATType</td>
+<td></td>
+<td>42</td>
+<td>VAT2.F2NOVAT.F2novat_EditVATType@71b1a49c</td></tr>
 <tr>
 <td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
 <td></td>
 <td>87</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@2472c7d8</td></tr>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@22175d4f</td></tr>
 <tr>
 <td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1</td>
 <td></td>
-<td>94</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1@55a8dc49</td></tr>
+<td>92</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1@53cdecf6</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2</td>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP7</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
 <td></td>
-<td>53</td>
-<td>VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn2stVATReturnReport_2@4e406694</td></tr>
+<td>97</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@5c84624f</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
+<td title='VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3</td>
 <td></td>
-<td>91</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@2472c7d8</td></tr>
+<td>35</td>
+<td>VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3@405325cf</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1</td>
+<td title='VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1.addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7()'><b>addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7</b><br>Test class: VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1</td>
 <td></td>
-<td>90</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForVATOnly_1@55a8dc49</td></tr>
-<tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
-<td></td>
-<td>93</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@2472c7d8</td></tr>
-<tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
-<td></td>
-<td>109</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@3b0f7d9d</td></tr>
-<tr>
-<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
-<td></td>
-<td>87</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@2472c7d8</td></tr>
+<td>41</td>
+<td>VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1@38600b</td></tr>
 <tr>
 <td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP71</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
 <td></td>
 <td>98</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@3b0f7d9d</td></tr>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@5c84624f</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3</td>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
 <td></td>
-<td>33</td>
-<td>VAT2.F2NOVAT.F2noVat__ScriptVATReturn3stVATReturnReport_SToFlat_3@6594402a</td></tr>
+<td>88</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@22175d4f</td></tr>
 <tr>
 <td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1</td>
 <td></td>
-<td>101</td>
-<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@3b0f7d9d</td></tr>
+<td>97</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcileForCreditNote_1@5c84624f</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1</td>
+<td title='VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2</td>
 <td></td>
-<td>40</td>
-<td>VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn1stVATReturnReport_1@1ea9f009</td></tr>
+<td>55</td>
+<td>VAT2.F2NOVAT.F2noVat_ScriptVATReturn2stVATReturnReport_2@66f66866</td></tr>
 <tr>
-<td title='VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3</td>
+<td title='VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1</td>
 <td></td>
-<td>36</td>
-<td>VAT2.F2NOVAT.F2noVat_ScriptPostVATReturn3stVATReturnReport_3@15b986cd</td></tr>
-<tr>
-<td title='VAT2.F2NOVAT.F2novat_EditVATType.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl2</b><br>Test class: VAT2.F2NOVAT.F2novat_EditVATType</td>
-<td></td>
-<td>45</td>
-<td>VAT2.F2NOVAT.F2novat_EditVATType@6134ac4a</td></tr>
-<tr>
-<td title='VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1</td>
-<td></td>
-<td>39</td>
-<td>VAT2.F2NOVAT.F2noVat_ScriptVATReturn1stVATReturnReport_1@420745d7</td></tr>
+<td>86</td>
+<td>VAT2.F2NOVAT.F2noVat_SaleInToReconcile_1@22175d4f</td></tr>
 </table><p>
 </body>
 </html>

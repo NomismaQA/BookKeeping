@@ -2,63 +2,63 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-09T19:39:15 IST" name="Default suite" finished-at="2021-12-09T19:40:12 IST" duration-ms="57650">
+  <suite started-at="2022-01-05T23:26:44 IST" name="Default suite" finished-at="2022-01-05T23:31:46 IST" duration-ms="302056">
     <groups>
-      <group name="ScriptDebitNoteSToFRS">
-        <method signature="Vikash_Dashboard_Payroll.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum()[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum" class="test.ashiv.Vikash_Dashboard_Payroll"/>
-      </group> <!-- ScriptDebitNoteSToFRS -->
-      <group name="ScriptDebitNoteSToFRS - Default Profile">
-        <method signature="Vikash_Dashboard_Payroll.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum()[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866]" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum" class="test.ashiv.Vikash_Dashboard_Payroll"/>
-      </group> <!-- ScriptDebitNoteSToFRS - Default Profile -->
+      <group name="SaleInToReconcile - Default Profile">
+        <method signature="Clear_Data.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report()[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report" class="Test_Trial_Balance_Report.Clear_Data"/>
+      </group> <!-- SaleInToReconcile - Default Profile -->
+      <group name="SaleInToReconcile">
+        <method signature="Clear_Data.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report()[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report" class="Test_Trial_Balance_Report.Clear_Data"/>
+      </group> <!-- SaleInToReconcile -->
     </groups>
-    <test started-at="2021-12-09T19:39:15 IST" name="Default test" finished-at="2021-12-09T19:40:12 IST" duration-ms="57650">
-      <class name="test.ashiv.Vikash_Dashboard_Payroll">
-        <test-method is-config="true" signature="allocateData(org.testng.ITestContext)[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866]" started-at="2021-12-09T19:39:15 IST" name="allocateData" finished-at="2021-12-09T19:39:15 IST" duration-ms="7" status="PASS">
+    <test started-at="2022-01-05T23:26:44 IST" name="Default test" finished-at="2022-01-05T23:31:46 IST" duration-ms="302056">
+      <class name="Test_Trial_Balance_Report.Clear_Data">
+        <test-method is-config="true" signature="allocateData(org.testng.ITestContext)[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f]" started-at="2022-01-05T23:26:44 IST" name="allocateData" finished-at="2022-01-05T23:26:44 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@611b35d6]]>
+                <![CDATA[org.testng.TestRunner@69499c6f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allocateData -->
-        <test-method is-config="true" signature="setupReporter()[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866]" started-at="2021-12-09T19:39:15 IST" name="setupReporter" finished-at="2021-12-09T19:39:15 IST" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="setupReporter()[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f]" started-at="2022-01-05T23:26:44 IST" name="setupReporter" finished-at="2022-01-05T23:26:44 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReporter -->
-        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866]" started-at="2021-12-09T19:39:15 IST" name="initDriver" finished-at="2021-12-09T19:39:20 IST" duration-ms="5288" status="PASS">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f]" started-at="2022-01-05T23:26:44 IST" name="initDriver" finished-at="2022-01-05T23:26:45 IST" duration-ms="1465" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void test.ashiv.Vikash_Dashboard_Payroll.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum() throws java.lang.InterruptedException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.awt.HeadlessException,java.io.IOException,java.awt.AWTException]]>
+                <![CDATA[public void Test_Trial_Balance_Report.Clear_Data.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report() throws java.lang.InterruptedException,java.io.IOException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.awt.HeadlessException,java.awt.AWTException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum()[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866]" started-at="2021-12-09T19:39:20 IST" name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum" finished-at="2021-12-09T19:40:11 IST" duration-ms="50679" status="PASS">
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report()[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f]" started-at="2022-01-05T23:26:45 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report" finished-at="2022-01-05T23:31:44 IST" duration-ms="299031" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866]" started-at="2021-12-09T19:40:12 IST" name="tearDown" finished-at="2021-12-09T19:40:12 IST" duration-ms="783" status="PASS">
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f]" started-at="2022-01-05T23:31:45 IST" name="tearDown" finished-at="2022-01-05T23:31:46 IST" duration-ms="944" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum status=SUCCESS method=Vikash_Dashboard_Payroll.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum()[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866] output={null}]]]>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report status=SUCCESS method=Clear_Data.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report()[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeReporter()[pri:0, instance:test.ashiv.Vikash_Dashboard_Payroll@e077866]" started-at="2021-12-09T19:40:13 IST" name="closeReporter" finished-at="2021-12-09T19:40:13 IST" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="closeReporter()[pri:0, instance:Test_Trial_Balance_Report.Clear_Data@1c7fd41f]" started-at="2022-01-05T23:31:46 IST" name="closeReporter" finished-at="2022-01-05T23:31:47 IST" duration-ms="588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReporter -->
-      </class> <!-- test.ashiv.Vikash_Dashboard_Payroll -->
+      </class> <!-- Test_Trial_Balance_Report.Clear_Data -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

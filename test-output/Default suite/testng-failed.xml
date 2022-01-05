@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.partialReconcileJonralEntryFlatToStand.SaleInToReconcileForJonral_DefaultProfile">
+      <class name="Test_Trial_Balance_Report.Clear_Data">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- test.partialReconcileJonralEntryFlatToStand.SaleInToReconcileForJonral_DefaultProfile -->
+      </class> <!-- Test_Trial_Balance_Report.Clear_Data -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
