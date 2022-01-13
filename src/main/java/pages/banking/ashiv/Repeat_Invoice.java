@@ -837,16 +837,16 @@ public class Repeat_Invoice extends BasePage
 	
 public void DiscountScreenshot()
 {
-	utilities.Screenshotcapture.FullScreenshot("Discount should be calculate", "New Repeat Invoice");
+	utilities.Screenshotcapture.FullShot("Discount should be calculate", "New Repeat Invoice");
 }
 public void CISScreenshot()
 {
-	utilities.Screenshotcapture.FullScreenshot("CIS- highlight only when CIS income type selected", "New Repeat Invoice");
+	utilities.Screenshotcapture.FullShot("CIS- highlight only when CIS income type selected", "New Repeat Invoice");
 }
 	
 public void DefaultNoVatScreenshot() throws InterruptedException
 {
-	utilities.Screenshotcapture.FullScreenshot("Always set No VAT as Default", "New Repeat Invoice");
+	utilities.Screenshotcapture.FullShot("Always set No VAT as Default", "New Repeat Invoice");
 	Thread.sleep(2000);
 }
 	

@@ -439,13 +439,13 @@ Thread.sleep(2000);
 //			WebElement elem=list2.get(i);
 //			jsExec.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
 //		}
-		utilities.Screenshotcapture.FullScreenshot("Checkbox for select all", "Ledger_Reconciliation");
+		utilities.Screenshotcapture.FullShot("Checkbox for select all", "Ledger_Reconciliation");
 	}
 	
 	public void UndoScreenshot() throws InterruptedException
 	{
 		Thread.sleep(2000);
-		utilities.Screenshotcapture.FullScreenshot("Success Undo Reconciliation ", "Ledger_Reconciliation");
+		utilities.Screenshotcapture.FullShot("Success Undo Reconciliation ", "Ledger_Reconciliation");
 	}
 	
 	public void Allacc2() throws InterruptedException

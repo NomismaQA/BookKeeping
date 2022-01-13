@@ -5,18 +5,32 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="bank_trans_Spntamt(failed)(failed)" verbose="10">
+  <test thread-count="5" name="TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)(failed)" verbose="10">
     <classes>
-      <class name="tests.Bank_new_Trans.bank_trans_Spntamt">
+      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl1"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
         </methods>
-      </class> <!-- tests.Bank_new_Trans.bank_trans_Spntamt -->
+      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier -->
     </classes>
-  </test> <!-- bank_trans_Spntamt(failed)(failed) -->
+  </test> <!-- TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)(failed) -->
+  <test thread-count="5" name="TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)(failed)" verbose="10">
+    <classes>
+      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+        </methods>
+      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank -->
+    </classes>
+  </test> <!-- TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

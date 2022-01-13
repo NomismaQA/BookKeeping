@@ -101,7 +101,7 @@ public static void FullScreenshot(String Filename)
 	      
 		JavascriptExecutor js = (JavascriptExecutor)m_Driver;
 		
-		js.executeScript("document.body.style.zoom = '60%';");
+		js.executeScript("document.body.style.zoom = '80%';");
 	     
 			Screenshot s=new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(m_Driver);
 			ImageIO.write(s.getImage(), "png", new File(System.getProperty("user.dir")+"\\report\\"+"\\Trial_Balance_Report\\"+Filename+".png"));
@@ -151,6 +151,35 @@ public static void Full(String Filename)
 	}
 }
 
-
+public static void FullShot(String Filename,String FolderName)
+{
+	try 
+	{
+		
+//		ArrayList<String> ta = new ArrayList<String> (m_Driver.getWindowHandles());         
+//	      int i=ta.size();         System.out.println(i);         
+//	      m_Driver.switchTo().window(ta.get(1));   
+	      
+//	      String loc=System.getProperty("user.dir");
+//	      path=loc+"\\As_Screenshot\\"+Foldername+"\\"+Filename+".png";
+	      
+		
+	     
+			Screenshot s=new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(m_Driver);
+			ImageIO.write(s.getImage(), "png", new File(System.getProperty("user.dir")+"\\As_Screenshot\\"+Filename+"+"+FolderName+".png"));
+	       
+		
+			
+		
+		
+//		
+		
+	} 
+	catch (Exception e) 
+	{
+	
+		e.printStackTrace();
+	}
+}
 
 }

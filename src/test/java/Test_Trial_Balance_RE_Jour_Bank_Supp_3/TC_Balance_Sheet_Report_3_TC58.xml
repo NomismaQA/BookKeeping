@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "TC_1_3_BS_FixedAsset_10_To_19_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_01_3_BS_FixedAsset_10_To_19_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_2_3_BS_FixedAsset_20_To_29_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_02_3_BS_FixedAsset_20_To_29_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_3_3_BS_FixedAsset_30_To_39_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_03_3_BS_FixedAsset_30_To_39_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_4_3_BS_FixedAsset_40_To_49_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_04_3_BS_FixedAsset_40_To_49_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_5_3_BS_FixedAsset_200_To_209_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_05_3_BS_FixedAsset_200_To_209_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_7_3_BS_FixedAsset_220_To_229_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_07_3_BS_FixedAsset_220_To_229_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_8_3_BS_FixedAsset_230_To_239_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_08_3_BS_FixedAsset_230_To_239_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_9_3_BS_FixedAsset_240_To_249_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_09_3_BS_FixedAsset_240_To_249_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_10_3_BS_FixedAsset_250_To_259_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_10_3_BS_FixedAsset_250_To_259_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_11_3_BS_FixedAsset_260_To_269_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_11_3_BS_FixedAsset_260_To_269_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_12_3_BS_FixedAsset_270_To_279_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_12_3_BS_FixedAsset_270_To_279_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_13_3_BS_FixedAsset_280_To_289_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_13_3_BS_FixedAsset_280_To_289_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_14_3_BS_FixedAsset_600_To_609_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_14_3_BS_FixedAsset_600_To_609_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_15_3_BS_FixedAsset_630_To_639_With_Journal_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_15_3_BS_FixedAsset_630_To_639_With_Journal_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_16_2_BS_CurrentAsset_1000_1060_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_16_2_BS_CurrentAsset_1000_1060_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_17_3_BS_CurrentAsset_1070_1070_With_Journal_Bank_Invoice" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_17_3_BS_CurrentAsset_1070_1070_With_Journal_Bank_Invoice"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_18_2_BS_DEBTOR_1300_To_1320_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_18_2_BS_DEBTOR_1300_To_1320_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_19_2_BS_DEBTOR_1330_1339_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_19_2_BS_DEBTOR_1330_1339_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	
+ 		<test name= "TC_20_2_BS_DEBTOR_1401_1402_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_20_2_BS_DEBTOR_1401_1402_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	
+ 		<test name= "TC_21_2_BS_DEBTOR_1420_1420_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_21_2_BS_DEBTOR_1420_1420_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	
+ 		<test name= "TC_22_2_BS_DEBTOR_1092_1092_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_22_2_BS_DEBTOR_1092_1092_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_24_2_BS_TAXATION_1100_1103_1104_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_24_2_BS_TAXATION_1100_1103_1104_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_25_2_BS_TAXATION_1101_1103_With_Journal_Bank" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_25_2_BS_TAXATION_1101_1103_With_Journal_Bank"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	
+ 	
+	
+  	</suite>

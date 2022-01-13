@@ -4291,7 +4291,7 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
 	    int size = elements.size();
 	    System.out.println(size);
-	    for (int i = 0; i <size-1; i++) {
+	    for (int i = 0; i <10; i++) {
 	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
 	    	String led_text = ele2.getText().trim();
 	    	System.out.println(led_text);
@@ -4307,7 +4307,7 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 	    	//System.out.println(yy);
 	    	String[] z = amount.getText().split("", 3);
 	    	if (z[0].equals("(")) {
-	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,9), ExpAmt);
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
 			} else {
 				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
 			}
@@ -4321,7 +4321,7 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
 	    int size = elements.size();
 	    System.out.println(size);
-	    for (int i = 0; i <size-1; i++) {
+	    for (int i = 0; i <10; i++) {
 	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
 	    	String led_text = ele2.getText().trim();
 	    	System.out.println(led_text);
@@ -4337,7 +4337,7 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 	    	//System.out.println(yy);
 	    	String[] z = amount.getText().split("", 3);
 	    	if (z[0].equals("(")) {
-	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,9), ExpAmt);
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
 			} else {
 				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
 			}
@@ -4351,7 +4351,37 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
 	    int size = elements.size();
 	    System.out.println(size);
-	    for (int i = 0; i <size-1; i++) {
+	    for (int i = 0; i <7; i++) {
+	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
+	    	String led_text1[] = ele2.getText().split("-");
+	    	String led_text = led_text1[0].trim();
+	    	System.out.println(ele2.getText());
+	    	String[] ledgersplit = expected_entry.get(i).split("-");
+	    	String expectedledger = ledgersplit[1].trim();
+	    	Assert.assertEquals(led_text.replaceAll("-", " "), expectedledger.replaceAll("-"," "));
+	    	Reporter.log("Ledger code verified: "+led_text);
+	    	
+	    	WebElement amount=m_Driver.findElement(By.xpath("//tbody/tr/td/span[contains(text(),'"+ledger.get(i)+"')]/parent::td/following-sibling::td/a/span"));
+	    	String ActAmt = amount.getText();
+	    	String ExpAmt = amt.get(i)+".00";
+	    	//System.out.println(xx);
+	    	//System.out.println(yy);
+	    	String[] z = amount.getText().split("", 3);
+	    	if (z[0].equals("(")) {
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
+			} else {
+				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
+			}
+	    	Reporter.log("Amount enter verified: "+ActAmt);
+	    	sl.ScrollToElement(m_Driver, ele2);
+		}
+	    Reporter.log("Enteries are Verified on Balance Sheet Report page :", true);
+	}
+ public void verify_BS_FixedAsset_610_619(){
+		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
+	    int size = elements.size();
+	    System.out.println(size);
+	    for (int i = 0; i <10; i++) {
 	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
 	    	String led_text = ele2.getText().trim();
 	    	System.out.println(led_text);
@@ -4367,7 +4397,7 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 	    	//System.out.println(yy);
 	    	String[] z = amount.getText().split("", 3);
 	    	if (z[0].equals("(")) {
-	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,9), ExpAmt);
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
 			} else {
 				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
 			}
@@ -4380,13 +4410,14 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
 	    int size = elements.size();
 	    System.out.println(size);
-	    for (int i = 0; i <size-1; i++) {
+	    for (int i = 0; i <7; i++) {
 	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
-	    	String led_text = ele2.getText().trim();
-	    	System.out.println(led_text);
+	    	String led_text1[] = ele2.getText().split("-");
+	    	String led_text = led_text1[0].trim();
+	    	System.out.println(ele2.getText());
 	    	String[] ledgersplit = expected_entry.get(i).split("-");
 	    	String expectedledger = ledgersplit[1].trim();
-	    	Assert.assertEquals(ele2.getText().replaceAll("-", " "), expectedledger.replaceAll("-"," "));
+	    	Assert.assertEquals(led_text.replaceAll("-", " "), expectedledger.replaceAll("-"," "));
 	    	Reporter.log("Ledger code verified: "+led_text);
 	    	
 	    	WebElement amount=m_Driver.findElement(By.xpath("//tbody/tr/td/span[contains(text(),'"+ledger.get(i)+"')]/parent::td/following-sibling::td/a/span"));
@@ -4396,7 +4427,7 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 	    	//System.out.println(yy);
 	    	String[] z = amount.getText().split("", 3);
 	    	if (z[0].equals("(")) {
-	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,9), ExpAmt);
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
 			} else {
 				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
 			}
@@ -4406,11 +4437,11 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 	    Reporter.log("Enteries are Verified on Balance Sheet Report page :", true);
 	}
  
- public void verify_BS_ProvisionForLiability(){
+ public void verify_BS_1000_1060(){
 		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
 	    int size = elements.size();
 	    System.out.println(size);
-	    for (int i = 0; i <size-1; i++) {
+	    for (int i = 0; i <2; i++) {
 	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
 	    	String led_text = ele2.getText().trim();
 	    	System.out.println(led_text);
@@ -4426,7 +4457,37 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 	    	//System.out.println(yy);
 	    	String[] z = amount.getText().split("", 3);
 	    	if (z[0].equals("(")) {
-	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,9), ExpAmt);
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
+			} else {
+				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
+			}
+	    	Reporter.log("Amount enter verified: "+ActAmt);
+	    	sl.ScrollToElement(m_Driver, ele2);
+		}
+	    Reporter.log("Enteries are Verified on Balance Sheet Report page :", true);
+	}
+ public void verify_BS_1330_1339(){
+		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
+	    int size = elements.size();
+	    System.out.println(size);
+	    for (int i = 0; i <2; i++) {
+	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
+	    	String led_text1[] = ele2.getText().split("-");
+	    	String led_text = led_text1[0].trim();
+	    	System.out.println(ele2.getText());
+	    	String[] ledgersplit = expected_entry.get(i).split("-");
+	    	String expectedledger = ledgersplit[1].trim();
+	    	Assert.assertEquals(led_text.replaceAll("-", " "), expectedledger.replaceAll("-"," "));
+	    	Reporter.log("Ledger code verified: "+led_text);
+	    	
+	    	WebElement amount=m_Driver.findElement(By.xpath("//tbody/tr/td/span[contains(text(),'"+ledger.get(i)+"')]/parent::td/following-sibling::td/a/span"));
+	    	String ActAmt = amount.getText();
+	    	String ExpAmt = amt.get(i)+".00";
+	    	//System.out.println(xx);
+	    	//System.out.println(yy);
+	    	String[] z = amount.getText().split("", 3);
+	    	if (z[0].equals("(")) {
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
 			} else {
 				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
 			}
@@ -4436,6 +4497,66 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 	    Reporter.log("Enteries are Verified on Balance Sheet Report page :", true);
 	}
  
+ public void verify_BS_1100_1102_1104(){
+		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
+	    int size = elements.size();
+	    System.out.println(size);
+	    for (int i = 0; i <3; i++) {
+	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
+	    	String led_text1[] = ele2.getText().split("-");
+	    	String led_text = led_text1[0].trim();
+	    	System.out.println(ele2.getText());
+	    	String[] ledgersplit = expected_entry.get(i).split("-");
+	    	String expectedledger = ledgersplit[1].trim();
+	    	Assert.assertEquals(led_text.replaceAll("-", " "), expectedledger.replaceAll("-"," "));
+	    	Reporter.log("Ledger code verified: "+led_text);
+	    	
+	    	WebElement amount=m_Driver.findElement(By.xpath("//tbody/tr/td/span[contains(text(),'"+ledger.get(i)+"')]/parent::td/following-sibling::td/a/span"));
+	    	String ActAmt = amount.getText();
+	    	String ExpAmt = amt.get(i)+".00";
+	    	//System.out.println(xx);
+	    	//System.out.println(yy);
+	    	String[] z = amount.getText().split("", 3);
+	    	if (z[0].equals("(")) {
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
+			} else {
+				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
+			}
+	    	Reporter.log("Amount enter verified: "+ActAmt);
+	    	sl.ScrollToElement(m_Driver, ele2);
+		}
+	    Reporter.log("Enteries are Verified on Balance Sheet Report page :", true);
+	}
+ public void verify_BS_1400_1420(){
+		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
+	    int size = elements.size();
+	    System.out.println(size);
+	    for (int i = 0; i <2; i++) {
+	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
+	    	String led_text1[] = ele2.getText().split("-");
+	    	String led_text = led_text1[0].trim();
+	    	System.out.println(ele2.getText());
+	    	String[] ledgersplit = expected_entry.get(i).split("-");
+	    	String expectedledger = ledgersplit[1].trim();
+	    	Assert.assertEquals(led_text.replaceAll("-", " "), expectedledger.replaceAll("-"," "));
+	    	Reporter.log("Ledger code verified: "+led_text);
+	    	
+//	    	WebElement amount=m_Driver.findElement(By.xpath("//tbody/tr/td/span[contains(text(),'"+ledger.get(i)+"')]/parent::td/following-sibling::td/a/span"));
+//	    	String ActAmt = amount.getText();
+//	    	String ExpAmt = amt.get(i)+".00";
+//	    	//System.out.println(xx);
+//	    	//System.out.println(yy);
+//	    	String[] z = amount.getText().split("", 3);
+//	    	if (z[0].equals("(")) {
+//	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
+//			} else {
+//				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
+//			}
+//	    	Reporter.log("Amount enter verified: "+ActAmt);
+	    	sl.ScrollToElement(m_Driver, ele2);
+		}
+	    Reporter.log("Enteries are Verified on Balance Sheet Report page :", true);
+	}
  
  public void verify_BS_Director_1321() {
  	for (String string : expected_entry) {
@@ -6357,7 +6478,7 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
 	    int size = elements.size();
 	    System.out.println(size);
-	    for (int i = 0; i <size-2; i++) {
+	    for (int i = 0; i <2; i++) {
 	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
 	    	String led_text = ele2.getText().trim();
 	    	System.out.println(led_text);
@@ -6646,6 +6767,33 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 	    int size = elements.size();
 	    System.out.println(size);
 	    for (int i = 0; i <size-2; i++) {
+	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
+	    	String led_text = ele2.getText().trim();
+	    	System.out.println(led_text);
+	    	String[] ledgersplit = expected_entry.get(i).split("-", 2);
+	    	String expectedledger = ledgersplit[1].trim();
+	    	Assert.assertEquals(ele2.getText().replaceAll("-", " "), expectedledger.replaceAll("-"," "));
+	    	Reporter.log("Ledger code verified: "+led_text);
+	    	
+	    	WebElement amount=m_Driver.findElement(By.xpath("//tbody/tr/td/span[contains(text(),'"+ledger.get(i)+"')]/parent::td/following-sibling::td/a/span"));
+	    	String ActAmt = amount.getText();
+	    	String ExpAmt = amt.get(i)+".00";
+	    	String[] z = amount.getText().split("", 3);
+	    	if (z[0].equals("(")) {
+	    		Assert.assertEquals(amount.getText().replaceAll(",", "").substring(1,8), ExpAmt);
+			} else {
+				Assert.assertEquals(amount.getText().replaceAll(",", ""), ExpAmt);
+			}
+	    	Reporter.log("Amount enter verified: "+ActAmt);
+	    	sl.ScrollToElement(m_Driver, ele2);
+		}
+	    Reporter.log("Enteries are Verified on Balance Sheet Report page :", true);
+	}
+ public void verify_BS_BF_Debtor_1300_1320(){
+		List<WebElement> elements = m_Driver.findElements(By.xpath("//tbody/tr/td[2]/span[contains(text(),'')]/following-sibling::a"));
+	    int size = elements.size();
+	    System.out.println(size);
+	    for (int i = 0; i <5; i++) {
 	    	WebElement ele2=m_Driver.findElement(By.xpath("//tbody/tr/td[2]/span[contains(text(),'"+ledger.get(i)+"')]/following-sibling::a"));
 	    	String led_text = ele2.getText().trim();
 	    	System.out.println(led_text);
@@ -7190,5 +7338,75 @@ public void verify_ProfitLoss_NonTradingItem_7950_7962(){
 		}
 	    Reporter.log("Enteries are Verified on Balance Sheet Report page :", true);
 	}
+	public void Enter_Account1_R(String Account1) throws AWTException, NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, InterruptedException
+ 	{
+ 		ledger.add(0, Account1);
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//iframe[@id='ctl00_cPH_journalmodal1Iframe1']")));
 
+ 		WebElement elem = getWebElement(Account1Elem);
+
+		if (elem == null) {
+	ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_Account1", "Enter_Account1 failed. Unable to locate object: " + Account1Elem.toString());
+
+	TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_Account1", "Enter_Account1 failed. Unable to locate object: " + Account1Elem.toString());
+
+ 			Assert.fail("Unable to locate object: " + Account1Elem.toString());
+         }
+		WaitStatementLib wt=new WaitStatementLib();
+		wt.explicitWait_elementToBeClickable(m_Driver, 20, elem);
+		elem.click();
+		
+		wt.explicitiWait_presenceOfElementLocated(m_Driver, 20, By.xpath("//ul[@id='select2-ctl00_cPH_rptRecord_ctl00_ltAccount-results']/li/ul/li[starts-with(text(), '"+Account1+" - "+"')]"));
+		
+		//wt.explicitWait_elementToBeClickable(m_Driver, 20, m_Driver.findElement(By.xpath("//ul[@id='ctl00_cPH_rptRecord_ctl06_AccountUC1_AutoCompleteExtender1_completionListElem']/li[starts-with(text(), '"+Account7+" -"+"')]")));
+		WebElement elemc= m_Driver.findElement(By.xpath("//ul[@id='select2-ctl00_cPH_rptRecord_ctl00_ltAccount-results']/li/ul/li[starts-with(text(), '"+Account1+" - R"+"')]"));
+		elemc.click();
+	
+		WebElement ele1=getWebElement(entry1xpath);
+ 		LedgerEntered_1=ele1.getAttribute("title");
+ 		expected_entry.add(0, ele1.getAttribute("title"));
+ 	    //System.out.println(LedgerEntered_7);
+ 	   Reporter.log("ledger 1 entered :"+LedgerEntered_1, true);
+
+ 		m_Driver.switchTo().defaultContent();
+  		 ExtentReportManager.passStep(m_Driver, "Enter_Account1 " + Account1);
+
+  		 TestModellerLogger.PassStep(m_Driver, "Enter_Account1 " + Account1);
+ 	}
+	
+	public void Enter_Account1_D(String Account1) throws AWTException, NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, InterruptedException
+ 	{
+ 		ledger.add(0, Account1);
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//iframe[@id='ctl00_cPH_journalmodal1Iframe1']")));
+
+ 		WebElement elem = getWebElement(Account1Elem);
+
+		if (elem == null) {
+	ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_Account1", "Enter_Account1 failed. Unable to locate object: " + Account1Elem.toString());
+
+	TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_Account1", "Enter_Account1 failed. Unable to locate object: " + Account1Elem.toString());
+
+ 			Assert.fail("Unable to locate object: " + Account1Elem.toString());
+         }
+		WaitStatementLib wt=new WaitStatementLib();
+		wt.explicitWait_elementToBeClickable(m_Driver, 20, elem);
+		elem.click();
+		
+		wt.explicitiWait_presenceOfElementLocated(m_Driver, 20, By.xpath("//ul[@id='select2-ctl00_cPH_rptRecord_ctl00_ltAccount-results']/li/ul/li[starts-with(text(), '"+Account1+" - Z"+"')]"));
+		
+		//wt.explicitWait_elementToBeClickable(m_Driver, 20, m_Driver.findElement(By.xpath("//ul[@id='ctl00_cPH_rptRecord_ctl06_AccountUC1_AutoCompleteExtender1_completionListElem']/li[starts-with(text(), '"+Account7+" -"+"')]")));
+		WebElement elemc= m_Driver.findElement(By.xpath("//ul[@id='select2-ctl00_cPH_rptRecord_ctl00_ltAccount-results']/li/ul/li[starts-with(text(), '"+Account1+" - Z"+"')]"));
+		elemc.click();
+	
+		WebElement ele1=getWebElement(entry1xpath);
+ 		LedgerEntered_1=ele1.getAttribute("title");
+ 		expected_entry.add(0, ele1.getAttribute("title"));
+ 	    //System.out.println(LedgerEntered_7);
+ 	   Reporter.log("ledger 1 entered :"+LedgerEntered_1, true);
+
+ 		m_Driver.switchTo().defaultContent();
+  		 ExtentReportManager.passStep(m_Driver, "Enter_Account1 " + Account1);
+
+  		 TestModellerLogger.PassStep(m_Driver, "Enter_Account1 " + Account1);
+ 	}
 }

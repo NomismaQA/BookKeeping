@@ -33,7 +33,7 @@ public class Clear_Data extends TestBase
     @TestModellerPath(guid = "8c7c840e-6086-4f3d-b9ff-7b3f3724775c")
     public void GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report() throws InterruptedException, IOException, InvalidFormatException, HeadlessException, AWTException
     {
-    	sTestCaseID="TC_01";
+    	sTestCaseID="TC_36";
        	Sheet="TrailBalanceReport_2";
         data = ExcelUtility.toReadExcelData(sTestCaseID, Sheet);
         

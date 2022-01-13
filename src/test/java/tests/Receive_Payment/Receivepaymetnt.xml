@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+<test name="SaleInvoice_nuinvoice" enabled="true">
+<classes>
+<class name="tests.Receive_Payment.SaleInvoice_nuinvoice">
+</class>
+</classes>
+</test>
+
+
+</suite>

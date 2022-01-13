@@ -35,10 +35,10 @@ public class Delete_Bank_entry extends BasePage
 
 	public void delete_BankEntry() throws InterruptedException
 	{
-//WebElement Bank1=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlAccount']"));
-//Select sl=new Select(Bank1);
-//sl.selectByVisibleText("Default Bank");
-//m_Driver.findElement(By.xpath("//*[@id='ctl00_cPHFilter_btnSearch']")).click();
+		WebElement Bank1=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlAccount']"));
+		Select sl=new Select(Bank1);
+		sl.selectByVisibleText("Default Bank");
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPHFilter_btnSearch']")).click();
 		
 		List<WebElement>list =m_Driver.findElements(By.xpath("//*[@id='myTable']/tbody/tr/td[12]/div/a"));
 		
