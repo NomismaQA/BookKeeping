@@ -7,69 +7,226 @@
 <listener class-name="reports.ExtentTestListener" />
 </listeners>
 
-<test name= "TC_44_3_NonTradingItems_7958_7962__JournalEntry_Bank" enabled="true">  
+
+ 		<test name= "TC_36_1_ExpenseHead_7001_7005__JournalEntry_Bank_Supplier" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_44_3_NonTradingItems_7958_7962__JournalEntry_Bank"/>
-   			</classes> 
-  			
- 	</test>
- 	<test name= "TC_45_3_NonTradingItems_7953_7956__JournalEntry_Bank" enabled="true">  
-  		 
- 			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_45_3_NonTradingItems_7953_7956__JournalEntry_Bank"/>
-   			</classes> 
-  			
- 	</test>
- 	<test name= "TC_51_3_IncomeType_4000_4030__JournalEntry_Bank" enabled="true">  
-  		 
- 			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_51_3_IncomeType_4000_4030__JournalEntry_Bank"/>
-   			</classes> 
-  			
- 	</test>
- 	<test name= "TC_53_3_ProfitAndLoss_3100_3103__JournalEntry_Bank" enabled="true">  
-  		 
- 			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_53_3_ProfitAndLoss_3100_3103__JournalEntry_Bank"/>
-   			</classes> 
-  			
- 	</test>
- 	 	<test name= "TC_72_2_Taxation_1200_1205_JournalEntry_Bank" enabled="true">  
-  		 
- 			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_72_2_Taxation_1200_1205_JournalEntry_Bank"/>
-   			</classes> 
-  			
- 	</test>
- 		<test name= "TC_76_2_Person_1323_1323_JournalEntry_Bank" enabled="true">  
-  		 
- 			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_76_2_Person_1323_1323_JournalEntry_Bank"/>
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_36_1_ExpenseHead_7001_7005__JournalEntry_Bank_Supplier"/>
    			</classes> 
   			
  	
  	</test>
- 		<test name= "TC_82_3_ExpenseHead_7203_7204__JournalEntry_Bank_Supplier" enabled="true">  
+ 	<test name= "TC_36_2_ExpenseHead_7008_7011__JournalEntry_Bank_Supplier" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_82_3_ExpenseHead_7203_7204__JournalEntry_Bank_Supplier"/>
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_36_2_ExpenseHead_7008_7011__JournalEntry_Bank_Supplier"/>
    			</classes> 
   			
  	
  	</test>
- 		<test name= "TC_83_3_ExpenseHead_7305_7512__JournalEntry_Bank_Supplier" enabled="true">  
+ 	<test name= "TC_36_3_ExpenseHead_70121415__JournalEntry_Bank_Supplier" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_83_3_ExpenseHead_7305_7512__JournalEntry_Bank_Supplier"/>
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_36_3_ExpenseHead_70121415__JournalEntry_Bank_Supplier"/>
    			</classes> 
   			
  	
  	</test>
- 		<test name= "TC_84_3_ExpenseHead_7525_7011__JournalEntry_Bank_Supplier" enabled="true">  
+ 	<test name= "TC_36_4_ExpenseHead_70151616__JournalEntry_Bank_Supplier" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_84_3_ExpenseHead_7525_7011__JournalEntry_Bank_Supplier"/>
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_36_4_ExpenseHead_70151616__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_36_5_ExpenseHead_70161616__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_36_5_ExpenseHead_70161616__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_36_6_ExpenseHead_70162021__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_36_6_ExpenseHead_70162021__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_36_7_ExpenseHead_70223031__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_36_7_ExpenseHead_70223031__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_36_8_ExpenseHead_70323335__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_36_8_ExpenseHead_70323335__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_01_ExpenseHead_720070017003__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_01_ExpenseHead_720070017003__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_02_ExpenseHead_720458__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_02_ExpenseHead_720458__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_03_ExpenseHead_72091012__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_03_ExpenseHead_72091012__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_04_ExpenseHead_72131451__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_04_ExpenseHead_72131451__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_05_ExpenseHead_72545758__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_05_ExpenseHead_72545758__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_06_ExpenseHead_72606263__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_06_ExpenseHead_72606263__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_07_ExpenseHead_72646667__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_07_ExpenseHead_72646667__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_37_08_ExpenseHead_72686870__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_08_ExpenseHead_72686870__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_09_ExpenseHead_71718081_JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_09_ExpenseHead_71718081_JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_37_10_ExpenseHead_7183_JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_10_ExpenseHead_7183_JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_38_3_ExpenseHead_7300_7305__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_38_3_ExpenseHead_7300_7305__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_39_3_ExpenseHead_7400_7402__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_39_3_ExpenseHead_7400_7402__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_40_01_ExpenseHead_750057__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_40_01_ExpenseHead_750057__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_40_02_ExpenseHead_75101112__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_40_02_ExpenseHead_75101112__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	<test name= "TC_40_03_ExpenseHead_75181925__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_40_03_ExpenseHead_75181925__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_40_04_ExpenseHead_75252525_JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_40_04_ExpenseHead_75252525_JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 		<test name= "TC_40_05_ExpenseHead_7527_JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_40_05_ExpenseHead_7527_JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC_41_1_ExpenseHead_76032425__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_1_ExpenseHead_76032425__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	</test><test name= "TC_41_3_ExpenseHead_7602830__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_3_ExpenseHead_7602830__JournalEntry_Bank_Supplier"/>
    			</classes> 
   			
  	</test>

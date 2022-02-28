@@ -32,7 +32,7 @@ public class ScriptSupplierBillSToFRS_DefaultProfile extends TestBase
     
     @Test  (groups= {"ScriptSupplierBillSToFRS","ScriptSupplierBillSToFRS - Default Profile"})
     @TestModellerPath(guid = "e71d23e0-36b9-450a-9aa3-0fc9a974b214")
-    public void GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewSupplier_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum() throws InterruptedException, InvalidFormatException, HeadlessException, IOException, AWTException
+    public void GoToUrlAssertUrlPositiveEnterSupplierBill() throws InterruptedException, InvalidFormatException, HeadlessException, IOException, AWTException
     {
     	sTestCaseID="TC15";
        	Sheet="BankingBank";
@@ -183,6 +183,92 @@ pages.banking.ashiv.AgentsSelect _AgentsSelect = new   pages.banking.ashiv.Agent
     
     utilities.Screenshotcapture.Getscreenshot("Supplier Add  Success Msg  ", "New Supplier");
     
+    
+    }
+    
+    
+    @Test  (groups= {"ScriptSupplierBillSToFRS","ScriptSupplierBillSToFRS - Default Profile"})
+    @TestModellerPath(guid = "e71d23e0-36b9-450a-9aa3-0fc9a974b214")
+    public void GoToUrlAssertUrlPositiveEnterSupplierBill_1() throws InterruptedException, InvalidFormatException, HeadlessException, IOException, AWTException
+    {
+    	sTestCaseID="TC15";
+       	Sheet="BankingBank";
+        data = ExcelUtility.toReadExcelData(sTestCaseID, Sheet);
+        
+        pages.banking.ashiv.Login1VAT _Login1VAT = new  pages.banking.ashiv.Login1VAT(driver);
+    TestModellerLogger.SetLastNodeGuid("93e4a214-3f97-41d2-8063-dd91c879e847");
+    _Login1VAT.GoToUrl();
+    
+
+    TestModellerLogger.SetLastNodeGuid("7eff8b4c-1e47-48a4-bcad-b3639d0cdfd5");
+    _Login1VAT.AssertUrl();
+    
+
+    TestModellerLogger.SetLastNodeGuid("ceaa193b-d8c0-48f9-911f-018e2571da20");
+    _Login1VAT.Enter_UserName(data[1]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("95b31ed9-af0a-49e7-8bfa-8471d379cdff");
+    _Login1VAT.Enter_Password(data[2]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("942414e4-1d0e-45ba-bdd1-43293b97e0ff");
+    _Login1VAT.Click_LoginButton();
+    
+
+pages.banking.ashiv.AgentsSelect _AgentsSelect = new   pages.banking.ashiv.AgentsSelect(driver);
+//    TestModellerLogger.SetLastNodeGuid("69016c4b-a736-45bf-a682-5c03ee8d17cd");
+//    _AgentsSelect.GoToUrl();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("bd071d41-148c-42e8-8300-984c9dd4df87");
+//    _AgentsSelect.AssertUrl();
+//    
+
+    TestModellerLogger.SetLastNodeGuid("bd031a68-650a-4b8c-8e7c-0ce87415e17e");
+    _AgentsSelect.Click_AgentsTab();
+    
+
+    TestModellerLogger.SetLastNodeGuid("d5b61053-e5d4-479f-87c7-e4be6b5f054a");
+    _AgentsSelect.Enter_AgentName(data[3]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("2bae82eb-0e45-434c-b1bd-7336f304d4f9");
+    _AgentsSelect.Click_SearchButton();
+    
+
+    TestModellerLogger.SetLastNodeGuid("be317b25-3125-4191-86a5-e8ffee0d0334");
+    _AgentsSelect.Click_SelectAgent();
+    
+
+    pages.banking.ashiv.Searchclient _Searchclient = new pages.banking.ashiv.Searchclient(driver); 
+	 
+	  TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
+	  _Searchclient.Click__Clients_(); 
+
+	  TestModellerLogger.SetLastNodeGuid("a71cb6de-7787-4e86-ac83-a09ab1ce3b13");
+	  _Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(data[4]);
+
+
+	  TestModellerLogger.SetLastNodeGuid("0bc6f8c0-4fab-4c48-8dae-0d9405954fc9");
+	  _Searchclient.Click_Searchbtn(); 
+	  
+	  TestModellerLogger.SetLastNodeGuid("f1e00766-382f-4b93-9262-8ebbf4c5872c");
+	  _Searchclient.Click__NidhiEnt(); 
+    
+
+    As_Supplier.SupplierBillSToFRS _SupplierBillSToFRS = new As_Supplier.SupplierBillSToFRS(driver);
+//    TestModellerLogger.SetLastNodeGuid("7b21b860-8f6c-4e5e-8f4d-0ef9aedf75e5");
+//    _SupplierBillSToFRS.GoToUrl();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("3d11c569-a0da-4838-a238-3d3cd071f91d");
+//    _SupplierBillSToFRS.AssertUrl();
+    
+
+    TestModellerLogger.SetLastNodeGuid("5c30d940-2a3c-4ce2-9f6d-f491e71a1755");
+    _SupplierBillSToFRS.Click_ExpenditureTAB();
+    
     TestModellerLogger.SetLastNodeGuid("02bea7d1-9589-4278-8c66-58e376721799");
     _SupplierBillSToFRS.Click_NewTAB();
     
@@ -195,8 +281,89 @@ pages.banking.ashiv.AgentsSelect _AgentsSelect = new   pages.banking.ashiv.Agent
     _SupplierBillSToFRS.Click_SaveButton();
     Thread.sleep(2000);
     utilities.Screenshotcapture.Getscreenshot("Recall_Last_Entry And Change BillNum Success ", "New Supplier");
+    }
     
-    Thread.sleep(2000);
+    @Test  (groups= {"ScriptSupplierBillSToFRS","ScriptSupplierBillSToFRS - Default Profile"})
+    @TestModellerPath(guid = "e71d23e0-36b9-450a-9aa3-0fc9a974b214")
+    public void GoToUrlAssertUrlPositiveEnterSupplierBill_2() throws InterruptedException, InvalidFormatException, HeadlessException, IOException, AWTException
+    {
+    	sTestCaseID="TC15";
+       	Sheet="BankingBank";
+        data = ExcelUtility.toReadExcelData(sTestCaseID, Sheet);
+        
+        pages.banking.ashiv.Login1VAT _Login1VAT = new  pages.banking.ashiv.Login1VAT(driver);
+    TestModellerLogger.SetLastNodeGuid("93e4a214-3f97-41d2-8063-dd91c879e847");
+    _Login1VAT.GoToUrl();
+    
+
+    TestModellerLogger.SetLastNodeGuid("7eff8b4c-1e47-48a4-bcad-b3639d0cdfd5");
+    _Login1VAT.AssertUrl();
+    
+
+    TestModellerLogger.SetLastNodeGuid("ceaa193b-d8c0-48f9-911f-018e2571da20");
+    _Login1VAT.Enter_UserName(data[1]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("95b31ed9-af0a-49e7-8bfa-8471d379cdff");
+    _Login1VAT.Enter_Password(data[2]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("942414e4-1d0e-45ba-bdd1-43293b97e0ff");
+    _Login1VAT.Click_LoginButton();
+    
+
+pages.banking.ashiv.AgentsSelect _AgentsSelect = new   pages.banking.ashiv.AgentsSelect(driver);
+//    TestModellerLogger.SetLastNodeGuid("69016c4b-a736-45bf-a682-5c03ee8d17cd");
+//    _AgentsSelect.GoToUrl();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("bd071d41-148c-42e8-8300-984c9dd4df87");
+//    _AgentsSelect.AssertUrl();
+//    
+
+    TestModellerLogger.SetLastNodeGuid("bd031a68-650a-4b8c-8e7c-0ce87415e17e");
+    _AgentsSelect.Click_AgentsTab();
+    
+
+    TestModellerLogger.SetLastNodeGuid("d5b61053-e5d4-479f-87c7-e4be6b5f054a");
+    _AgentsSelect.Enter_AgentName(data[3]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("2bae82eb-0e45-434c-b1bd-7336f304d4f9");
+    _AgentsSelect.Click_SearchButton();
+    
+
+    TestModellerLogger.SetLastNodeGuid("be317b25-3125-4191-86a5-e8ffee0d0334");
+    _AgentsSelect.Click_SelectAgent();
+    
+
+    pages.banking.ashiv.Searchclient _Searchclient = new pages.banking.ashiv.Searchclient(driver); 
+	 
+	  TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
+	  _Searchclient.Click__Clients_(); 
+
+	  TestModellerLogger.SetLastNodeGuid("a71cb6de-7787-4e86-ac83-a09ab1ce3b13");
+	  _Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(data[4]);
+
+
+	  TestModellerLogger.SetLastNodeGuid("0bc6f8c0-4fab-4c48-8dae-0d9405954fc9");
+	  _Searchclient.Click_Searchbtn(); 
+	  
+	  TestModellerLogger.SetLastNodeGuid("f1e00766-382f-4b93-9262-8ebbf4c5872c");
+	  _Searchclient.Click__NidhiEnt(); 
+    
+
+    As_Supplier.SupplierBillSToFRS _SupplierBillSToFRS = new As_Supplier.SupplierBillSToFRS(driver);
+//    TestModellerLogger.SetLastNodeGuid("7b21b860-8f6c-4e5e-8f4d-0ef9aedf75e5");
+//    _SupplierBillSToFRS.GoToUrl();
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("3d11c569-a0da-4838-a238-3d3cd071f91d");
+//    _SupplierBillSToFRS.AssertUrl();
+    
+
+    TestModellerLogger.SetLastNodeGuid("5c30d940-2a3c-4ce2-9f6d-f491e71a1755");
+    _SupplierBillSToFRS.Click_ExpenditureTAB();
     
     TestModellerLogger.SetLastNodeGuid("02bea7d1-9589-4278-8c66-58e376721799");
     _SupplierBillSToFRS.Click_NewTAB();
@@ -209,6 +376,85 @@ pages.banking.ashiv.AgentsSelect _AgentsSelect = new   pages.banking.ashiv.Agent
      _SupplierBillSToFRS.CancelBtn();
      Thread.sleep(2000);
      utilities.Screenshotcapture.Getscreenshot("After Cancel Btn", "New Supplier");
+     
+    }
+     @Test  (groups= {"ScriptSupplierBillSToFRS","ScriptSupplierBillSToFRS - Default Profile"})
+     @TestModellerPath(guid = "e71d23e0-36b9-450a-9aa3-0fc9a974b214")
+     public void GoToUrlAssertUrlPositiveEnterSupplierBill_3() throws InterruptedException, InvalidFormatException, HeadlessException, IOException, AWTException
+     {
+     	sTestCaseID="TC15";
+        	Sheet="BankingBank";
+         data = ExcelUtility.toReadExcelData(sTestCaseID, Sheet);
+         
+         pages.banking.ashiv.Login1VAT _Login1VAT = new  pages.banking.ashiv.Login1VAT(driver);
+     TestModellerLogger.SetLastNodeGuid("93e4a214-3f97-41d2-8063-dd91c879e847");
+     _Login1VAT.GoToUrl();
+     
+
+     TestModellerLogger.SetLastNodeGuid("7eff8b4c-1e47-48a4-bcad-b3639d0cdfd5");
+     _Login1VAT.AssertUrl();
+     
+
+     TestModellerLogger.SetLastNodeGuid("ceaa193b-d8c0-48f9-911f-018e2571da20");
+     _Login1VAT.Enter_UserName(data[1]);
+     
+
+     TestModellerLogger.SetLastNodeGuid("95b31ed9-af0a-49e7-8bfa-8471d379cdff");
+     _Login1VAT.Enter_Password(data[2]);
+     
+
+     TestModellerLogger.SetLastNodeGuid("942414e4-1d0e-45ba-bdd1-43293b97e0ff");
+     _Login1VAT.Click_LoginButton();
+     
+
+ pages.banking.ashiv.AgentsSelect _AgentsSelect = new   pages.banking.ashiv.AgentsSelect(driver);
+//     TestModellerLogger.SetLastNodeGuid("69016c4b-a736-45bf-a682-5c03ee8d17cd");
+//     _AgentsSelect.GoToUrl();
+ //    
+ //
+//     TestModellerLogger.SetLastNodeGuid("bd071d41-148c-42e8-8300-984c9dd4df87");
+//     _AgentsSelect.AssertUrl();
+ //    
+
+     TestModellerLogger.SetLastNodeGuid("bd031a68-650a-4b8c-8e7c-0ce87415e17e");
+     _AgentsSelect.Click_AgentsTab();
+     
+
+     TestModellerLogger.SetLastNodeGuid("d5b61053-e5d4-479f-87c7-e4be6b5f054a");
+     _AgentsSelect.Enter_AgentName(data[3]);
+     
+
+     TestModellerLogger.SetLastNodeGuid("2bae82eb-0e45-434c-b1bd-7336f304d4f9");
+     _AgentsSelect.Click_SearchButton();
+     
+
+     TestModellerLogger.SetLastNodeGuid("be317b25-3125-4191-86a5-e8ffee0d0334");
+     _AgentsSelect.Click_SelectAgent();
+     
+
+     pages.banking.ashiv.Searchclient _Searchclient = new pages.banking.ashiv.Searchclient(driver); 
+ 	 
+ 	  TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
+ 	  _Searchclient.Click__Clients_(); 
+
+ 	  TestModellerLogger.SetLastNodeGuid("a71cb6de-7787-4e86-ac83-a09ab1ce3b13");
+ 	  _Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(data[4]);
+
+
+ 	  TestModellerLogger.SetLastNodeGuid("0bc6f8c0-4fab-4c48-8dae-0d9405954fc9");
+ 	  _Searchclient.Click_Searchbtn(); 
+ 	  
+ 	  TestModellerLogger.SetLastNodeGuid("f1e00766-382f-4b93-9262-8ebbf4c5872c");
+ 	  _Searchclient.Click__NidhiEnt(); 
+     
+
+     As_Supplier.SupplierBillSToFRS _SupplierBillSToFRS = new As_Supplier.SupplierBillSToFRS(driver);
+//     TestModellerLogger.SetLastNodeGuid("7b21b860-8f6c-4e5e-8f4d-0ef9aedf75e5");
+//     _SupplierBillSToFRS.GoToUrl();
+ //    
+ //
+//     TestModellerLogger.SetLastNodeGuid("3d11c569-a0da-4838-a238-3d3cd071f91d");
+//     _SupplierBillSToFRS.AssertUrl();
      
      _SupplierBillSToFRS.ClickNewSupplierinDashboard();
      

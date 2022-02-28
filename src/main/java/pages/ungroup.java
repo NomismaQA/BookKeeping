@@ -24,7 +24,7 @@ public class ungroup extends BasePage
 
 	/////html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[1]/input
 	//private By selectallcheckbboxElem = By.xpath("//INPUT[@id='ctl00_cPH_chkReconcileUngroupSelected']");
-	private By selectallcheckbboxElem =By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[1]/input");
+	private By selectallcheckbboxElem =By.xpath("//INPUT[@id='ctl00_cPH_chkReconcileUngroupSelected']");
 
 	private By downcheckboxElem = By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tfoot/tr/td[1]/table/tbody/tr/td[1]");
 
@@ -76,7 +76,7 @@ public class ungroup extends BasePage
 			Assert.fail("Unable to locate object: " + selectallcheckbboxElem.toString());
         }
 
-		elem.click();
+		jsExec.executeScript("arguments[0].click();",elem);
           	
 
 		ExtentReportManager.passStep(m_Driver, "Click_selectallcheckbbox");

@@ -120,8 +120,8 @@ public class ReceivePayment extends BasePage
 //        }
 //
 //		elem.click();
- WebElement elem=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr[1]/td[15]"));
- elem.click();
+		WebElement elem=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr[1]/td[15]/div/a/i"));
+		elem.click();
 
 	//ExtentReportManager.passStep(m_Driver, "Click_xPath_htmlbodyformmaindiv11div3divdiv4div3divdivtabletbodytr1td15div");
 

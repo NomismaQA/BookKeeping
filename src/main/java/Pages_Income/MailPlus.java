@@ -339,7 +339,7 @@ Thread.sleep(2000);
 	
 	
 	
-	public void SelectTemplate() throws InterruptedException
+	public void SelectTemplate(String TempName) throws InterruptedException
 	
 	{
 		
@@ -360,14 +360,14 @@ Thread.sleep(2000);
 		
 	    Select dropdown = new Select(SelectTemp);
 
-	     dropdown.selectByVisibleText("Custom Template #9");
+	     dropdown.selectByVisibleText(TempName);
      	//System.out.println(a[p]);
 	     
 	    WebElement SaveBtn= m_Driver.findElement(By.xpath("//*[@id='ctl00_cphFooter_btnSave']"));
 	     
 		jsExec.executeScript("arguments[0].scrollIntoView(true);", SaveBtn);
 		SaveBtn.click();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
       m_Driver.switchTo().defaultContent();
 		
 		
@@ -443,8 +443,74 @@ Thread.sleep(2000);
 //		}
 	
 	}
+public void SelectTemplateAll() throws InterruptedException
 	
-	public void SendEmail(String EmailID) throws InterruptedException
+	{
+		int k=0;
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+
+		WebElement elem = getWebElement(Plus_SignElem);
+		
+		 elem.click();
+		
+		 m_Driver.switchTo().defaultContent();
+		 
+		 
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+
+		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/div[3]/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/div/div/div[2]/iframe")));
+		
+		
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_ddInvoiceTemplate']/option"));
+		int size=list.size();
+		
+		if(size!=0)
+		{
+			for(int j=0;j<=size;j++)
+			{
+			
+				 
+	
+				
+				List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_ddInvoiceTemplate']/option"));;//List of Email formet
+				
+				WebElement SelectTemp=m_Driver.findElement(By.xpath("//select[@id='ctl00_cPH_ddInvoiceTemplate']"));// Select any email formet
+				
+			    Select dropdown = new Select(SelectTemp);
+
+			     dropdown.selectByVisibleText(list2.get(j).getText());
+		     	//System.out.println(a[p]);
+			     
+			    WebElement SaveBtn= m_Driver.findElement(By.xpath("//*[@id='ctl00_cphFooter_btnSave']"));
+			     
+				jsExec.executeScript("arguments[0].scrollIntoView(true);", SaveBtn);
+				SaveBtn.click();
+				Thread.sleep(2000);
+		            m_Driver.switchTo().defaultContent();
+		            
+		        if(j!=size-1)
+		        {
+		        	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+
+					WebElement elem2 = getWebElement(Plus_SignElem);
+					
+					 elem2.click();
+					
+					 m_Driver.switchTo().defaultContent();
+					      m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+
+						m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/div[3]/div[2]/div[2]/div/div[1]/div[2]/div/div[2]/div/div/div[2]/iframe")));
+						
+						break;
+		        }
+					 
+			}
+			
+		}
+	
+	}
+
+	public void SendEmail(String EmailID,String TempName2) throws InterruptedException
 	{
 		
 		
@@ -455,8 +521,9 @@ Thread.sleep(2000);
 		
 		 Select dropdown = new Select(Selecttemp);
 
-	     dropdown.selectByVisibleText("Custom Template #9");
+	     dropdown.selectByVisibleText(TempName2);
 	   //  System.out.println(a[p]);
+	     Thread.sleep(2000);
 	     m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkMarkMySelf']")).click();
 	     m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_txtEmail']")).sendKeys(EmailID);
 	     m_Driver.findElement(By.xpath("//*[@id='ctl00_cphFooter_btnSave']")).click();
@@ -469,6 +536,7 @@ Thread.sleep(2000);
 	 jsExec.executeScript("arguments[0].click();",CancelBtn );
 //	p++;
 	//	m_Driver.switchTo().defaultContent();
+	 m_Driver.navigate().refresh();
 	Thread.sleep(2000);
 		
 		

@@ -176,7 +176,8 @@ public class PartialReconcilationLAtestForCreditnote extends BasePage
 		   
 	          Rpno=t.confirmation();
 	       // InvoiceNo = in.message();
-	         int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
+	   //      int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
+	         int rowcount = m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[7]/div/table/tbody/tr")).size();
 	         int cl = rowcount-1;
 	         System.out.println("Row Count"+rowcount);
 	         System.out.println("BankTR no"   +Rpno);
@@ -192,8 +193,9 @@ public class PartialReconcilationLAtestForCreditnote extends BasePage
 		    	
 		    	  /*column path to get data which is like bank trans number */
 		    	//	WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[5]/div[3]/div/div[2]/table/tbody/tr["+i+"]/td[6]"));
-		    	  WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
-		    		String p=m.getText();
+		  //  	  WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
+		    	  WebElement m = m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[7]/div/table/tbody/tr["+i+"]/td[2]"));
+		    	  String p=m.getText();
 	    	  System.out.println("what is in p"   +p);
 	    	 /*check bank transaction if there in aboeve xpath or not*/
 	          if(Rpno.equalsIgnoreCase(p))
@@ -270,8 +272,9 @@ public class PartialReconcilationLAtestForCreditnote extends BasePage
 		int num = Integer.parseInt(Rpno)-1;
 		InvoiceNo=String.valueOf(num);
 		//InvoiceNo = in.message(); 
-	int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
-
+//	int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
+	 int rowcount = m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[7]/div/table/tbody/tr")).size();
+	 
       System.out.println("Row Count2  "+rowcount);
       //System.out.println("BankTR no"   +Rpno);
       System.out.println("InvoiceNO2 :: "+InvoiceNo);
@@ -284,8 +287,9 @@ public class PartialReconcilationLAtestForCreditnote extends BasePage
 	    	  int j = i-1;
 	    	  System.out.println("i 2 value "+i);
 	    	 
-	    		WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
-	   
+	    //		WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
+	    		WebElement m = m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[7]/div/table/tbody/tr["+i+"]/td[2]"));
+	    		
 	    		String p=m.getText();
 	    	  System.out.println("what is in 2 p"   +p);
 	    	 /*check bank transaction if there in aboeve xpath or not*/

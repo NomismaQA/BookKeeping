@@ -5,32 +5,20 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)(failed)" verbose="10">
+  <test thread-count="5" name="trFlat01schem_Spent(failed)(failed)" verbose="10">
     <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier">
+      <class name="tests.Bank_Multicurrency.trFlat01schem_Spent">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl5"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl9"/>
         </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier -->
+      </class> <!-- tests.Bank_Multicurrency.trFlat01schem_Spent -->
     </classes>
-  </test> <!-- TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)(failed) -->
-  <test thread-count="5" name="TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank -->
-    </classes>
-  </test> <!-- TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)(failed) -->
+  </test> <!-- trFlat01schem_Spent(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

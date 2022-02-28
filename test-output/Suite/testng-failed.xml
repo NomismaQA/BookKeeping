@@ -5,116 +5,36 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="TC_2_3_BS_FixedAsset_20_To_29_With_Journal_Bank_Supplier(failed)" verbose="10">
+  <test thread-count="5" name="TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier(failed)" verbose="10">
     <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_02_3_BS_FixedAsset_20_To_29_With_Journal_Bank_Supplier">
-        <methods>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_02_3_BS_FixedAsset_20_To_29_With_Journal_Bank_Supplier -->
-    </classes>
-  </test> <!-- TC_2_3_BS_FixedAsset_20_To_29_With_Journal_Bank_Supplier(failed) -->
-  <test thread-count="5" name="TC_5_3_BS_FixedAsset_200_To_209_With_Journal_Bank_Supplier(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_05_3_BS_FixedAsset_200_To_209_With_Journal_Bank_Supplier">
+      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier">
         <methods>
           <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_05_3_BS_FixedAsset_200_To_209_With_Journal_Bank_Supplier -->
-    </classes>
-  </test> <!-- TC_5_3_BS_FixedAsset_200_To_209_With_Journal_Bank_Supplier(failed) -->
-  <test thread-count="5" name="TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier -->
-    </classes>
-  </test> <!-- TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed) -->
-  <test thread-count="5" name="TC_7_3_BS_FixedAsset_220_To_229_With_Journal_Bank_Supplier(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_07_3_BS_FixedAsset_220_To_229_With_Journal_Bank_Supplier">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
           <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_07_3_BS_FixedAsset_220_To_229_With_Journal_Bank_Supplier -->
-    </classes>
-  </test> <!-- TC_7_3_BS_FixedAsset_220_To_229_With_Journal_Bank_Supplier(failed) -->
-  <test thread-count="5" name="TC_8_3_BS_FixedAsset_230_To_239_With_Journal_Bank_Supplier(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_08_3_BS_FixedAsset_230_To_239_With_Journal_Bank_Supplier">
-        <methods>
-          <include name="initDriver"/>
           <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
           <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_08_3_BS_FixedAsset_230_To_239_With_Journal_Bank_Supplier -->
-    </classes>
-  </test> <!-- TC_8_3_BS_FixedAsset_230_To_239_With_Journal_Bank_Supplier(failed) -->
-  <test thread-count="5" name="TC_12_3_BS_FixedAsset_270_To_279_With_Journal_Bank_Supplier(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_12_3_BS_FixedAsset_270_To_279_With_Journal_Bank_Supplier">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_12_3_BS_FixedAsset_270_To_279_With_Journal_Bank_Supplier -->
-    </classes>
-  </test> <!-- TC_12_3_BS_FixedAsset_270_To_279_With_Journal_Bank_Supplier(failed) -->
-  <test thread-count="5" name="TC_17_3_BS_CurrentAsset_1070_1070_With_Journal_Bank_Invoice(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_17_3_BS_CurrentAsset_1070_1070_With_Journal_Bank_Invoice">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_17_3_BS_CurrentAsset_1070_1070_With_Journal_Bank_Invoice -->
-    </classes>
-  </test> <!-- TC_17_3_BS_CurrentAsset_1070_1070_With_Journal_Bank_Invoice(failed) -->
-  <test thread-count="5" name="TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
           <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
         </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank -->
+      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier -->
     </classes>
-  </test> <!-- TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed) -->
+  </test> <!-- TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier(failed) -->
+  <test thread-count="5" name="TC_41_3_ExpenseHead_7602830__JournalEntry_Bank_Supplier(failed)" verbose="10">
+    <classes>
+      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_3_ExpenseHead_7602830__JournalEntry_Bank_Supplier">
+        <methods>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+          <include name="initDriver"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
+          <include name="closeReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_3_ExpenseHead_7602830__JournalEntry_Bank_Supplier -->
+    </classes>
+  </test> <!-- TC_41_3_ExpenseHead_7602830__JournalEntry_Bank_Supplier(failed) -->
 </suite> <!-- Failed suite [Suite] -->

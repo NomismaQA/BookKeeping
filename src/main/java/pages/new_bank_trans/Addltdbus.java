@@ -44,7 +44,7 @@ public class Addltdbus extends BasePage
 	private By Click_Upload_btnElem = By.xpath("//*[@id='ctl00_ctl00_ParentContent_cPH_btnUpload']");
 
 	private By Choosefile_touploadElem = By.xpath("/html/body/form/main/div[5]/div[3]/div/div[3]/div/div[3]/div/div[2]/div/div/div[2]/input");
-	private By Click_Plus_Sign1Elem = By.xpath("//*[@id='aspnetForm']/main/header/div/div[2]/ul/li[1]");
+	private By Click_Plus_Sign1Elem = By.xpath("//*[@id='aspnetForm']/main/header/div/div[2]/ul/li[3]");
 
 	private By Click_New_Client2Elem = By.xpath("//A[@id='ctl00_ctl00_ParentContent_btnAdd']");
 

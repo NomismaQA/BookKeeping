@@ -127,7 +127,7 @@ public class TC05ThreeDotIcon extends TestBase
     	    
     	    SalesThreedot.frameScreenSchot();
     	    
-    	    SalesThreedot.Click_MyselfCheckBox();
+    	//    SalesThreedot.Click_MyselfCheckBox();
     	    
     	    SalesThreedot.Enter_EnterEmail(data[5]);
     	    

@@ -92,6 +92,8 @@ public static void FullScreenshot(String Filename)
 	try 
 	{
 		
+		
+		
 //		ArrayList<String> ta = new ArrayList<String> (m_Driver.getWindowHandles());         
 //	      int i=ta.size();         System.out.println(i);         
 //	      m_Driver.switchTo().window(ta.get(1));   
@@ -119,7 +121,30 @@ public static void FullScreenshot(String Filename)
 		e.printStackTrace();
 	}
 }
+public static void FullScreenshot1( String Filename)
+{
+String path="";
+	try 
+	{
+	
+		String loc=System.getProperty("user.dir");
+		path=loc+"\\report\\"+"\\Balance_Sheet_Report\\"+Filename+".png";
+		EventFiringWebDriver ewf=new EventFiringWebDriver(m_Driver);
+		File src=ewf.getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(src, new File(path));
 
+	     
+		//	Screenshot s=new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(m_Driver);
+		//	ImageIO.write(s.getImage(), "png", new File(System.getProperty("user.dir")+"\\report\\"+"\\Trial_Balance_Report\\"+Filename+".png"));
+	       
+		
+	} 
+	catch (Exception e) 
+	{
+	
+		e.printStackTrace();
+	}
+}
 public static void Full(String Filename)
 {
 	try 
@@ -150,7 +175,41 @@ public static void Full(String Filename)
 		e.printStackTrace();
 	}
 }
-
+public static void FullScreenshot2(String Filename)
+{
+//	String path="";
+	try 
+	{
+		
+		
+		
+//		ArrayList<String> ta = new ArrayList<String> (m_Driver.getWindowHandles());         
+//	      int i=ta.size();         System.out.println(i);         
+//	      m_Driver.switchTo().window(ta.get(1));   
+	      
+//	      String loc=System.getProperty("user.dir");
+//	      path=loc+"\\As_Screenshot\\"+Foldername+"\\"+Filename+".png";
+	      
+		JavascriptExecutor js = (JavascriptExecutor)m_Driver;
+		
+		js.executeScript("document.body.style.zoom = '80%';");
+	     
+			Screenshot s=new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(m_Driver);
+			ImageIO.write(s.getImage(), "png", new File(System.getProperty("user.dir")+"\\report\\"+"\\Balance_Sheet_Report\\"+Filename+".png"));
+	       
+		
+			
+		
+		
+//		
+		
+	} 
+	catch (Exception e) 
+	{
+	
+		e.printStackTrace();
+	}
+}
 public static void FullShot(String Filename,String FolderName)
 {
 	try 

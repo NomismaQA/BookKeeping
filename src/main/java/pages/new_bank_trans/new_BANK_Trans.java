@@ -315,9 +315,11 @@ WebElement vt= jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpa
 vt.click();
 Select dropdown1 = new Select(vt);
 dropdown1.selectByVisibleText("Standard Rate");
-             Thread.sleep(3000);//updated data from 3000 to 1000
-  m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-Thread.sleep(1000);
+        //     Thread.sleep(3000);//updated data from 3000 to 1000
+  m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtDbAmount']")).click();
+Thread.sleep(5000);
+m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
+//Thread.sleep(1000);
 WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 elem3.sendKeys(ste);
 WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -329,7 +331,7 @@ WebElement save=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xp
 jsExec.executeScript("arguments[0].click()", save);
 Thread.sleep(1000);
 
-WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 String transnno1=s.getText();
 String arr[]=transnno1.split(" ");
 
@@ -387,8 +389,10 @@ _t.Select_Sbnk_act("AA@Ashiv");
 	Select dropdown1 = new Select(vt);
 	dropdown1.selectByVisibleText("Reduced Rate");
 	             Thread.sleep(3000);//updated data from 3000 to 1000
-	  m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-	Thread.sleep(1000);
+	  m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtDbAmount']")).click();
+	Thread.sleep(4000);
+	 m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
+		//Thread.sleep(1000);
 	WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 	elem3.sendKeys(ste);
 	WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -400,7 +404,7 @@ _t.Select_Sbnk_act("AA@Ashiv");
 	jsExec.executeScript("arguments[0].click()", save);
 	Thread.sleep(1000);
 
-	WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+	WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 	String transnno1=s.getText();
 	String arr[]=transnno1.split(" ");
 
@@ -454,8 +458,10 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		amt.sendKeys(Keys.TAB);
 		amt.sendKeys(Keys.TAB);
 		Thread.sleep(1000);
-		m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[12]/span")).click();
-				Thread.sleep(1000);
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtDbAmount']")).click();
+				Thread.sleep(5000);
+				m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[12]/span")).click();
+			//	Thread.sleep(1000);
 	WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 		elem3.sendKeys(ste);
 		//Thread.sleep(4000);
@@ -466,7 +472,7 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		jsExec.executeScript("arguments[0].click()", save);
 		Thread.sleep(1000);
 
-		WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 		String transnno1=s.getText();
 		String arr[]=transnno1.split(" ");
 
@@ -529,8 +535,9 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		Select dropdown1 = new Select(vt);
 		dropdown1.selectByVisibleText("Zero Rate");
 		             Thread.sleep(3000);//updated data from 3000 to 1000
+		  m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtDbAmount']")).click();
+		Thread.sleep(5000);
 		  m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-		Thread.sleep(1000);
 		WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 		elem3.sendKeys(ste);
 		WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -542,7 +549,7 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		jsExec.executeScript("arguments[0].click()", save);
 		Thread.sleep(1000);
 
-		WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 		String transnno1=s.getText();
 		String arr[]=transnno1.split(" ");
 
@@ -599,8 +606,9 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		Select dropdown1 = new Select(vt);
 		dropdown1.selectByVisibleText("Exempt");
 		             Thread.sleep(3000);//updated data from 3000 to 1000
-		  m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-		Thread.sleep(1000);
+		  m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtDbAmount']")).click();
+		Thread.sleep(5000);
+		 m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
 		WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 		elem3.sendKeys(ste);
 		WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -612,7 +620,7 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		jsExec.executeScript("arguments[0].click()", save);
 		Thread.sleep(1000);
 
-		WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 		String transnno1=s.getText();
 		String arr[]=transnno1.split(" ");
 
@@ -671,8 +679,9 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		Select dropdown1 = new Select(vt);
 		dropdown1.selectByVisibleText(">Out of Scope");
 		             Thread.sleep(3000);//updated data from 3000 to 1000
-		  m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-		Thread.sleep(1000);
+		  m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtDbAmount']")).click();
+		Thread.sleep(5000);
+		 m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
 		WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 		elem3.sendKeys(ste);
 		WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -684,7 +693,7 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		jsExec.executeScript("arguments[0].click()", save);
 		Thread.sleep(1000);
 
-		WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 		String transnno1=s.getText();
 		String arr[]=transnno1.split(" ");
 
@@ -743,8 +752,9 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		Select dropdown1 = new Select(vt);
 		dropdown1.selectByVisibleText("Domestic Reverse Charge - 20%");
 		             Thread.sleep(3000);//updated data from 3000 to 1000
-		  m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-		Thread.sleep(1000);
+		  m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtDbAmount']")).click();
+		Thread.sleep(5000);
+		 m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
 		WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 		elem3.sendKeys(ste);
 		WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -756,7 +766,7 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		jsExec.executeScript("arguments[0].click()", save);
 		Thread.sleep(1000);
 
-		WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 		String transnno1=s.getText();
 		String arr[]=transnno1.split(" ");
 
@@ -813,8 +823,9 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		Select dropdown1 = new Select(vt);
 		dropdown1.selectByVisibleText("Domestic Reverse Charge - 5%");
 		             Thread.sleep(3000);//updated data from 3000 to 1000
+		  m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtDbAmount']")).click();
+		Thread.sleep(5000);
 		  m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-		Thread.sleep(1000);
 		WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 		elem3.sendKeys(ste);
 		WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -826,7 +837,7 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		jsExec.executeScript("arguments[0].click()", save);
 		Thread.sleep(1000);
 
-		WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 		String transnno1=s.getText();
 		String arr[]=transnno1.split(" ");
 
@@ -911,7 +922,7 @@ _t.Select_Sbnk_act("AA@Ashiv");
 		JavascriptExecutor jse = (JavascriptExecutor)m_Driver;
 		jse.executeScript("arguments[0].click()", elem);
 		Thread.sleep(2000);
-		 WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		 WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 	     String transnno=s.getText();
 	     String arr[]=transnno.split(" ");
 	     String stn=arr[2];
@@ -975,8 +986,9 @@ vt.click();
 Select dropdown1 = new Select(vt);
 dropdown1.selectByVisibleText("Standard Rate");
          Thread.sleep(3000);//updated data from 3000 to 1000
+m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtAmount']")).click();
+Thread.sleep(5000);
 m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-Thread.sleep(1000);
 WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 elem3.sendKeys(ste);
 WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -988,7 +1000,7 @@ WebElement save=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xp
 jsExec.executeScript("arguments[0].click()", save);
 Thread.sleep(1000);
 
-WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 String transnno1=s.getText();
 String arr[]=transnno1.split(" ");
 
@@ -1047,8 +1059,10 @@ vt.click();
 Select dropdown1 = new Select(vt);
 dropdown1.selectByVisibleText("Reduced Rate");
            Thread.sleep(3000);//updated data from 3000 to 1000
+m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtAmount']")).click();
+Thread.sleep(5000);
 m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[14]/span")).click();
-Thread.sleep(1000);
+//Thread.sleep(1000);
 WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 elem3.sendKeys(ste);
 WebElement elem4=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
@@ -1060,7 +1074,7 @@ WebElement save=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xp
 jsExec.executeScript("arguments[0].click()", save);
 Thread.sleep(1000);
 
-WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 String transnno1=s.getText();
 String arr[]=transnno1.split(" ");
 
@@ -1117,8 +1131,10 @@ _t.Select_Sbnk_act("AA@Ashiv");
 	spamt.sendKeys(Keys.TAB);
 	spamt.sendKeys(Keys.TAB);
 	Thread.sleep(1000);
-	m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[12]/span")).click();
-			Thread.sleep(1000);
+	m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptRecord_ctl00_txtAmount']")).click();
+			Thread.sleep(5000);
+			m_Driver.findElement(By.xpath("//*[@id='tableID']/tbody/tr[1]/td[12]/span")).click();
+			//Thread.sleep(1000);
 WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/span/span/span[1]/input")));
 	elem3.sendKeys(ste);
 	//Thread.sleep(4000);
@@ -1129,7 +1145,7 @@ WebElement elem3=jsWait.until(ExpectedConditions.visibilityOfElementLocated(By.x
 	jsExec.executeScript("arguments[0].click()", save);
 	Thread.sleep(1000);
 
-	WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+	WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 	String transnno1=s.getText();
 	String arr[]=transnno1.split(" ");
 

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterFile" verbose="10">
+
+
+
+
+<test name= "LtdAdd_AddLTD" enabled="true">  
+ 	<classes>
+			<class name= "tests.banking_add_ltd_company.LtdAdd_AddLTD"/>
+
+ 	</classes> 
+ 	</test>
+	
+<test name= "Test_Add_PLC" enabled="true">  
+ 	<classes>
+			<class name= "Test_Add_PLC.Test_Add_PLC"/>
+
+ 	</classes> 
+ 	</test>
+ 	
+ <test name= "Test_Add_LLP" enabled="true">  
+ 	<classes>
+			<class name= "Test_Add_LLP.Test_LLP_ADD_ALLTC"/>
+
+ 	</classes> 
+ 	</test>
+	
+
+<test name= "Expence" enabled="true">  
+ 	<classes>
+			<class name= "test.ashiv.TestUseOfHome_TestCases"/>
+			<class name= "test.ashiv.TestLadgerRecon_DefaultProfile"/>
+			<class name= "test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile"/>
+			<class name= "test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile"/>
+			<class name= "test.ashiv.SubcontractorBill_DefaultProfile"/>
+			<class name= "test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile"/>
+			<class name= "test.ashiv.TestSupplierList_TestCases"/>
+			<class name= "test.ashiv.TestNewSupplierBillBatch_UserStories"/>
+			<class name= "test.ashiv.TestEnpenseReimbursement_DefaultProfile"/>
+			<class name= "tests.Receive_Payment.SaleInvoice_nuinvoice"/>
+			
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	
+<test name= "Find_Match" enabled="true">  
+ 	<classes>
+			<class name= "test.ashiv.Test_Find_Match"/>
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "Bank upload csv" enabled="true">  
+ 	<classes>
+			<class name= "tests.Bank_Upload_CSV.DownloadCSV_Template"/>
+			<class name= "tests.Bank_Upload_CSV.uploadcsv"/>
+
+ 	</classes> 
+ 	</test>
+ 	
+
+
+<test name= "trialBalance" enabled="true">  
+ 	<classes>
+			<class name= "test.ashiv.trialbalance_TRBALANKCE"/>
+
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "Test_Balance_Sheet_Report_Journal_Bank_Supp_1" enabled="true">  
+ 	<classes>
+ 	
+ 	<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_01_3_2_BS_FixedAsset_10_To_14_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_01_3_BS_FixedAsset_15_To_19_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_02_3_2_BS_FixedAsset_20_To_24_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_02_3_BS_FixedAsset_25_To_29_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_03_3_2_BS_FixedAsset_30_To_34_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_03_3_BS_FixedAsset_35_To_39_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_04_3_2_BS_FixedAsset_40_To_44_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_04_3_BS_FixedAsset_45_To_49_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_05_3_2_BS_FixedAsset_200_To_204_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_05_3_BS_FixedAsset_205_To_209_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_06_3_2_BS_FixedAsset_210_To_2014_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_215_To_2019_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_07_3_2_BS_FixedAsset_220_To_224_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_07_3_BS_FixedAsset_225_To_229_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_08_3_2_BS_FixedAsset_230_To_234_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_08_3_BS_FixedAsset_235_To_239_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_09_3_2_BS_FixedAsset_240_To_244_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_09_3_BS_FixedAsset_245_To_249_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_10_3_2_BS_FixedAsset_250_To_254_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_10_3_BS_FixedAsset_255_To_259_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_11_3_2_BS_FixedAsset_260_To_264_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_11_3_BS_FixedAsset_265_To_269_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_12_2_3_BS_FixedAsset_270_To_274_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_12_3_BS_FixedAsset_275_To_279_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_13_3_2_BS_FixedAsset_280_To_284_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_13_3_BS_FixedAsset_285_To_289_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_14_3_BS_FixedAsset_600_To_609_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_15_3_BS_FixedAsset_630_To_639_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_16_2_BS_CurrentAsset_1000_1060_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_17_3_BS_CurrentAsset_1070_1070_With_Journal_Bank_Invoice"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_18_2_BS_DEBTOR_1300_To_1320_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_19_2_BS_DEBTOR_1330_1339_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_20_2_BS_DEBTOR_1401_1402_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_21_2_BS_DEBTOR_1420_1420_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_22_2_BS_DEBTOR_1092_1092_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_24_2_BS_TAXATION_1100_1103_1104_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_25_2_BS_TAXATION_1101_1103_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_26_2_BS_TAXATION_1102_1103_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_27_2_BS_TAXATION_1200_1103_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_28_2_BS_TAXATION_2402_1103_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_29_2_BS_TAXATION_1090_1091_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_30_2_BS_CreditDueWithinOneYear_2000_1_10_30_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_31_2_BS_CreditDueWithinOneYear_2040_50_70_80_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_32_2_BS_CreditDueWithinOneYear__2090_91_92_93_95_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_33_2_BS_CreditDueAfterOneYear_2300_1_2_10_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_34_2_BS_CreditDueAfterOneYear_2330_29_30_31_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_35_2_BS_CreditDueAfterOneYear_2332_33_34_35_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_36_2_BS_CreditDueAfterOneYear_2336_37_38_39_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_37_1_BS_ProvisionForLiabilities_2400_01_03_With_Journal"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_38_1_BS_ProvisionForLiabilities_2404_05_06_With_Journal"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_39_2_BS_ShareCapital_3000_3001_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_40_2_BS_DirectorAccount_1321_All_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_41_2_BS_EMPLOYEE_1322_All_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_42_2_BS_CurrentAsset_1410_11_50_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_43_3_BS_TradeCreditors_2060_1103_With_Journal_Bank_Supplier"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_44_2_BS_ProfitAandLoss_3007_3010_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_45_2_BS_ProfitAandLoss_7954_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_46_2_BS_ProfitAandLoss_3103_With_Journal_Bank"/>
+<class name= "Test_Balance_RE_Jour_Bank_Supp_3.TC_47_2_BS_CreditCard_2020_With_Journal_Bank"/>
+ 	
+ 	
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "Test_Balance_Report_Journal_Bank_Supp_1" enabled="true">  
+ 	<classes>
+ 	
+ 	<class name= "Test_Trial_Balance_Report.TC_01_LadgerCode_7016_7400_2091_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_02_LadgerCode_2080_7004_7525_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_03_LadgerCode_1000_7518_7016_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_04_LadgerCode_3000_3007_1072_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_05_LadgerCode_1071_1402_1092_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_06_LadgerCode_1091_1090_7901_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_07_LadgerCode_1321_1321_1321_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_08_LadgerCode_1321_1321_1322_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_09_LadgerCode_1322_1322_1322_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_10_LadgerCode_1322_1103_1104_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_11_LadgerCode_2402_7251_6015_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_12_LadgerCode_7954_7262_7263_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_13_LadgerCode_7263_271_270_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_14_LadgerCode_279_275_7281_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_15_LadgerCode_261_260_269_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_16_LadgerCode_261_260_269_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_17_LadgerCode_265_4020_2060_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_18_LadgerCode_7015_7016_4000_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_19_LadgerCode_1101_7500_7525_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_20_LadgerCode_7016_2000_7525_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_21_LadgerCode_7510_7300_7016_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_22_LadgerCode_7510_7300_7016_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_23_LadgerCode_7510_7300_7016_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_24_LadgerCode_1100_1102_1200_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_25_LadgerCode_3010_3100_3100_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_26_LadgerCode_240_241_245_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_27_LadgerCode_249_260_261_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_28_LadgerCode_7001_7015_7010_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_29_LadgerCode_7015_7016_7016_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_30_LadgerCode_7016_7016_7016_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_31_LadgerCode_7212_7251_7258_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_32_LadgerCode_7212_7251_7258_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_33_LadgerCode_7262_7266_7267_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_34_LadgerCode_7268_7268_7281_Report"/>
+<class name= "Test_Trial_Balance_Report.TC_35_LadgerCode_7400_7300_77401_Report"/>
+ 	
+ 	
+ 	</classes> 
+ 	</test>
+ 	
+ 	
+<test name= "RunRule_BankUnreconcile" enabled="true">  
+ 	<classes>
+			<class name= "test.ashiv.Rule2_rule2"/>
+			<class name= "test.ashiv.Rule1_rule1"/>
+
+ 	</classes> 
+ 	</test>
+
+
+
+<test name= "Bank_new_Trans" enabled="true">  
+ 	<classes>
+			<class name= "tests.Bank_new_Trans.bank_trans_ledgercode"/>
+			<class name= "tests.Bank_new_Trans.bank_Bulk"/>
+			<class name= "tests.Bank_new_Trans.bank_trans_Spntamt"/>
+			<class name= "tests.Bank_new_Trans.bank_Bulk_spent"/>
+ 	</classes> 
+ 	</test>
+ 	
+ 	<test name= "Bank_Multicurrency" enabled="true">  
+ 	<classes>
+			<class name= "tests.Bank_Multicurrency.tr_StandardSchem_Receivedamt"/>
+			<class name= "tests.Bank_Multicurrency.tr_Standard_Schem_Spent"/>
+			<class name= "tests.Bank_Multicurrency.tr_NoVatSchem_Receive"/>
+			<class name= "tests.Bank_Multicurrency.tr_NoVATSchem_Spent"/>
+			<class name= "tests.Bank_Multicurrency.tr_Flat10Schem_Receive"/>
+			<class name= "tests.Bank_Multicurrency.trFlat01schem_Spent"/>
+ 	</classes> 
+ 	</test>
+ 	
+
+         
+
+
+</suite>    
+
+         
+         
+         
+
+ 

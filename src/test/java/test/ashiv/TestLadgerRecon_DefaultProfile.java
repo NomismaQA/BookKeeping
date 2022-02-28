@@ -151,7 +151,7 @@ public class TestLadgerRecon_DefaultProfile extends TestBase
 //    TestModellerLogger.SetLastNodeGuid("dd2e997b-64af-4971-b4e7-3de0747bdefc");
 //    _Ledger_Reconciliation2.Enter_DateTo_12("");
     
-
+    _Ledger_Reconciliation2.ChkAll();
     TestModellerLogger.SetLastNodeGuid("bd3772d2-8362-4883-88d5-d41840bb15f4");
     _Ledger_Reconciliation2.Click_Undo_Reconcile_13();
     utilities.Screenshotcapture.Getscreenshot("Success! Reconciliation cancelled successfully", "Ledger_Reconciliation");

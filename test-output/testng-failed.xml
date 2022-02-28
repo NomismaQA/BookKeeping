@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT" verbose="10">
-  <listeners>
-    <listener class-name="reports.TestNGListener"/>
-    <listener class-name="reports.ExtentTestListener"/>
-  </listeners>
-  <test thread-count="5" name="TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)(failed)" verbose="10">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier">
+      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
           <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
-        </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier -->
-    </classes>
-  </test> <!-- TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)(failed) -->
-  <test thread-count="5" name="TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)(failed)" verbose="10">
-    <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
         </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank -->
+      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier -->
     </classes>
-  </test> <!-- TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

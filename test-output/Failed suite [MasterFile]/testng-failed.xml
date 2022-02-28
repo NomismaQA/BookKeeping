@@ -1,146 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Failed suite [MasterFile]]" guice-stage="DEVELOPMENT" verbose="10">
-  <test thread-count="5" name="PartialReconcileForJonralEntryFlatToStand(failed)(failed)" verbose="10">
+  <test thread-count="5" name="Expence(failed)(failed)" verbose="10">
     <classes>
-      <class name="test.partialReconcileJonralEntryFlatToStand.CreditNoteToReconcileForJonral_DefaultProfile">
+      <class name="tests.Receive_Payment.SaleInvoice_nuinvoice">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4"/>
           <include name="setupReporter"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5"/>
           <include name="tearDown"/>
+          <include name="ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue91"/>
         </methods>
-      </class> <!-- test.partialReconcileJonralEntryFlatToStand.CreditNoteToReconcileForJonral_DefaultProfile -->
+      </class> <!-- tests.Receive_Payment.SaleInvoice_nuinvoice -->
     </classes>
-  </test> <!-- PartialReconcileForJonralEntryFlatToStand(failed)(failed) -->
-  <test thread-count="5" name="VAT3.FullREC_S2_FLAT(failed)(failed)" verbose="10">
+  </test> <!-- Expence(failed)(failed) -->
+  <test thread-count="5" name="Bank upload csv(failed)(failed)" verbose="10">
     <classes>
-      <class name="VAT3.FullREC_S2_FLAT.Supplier_VATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1">
+      <class name="tests.Bank_Upload_CSV.uploadcsv">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
+          <include name="GoToUrlClickbankmenu1ClickUploadCSV2PositiveSelectSelectBank4EnterChooseUploadCSV4ClickUpload52"/>
         </methods>
-      </class> <!-- VAT3.FullREC_S2_FLAT.Supplier_VATReturn1stVATReturnReport_SToFRS_DefaultProfileFullyReconcile_1 -->
-      <class name="VAT3.FullREC_S2_FLAT.Supplier_SubmitVAT_DefaultProfileFullyReconcile_2">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- VAT3.FullREC_S2_FLAT.Supplier_SubmitVAT_DefaultProfileFullyReconcile_2 -->
-      <class name="VAT3.FullREC_S2_FLAT.Supplier_PostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- VAT3.FullREC_S2_FLAT.Supplier_PostVATReturn1stVATReturnReport_DefaultProfileFullyReconcile_1 -->
+      </class> <!-- tests.Bank_Upload_CSV.uploadcsv -->
     </classes>
-  </test> <!-- VAT3.FullREC_S2_FLAT(failed)(failed) -->
-  <test thread-count="5" name="VAT3_SupplierPartialReconcile_3(failed)(failed)" verbose="10">
+  </test> <!-- Bank upload csv(failed)(failed) -->
+  <test thread-count="5" name="Bank_Multicurrency(failed)(failed)" verbose="10">
     <classes>
-      <class name="VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile_3">
+      <class name="tests.Bank_Multicurrency.tr_Flat10Schem_Receive">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl8"/>
         </methods>
-      </class> <!-- VAT3_SupplierPartialReconcile.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile_3 -->
+      </class> <!-- tests.Bank_Multicurrency.tr_Flat10Schem_Receive -->
     </classes>
-  </test> <!-- VAT3_SupplierPartialReconcile_3(failed)(failed) -->
-  <test thread-count="5" name="BankAllocateToExpEntry_Group(failed)(failed)" verbose="10">
-    <classes>
-      <class name="VATPhase3_Banking_allocateToExp.BankingTr_VATPH3_StandToNoVATDefaultProfile_4">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
-        </methods>
-      </class> <!-- VATPhase3_Banking_allocateToExp.BankingTr_VATPH3_StandToNoVATDefaultProfile_4 -->
-    </classes>
-  </test> <!-- BankAllocateToExpEntry_Group(failed)(failed) -->
-  <test thread-count="5" name="BankTransEntry_Group(failed)(failed)" verbose="10">
-    <classes>
-      <class name="VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- VATPhase3_Banking_ToSale.ScriptVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5 -->
-      <class name="VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- VATPhase3_Banking_ToSale.ScriptPostVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5 -->
-      <class name="VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
-        </methods>
-      </class> <!-- VATPhase3_Banking_ToSale.ScriptVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5 -->
-      <class name="VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
-        </methods>
-      </class> <!-- VATPhase3_Banking_ToSale.ScriptPostVATReturn1stVATReturnReport_FlatToFlatPer_DefaultProfile_5 -->
-      <class name="VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- VATPhase3_Banking_ToSale.ScriptPostVATReturn3stVATReturnReport_FlatToFlatPer_DefaultProfile_5 -->
-      <class name="VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5">
-        <methods>
-          <include name="GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl"/>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- VATPhase3_Banking_ToSale.ScriptVATReturn2stVATReturnReport_FlatToFlatPer_DefaultProfile_5 -->
-    </classes>
-  </test> <!-- BankTransEntry_Group(failed)(failed) -->
+  </test> <!-- Bank_Multicurrency(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [MasterFile]] -->

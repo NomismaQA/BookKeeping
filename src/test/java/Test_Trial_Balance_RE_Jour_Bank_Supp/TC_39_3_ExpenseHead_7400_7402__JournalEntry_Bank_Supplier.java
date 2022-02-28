@@ -132,10 +132,10 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
    _JournalEntry.Enter_Enter_Credit(data[12]);
    
 
-//   TestModellerLogger.SetLastNodeGuid("cb49d4cd-87fd-4a49-afab-fd5672342bd1");
-//   _JournalEntry.Enter_Clickaccountbox3(data[13]);
-//   
-//   _JournalEntry.Enter_Enter_Debit_3(data[14]);
+   TestModellerLogger.SetLastNodeGuid("cb49d4cd-87fd-4a49-afab-fd5672342bd1");
+   _JournalEntry.Enter_Clickaccountbox3(data[13]);
+   
+   _JournalEntry.Enter_Enter_Debit_3(data[14]);
    
   // TestModellerLogger.SetLastNodeGuid("2876ec19-50d6-4414-9db3-998398799181");
   // _JournalEntry.Enter_Enter_Note(data[23]);
@@ -227,81 +227,84 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
     TestModellerLogger.SetLastNodeGuid("f1e00766-382f-4b93-9262-8ebbf4c5872c");
     _Searchclient.Click__NidhiEnt();
 //   
-   pages.PartialReconciledCases.bankmenu _bankmenu = new pages.PartialReconciledCases.bankmenu(driver);
-// TestModellerLogger.SetLastNodeGuid("dd264f34-0334-46b7-9855-c5572bcefb82");
-// _bankmenu.GoToUrl();
+
  
+
+ pages.PartialReconciledCases.bankmenu _bankmenu = new pages.PartialReconciledCases.bankmenu(driver);
+//TestModellerLogger.SetLastNodeGuid("dd264f34-0334-46b7-9855-c5572bcefb82");
+//_bankmenu.GoToUrl();
+
 //
-// TestModellerLogger.SetLastNodeGuid("261d0a9e-9ba4-454f-9499-0653695e292a");
-// _bankmenu.AssertUrl();
-// 
-
- TestModellerLogger.SetLastNodeGuid("cd431e1c-5f14-4042-85e6-c92307a9ba2b");
- _bankmenu.Click_Bankingmenu();
- 
-
- TestModellerLogger.SetLastNodeGuid("393c1872-a4cc-4710-8a03-f5053253baa4");
- _bankmenu.Click_Newmenu();
- 
-
- Trial_Balance.nBANKTRN _nBANKTRN = new Trial_Balance.nBANKTRN(driver);
-// TestModellerLogger.SetLastNodeGuid("04a80b29-ca7e-432d-aae4-cc8cb6604a1e");
-// _nBANKTRN.GoToUrl();
-// 
+//TestModellerLogger.SetLastNodeGuid("261d0a9e-9ba4-454f-9499-0653695e292a");
+//_bankmenu.AssertUrl();
 //
-// TestModellerLogger.SetLastNodeGuid("c0dd2fe9-0820-4a0f-986f-e9e2d7101a55");
-// _nBANKTRN.AssertUrl();
-// 
 
- //TestModellerLogger.SetLastNodeGuid("32c9440758-2f86-4894-829c-0d5b167b4d77");
-// _nBANKTRN.Select_BK_SELECT(data[5]);
- 
+TestModellerLogger.SetLastNodeGuid("cd431e1c-5f14-4042-85e6-c92307a9ba2b");
+_bankmenu.Click_Bankingmenu();
 
- TestModellerLogger.SetLastNodeGuid("3f2cfb4f-290b-419a-9ed6-4e05cf7a2f84");
- _nBANKTRN.Enter_NDate(data[5]);
- 
 
- TestModellerLogger.SetLastNodeGuid("10e5cab1-05f8-476d-a283-f0a589c153b9");
- _nBANKTRN.Enter_n_desc(data[8]);
- 
+TestModellerLogger.SetLastNodeGuid("393c1872-a4cc-4710-8a03-f5053253baa4");
+_bankmenu.Click_Newmenu();
 
- TestModellerLogger.SetLastNodeGuid("0f5a2a25-9705-4e67-8818-b65654218779");
- _nBANKTRN.Enter_Recived_amt(data[14]);
- 
 
- TestModellerLogger.SetLastNodeGuid("c690e93b-6b55-451f-b3be-8e8499f0cee5");
- _nBANKTRN.Enter_spnt_amt(data[10]);
- 
+Trial_Balance.nBANKTRN _nBANKTRN = new Trial_Balance.nBANKTRN(driver);
+//TestModellerLogger.SetLastNodeGuid("04a80b29-ca7e-432d-aae4-cc8cb6604a1e");
+//_nBANKTRN.GoToUrl();
+//
+//
+//TestModellerLogger.SetLastNodeGuid("c0dd2fe9-0820-4a0f-986f-e9e2d7101a55");
+//_nBANKTRN.AssertUrl();
+//
 
-// TestModellerLogger.SetLastNodeGuid("5f6292f3-6e4e-41f5-a9ed-fbf01a27951f");
-// _nBANKTRN.Select_Select_VATRate("Standard Rate");
- 
+//TestModellerLogger.SetLastNodeGuid("32c9440758-2f86-4894-829c-0d5b167b4d77");
+//_nBANKTRN.Select_BK_SELECT(data[5]);
 
- TestModellerLogger.SetLastNodeGuid("76cc92bc-1ec4-436a-b43a-396af0f3df0b");
- _nBANKTRN.Click_Select_Option1();
- 
 
- TestModellerLogger.SetLastNodeGuid("8cb869ce-983f-422b-a7ab-11f2359ec333");
- _nBANKTRN.Enter_BOX2(data[9]);
- 
+TestModellerLogger.SetLastNodeGuid("3f2cfb4f-290b-419a-9ed6-4e05cf7a2f84");
+_nBANKTRN.Enter_NDate(data[5]);
 
-// TestModellerLogger.SetLastNodeGuid("8589c653-c831-4d3c-a70b-566928561494");
-// _nBANKTRN.Click__1400_DATA();
- 
 
- TestModellerLogger.SetLastNodeGuid("392f9d4d-b082-42d6-8f76-9054b29928ae");
- _nBANKTRN.Click__Save_();
- 
- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
- 
- TestModellerLogger.SetLastNodeGuid("cd431e1c-5f14-4042-85e6-c92307a9ba2b");
- _bankmenu.Click_Bankingmenu();
- 
+TestModellerLogger.SetLastNodeGuid("10e5cab1-05f8-476d-a283-f0a589c153b9");
+_nBANKTRN.Enter_n_desc(data[8]);
 
- TestModellerLogger.SetLastNodeGuid("393c1872-a4cc-4710-8a03-f5053253baa4");
- _bankmenu.Click_Newmenu();
-   
- //TestModellerLogger.SetLastNodeGuid("32c9440758-2f86-4894-829c-0d5b167b4d77");
+
+TestModellerLogger.SetLastNodeGuid("0f5a2a25-9705-4e67-8818-b65654218779");
+_nBANKTRN.Enter_Recived_amt(data[19]);
+
+
+TestModellerLogger.SetLastNodeGuid("c690e93b-6b55-451f-b3be-8e8499f0cee5");
+_nBANKTRN.Enter_spnt_amt(data[10]);
+
+
+//TestModellerLogger.SetLastNodeGuid("5f6292f3-6e4e-41f5-a9ed-fbf01a27951f");
+//_nBANKTRN.Select_Select_VATRate("Standard Rate");
+
+
+TestModellerLogger.SetLastNodeGuid("76cc92bc-1ec4-436a-b43a-396af0f3df0b");
+_nBANKTRN.Click_Select_Option1();
+
+
+TestModellerLogger.SetLastNodeGuid("8cb869ce-983f-422b-a7ab-11f2359ec333");
+_nBANKTRN.Enter_BOX2(data[9]);
+
+
+//TestModellerLogger.SetLastNodeGuid("8589c653-c831-4d3c-a70b-566928561494");
+//_nBANKTRN.Click__1400_DATA();
+
+
+TestModellerLogger.SetLastNodeGuid("392f9d4d-b082-42d6-8f76-9054b29928ae");
+_nBANKTRN.Click__Save_();
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+TestModellerLogger.SetLastNodeGuid("cd431e1c-5f14-4042-85e6-c92307a9ba2b");
+_bankmenu.Click_Bankingmenu();
+
+
+TestModellerLogger.SetLastNodeGuid("393c1872-a4cc-4710-8a03-f5053253baa4");
+_bankmenu.Click_Newmenu();
+ 
+//TestModellerLogger.SetLastNodeGuid("32c9440758-2f86-4894-829c-0d5b167b4d77");
 //_nBANKTRN.Select_BK_SELECT(data[5]);
 
 
@@ -318,7 +321,7 @@ _nBANKTRN.Enter_Recived_amt(data[12]);
 
 
 TestModellerLogger.SetLastNodeGuid("c690e93b-6b55-451f-b3be-8e8499f0cee5");
-_nBANKTRN.Enter_spnt_amt(data[14]);
+_nBANKTRN.Enter_spnt_amt(data[19]);
 
 
 //TestModellerLogger.SetLastNodeGuid("5f6292f3-6e4e-41f5-a9ed-fbf01a27951f");
@@ -337,8 +340,54 @@ _nBANKTRN.Enter_BOX2(data[11]);
 //_nBANKTRN.Click__1400_DATA();
 
 
-       TestModellerLogger.SetLastNodeGuid("392f9d4d-b082-42d6-8f76-9054b29928ae");
-     _nBANKTRN.Click__Save_();
+     TestModellerLogger.SetLastNodeGuid("392f9d4d-b082-42d6-8f76-9054b29928ae");
+   _nBANKTRN.Click__Save_();
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   TestModellerLogger.SetLastNodeGuid("cd431e1c-5f14-4042-85e6-c92307a9ba2b");
+   _bankmenu.Click_Bankingmenu();
+   
+
+   TestModellerLogger.SetLastNodeGuid("393c1872-a4cc-4710-8a03-f5053253baa4");
+   _bankmenu.Click_Newmenu();
+     
+   //TestModellerLogger.SetLastNodeGuid("32c9440758-2f86-4894-829c-0d5b167b4d77");
+  //_nBANKTRN.Select_BK_SELECT(data[5]);
+
+
+  TestModellerLogger.SetLastNodeGuid("3f2cfb4f-290b-419a-9ed6-4e05cf7a2f84");
+  _nBANKTRN.Enter_NDate(data[5]);
+
+
+  TestModellerLogger.SetLastNodeGuid("10e5cab1-05f8-476d-a283-f0a589c153b9");
+  _nBANKTRN.Enter_n_desc(data[8]);
+
+
+  TestModellerLogger.SetLastNodeGuid("0f5a2a25-9705-4e67-8818-b65654218779");
+  _nBANKTRN.Enter_Recived_amt(data[19]);
+
+
+  TestModellerLogger.SetLastNodeGuid("c690e93b-6b55-451f-b3be-8e8499f0cee5");
+  _nBANKTRN.Enter_spnt_amt(data[14]);
+
+
+  //TestModellerLogger.SetLastNodeGuid("5f6292f3-6e4e-41f5-a9ed-fbf01a27951f");
+  //_nBANKTRN.Select_Select_VATRate("Standard Rate");
+
+
+  TestModellerLogger.SetLastNodeGuid("76cc92bc-1ec4-436a-b43a-396af0f3df0b");
+  _nBANKTRN.Click_Select_Option1();
+
+
+  TestModellerLogger.SetLastNodeGuid("8cb869ce-983f-422b-a7ab-11f2359ec333");
+  _nBANKTRN.Enter_BOX2(data[13]);
+
+
+  //TestModellerLogger.SetLastNodeGuid("8589c653-c831-4d3c-a70b-566928561494");
+  //_nBANKTRN.Click__1400_DATA();
+
+
+         TestModellerLogger.SetLastNodeGuid("392f9d4d-b082-42d6-8f76-9054b29928ae");
+       _nBANKTRN.Click__Save_();
  
     Trial_Balance.Pages_TrailBalancereport _Pages_TrailBalancereport = new Trial_Balance.Pages_TrailBalancereport(driver);
 	
@@ -421,80 +470,144 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
     TestModellerLogger.SetLastNodeGuid("f1e00766-382f-4b93-9262-8ebbf4c5872c");
     _Searchclient.Click__NidhiEnt();
 
-       Trial_Balance .SupplierBillSToFRS _SupplierBillSToFRS = new Trial_Balance.SupplierBillSToFRS(driver);
-//  TestModellerLogger.SetLastNodeGuid("7b21b860-8f6c-4e5e-8f4d-0ef9aedf75e5");
-//  _SupplierBillSToFRS.GoToUrl();
-//  
+    Trial_Balance .SupplierBillSToFRS _SupplierBillSToFRS = new Trial_Balance.SupplierBillSToFRS(driver);
+//TestModellerLogger.SetLastNodeGuid("7b21b860-8f6c-4e5e-8f4d-0ef9aedf75e5");
+//_SupplierBillSToFRS.GoToUrl();
 //
-//  TestModellerLogger.SetLastNodeGuid("3d11c569-a0da-4838-a238-3d3cd071f91d");
-//  _SupplierBillSToFRS.AssertUrl();
-  
-
-  TestModellerLogger.SetLastNodeGuid("5c30d940-2a3c-4ce2-9f6d-f491e71a1755");
-  _SupplierBillSToFRS.Click_ExpenditureTAB();
-  
-
-  TestModellerLogger.SetLastNodeGuid("02bea7d1-9589-4278-8c66-58e376721799");
-  _SupplierBillSToFRS.Click_NewTAB();
-  
-
-  TestModellerLogger.SetLastNodeGuid("fc395eef-59ac-4e0c-8092-d11ecdb61b84");
-  _SupplierBillSToFRS.Click_NewSupplierBill();
-//  
-
-  TestModellerLogger.SetLastNodeGuid("9ed916b8-79f8-4b59-a274-ed9c520242c8");
-  _SupplierBillSToFRS.Select_SupplierName(data[15]);
-  
-
-//  TestModellerLogger.SetLastNodeGuid("6cbb598e-673a-45cd-9f0a-ec53cb56f09d");
-//  _SupplierBillSToFRS.Enter_DefaultCurrency(data[6]);
-//  
-
-  TestModellerLogger.SetLastNodeGuid("6516ccf8-ae24-42b1-b271-2bb390a6f8c3");
-  _SupplierBillSToFRS.Enter_BillNo(data[16]);
-  
-
-  TestModellerLogger.SetLastNodeGuid("12466744-0bd3-4135-9300-e044e7148e58");
-  _SupplierBillSToFRS.Enter_Date(data[5]);
-  
-
-  TestModellerLogger.SetLastNodeGuid("7ea52093-1dd7-4979-8034-aeaef336d945");
-  _SupplierBillSToFRS.Select_ExpenseType(data[9]);
-  
-
-  TestModellerLogger.SetLastNodeGuid("de8f87b1-ff3a-421c-9290-6ddaef339bf2");
-  _SupplierBillSToFRS.Enter_Description(data[8]);
-  
-
-  TestModellerLogger.SetLastNodeGuid("31e40f93-4cb6-45b2-bb91-cdd42e0f2f68");
-  _SupplierBillSToFRS.Enter_UnitPrice(data[10]);
-  
-
-  //TestModellerLogger.SetLastNodeGuid("956a775c-cdf6-4d7d-949f-76ac35f8991c");
- // _SupplierBillSToFRS.Select_VATRateType(data[11]);
-  
-
-//  TestModellerLogger.SetLastNodeGuid("5be5550e-c06b-4dbd-bcbf-748aedd3b634");
-//  _SupplierBillSToFRS.Enter_VATRate(data[12]);
-//  
 //
-//  TestModellerLogger.SetLastNodeGuid("1721e266-7328-4f01-8af9-62c60f672a82");
-//  _SupplierBillSToFRS.Enter_VATAmount(data[13]);
-//  
+//TestModellerLogger.SetLastNodeGuid("3d11c569-a0da-4838-a238-3d3cd071f91d");
+//_SupplierBillSToFRS.AssertUrl();
 
-//  TestModellerLogger.SetLastNodeGuid("86be5d84-b080-4b00-b39a-57ef6d127c84");
-//  _SupplierBillSToFRS.Enter_Amount(data[5]);
-//  
+
+TestModellerLogger.SetLastNodeGuid("5c30d940-2a3c-4ce2-9f6d-f491e71a1755");
+_SupplierBillSToFRS.Click_ExpenditureTAB();
+
+
+TestModellerLogger.SetLastNodeGuid("02bea7d1-9589-4278-8c66-58e376721799");
+_SupplierBillSToFRS.Click_NewTAB();
+
+
+TestModellerLogger.SetLastNodeGuid("fc395eef-59ac-4e0c-8092-d11ecdb61b84");
+_SupplierBillSToFRS.Click_NewSupplierBill();
 //
-//  TestModellerLogger.SetLastNodeGuid("d76e980e-6867-446d-a13a-3bbe2cc719a9");
-//  _SupplierBillSToFRS.Click_Tickformorelineitems();
-//  
 
-  TestModellerLogger.SetLastNodeGuid("9720f223-ad75-48cf-9a78-a8a001ca0dfb");
-  _SupplierBillSToFRS.Click_SaveButton();
-  
-    
- Trial_Balance.DebitNoteSToFRS _DebitNoteSToFRS = new Trial_Balance.DebitNoteSToFRS(driver);
+TestModellerLogger.SetLastNodeGuid("9ed916b8-79f8-4b59-a274-ed9c520242c8");
+_SupplierBillSToFRS.Select_SupplierName(data[15]);
+
+
+//TestModellerLogger.SetLastNodeGuid("6cbb598e-673a-45cd-9f0a-ec53cb56f09d");
+//_SupplierBillSToFRS.Enter_DefaultCurrency(data[6]);
+//
+
+TestModellerLogger.SetLastNodeGuid("6516ccf8-ae24-42b1-b271-2bb390a6f8c3");
+_SupplierBillSToFRS.Enter_BillNo(data[16]);
+
+
+TestModellerLogger.SetLastNodeGuid("12466744-0bd3-4135-9300-e044e7148e58");
+_SupplierBillSToFRS.Enter_Date(data[5]);
+
+
+TestModellerLogger.SetLastNodeGuid("7ea52093-1dd7-4979-8034-aeaef336d945");
+_SupplierBillSToFRS.Select_ExpenseType(data[9]);
+
+
+TestModellerLogger.SetLastNodeGuid("de8f87b1-ff3a-421c-9290-6ddaef339bf2");
+_SupplierBillSToFRS.Enter_Description(data[8]);
+
+
+TestModellerLogger.SetLastNodeGuid("31e40f93-4cb6-45b2-bb91-cdd42e0f2f68");
+_SupplierBillSToFRS.Enter_UnitPrice(data[10]);
+
+
+//TestModellerLogger.SetLastNodeGuid("956a775c-cdf6-4d7d-949f-76ac35f8991c");
+// _SupplierBillSToFRS.Select_VATRateType(data[11]);
+
+
+//TestModellerLogger.SetLastNodeGuid("5be5550e-c06b-4dbd-bcbf-748aedd3b634");
+//_SupplierBillSToFRS.Enter_VATRate(data[12]);
+//
+//
+//TestModellerLogger.SetLastNodeGuid("1721e266-7328-4f01-8af9-62c60f672a82");
+//_SupplierBillSToFRS.Enter_VATAmount(data[13]);
+//
+
+//TestModellerLogger.SetLastNodeGuid("86be5d84-b080-4b00-b39a-57ef6d127c84");
+//_SupplierBillSToFRS.Enter_Amount(data[5]);
+//
+//
+//TestModellerLogger.SetLastNodeGuid("d76e980e-6867-446d-a13a-3bbe2cc719a9");
+//_SupplierBillSToFRS.Click_Tickformorelineitems();
+//
+
+TestModellerLogger.SetLastNodeGuid("9720f223-ad75-48cf-9a78-a8a001ca0dfb");
+_SupplierBillSToFRS.Click_SaveButton();
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+TestModellerLogger.SetLastNodeGuid("5c30d940-2a3c-4ce2-9f6d-f491e71a1755");
+_SupplierBillSToFRS.Click_ExpenditureTAB();
+
+
+TestModellerLogger.SetLastNodeGuid("02bea7d1-9589-4278-8c66-58e376721799");
+_SupplierBillSToFRS.Click_NewTAB();
+
+
+TestModellerLogger.SetLastNodeGuid("fc395eef-59ac-4e0c-8092-d11ecdb61b84");
+_SupplierBillSToFRS.Click_NewSupplierBill();
+//
+
+TestModellerLogger.SetLastNodeGuid("9ed916b8-79f8-4b59-a274-ed9c520242c8");
+_SupplierBillSToFRS.Select_SupplierName(data[15]);
+
+
+//TestModellerLogger.SetLastNodeGuid("6cbb598e-673a-45cd-9f0a-ec53cb56f09d");
+//_SupplierBillSToFRS.Enter_DefaultCurrency(data[6]);
+//
+
+TestModellerLogger.SetLastNodeGuid("6516ccf8-ae24-42b1-b271-2bb390a6f8c3");
+_SupplierBillSToFRS.Enter_BillNo(data[16]);
+
+
+TestModellerLogger.SetLastNodeGuid("12466744-0bd3-4135-9300-e044e7148e58");
+_SupplierBillSToFRS.Enter_Date(data[5]);
+
+
+TestModellerLogger.SetLastNodeGuid("7ea52093-1dd7-4979-8034-aeaef336d945");
+_SupplierBillSToFRS.Select_ExpenseType(data[13]);
+
+
+TestModellerLogger.SetLastNodeGuid("de8f87b1-ff3a-421c-9290-6ddaef339bf2");
+_SupplierBillSToFRS.Enter_Description(data[8]);
+
+
+TestModellerLogger.SetLastNodeGuid("31e40f93-4cb6-45b2-bb91-cdd42e0f2f68");
+_SupplierBillSToFRS.Enter_UnitPrice(data[14]);
+
+
+//TestModellerLogger.SetLastNodeGuid("956a775c-cdf6-4d7d-949f-76ac35f8991c");
+// _SupplierBillSToFRS.Select_VATRateType(data[11]);
+
+
+//TestModellerLogger.SetLastNodeGuid("5be5550e-c06b-4dbd-bcbf-748aedd3b634");
+//_SupplierBillSToFRS.Enter_VATRate(data[12]);
+//
+//
+//TestModellerLogger.SetLastNodeGuid("1721e266-7328-4f01-8af9-62c60f672a82");
+//_SupplierBillSToFRS.Enter_VATAmount(data[13]);
+//
+
+//TestModellerLogger.SetLastNodeGuid("86be5d84-b080-4b00-b39a-57ef6d127c84");
+//_SupplierBillSToFRS.Enter_Amount(data[5]);
+//
+//
+//TestModellerLogger.SetLastNodeGuid("d76e980e-6867-446d-a13a-3bbe2cc719a9");
+//_SupplierBillSToFRS.Click_Tickformorelineitems();
+//
+
+TestModellerLogger.SetLastNodeGuid("9720f223-ad75-48cf-9a78-a8a001ca0dfb");
+_SupplierBillSToFRS.Click_SaveButton();
+
+ 
+Trial_Balance.DebitNoteSToFRS _DebitNoteSToFRS = new Trial_Balance.DebitNoteSToFRS(driver);
 //TestModellerLogger.SetLastNodeGuid("a9ac356a-1ff8-48d1-98c6-5613b1e1ba5a");
 //_DebitNoteSToFRS.GoToUrl();
 //

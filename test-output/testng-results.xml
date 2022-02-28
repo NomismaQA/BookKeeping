@@ -1,108 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[ledger 1 entered :1400 - Zbank]]>
-    </line>
-    <line>
-      <![CDATA[ledger 2 entered :1401 - Unprocessed Transactions]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-01-13T14:35:03 IST" name="Failed suite [Failed suite [Suite]]" finished-at="2022-01-13T14:39:29 IST" duration-ms="266445">
+  <suite started-at="2022-02-28T18:20:22 IST" name="Default suite" finished-at="2022-02-28T18:21:32 IST" duration-ms="69880">
     <groups>
       <group name="SaleInToReconcile - Default Profile">
-        <method signature="TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier@5c3b6c6e]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" class="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier"/>
-        <method signature="TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1" class="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank"/>
+        <method signature="Clear_Data.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report" class="Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data"/>
       </group> <!-- SaleInToReconcile - Default Profile -->
       <group name="SaleInToReconcile">
-        <method signature="TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier@5c3b6c6e]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" class="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier"/>
-        <method signature="TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1" class="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank"/>
+        <method signature="Clear_Data.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485]" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report" class="Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data"/>
       </group> <!-- SaleInToReconcile -->
     </groups>
-    <test started-at="2022-01-13T14:35:03 IST" name="TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)(failed)" finished-at="2022-01-13T14:38:29 IST" duration-ms="205863">
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier">
-        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier@5c3b6c6e]" started-at="2022-01-13T14:35:03 IST" name="initDriver" finished-at="2022-01-13T14:35:04 IST" duration-ms="1606" status="PASS">
+    <test started-at="2022-02-28T18:20:22 IST" name="Default test" finished-at="2022-02-28T18:21:32 IST" duration-ms="69880">
+      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data">
+        <test-method is-config="true" signature="allocateData(org.testng.ITestContext)[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485]" started-at="2022-02-28T18:20:22 IST" name="allocateData" finished-at="2022-02-28T18:20:22 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier@5c3b6c6e]" started-at="2022-01-13T14:35:04 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3" finished-at="2022-01-13T14:38:28 IST" duration-ms="203257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier@5c3b6c6e]" started-at="2022-01-13T14:38:28 IST" name="tearDown" finished-at="2022-01-13T14:38:28 IST" duration-ms="730" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3 status=SUCCESS method=TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier@5c3b6c6e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_06_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier -->
-    </test> <!-- TC_6_3_BS_FixedAsset_210_To_2019_With_Journal_Bank_Supplier(failed)(failed) -->
-    <test started-at="2022-01-13T14:38:29 IST" name="TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)(failed)" finished-at="2022-01-13T14:39:29 IST" duration-ms="60354">
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank">
-        <test-method is-config="true" signature="allocateData(org.testng.ITestContext)[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d]" started-at="2022-01-13T14:35:03 IST" name="allocateData" finished-at="2022-01-13T14:35:03 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1977b0df]]>
+                <![CDATA[org.testng.TestRunner@de579ff]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allocateData -->
-        <test-method is-config="true" signature="setupReporter()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d]" started-at="2022-01-13T14:35:03 IST" name="setupReporter" finished-at="2022-01-13T14:35:03 IST" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="setupReporter()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485]" started-at="2022-02-28T18:20:22 IST" name="setupReporter" finished-at="2022-02-28T18:20:22 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReporter -->
-        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d]" started-at="2022-01-13T14:38:29 IST" name="initDriver" finished-at="2022-01-13T14:38:30 IST" duration-ms="1250" status="PASS">
+        <test-method is-config="true" signature="initDriver(java.lang.reflect.Method)[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485]" started-at="2022-02-28T18:20:22 IST" name="initDriver" finished-at="2022-02-28T18:20:24 IST" duration-ms="2055" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1() throws java.lang.Exception]]>
+                <![CDATA[public void Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report() throws java.lang.InterruptedException,java.io.IOException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.awt.HeadlessException,java.awt.AWTException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d]" started-at="2022-01-13T14:38:30 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1" finished-at="2022-01-13T14:39:28 IST" duration-ms="58205" status="PASS">
+        <test-method signature="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485]" started-at="2022-02-28T18:20:24 IST" name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report" finished-at="2022-02-28T18:21:30 IST" duration-ms="66375" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[ledger 1 entered :1400 - Zbank]]>
-            </line>
-            <line>
-              <![CDATA[ledger 2 entered :1401 - Unprocessed Transactions]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d]" started-at="2022-01-13T14:39:28 IST" name="tearDown" finished-at="2022-01-13T14:39:29 IST" duration-ms="713" status="PASS">
+        </test-method> <!-- GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485]" started-at="2022-02-28T18:21:31 IST" name="tearDown" finished-at="2022-02-28T18:21:32 IST" duration-ms="1043" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1 status=SUCCESS method=TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d] output=ledger 1 entered :1400 - Zbank]]]>
+                <![CDATA[[TestResult name=GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report status=SUCCESS method=Clear_Data.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1_TC_01_LadgerCode_7016_7400_2091_Report()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeReporter()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank@60f7cc1d]" started-at="2022-01-13T14:39:29 IST" name="closeReporter" finished-at="2022-01-13T14:39:29 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="closeReporter()[pri:0, instance:Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data@2e11485]" started-at="2022-02-28T18:21:32 IST" name="closeReporter" finished-at="2022-02-28T18:21:32 IST" duration-ms="472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReporter -->
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp_3.TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank -->
-    </test> <!-- TC_23_2_BS_DEBTOR_1400_1400_With_Journal_Bank(failed)(failed) -->
-  </suite> <!-- Failed suite [Failed suite [Suite]] -->
+      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp.Clear_Data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

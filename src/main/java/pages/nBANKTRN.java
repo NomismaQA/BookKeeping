@@ -20,6 +20,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+
+import Generic.WaitStatementLib;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
 import utilities.reports.ExtentReportManager;
@@ -145,12 +147,11 @@ public class nBANKTRN extends BasePage
  		
  		
  		
+ 		WaitStatementLib wt=new WaitStatementLib();
+		wt.explicitWait_elementToBeClickable(m_Driver, 20, elem);
+ 		
  		elem.sendKeys(NDate);
-     
- 		Thread.sleep(2000);
- 		elem.sendKeys(Keys.ENTER);
  		elem.sendKeys(Keys.TAB);
- 		//elem.sendKeys(Keys.TAB);
  		utilities.PassScreenshot.Getscreenshot11("Enter Date", "Multilcurrency");
  		
  		 		

@@ -466,9 +466,10 @@ public String invoiceno()
     
 	/**
  	 * Select Nu_Inv_Product_8
+	 * @throws InterruptedException 
      * @name Select Nu_Inv_Product_8
      */
-    public void Select_Nu_Inv_Product_8(String Nu_Inv_Product_8)
+    public void Select_Nu_Inv_Product_8(String Nu_Inv_Product_8) throws InterruptedException
  	{
  	    
  		WebElement elem = getWebElement(Nu_Inv_Product_8Elem);
@@ -481,12 +482,13 @@ public String invoiceno()
  			Assert.fail("Unable to locate object: " + Nu_Inv_Product_8Elem.toString());
          }
 
-// 		Select dropdown = new Select(elem);
+ 		Select dropdown = new Select(elem);
 //
-// 		dropdown.selectByVisibleText(Nu_Inv_Product_8);
- 		elem.sendKeys(Keys.ARROW_DOWN);
+ 		dropdown.selectByVisibleText(Nu_Inv_Product_8);
+ 	//	elem.sendKeys(Keys.ARROW_DOWN);
  		
- 		
+ 	//	Thread.sleep(2000);
+ 	//	elem.sendKeys(Keys.TAB);
  		ExtentReportManager.passStep(m_Driver, "Select_Nu_Inv_Product_8 " + Nu_Inv_Product_8);
 
  		TestModellerLogger.PassStep(m_Driver, "Select_Nu_Inv_Product_8 " + Nu_Inv_Product_8);
@@ -1284,7 +1286,7 @@ public String vatonlyinvoicereturn()
  		WebElement elem = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[5]/div[2]/div[1]/div[1]/div/div/div/div/table/tbody[2]/tr[1]/td[5]/input"));
  		
  		elem.sendKeys(credit_Quantity);
- 		Thread.sleep(3000);
+ 	//	Thread.sleep(3000);
  		elem.sendKeys(Keys.TAB);
  		WebElement elem2=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_ddVATRate']"));
  		Select dropdown=new Select(elem2);
@@ -1298,7 +1300,7 @@ public String vatonlyinvoicereturn()
  		WebElement elem = m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_txtInvoiceNo']"));
  		
  		elem.sendKeys("crinvoice");
- 		Thread.sleep(2000);
+ 	//	Thread.sleep(2000);
  		elem.sendKeys(Keys.TAB);
   	
  	}
@@ -1309,7 +1311,7 @@ public String vatonlyinvoicereturn()
  		WebElement elem = m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_txtDescription']"));
  		
  		elem.sendKeys("Desc");
- 		Thread.sleep(3000);
+ //		Thread.sleep(3000);
  		elem.sendKeys(Keys.TAB);
   	
  	}

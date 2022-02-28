@@ -44,7 +44,7 @@ public class Ledger_Reconciliation2 extends BasePage
 
 	private By DateTo_12Elem = By.xpath("//label[normalize-space()= 'To:']/../input");
 
-	private By Undo_Reconcile_13Elem = By.xpath("//*[@id='ctl00_cPH_rptrAccount_ctl00_rptrReconcile_ctl00_lnkUngroup']");
+	private By Undo_Reconcile_13Elem = By.xpath("//*[@id='ctl00_cPH_lnkUnDoReconcileSelected']");
 
 
 	
@@ -359,11 +359,17 @@ public class Ledger_Reconciliation2 extends BasePage
 			Assert.fail("Unable to locate object: " + Undo_Reconcile_13Elem.toString());
         }
 Thread.sleep(2000);
+
 		elem.click();
           	
 
 		ExtentReportManager.passStep(m_Driver, "Click_Undo_Reconcile_13");
 
 		TestModellerLogger.PassStep(m_Driver, "Click_Undo_Reconcile_13");
+	}
+	
+	public void ChkAll()
+	{
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_chkAll']")).click();
 	}
 }

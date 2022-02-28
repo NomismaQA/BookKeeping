@@ -6,6 +6,10 @@ import ie.curiositysoftware.testmodeller.TestModellerPath;
 import ie.curiositysoftware.testmodeller.TestModellerSuite;
 import pages.Receive_Payment.SaleInvoices;
 
+import java.awt.AWTException;
+import java.awt.HeadlessException;
+import java.io.IOException;
+
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -499,7 +503,7 @@ public class SaleInvoice_nuinvoice extends TestBase
 
     @Test  (groups= {"Sale_Invoice","Sale_Invoice - nu_invoice"})
     @TestModellerPath(guid = "5490c8af-4ffd-4874-bd2a-5ea9bcceb06f")
-    public void ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue84() throws InvalidFormatException, InterruptedException
+    public void ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue84() throws InvalidFormatException, InterruptedException, HeadlessException, IOException, AWTException
     {
     	/*Credit note partial amount */
     	sTestCaseID="TC84";
@@ -561,21 +565,20 @@ public class SaleInvoice_nuinvoice extends TestBase
         _Searchclient.Click__NidhiEnt();
       
         pages.Receive_Payment.SaleInvoices _SaleInvoices = new pages.Receive_Payment.SaleInvoices(driver);
-       
-    _SaleInvoices.Click_Sale_New_menu1();
-    _SaleInvoices.Click_Click_Create_Credit_Note_3();
-    _SaleInvoices.Select_Nu_Inv_Customer_1(data[5]);
-   // _SaleInvoices.Enter_Credit_note_ReferenceNo1("credit note");
-   _SaleInvoices.Enter_Creditno();
-   _SaleInvoices.Enter_Credit_invoicenumber(data[8]);
-   _SaleInvoices.Enter_Credit_Desc("credit invoice");
-    _SaleInvoices.Select_Nu_Inv_Product_8(data[9]);
-    _SaleInvoices.Enter_Crediit_UnitPrice_9(data[10]);
-   _SaleInvoices.Enter_Credit_Quantity_10(data[11]);
-       _SaleInvoices.Click_Credit__Save();
-   // _SaleInvoices.Click_Credit_Savepopup();
+        
+   _SaleInvoices.Click_Sale_New_menu1();
+   _SaleInvoices.Click_Click_Create_Credit_Note_3();
+   _SaleInvoices.Select_Nu_Inv_Customer_1(data[5]);
+  // _SaleInvoices.Enter_Credit_note_ReferenceNo1("credit note");
+  _SaleInvoices.Enter_Creditno();
+  _SaleInvoices.Select_Nu_Inv_Product_8(data[9]);
+  _SaleInvoices.Enter_Credit_invoicenumber(data[8]);
+  _SaleInvoices.Enter_Credit_Desc("credit invoice");
    
-  //_SaleInvoices.Enter_Nu_Inv_InvoiceNo_4();
+   _SaleInvoices.Enter_Crediit_UnitPrice_9(data[10]);
+  _SaleInvoices.Enter_Credit_Quantity_10(data[11]);
+      _SaleInvoices.Click_Credit__Save();
+      
    pages.Receive_Payment.SDSearch _sd=new pages.Receive_Payment.SDSearch(driver);
     _sd.Select_Sd_Search_Category_2("Inv#");
 _sd.Enter_Credit_Search_input_3();
@@ -1036,7 +1039,7 @@ _sd.Enter_Credit_Search_input_3();
     utilities.PassScreenshot.Getscreenshot11(" Before search","VAT Only Invoice"); 
   pages.Receive_Payment.ReceivePayment _rp=new pages.Receive_Payment.ReceivePayment(driver);
    
-   //_rp.click_3dot();
+   _rp.click_3dot();
    _rp.Click_Click_Receive_payment_2();
    
    _rp.Enter_Enter_AmtPaid_3(data[8]);
@@ -1142,7 +1145,7 @@ _sd.Enter_Credit_Search_input_3();
     utilities.PassScreenshot.Getscreenshot11("before advacne reconsilation","VAT Only Invoice"); 
   pages.Receive_Payment.ReceivePayment _rp=new pages.Receive_Payment.ReceivePayment(driver);
    
-   //_rp.click_3dot();
+   _rp.click_3dot();
    _rp.Click_Click_Receive_payment_2();
    
    _rp.Enter_Enter_AmtPaid_3(data[8]);
@@ -1246,7 +1249,7 @@ _sd.Enter_Credit_Search_input_3();
     utilities.PassScreenshot.Getscreenshot11("Full Before reconsilation","VAT Only Invoice"); 
   pages.Receive_Payment.ReceivePayment _rp=new pages.Receive_Payment.ReceivePayment(driver);
    
-   //_rp.click_3dot();
+   _rp.click_3dot();
    _rp.Click_Click_Receive_payment_2();
    
    _rp.Enter_Enter_AmtPaid_3(data[8]);

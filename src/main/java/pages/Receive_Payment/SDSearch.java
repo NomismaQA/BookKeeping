@@ -352,7 +352,7 @@ public void Enter_Sd_Search_input_3() throws InterruptedException
 
 		elem.click();
           	Thread.sleep(1000);
-          	m_Driver.manage().window().setSize(d);
+          	//m_Driver.manage().window().setSize(d);
           	utilities.PassScreenshot.Getscreenshot11("search grid","Credit Number" );
           	Thread.sleep(1000);
           	/*click on 3 dots for credit payment*/

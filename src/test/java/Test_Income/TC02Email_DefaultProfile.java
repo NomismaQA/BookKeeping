@@ -12,6 +12,8 @@ import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+import Pages_Income.Customer_LIst;
 import ie.curiositysoftware.allocation.dto.ResultMergeMethod;
 import ie.curiositysoftware.allocation.dto.DataAllocationRow;
 import reports.ExtentTestListener;
@@ -131,13 +133,107 @@ public class TC02Email_DefaultProfile extends TestBase
 		
 		
 		
-         _MailPlus.SelectTemplate();
+         _MailPlus.SelectTemplate(data[5]);
 		
-		_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk");
+		_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk", data[5]);
+		
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////		
+	      	Thread.sleep(2000);
+		
+		   TestModellerLogger.SetLastNodeGuid("ad68166f-4045-401c-85cf-3a60a429becd");
+		    _NewPreviewPage.Click_ClickOnMail();
+		    
+		    _NewPreviewPage.popupOfEmail();
+		
+		
+		    _MailPlus.SelectTemplate(data[6]);
+			
+			_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk", data[6]);
+			
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Thread.sleep(2000);
+
+TestModellerLogger.SetLastNodeGuid("ad68166f-4045-401c-85cf-3a60a429becd");
+_NewPreviewPage.Click_ClickOnMail();
+
+_NewPreviewPage.popupOfEmail();
+
+
+_MailPlus.SelectTemplate(data[7]);
+
+_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk", data[7]);
+		
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Thread.sleep(2000);
+
+TestModellerLogger.SetLastNodeGuid("ad68166f-4045-401c-85cf-3a60a429becd");
+_NewPreviewPage.Click_ClickOnMail();
+
+_NewPreviewPage.popupOfEmail();
+
+
+_MailPlus.SelectTemplate(data[8]);
+
+_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk", data[8]);
+	
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Thread.sleep(2000);
+
+TestModellerLogger.SetLastNodeGuid("ad68166f-4045-401c-85cf-3a60a429becd");
+_NewPreviewPage.Click_ClickOnMail();
+
+_NewPreviewPage.popupOfEmail();
+
+
+_MailPlus.SelectTemplate(data[9]);
+
+_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk", data[9]);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Thread.sleep(2000);
+
+TestModellerLogger.SetLastNodeGuid("ad68166f-4045-401c-85cf-3a60a429becd");
+_NewPreviewPage.Click_ClickOnMail();
+
+_NewPreviewPage.popupOfEmail();
+
+
+_MailPlus.SelectTemplate(data[10]);
+
+_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk", data[10]);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Thread.sleep(2000);
+
+TestModellerLogger.SetLastNodeGuid("ad68166f-4045-401c-85cf-3a60a429becd");
+_NewPreviewPage.Click_ClickOnMail();
+
+_NewPreviewPage.popupOfEmail();
+
+
+_MailPlus.SelectTemplate(data[11]);
+
+_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk", data[11]);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Thread.sleep(2000);
+
+TestModellerLogger.SetLastNodeGuid("ad68166f-4045-401c-85cf-3a60a429becd");
+_NewPreviewPage.Click_ClickOnMail();
+
+_NewPreviewPage.popupOfEmail();
+
+
+_MailPlus.SelectTemplate(data[12]);
+
+_MailPlus.SendEmail("muhammad.ashiv@nomisma.co.uk", data[12]);
+	
+		
+		
 		
 		//_MailPlus.Click_Plus_Sign();
 		
-		//_MailPlus.Select_InvoiceTemplate(data[5]);
+	//	_MailPlus.Select_InvoiceTemplate(data[5]);
 
 		
 		//_MailPlus.Click_SaveButton();

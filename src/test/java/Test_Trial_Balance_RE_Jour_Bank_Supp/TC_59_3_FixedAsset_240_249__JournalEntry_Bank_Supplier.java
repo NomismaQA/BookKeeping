@@ -135,7 +135,7 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
 //   TestModellerLogger.SetLastNodeGuid("cb49d4cd-87fd-4a49-afab-fd5672342bd1");
 //   _JournalEntry.Enter_Clickaccountbox3(data[13]);
 //   
-//   _JournalEntry.Enter_Enter_Debit_3(data[14]);
+//   _JournalEntry.Enter_Enter_Debit_3(data[19]);
    
   // TestModellerLogger.SetLastNodeGuid("2876ec19-50d6-4414-9db3-998398799181");
   // _JournalEntry.Enter_Enter_Note(data[23]);
@@ -266,7 +266,7 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
  
 
  TestModellerLogger.SetLastNodeGuid("0f5a2a25-9705-4e67-8818-b65654218779");
- _nBANKTRN.Enter_Recived_amt(data[14]);
+ _nBANKTRN.Enter_Recived_amt(data[19]);
  
 
  TestModellerLogger.SetLastNodeGuid("c690e93b-6b55-451f-b3be-8e8499f0cee5");
@@ -318,7 +318,7 @@ _nBANKTRN.Enter_Recived_amt(data[12]);
 
 
 TestModellerLogger.SetLastNodeGuid("c690e93b-6b55-451f-b3be-8e8499f0cee5");
-_nBANKTRN.Enter_spnt_amt(data[14]);
+_nBANKTRN.Enter_spnt_amt(data[19]);
 
 
 //TestModellerLogger.SetLastNodeGuid("5f6292f3-6e4e-41f5-a9ed-fbf01a27951f");

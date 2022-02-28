@@ -319,7 +319,9 @@ public class nBANKTRN_2 extends BasePage
 //		
 //			t.click();	
 	elem.click();
-	Thread.sleep(4000);
+	//	m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys("1322 - Default Employee");
+	//	m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(Keys.ENTER);
+	Thread.sleep(5000);
     	
       		
 	}

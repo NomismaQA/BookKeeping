@@ -78,9 +78,40 @@ public class Delete_Bank_entry extends BasePage
 		
 	}
 	
+	public void Invoice() throws InterruptedException
+	{
+		m_Driver.findElement(By.xpath("//span[contains(text(), 'Sales')]")).click();
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr"));
+		System.out.println(list.size());
+		for(int i=0;i<list.size()-1;i++)
+		{
+			//List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_divfiltrec']/div/div/table/tbody/tr/td[13]/a"));
+			m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete']/i")).click();
+			//	Thread.sleep(2000);
+				m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnDelete']")).click();
+			//	Thread.sleep(2000);
+		}
+		
+	}
 	
-	
-	
+	public void RemiersentDel() throws InterruptedException
+	{
+	//	m_Driver.findElement(By.xpath("//span[contains(text(), 'Expenditure')]")).click();
+		
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[2]/div/div[1]/table/tbody/tr"));
+		System.out.println(list.size());
+		for(int i=0;i<list.size()-1;i++)
+		{
+			m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrPayment_ctl0"+i+"_Chk1']")).click();
+			//List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_divfiltrec']/div/div/table/tbody/tr/td[13]/a"));
+			//m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_rptrDisplayRecords_ctl00_lnkDelete']/i")).click();
+			//	Thread.sleep(2000);
+		//		m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnDelete']")).click();
+			//	Thread.sleep(2000);
+		}
+		
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_btnDeleteAllPayment']/i")).click();
+	}
 	
 	
 }

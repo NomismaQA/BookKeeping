@@ -318,6 +318,7 @@ public class JournalEntry extends BasePage
  
  //WebElement ele = 
  Thread.sleep(1000);
+ 
  m_Driver.findElement(By.xpath("//*[starts-with(text(),'"+std+"')]")).click();
  //ele.click();
  //jsExec.executeScript("arguments[0].click();", elem);
@@ -343,7 +344,61 @@ public class JournalEntry extends BasePage
 
   		TestModellerLogger.PassStep(m_Driver, "Enter_Clickaccountbox " + Clickaccountbox);
  	}
+ 	public void Enter_ClickaccountboxSpl(String Clickaccountbox) throws InterruptedException
+ 	{
+ 		String a=Clickaccountbox.replaceAll(" ", "");
+			String ab[]=a.split("-");
+			ledger.add(0, ab[0]);
+			String Name[]=Clickaccountbox.split("-");
+			String ac=Name[1].trim();
+			expected_entry.add(0, ac);
+			String Code=Name[0].trim();
+			
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
+ 		WebElement elem = getWebElement(ClickaccountboxElem);
 
+// 		if (elem == null) {
+//    		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_Clickaccountbox", "Enter_Clickaccountbox failed. Unable to locate object: " + ClickaccountboxElem.toString());
+//
+//    		TestModellerLogger.FailStepWithScreenshot(m_Driver, "Enter_Clickaccountbox", "Enter_Clickaccountbox failed. Unable to locate object: " + ClickaccountboxElem.toString());
+//
+// 			Assert.fail("Unable to locate object: " + ClickaccountboxElem.toString());
+//     
+//}
+ String std=Clickaccountbox;
+ System.out.print("box"   +std );
+ 
+ //System.out.println("//*[starts-with(text(),'" +std+"')]")");
+ //m_Driver.findElement(By.xpath("//*[starts-with(text(),'" +std+ "')]")).click();
+ 
+ //WebElement ele = 
+ Thread.sleep(1000);
+ m_Driver.findElement(By.xpath("//*[starts-with(text(),'"+Code+"')]")).click();
+ //ele.click();
+ //jsExec.executeScript("arguments[0].click();", elem);
+ 
+// By Accountele1 = By.xpath("//*[@id='select2-ctl00_cPH_rptRecord_ctl00_ltAccount-container']");
+//	WebElement elem1 = getWebElement(Accountele1);
+//	String aa=elem1.getAttribute("value");
+	//expected_entry1.add(0, elem1.getAttribute("value"));
+	
+ try {
+	Thread.sleep(1000);
+} catch (InterruptedException e) {
+	
+	e.printStackTrace();
+}
+ 		//elem.sendKeys(Clickaccountbox);
+//Thread.sleep(1000);
+ //elem.click();
+ 
+		m_Driver.switchTo().defaultContent();
+
+  		ExtentReportManager.passStep(m_Driver, "Enter_Clickaccountbox " + Clickaccountbox);
+
+  		TestModellerLogger.PassStep(m_Driver, "Enter_Clickaccountbox " + Clickaccountbox);
+ 	}
       
 	/**
  	 * Enter Enter_Debit
