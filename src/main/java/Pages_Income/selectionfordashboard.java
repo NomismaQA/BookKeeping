@@ -1,6 +1,12 @@
 package Pages_Income;
 
 import pages.BasePage;
+
+import java.sql.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +14,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+import org.testng.Reporter;
+
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
 import utilities.reports.ExtentReportManager;
@@ -259,4 +267,278 @@ public class selectionfordashboard extends BasePage
 
 		TestModellerLogger.PassStep(m_Driver, "Click_Update_");
 	}
-}
+	
+	public void Customer(String CusName)
+	{
+		
+		WebElement Cus=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlCustomer']"));
+		Select sl=new Select(Cus);
+		sl.selectByVisibleText(CusName);
+		
+	}
+	
+	public void VerifyCus(String CusName1)
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr"));
+		int size=list.size();
+		
+		for(int i=1;i<=size-1;i++)
+		{
+			String CusName=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr["+i+"]/td[6]")).getText();
+			Assert.assertEquals(CusName,CusName1 );
+	    	
+		}
+		Reporter.log("Customer verified: "+CusName1);
+	}
+	
+	public void SearchCategory(String CatType,String CatName )
+	{
+		
+	WebElement	CatTY=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_dd_Search']"));
+		
+	Select sl=new Select(CatTY);
+	sl.selectByVisibleText(CatType);
+	
+	WebElement CatNM=m_Driver.findElement(By.xpath("//INPUT[@id='ctl00_cPHFilter_txtSearch']"));
+	CatNM.sendKeys(CatName);
+	
+	
+	
+	}
+	public void VerifySearchCategoryCust(String CusName1)
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr"));
+		int size=list.size();
+		
+		for(int i=1;i<=size-1;i++)
+		{
+			String CusName=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr["+i+"]/td[6]")).getText();
+			Assert.assertEquals(CusName,CusName1 );
+	    	
+		}
+		Reporter.log("Search Category Customer verified: "+CusName1);
+	}
+	public void VerifySearchCategoryTrnsNO(String TrnsNo)
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr"));
+		int size=list.size();
+		
+		for(int i=1;i>=2;i++)
+		{
+			String ActualTrnsNo=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr["+i+"]/td[2]")).getText();
+			Assert.assertEquals(ActualTrnsNo,TrnsNo );
+	    
+		}
+		Reporter.log("Search Category Trns_No verified: "+TrnsNo);
+	}
+	public void VerifySearchCategoryInvNO(String InvNo)
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr"));
+		int size=list.size();
+		
+		for(int i=1;i<=size-1;i++)
+		{
+			String ActualInvNO=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr["+i+"]/td[5]")).getText();
+			Assert.assertEquals(ActualInvNO,InvNo );
+	    	
+		}
+		Reporter.log("Search Category Inv_NO verified: "+InvNo);
+	}
+	public void VerifySearchCategoryType(String type)
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr"));
+		int size=list.size();
+		
+		for(int i=1;i<=size-1;i++)
+		{
+			String ActualType=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr["+i+"]/td[4]")).getText();
+			Assert.assertEquals(ActualType,type );
+	    	
+		}
+		Reporter.log("Search Category Type verified: "+type);
+	}
+	
+	
+	
+	public void PaymentStatus(String PaySta)
+	{
+		m_Driver.findElement(By.xpath("//*[@id='ctl00_cPHFilter_divFilter']/div/div/div/div[4]/div/span/div/button")).click();
+		List<WebElement> list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_divFilter']/div/div/div/div[4]/div/span/div/ul/li/a/label/input"));
+		int size=list.size();
+		for(int i=0;i<=size-1;i++)
+		{
+			List<WebElement> list1=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_divFilter']/div/div/div/div[4]/div/span/div/ul/li/a/label/input"));
+			
+			 if(0==i)
+			 {
+		      list1.get(i).click();
+			 }
+		      
+		      String ChkName=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_divFilter']/div/div/div/div[4]/div/span/div/ul/li/a/label")).get(i).getText();
+		      
+		 System.out.println(ChkName);
+		 if(ChkName.equals(PaySta))
+		 {
+			list.get(i).click();
+			break;
+		 }
+		}
+	}
+	
+	public void verifypaymentStatusUnpaid()
+	{
+		String GrossAmount=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr[1]/td[9]")).getText();
+		String DueAmount=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr[1]/td[10]")).getText();
+		
+		
+		Assert.assertEquals(GrossAmount,DueAmount );
+		Reporter.log("verifypaymentStatusUnpaid: "+"="+"GrossAmount="+GrossAmount+"Amount Due ="+DueAmount);
+		
+	}
+	public void verifypaymentStatusPaid()
+	{
+		String GrossAmount=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr[1]/td[9]")).getText();
+		String DueAmount=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr[1]/td[10]")).getText();
+		
+		
+		Assert.assertEquals("£0.00",DueAmount );
+		Reporter.log("verifypaymentStatusPaid: "+"="+"GrossAmount="+GrossAmount+"Amount Due ="+DueAmount);
+		
+	}
+	public void verifypaymentStatusPartially()
+	{
+		String GrossAmount=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr[1]/td[9]")).getText();
+		String DueAmount=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr[1]/td[10]")).getText();
+		
+		
+		Assert.assertEquals("£800.00",DueAmount );
+		Reporter.log("verifypaymentStatusPartially: "+"="+"GrossAmount="+GrossAmount+"Amount Due ="+DueAmount);
+		
+	}
+	
+	
+	public void DueSatatus_Due() throws InterruptedException
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_dd_due']/option"));
+	
+		int size=list.size();
+		for(int i=1;i<=size-1;i++)
+		{
+			List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_dd_due']/option"));
+        	String Name=	list2.get(i).getText();
+        	WebElement DropDown=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_dd_due']"));
+        	Select sl=new Select(DropDown);
+        	sl.selectByVisibleText(Name);
+        	m_Driver.findElement(By.xpath("//*[@id='btnSearch']")).click();
+        	
+        	if("Due".equals(Name))
+        	{
+        	List<WebElement>list3=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr/td[13]/a"));
+        	for(int j=0;j<=list3.size()-1;j++)
+        	{
+        		List<WebElement>list4=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr/td[13]/a"));
+        		
+        		list4.get(j).click();
+        		String DueDate=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_txtDueDate']")).getAttribute("value");
+        
+        		 utilities.Screenshotcapture.Getscreenshot("verifyDueDate"+DueDate+"_"+j, "Sales filters");
+        		
+        		 jsExec.executeScript("arguments[0].scrollIntoView(true);", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnCancel']")));
+        		 jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnCancel']")));
+        		 
+        		 Reporter.log("DueSatatus_DueDate: "+DueDate);
+                 Thread.sleep(3000);
+
+        	}
+        	
+        	}
+//        	if("Not Due".equals(Name))
+//        	{
+//        	List<WebElement>list5=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr/td[13]/a"));
+//        	for(int k=0;k<=list5.size()-1;k++)
+//        	{
+//        		List<WebElement>list6=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr/td[13]/a"));
+//        		
+//        		list6.get(k).click();
+//        		String DueDate=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_txtDueDate']")).getAttribute("value");
+//        		 utilities.Screenshotcapture.Getscreenshot("verifyNoDueDate"+DueDate+"_"+k, "Sales filters");
+//        		
+//        		 jsExec.executeScript("arguments[0].scrollIntoView(true);", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnCancel']")));
+//        		 jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnCancel']")));
+//        		 
+//                 Thread.sleep(3000);
+//
+//        	}
+//        	
+//        	}
+		}
+	
+		
+	}
+	
+	public void DueSatatus_NotDue() throws InterruptedException
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_dd_due']/option"));
+	
+		int size=list.size();
+		for(int i=1;i<=size-1;i++)
+		{
+			List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_dd_due']/option"));
+        	String Name=	list2.get(i).getText();
+        	WebElement DropDown=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_dd_due']"));
+        	Select sl=new Select(DropDown);
+        	sl.selectByVisibleText(Name);
+        	m_Driver.findElement(By.xpath("//*[@id='btnSearch']")).click();
+        	
+//        	if("Due".equals(Name))
+//        	{
+//        	List<WebElement>list3=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr/td[13]/a"));
+//        	for(int j=0;j<=list3.size()-1;j++)
+//        	{
+//        		List<WebElement>list4=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr/td[13]/a"));
+//        		
+//        		list4.get(j).click();
+//        		String DueDate=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_txtDueDate']")).getAttribute("value");
+//        		 utilities.Screenshotcapture.Getscreenshot("verifyDueDate"+DueDate+"_"+j, "Sales filters");
+//        		
+//        		 jsExec.executeScript("arguments[0].scrollIntoView(true);", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnCancel']")));
+//        		 jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnCancel']")));
+//        		 
+//                 Thread.sleep(3000);
+//
+//        	}
+//        	
+//        	}
+        	if("Not Due".equals(Name))
+        	{
+        	List<WebElement>list5=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr/td[13]/a"));
+        	for(int k=0;k<=list5.size()-1;k++)
+        	{
+        		List<WebElement>list6=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_filtrec']/div/div/table/tbody/tr/td[13]/a"));
+        		
+        		list6.get(k).click();
+        		String DueDate=m_Driver.findElement(By.xpath("//*[@id='ctl00_cPH_txtDueDate']")).getAttribute("value");
+        		 utilities.Screenshotcapture.Getscreenshot("verifyNoDueDate"+DueDate+"_"+k, "Sales filters");
+        		
+        		 jsExec.executeScript("arguments[0].scrollIntoView(true);", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnCancel']")));
+        		 jsExec.executeScript("arguments[0].click();", m_Driver.findElement(By.xpath("//*[@id='ctl00_cpHFooter_btnCancel']")));
+        		 
+        		 Reporter.log("DueSatatus_NotDue: "+DueDate);
+                 Thread.sleep(3000);
+
+        	}
+        	
+        	}
+		}
+	
+		
+	}
+	
+	
+	
+	
+	
+	
+	}
+	
+	

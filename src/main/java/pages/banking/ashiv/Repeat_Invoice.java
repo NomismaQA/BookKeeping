@@ -7,6 +7,7 @@ import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 
 import java.awt.Image;
 import java.io.File;
+import java.util.List;
 
 import javax.imageio.ImageIO;
 
@@ -19,6 +20,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 import com.mongodb.MapReduceCommand.OutputType;
 import com.mongodb.util.Util;
@@ -55,7 +57,7 @@ public class Repeat_Invoice extends BasePage
 
 	private By Select_IncomeType_7Elem = By.xpath("//SELECT[@name='ctl00$cPH$rptrProduct$ctl00$ddProduct']");
 
-	private By Enter_Description_8Elem = By.xpath("//INPUT[@name='ctl00$cPH$rptrProduct$ctl00$txtDescription']");
+	private By Enter_Description_8Elem = By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_txtDescription']");
 
 	private By EnterUnitPrice9Elem = By.xpath("//INPUT[@name='ctl00$cPH$rptrProduct$ctl00$txtUnitPrice']");
 
@@ -757,10 +759,15 @@ public class Repeat_Invoice extends BasePage
 	public void IncomeType() throws InterruptedException
 	{
 		WebElement elem = getWebElement(Select_IncomeType_7Elem);
-		
-		elem.click();
-		Thread.sleep(2000);
-		utilities.Screenshotcapture.Getscreenshot("All existing sales should be in Income type dropdown", "New Repeat Invoice");
+		List<WebElement>list = m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_ddProduct']/option"));
+		int size= list.size();
+		for(int i=1;i<=size-1;i++)
+		{
+			List<WebElement>list2 = m_Driver.findElements(By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_ddProduct']/option"));
+			String List3=list2.get(i).getText();
+			Reporter.log("Income type dropdown: "+List3);
+		}
+	//	utilities.Screenshotcapture.Getscreenshot("All existing sales should be in Income type dropdown", "New Repeat Invoice");
 		
 	}
 	
@@ -895,6 +902,78 @@ public void HighLightDeleteLine() throws InterruptedException
 	
 	
 	
+	public void AllVerifyFilters(String CusName)
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_ddlCustomer']/option"));
+		int size=list.size();
+		
+		for(int i=1;i<size;i++)
+		{
+			List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_ddlCustomer']/option"));
+			String Name=list2.get(i).getText();
+			
+			WebElement dpd=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlCustomer']"));
+			Select sl=new Select(dpd);
+			sl.selectByVisibleText(Name);
+			
+			if(CusName.equals(Name))
+			{
+				List<WebElement>list3=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[2]/div/div/div/div/table/tbody/tr/td[1]"));
+				
+				for(int k=0;k<=list3.size();k++)
+				{
+					List<WebElement>list4=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[2]/div/div/div/div/table/tbody/tr/td[1]"));
+					String CName=list4.get(i).getText();
+				Assert.assertEquals(CName,CusName );
+				Reporter.log("Default Customer  verified Under the Repeat Invoice "+CName);
+				}
+			
+			}
+			
+		}
+		
+	
+		
+		
+		
+		
+	}
+	public void AllVerifyFilters1(String CusName)
+	{
+		List<WebElement>list=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_ddlCustomer']/option"));
+		int size=list.size();
+		
+		for(int i=1;i<size;i++)
+		{
+			List<WebElement>list2=m_Driver.findElements(By.xpath("//*[@id='ctl00_cPHFilter_ddlCustomer']/option"));
+			String Name=list2.get(i).getText();
+			
+			WebElement dpd=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_ddlCustomer']"));
+			Select sl=new Select(dpd);
+			sl.selectByVisibleText(Name);
+			
+			if(CusName.equals(Name))
+			{
+				List<WebElement>list3=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[2]/div/div/div/div/table/tbody/tr/td[1]"));
+				
+				for(int k=0;k<list3.size();k++)
+				{
+					List<WebElement>list4=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[2]/div/div/div/div/table/tbody/tr/td[1]"));
+					String CName=list4.get(k).getText();
+				Assert.assertEquals(CName,CusName );
+				Reporter.log("Invoices_001 Customer  verified Under the Repeat Invoice "+CName);
+				}
+			
+			}
+			
+		}
+		
+	
+		
+		
+		
+		
+	}
 	
 	
 	

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TC_18_BSBFFixedAsset245249_DefaultProfile</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Feb 25 11:51:44 IST 2022</td>
+<td>Started on:</td><td>Thu Mar 03 12:23:02 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>447 seconds (447189 ms)</td>
+<tr><td>Total time:</td><td>408 seconds (408096 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,84 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&apos;ctl00_ctl00_ParentContent_cPHFilter_txtSearchCompany&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.PartialReconciledCases.Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(Searchclient.java:106)
+	at tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2(TC_18_BSBFFixedAsset245249_DefaultProfile.java:403)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace704127989", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace704127989'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //*[@id=&apos;ctl00_ctl00_ParentContent_cPHFilter_txtSearchCompany&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.PartialReconciledCases.Searchclient.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(Searchclient.java:106)
+	at tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2(TC_18_BSBFFixedAsset245249_DefaultProfile.java:403)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>76</td>
+<td>tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile@58e6d4b8</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,25 +153,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile<br/>
-<a href="#Output-1366406887" onClick='toggleBox("Output-1366406887", this, "Show output", "Hide output");'>Show output</a>
+<td title='tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile<br/>
+<a href="#Output-799606777" onClick='toggleBox("Output-799606777", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1366406887" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1366406887">
+<a href="#Output-799606777" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-799606777">
 Accounting Period Status : Account UnClosed <br/>
 Accounting Period Status : Account UnLocked<br/>
 Accounting Period Status :- Account period closed<br/>
 </div>
 </td>
 <td></td>
-<td>130</td>
-<td>tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile@6ca0256d</td></tr>
+<td>157</td>
+<td>tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile@58e6d4b8</td></tr>
 <tr>
 <td title='tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile<br/>
-<a href="#Output-660900059" onClick='toggleBox("Output-660900059", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1356661381" onClick='toggleBox("Output-1356661381", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-660900059" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-660900059">
+<a href="#Output-1356661381" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1356661381">
 Accounting Period Status : Account UnClosed <br/>
 Accounting Period Status : Account UnLocked<br/>
 ledger 1 entered :246 - Plant and Machinery Depreciation Disposal<br/>
@@ -110,22 +188,8 @@ Enteries are Verified on Balance Sheet Report page :<br/>
 </div>
 </td>
 <td></td>
-<td>168</td>
-<td>tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile@6ca0256d</td></tr>
-<tr>
-<td title='tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile<br/>
-<a href="#Output-1420494500" onClick='toggleBox("Output-1420494500", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1420494500" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1420494500">
-Accounting Period Status : Account UnClosed <br/>
-Accounting Period Status : Account UnLocked<br/>
-Accounting Period Status :- Account period closed<br/>
-</div>
-</td>
-<td></td>
-<td>138</td>
-<td>tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile@6ca0256d</td></tr>
+<td>167</td>
+<td>tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile@58e6d4b8</td></tr>
 </table><p>
 </body>
 </html>

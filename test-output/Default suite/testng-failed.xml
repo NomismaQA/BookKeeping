@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier">
+      <class name="Test_Income.New_Repeat_Invoice">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
+          <include name="GoToUrlClickView1ClickRepeatInvoice2ClickAddRepeatInvoice3PositiveSelectSelectCustomer4Positi_TC12"/>
         </methods>
-      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier -->
+      </class> <!-- Test_Income.New_Repeat_Invoice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

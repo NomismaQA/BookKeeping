@@ -54,10 +54,10 @@
   			
  	</test>
  	
- 	<test name= "TC07DateRange" enabled="true">  
+ 	<test name= "TC07_All_Filters" enabled="true">  
   		 
  			<classes> 
-    				<class name= "Test_Income.TC07UpdateButton"/>
+    				<class name= "Test_Income.TC07VerifyAllfiltersTypes"/>
    			</classes> 
   			
  	</test>

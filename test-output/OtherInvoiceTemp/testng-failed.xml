@@ -5,46 +5,46 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="Income_Simple_Inv_Create_Invoice_TC01(failed)" verbose="10">
+  <test thread-count="5" name="Income_Customerlist_SelectedCustomer_TC01_TC02(failed)" verbose="10">
     <classes>
-      <class name="Test_Income.TestSimpleInvoiceTemplate_Create_Invoice_TC01">
-        <methods>
-          <include name="initDriver"/>
-          <include name="closeReporter"/>
-          <include name="allocateData"/>
-          <include name="GoToUrlLoginApplicationWithValidCredentialsClickNewClickCreateInvoiceCreateNewInvoiceVerifyNewCustomerAddedSuccessfully_TC01"/>
-          <include name="setupReporter"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Test_Income.TestSimpleInvoiceTemplate_Create_Invoice_TC01 -->
-    </classes>
-  </test> <!-- Income_Simple_Inv_Create_Invoice_TC01(failed) -->
-  <test thread-count="5" name="Income_Recall_Simple_Inv_Last_Invoice_TC02(failed)" verbose="10">
-    <classes>
-      <class name="Test_Income.TestSimpleInvoiceTemplate_RecallLast_TC02">
+      <class name="Test_Income.TestNewBatchEntry_TC01_TC02">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="GoToUrlLoginApplicationWithValidCredentialsClickNewClickCreateInvoiceRecallTheLastChangeInvoiceNo_TC2"/>
+          <include name="ClickNew1ClickNewBatchEntry2PositiveEnterInvoiceDate3PositiveSelectSelectCustomer4PositiveCustomerList_SeleteCustomer_TC01_TC02"/>
         </methods>
-      </class> <!-- Test_Income.TestSimpleInvoiceTemplate_RecallLast_TC02 -->
+      </class> <!-- Test_Income.TestNewBatchEntry_TC01_TC02 -->
     </classes>
-  </test> <!-- Income_Recall_Simple_Inv_Last_Invoice_TC02(failed) -->
-  <test thread-count="5" name="Income_Other_Inv_Preview_TC01(failed)" verbose="10">
+  </test> <!-- Income_Customerlist_SelectedCustomer_TC01_TC02(failed) -->
+  <test thread-count="5" name="Income_AddMoreLine_TC03(failed)" verbose="10">
     <classes>
-      <class name="Test_Income.TestOtherInvoiceTemplate_SelectTemplate_TC01">
+      <class name="Test_Income.TestNewBatchEntry_TC03">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="GoToUrlLoginApplicationWithValidCredentialsClickNewClickCreateInvoiceCreateNewInvoiceVerifyNewInvoiceAddedSuccessfullyChoseOtherTemplateOtherInvoiceTemp_TC01"/>
+          <include name="ClickNew1ClickNewBatchEntry2PositiveEnterInvoiceDate3PositiveSelectSelectCustomer4PositiveSelecClickSaveAndAddMoreOpennewEntryTab_TC03"/>
         </methods>
-      </class> <!-- Test_Income.TestOtherInvoiceTemplate_SelectTemplate_TC01 -->
+      </class> <!-- Test_Income.TestNewBatchEntry_TC03 -->
     </classes>
-  </test> <!-- Income_Other_Inv_Preview_TC01(failed) -->
+  </test> <!-- Income_AddMoreLine_TC03(failed) -->
+  <test thread-count="5" name="Income_success message on top of the screen_TC06(failed)" verbose="10">
+    <classes>
+      <class name="Test_Income.TestNewBatchEntry_TC06">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="ClickNew1ClickNewBatchEntry2PositiveEnterInvoiceDate3PositiveSelectSelectCustomer4PositiveFillEntrySaveSussMsg_TC06"/>
+        </methods>
+      </class> <!-- Test_Income.TestNewBatchEntry_TC06 -->
+    </classes>
+  </test> <!-- Income_success message on top of the screen_TC06(failed) -->
 </suite> <!-- Failed suite [OtherInvoiceTemp] -->

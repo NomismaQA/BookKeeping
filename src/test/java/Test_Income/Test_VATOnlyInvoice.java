@@ -290,7 +290,58 @@ public class Test_VATOnlyInvoice extends TestBase
     
 
     TestModellerLogger.SetLastNodeGuid("8c89f2f4-6bf3-42a1-88c1-ca505b8030fd");
-    _VATOnlyInvoice.Enter_InvoiceDate("");
+    _VATOnlyInvoice.Enter_InvoiceDate(data[7]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("06ffea53-9b87-4d49-94a9-5911b6d93cf5");
+    _VATOnlyInvoice.Enter_SubTotal(data[8]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("17ab7377-3f0f-4615-b7e3-000f92b59dc3");
+    _VATOnlyInvoice.Select_VATRateType(data[9]);
+    
+
+//    TestModellerLogger.SetLastNodeGuid("83b15b8a-fef9-45c4-99a5-7b6bf52e2e39");
+//    _VATOnlyInvoice.Enter_VATRate("");
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("0b562ab8-e40c-4f33-b2d0-0682cb23afb6");
+//    _VATOnlyInvoice.Enter_VATAmount("100");
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("945fc6d7-6180-473c-a32b-0a95f5a89bac");
+//    _VATOnlyInvoice.Enter_GrossTotal("");
+//    
+//
+//    TestModellerLogger.SetLastNodeGuid("1b120cb0-aa11-4b86-a6d8-2e40fc7e36ef");
+//    _VATOnlyInvoice.Enter_ConvertedAmount("100");
+//    
+
+    TestModellerLogger.SetLastNodeGuid("a2bdfe37-c194-4ea0-b657-4d576468655c");
+    _VATOnlyInvoice.Click_SaveButton();
+    
+    _VATOnlyInvoice.VerifyVatInvoice();
+    
+    _VATOnlyInvoice.serialno1();
+    
+    TestModellerLogger.SetLastNodeGuid("274df502-bd54-494b-ac44-5675d06e691c");
+    _VATOnlyInvoice.Click_NewTAB();
+    
+
+    TestModellerLogger.SetLastNodeGuid("d36b3d17-9a87-4ed1-b5ec-4c04544f4fc7");
+    _VATOnlyInvoice.Click_VATOnlyInvoice();
+    
+
+    TestModellerLogger.SetLastNodeGuid("af5213eb-5d8a-417b-a6c7-f9001ab08632");
+    _VATOnlyInvoice.Select_CustomerName(data[5]);
+    
+
+    TestModellerLogger.SetLastNodeGuid("fb8ddf53-f049-479e-bc7f-7616b0c519b3");
+    _VATOnlyInvoice.Enter_InvoiceNo("");
+    
+
+    TestModellerLogger.SetLastNodeGuid("8c89f2f4-6bf3-42a1-88c1-ca505b8030fd");
+    _VATOnlyInvoice.Enter_InvoiceDate(data[7]);
     
 
     TestModellerLogger.SetLastNodeGuid("06ffea53-9b87-4d49-94a9-5911b6d93cf5");
@@ -322,53 +373,6 @@ public class Test_VATOnlyInvoice extends TestBase
     
     _VATOnlyInvoice.serialno1();
     
-    TestModellerLogger.SetLastNodeGuid("274df502-bd54-494b-ac44-5675d06e691c");
-    _VATOnlyInvoice.Click_NewTAB();
-    
-
-    TestModellerLogger.SetLastNodeGuid("d36b3d17-9a87-4ed1-b5ec-4c04544f4fc7");
-    _VATOnlyInvoice.Click_VATOnlyInvoice();
-    
-
-    TestModellerLogger.SetLastNodeGuid("af5213eb-5d8a-417b-a6c7-f9001ab08632");
-    _VATOnlyInvoice.Select_CustomerName(data[5]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("fb8ddf53-f049-479e-bc7f-7616b0c519b3");
-    _VATOnlyInvoice.Enter_InvoiceNo("");
-    
-
-    TestModellerLogger.SetLastNodeGuid("8c89f2f4-6bf3-42a1-88c1-ca505b8030fd");
-    _VATOnlyInvoice.Enter_InvoiceDate("");
-    
-
-    TestModellerLogger.SetLastNodeGuid("06ffea53-9b87-4d49-94a9-5911b6d93cf5");
-    _VATOnlyInvoice.Enter_SubTotal(data[8]);
-    
-
-    TestModellerLogger.SetLastNodeGuid("17ab7377-3f0f-4615-b7e3-000f92b59dc3");
-    _VATOnlyInvoice.Select_VATRateType(data[9]);
-    
-
-//    TestModellerLogger.SetLastNodeGuid("83b15b8a-fef9-45c4-99a5-7b6bf52e2e39");
-//    _VATOnlyInvoice.Enter_VATRate("");
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("0b562ab8-e40c-4f33-b2d0-0682cb23afb6");
-//    _VATOnlyInvoice.Enter_VATAmount("100");
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("945fc6d7-6180-473c-a32b-0a95f5a89bac");
-//    _VATOnlyInvoice.Enter_GrossTotal("");
-//    
-//
-//    TestModellerLogger.SetLastNodeGuid("1b120cb0-aa11-4b86-a6d8-2e40fc7e36ef");
-//    _VATOnlyInvoice.Enter_ConvertedAmount("100");
-//    
-
-    TestModellerLogger.SetLastNodeGuid("a2bdfe37-c194-4ea0-b657-4d576468655c");
-    _VATOnlyInvoice.Click_SaveButton();
-    
     _VATOnlyInvoice.serialno2();
     
     TestModellerLogger.SetLastNodeGuid("274df502-bd54-494b-ac44-5675d06e691c");
@@ -388,7 +392,7 @@ public class Test_VATOnlyInvoice extends TestBase
     
 
     TestModellerLogger.SetLastNodeGuid("8c89f2f4-6bf3-42a1-88c1-ca505b8030fd");
-    _VATOnlyInvoice.Enter_InvoiceDate("");
+    _VATOnlyInvoice.Enter_InvoiceDate(data[7]);
     
 
     TestModellerLogger.SetLastNodeGuid("06ffea53-9b87-4d49-94a9-5911b6d93cf5");
@@ -417,7 +421,7 @@ public class Test_VATOnlyInvoice extends TestBase
 
     TestModellerLogger.SetLastNodeGuid("a2bdfe37-c194-4ea0-b657-4d576468655c");
     _VATOnlyInvoice.Click_SaveButton();
-    
+    _VATOnlyInvoice.serialno1();
     _VATOnlyInvoice.serialno3();
     }
 
