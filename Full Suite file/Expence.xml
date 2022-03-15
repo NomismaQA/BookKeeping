@@ -15,7 +15,7 @@
 
 
 
-	<test name="Ledger_Reconciliation" enabled="true">
+	<test name="Ledger_Reconciliation_TC_2" enabled="true">
 		<classes>
 		<class name="test.ashiv.TestLadgerRecon_DefaultProfile">
 		</class>

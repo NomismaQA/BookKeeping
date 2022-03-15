@@ -535,7 +535,7 @@ public void ClickClientEle() {
        }
 		elem.sendKeys(House_Search);
 		
-		Thread.sleep(2000);
+		Thread.sleep(4000);
  	
 		WebElement el2=m_Driver.findElement(By.xpath("//*[@id='tblCompanies']/tbody/tr[2]/td[1]"));
 		companyname=el2.getText();

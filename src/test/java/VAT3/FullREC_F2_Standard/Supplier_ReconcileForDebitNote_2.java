@@ -298,7 +298,7 @@ pages.Reconcilation _Reconcilation = new pages.Reconcilation(driver);
 //  TestModellerLogger.SetLastNodeGuid("0892baec-0422-496a-93f9-1028cef59d2c");
 //  _Reconcilation.Click_View_Reconciled_button1();
 
-  pages.PartialReconcilationLAtestForDeditnote _Reconsilecount = new PartialReconcilationLAtestForDeditnote(driver);
+ 
 //     TestModellerLogger.SetLastNodeGuid("20ec992d-e923-4cd2-946b-1f6e59b73bf6");
 //     _Reconsilecount.GoToUrl();
   pages.ungroup _ungroup = new pages.ungroup(driver);
@@ -309,6 +309,8 @@ _ungroup.Click_selectallcheckbbox();
 
 TestModellerLogger.SetLastNodeGuid("e8d9d338-eb30-4309-96e4-dc0de1ba572c");
 _ungroup.Click_Ungroup_linkselected();
+
+pages.PartialReconcilationLAtestForDeditnote _Reconsilecount = new PartialReconcilationLAtestForDeditnote(driver);
 
   TestModellerLogger.SetLastNodeGuid("778b3b22-188b-4954-8194-ffafa2c2d9c2");
   _Reconsilecount.Click_R1();

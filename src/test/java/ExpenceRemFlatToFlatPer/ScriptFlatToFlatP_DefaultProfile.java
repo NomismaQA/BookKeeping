@@ -35,7 +35,7 @@ public class ScriptFlatToFlatP_DefaultProfile extends TestBase
     {
     	
     	sTestCaseID="TC566";
-    	Sheet="JournalReconcile";
+    	Sheet="Expense_REM";
     data = ExcelUtility.toReadExcelData(sTestCaseID, Sheet);
         
         

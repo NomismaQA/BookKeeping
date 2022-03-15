@@ -44,9 +44,9 @@ public class SalesThreeDot extends BasePage
 
 	private By Receive_a_paymentElem = By.xpath("//A[@id='ctl00_cPH_rptrDisplayRecords_ctl00_lnkReceivePayment']");
 
-	private By MyselfCheckBoxElem = By.xpath("//label[normalize-space()= 'Myself ( @gmail.com )']/../input");
+	private By MyselfCheckBoxElem = By.xpath("//*[@id='ctl00_cPH_chkMarkMySelf']");
 
-	private By EnterEmailElem = By.xpath("//label[normalize-space()= 'Myself ( @gmail.com )']/../../input");
+	private By EnterEmailElem = By.xpath("//*[@id='ctl00_cPH_txtEmail']");
 
 	private By _Send_Elem = By.xpath("//A[@id='ctl00_cphFooter_btnSave']");
 

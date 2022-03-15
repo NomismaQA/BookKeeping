@@ -33,7 +33,7 @@ public class Repeat_Invoice_2 extends BasePage
 
 	private By Save_2_6Elem = By.xpath("//A[@id='ctl00_cPH_btnSave']");
 
-	private By Description_2_7Elem = By.xpath("//INPUT[@name='ctl00$cPH$rptrProduct$ctl00$txtDescription']");
+	private By Description_2_7Elem = By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_txtDescription']");
 
 
 	

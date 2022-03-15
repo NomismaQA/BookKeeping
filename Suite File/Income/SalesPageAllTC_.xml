@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SalesDsb" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+
+ 	<test name= "IncomePageSalesDsb" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.TC01NewPreviewPage_DefaultProfile"/>
+    				<class name= "Test_Income.TC03EditOption"/>
+    				<class name= "Test_Income.TC05ThreeDotIcon"/>
+    				<class name= "Test_Income.TC06TransactionBookStatus"/>
+    				<class name= "Test_Income.TC07VerifyAllfiltersTypes"/>
+    				<class name= "Test_Income.TC02Email_DefaultProfile"/>
+    				<class name= "Test_Income.TC04DeleteInvoide"/>
+    				
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "Repeat Invoice" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Income.New_Repeat_Invoice"/>
+    				<class name= "Test_Income.TestRepeatInvoice_TC01"/>
+    				<class name= "Test_Income.TestRepeatInvoice_TC02"/>
+    				<class name= "Test_Income.TestRepeatInvoice_TC03"/>
+    				<class name= "Test_Income.TestRepeatInvoice_TC04"/>
+    				<class name= "Test_Income.TestRepeatInvoice_TC05"/>
+    				<class name= "Test_Income.TestRepeatInvoice_TC06"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	</suite>

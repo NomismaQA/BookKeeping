@@ -213,12 +213,13 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
  TestModellerLogger.SetLastNodeGuid("e9c9ea8e-b958-43ca-8728-3b429b4aaecb");
  _JournalEntry.Enter_Enter_tDate(data[10]);
  
+
  TestModellerLogger.SetLastNodeGuid("e9c9ea8e-b958-43ca-8728-3b429b4aaecb");
  _JournalEntry.Enter_Reverse_Date(data[11]);
  
  TestModellerLogger.SetLastNodeGuid("82bd70b7-b343-40f6-959b-ab6331ed8fbe");
  _JournalEntry.Select_Slect_Currency(data[12]);
-
+ 
  TestModellerLogger.SetLastNodeGuid("94504f9f-098b-42ad-82b3-a743456020fc");
  _JournalEntry.Enter_Enter_Description(data[13]);
 

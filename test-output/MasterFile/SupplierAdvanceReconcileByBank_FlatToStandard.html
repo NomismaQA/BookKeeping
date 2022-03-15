@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SupplierAdvanceReconcileByBank_FlatToStandard</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 09 00:30:46 IST 2021</td>
+<td>Started on:</td><td>Sat Feb 05 02:20:05 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1564 seconds (1564120 ms)</td>
+<tr><td>Total time:</td><td>1741 seconds (1741157 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,84 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //INPUT[@id=&apos;ctl00_cPH_chkReconcileUngroupSelected&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1.Click_SelectALL(PartialReconcilationLAtestForDebitNote1.java:103)
+	at AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1(SaleInToPartialReconcile_DebitNote_DefaultProfile.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1250422688", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1250422688'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //INPUT[@id=&apos;ctl00_cPH_chkReconcileUngroupSelected&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.PartialReconciledCases.PartialReconcilationLAtestForDebitNote1.Click_SelectALL(PartialReconcilationLAtestForDebitNote1.java:103)
+	at AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1(SaleInToPartialReconcile_DebitNote_DefaultProfile.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>86</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@15c25153</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,115 +153,110 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
-<td></td>
-<td>74</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@2f9a01c1</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile</td>
-<td></td>
-<td>73</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile@3f446bef</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile</td>
-<td></td>
-<td>49</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile@72445aba</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
-<td></td>
-<td>84</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4b3c354a</td></tr>
-<tr>
 <td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile</td>
 <td></td>
-<td>46</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile@36676c1a</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
-<td></td>
-<td>83</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4b3c354a</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
-<td></td>
-<td>75</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@2f9a01c1</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile</td>
-<td></td>
-<td>73</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile@3f446bef</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn3stVATReturnReport_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn3stVATReturnReport_DefaultProfile</td>
-<td></td>
-<td>45</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn3stVATReturnReport_DefaultProfile@426b6a74</td></tr>
+<td>55</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn3stVATReturnReport_SToFRS_DefaultProfile@55e8ec2f</td></tr>
 <tr>
 <td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
 <td></td>
-<td>89</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4b3c354a</td></tr>
+<td>85</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4763c727</td></tr>
 <tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile</td>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile</td>
 <td></td>
-<td>53</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile@7fc44dec</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
-<td></td>
-<td>74</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@2f9a01c1</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
-<td></td>
-<td>72</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@2f9a01c1</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
-<td></td>
-<td>76</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@2f9a01c1</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
-<td></td>
-<td>74</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4b3c354a</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
-<td></td>
-<td>76</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@2f9a01c1</td></tr>
+<td>84</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile@56f6d40b</td></tr>
 <tr>
 <td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptEditVATFlatP_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl3</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptEditVATFlatP_DefaultProfile</td>
 <td></td>
-<td>59</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptEditVATFlatP_DefaultProfile@7e38a7fe</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
-<td></td>
-<td>78</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4b3c354a</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile</td>
-<td></td>
-<td>64</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile@1252b961</td></tr>
-<tr>
-<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
-<td></td>
-<td>75</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4b3c354a</td></tr>
+<td>58</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptEditVATFlatP_DefaultProfile@1433046b</td></tr>
 <tr>
 <td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn2stVATReturnReport_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn2stVATReturnReport_DefaultProfile</td>
 <td></td>
 <td>70</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn2stVATReturnReport_DefaultProfile@4f2613d1</td></tr>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn2stVATReturnReport_DefaultProfile@6f603e89</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
+<td></td>
+<td>87</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4763c727</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl1</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile</td>
+<td></td>
+<td>58</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptStandardToFlat_DefaultProfile@878452d</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
+<td></td>
+<td>87</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@15c25153</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile</td>
+<td></td>
+<td>55</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn1stVATReturnReport_SToFRS_DefaultProfile@20b5f2ac</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
+<td></td>
+<td>92</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@15c25153</td></tr>
 <tr>
 <td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn1stVATReturnReport_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn1stVATReturnReport_DefaultProfile</td>
 <td></td>
-<td>47</td>
-<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn1stVATReturnReport_DefaultProfile@62fad19</td></tr>
+<td>54</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn1stVATReturnReport_DefaultProfile@5b080f3a</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
+<td></td>
+<td>87</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4763c727</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile</td>
+<td></td>
+<td>85</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_VATOnlyBill_DefaultProfile@56f6d40b</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
+<td></td>
+<td>86</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4763c727</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
+<td></td>
+<td>82</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4763c727</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
+<td></td>
+<td>88</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@15c25153</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP5</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile</td>
+<td></td>
+<td>87</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_SupplierBill_DefaultProfile@4763c727</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP6</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
+<td></td>
+<td>84</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@15c25153</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile.GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4()'><b>GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile</td>
+<td></td>
+<td>84</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.SaleInToPartialReconcile_DebitNote_DefaultProfile@15c25153</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile</td>
+<td></td>
+<td>76</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptVATReturn2stVATReturnReport_SToFRS_DefaultProfile@7b64240d</td></tr>
+<tr>
+<td title='AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn3stVATReturnReport_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertUrlCl</b><br>Test class: AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn3stVATReturnReport_DefaultProfile</td>
+<td></td>
+<td>50</td>
+<td>AdvanceReconcileByBankForSupplierBillFlatToStand.ScriptPostVATReturn3stVATReturnReport_DefaultProfile@165b2f7f</td></tr>
 </table><p>
 </body>
 </html>

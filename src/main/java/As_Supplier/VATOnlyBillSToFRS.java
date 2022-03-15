@@ -46,7 +46,7 @@ public class VATOnlyBillSToFRS extends BasePage
 
 	private By InvoiceDateElem = By.xpath("//INPUT[@name='ctl00$cPH$txtInvoiceDate']");
 
-	private By SubTotalElem = By.xpath("//INPUT[@name='ctl00$cPH$txtSubTotal']");
+	private By SubTotalElem = By.xpath("//*[@id='ctl00_cPH_rptrProduct_ctl00_txtAmount']");
 
 	private By VATRateTypeElem = By.xpath("//SELECT[@name='ctl00$cPH$ddVATRate']");
 

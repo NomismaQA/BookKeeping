@@ -216,6 +216,8 @@ pages.PartialReconciledCases.SaleInvoice _SaleInvoice = new pages.PartialReconci
  TestModellerLogger.SetLastNodeGuid("e9c9ea8e-b958-43ca-8728-3b429b4aaecb");
  _JournalEntry.Enter_Enter_tDate(data[14]);
  
+
+ 
  TestModellerLogger.SetLastNodeGuid("e9c9ea8e-b958-43ca-8728-3b429b4aaecb");
  _JournalEntry.Enter_Reverse_Date(data[15]);
  

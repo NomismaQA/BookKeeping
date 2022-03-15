@@ -23,6 +23,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+
+import Generic.WaitStatementLib;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
 import utilities.Screenshotcapture;
@@ -145,8 +147,11 @@ public class nBANKTRN_Subcontractor extends BasePage
 
  			Assert.fail("Unable to locate object: " + NDateElem.toString());
          }
- 		elem.sendKeys(Keys.ENTER);
+ 		WaitStatementLib wt=new WaitStatementLib();
+		wt.explicitWait_elementToBeClickable(m_Driver, 20, elem);
+ 		
  		elem.sendKeys(NDate);
+ 		elem.sendKeys(Keys.TAB);
  		
  		
   		ExtentReportManager.passStep(m_Driver, "Enter_NDate " + NDate);
@@ -333,7 +338,13 @@ public class nBANKTRN_Subcontractor extends BasePage
 // 			Assert.fail("Unable to locate object: " + BOX2Elem.toString());
 //         }
  		
-
+// 		WebElement elem=m_Driver.findElement(By.xpath("//*[@id='select2-ctl00_cPH_rptRecord_ctl00_ltAccount-container']"));
+// 		WaitStatementLib wt=new WaitStatementLib();
+//		wt.explicitWait_elementToBeClickable(m_Driver, 20, elem);
+//		elem.click();
+// 		m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(BOX2);
+// 		m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(Keys.ENTER);
+// 		Thread.sleep(1000);
  	        //elem.sendKeys(BOX2);
  	       // elem.sendKeys(Keys.ENTER);
  	         String p =BOX2;

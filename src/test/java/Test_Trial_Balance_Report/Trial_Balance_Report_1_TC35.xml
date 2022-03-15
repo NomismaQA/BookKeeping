@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "TC_01_LadgerCode_7016_7400_2091_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_01_LadgerCode_7016_7400_2091_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_02_LadgerCode_2080_7004_7525_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_02_LadgerCode_2080_7004_7525_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_03_LadgerCode_1000_7518_7016_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_03_LadgerCode_1000_7518_7016_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_04_LadgerCode_3000_3007_1072_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_04_LadgerCode_3000_3007_1072_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_05_LadgerCode_1071_1402_1092_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_05_LadgerCode_1071_1402_1092_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_06_LadgerCode_1091_1090_7901_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_06_LadgerCode_1091_1090_7901_Report"/>
+   			</classes> 
+  			
+ 	
+  			
+ 	</test>
+ 	<test name= "TC_07_LadgerCode_1321_1321_1321_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_07_LadgerCode_1321_1321_1321_Report"/>
+   			</classes> 
+  			
+ 	
+  			
+ 	</test>
+ 	<test name= "TC_08_LadgerCode_1321_1321_1322_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_08_LadgerCode_1321_1321_1322_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 		<test name= "TC_09_LadgerCode_1322_1322_1322_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_09_LadgerCode_1322_1322_1322_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 		<test name= "TC_10_LadgerCode_1322_1103_1104_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_10_LadgerCode_1322_1103_1104_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	 	<test name= "TC_11_LadgerCode_2402_7251_6015_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_11_LadgerCode_2402_7251_6015_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	
+ 		<test name= "TC_12_LadgerCode_7954_7262_7263_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_12_LadgerCode_7954_7262_7263_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_13_LadgerCode_7263_271_270_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_13_LadgerCode_7263_271_270_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_14_LadgerCode_279_275_7281_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_14_LadgerCode_279_275_7281_Report"/>
+   			</classes> 
+  			
+ 	</test>
+
+ 	<test name= "TC_15_LadgerCode_261_260_269_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_15_LadgerCode_261_260_269_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_16_LadgerCode_261_260_269_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_16_LadgerCode_261_260_269_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_17_LadgerCode_265_4020_2060_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_17_LadgerCode_265_4020_2060_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_18_LadgerCode_7015_7016_4000_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_18_LadgerCode_7015_7016_4000_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ <test name= "TC_19_LadgerCode_1101_7500_7525_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_19_LadgerCode_1101_7500_7525_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_20_LadgerCode_7016_2000_7525_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_20_LadgerCode_7016_2000_7525_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_21_LadgerCode_7510_7300_7016_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_21_LadgerCode_7510_7300_7016_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_22_LadgerCode_7510_7300_7016_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_22_LadgerCode_7510_7300_7016_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_23_LadgerCode_7510_7300_7016_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_23_LadgerCode_7510_7300_7016_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 	<test name= "TC_24_LadgerCode_1100_1102_1200_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_24_LadgerCode_1100_1102_1200_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_25_LadgerCode_3010_3100_3100_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_25_LadgerCode_3010_3100_3100_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_26_LadgerCode_240_241_245_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_26_LadgerCode_240_241_245_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 		<test name= "TC_27_LadgerCode_249_260_261_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_27_LadgerCode_249_260_261_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_28_LadgerCode_7001_7015_7010_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_28_LadgerCode_7001_7015_7010_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_29_LadgerCode_7015_7016_7016_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_29_LadgerCode_7015_7016_7016_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_30_LadgerCode_7016_7016_7016_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_30_LadgerCode_7016_7016_7016_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 		
+ 	<test name= "TC_31_LadgerCode_7212_7251_7258_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_31_LadgerCode_7212_7251_7258_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_32_LadgerCode_7212_7251_7258_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_32_LadgerCode_7212_7251_7258_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_33_LadgerCode_7262_7266_7267_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_33_LadgerCode_7262_7266_7267_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_34_LadgerCode_7268_7268_7281_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_34_LadgerCode_7268_7268_7281_Report"/>
+   			</classes> 
+  			
+ 	</test>
+ 		<test name= "TC_35_LadgerCode_7400_7300_77401_Report" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_Report.TC_35_LadgerCode_7400_7300_77401_Report"/>
+   			</classes> 
+  			
+ 	</test>
+	
+  	</suite>

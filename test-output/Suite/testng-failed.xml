@@ -5,24 +5,38 @@
     <listener class-name="reports.TestNGListener"/>
     <listener class-name="reports.ExtentTestListener"/>
   </listeners>
-  <test thread-count="5" name="SaleInToReconcileForJonral_DefaultProfile(failed)" verbose="10">
+  <test thread-count="5" name="TC_12_BSBFFixedAsset215219_DefaultProfile(failed)" verbose="10">
     <classes>
-      <class name="test.partialReconcileJonralEntrySToFlat.SaleInToReconcileForJonral_DefaultProfile">
+      <class name="tests.BalanceSheet_Bf.TC_12_BSBFFixedAsset215219_DefaultProfile">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+        </methods>
+      </class> <!-- tests.BalanceSheet_Bf.TC_12_BSBFFixedAsset215219_DefaultProfile -->
+    </classes>
+  </test> <!-- TC_12_BSBFFixedAsset215219_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC_16_BSBFFixedAsset235239_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="tests.BalanceSheet_Bf.TC_16_BSBFFixedAsset235239_DefaultProfile">
+        <methods>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+          <include name="initDriver"/>
           <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- test.partialReconcileJonralEntrySToFlat.SaleInToReconcileForJonral_DefaultProfile -->
+      </class> <!-- tests.BalanceSheet_Bf.TC_16_BSBFFixedAsset235239_DefaultProfile -->
     </classes>
-  </test> <!-- SaleInToReconcileForJonral_DefaultProfile(failed) -->
-  <test thread-count="5" name="CreditNoteToReconcileForJonral_DefaultProfile(failed)" verbose="10">
+  </test> <!-- TC_16_BSBFFixedAsset235239_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC_18_BSBFFixedAsset245249_DefaultProfile(failed)" verbose="10">
     <classes>
-      <class name="test.partialReconcileJonralEntrySToFlat.CreditNoteToReconcileForJonral_DefaultProfile">
+      <class name="tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
@@ -30,9 +44,79 @@
           <include name="setupReporter"/>
           <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
           <include name="tearDown"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP4"/>
         </methods>
-      </class> <!-- test.partialReconcileJonralEntrySToFlat.CreditNoteToReconcileForJonral_DefaultProfile -->
+      </class> <!-- tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile -->
     </classes>
-  </test> <!-- CreditNoteToReconcileForJonral_DefaultProfile(failed) -->
+  </test> <!-- TC_18_BSBFFixedAsset245249_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC_25_BSBFFixedAsset280284_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="tests.BalanceSheet_Bf.TC_25_BSBFFixedAsset280284_DefaultProfile">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+        </methods>
+      </class> <!-- tests.BalanceSheet_Bf.TC_25_BSBFFixedAsset280284_DefaultProfile -->
+    </classes>
+  </test> <!-- TC_25_BSBFFixedAsset280284_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC_42_BSBFTaxation11011102_DefaultProfile_JBEI(failed)" verbose="10">
+    <classes>
+      <class name="tests.BalanceSheet_Bf.TC_42_BSBFTaxation11011102_DefaultProfile_JBEI">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+        </methods>
+      </class> <!-- tests.BalanceSheet_Bf.TC_42_BSBFTaxation11011102_DefaultProfile_JBEI -->
+    </classes>
+  </test> <!-- TC_42_BSBFTaxation11011102_DefaultProfile_JBEI(failed) -->
+  <test thread-count="5" name="TC_49_BSBFCreditorDueWithinYear20002030_DefaultProfile(failed)" verbose="10">
+    <classes>
+      <class name="tests.BalanceSheet_Bf.TC_49_BSBFCreditorDueWithinYear20002030_DefaultProfile">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+        </methods>
+      </class> <!-- tests.BalanceSheet_Bf.TC_49_BSBFCreditorDueWithinYear20002030_DefaultProfile -->
+    </classes>
+  </test> <!-- TC_49_BSBFCreditorDueWithinYear20002030_DefaultProfile(failed) -->
+  <test thread-count="5" name="TC_37_01_ExpenseHead_720070017003__JournalEntry_Bank_Supplier(failed)" verbose="10">
+    <classes>
+      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_01_ExpenseHead_720070017003__JournalEntry_Bank_Supplier">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP3"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_01_ExpenseHead_720070017003__JournalEntry_Bank_Supplier -->
+    </classes>
+  </test> <!-- TC_37_01_ExpenseHead_720070017003__JournalEntry_Bank_Supplier(failed) -->
+  <test thread-count="5" name="TC_37_02_ExpenseHead_720458__JournalEntry_Bank_Supplier(failed)" verbose="10">
+    <classes>
+      <class name="Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_02_ExpenseHead_720458__JournalEntry_Bank_Supplier">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
+        </methods>
+      </class> <!-- Test_Trial_Balance_RE_Jour_Bank_Supp.TC_37_02_ExpenseHead_720458__JournalEntry_Bank_Supplier -->
+    </classes>
+  </test> <!-- TC_37_02_ExpenseHead_720458__JournalEntry_Bank_Supplier(failed) -->
 </suite> <!-- Failed suite [Suite] -->

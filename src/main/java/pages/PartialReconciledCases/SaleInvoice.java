@@ -184,7 +184,7 @@ public class SaleInvoice extends BasePage
 	public void VerifyDateRange() throws HeadlessException, IOException, AWTException
 	{
 	//	Screenshotcapture.captureAsImage(m_Driver, "Sales Date range");
-		utilities.Screenshotcapture.Getscreenshot("Sales Date range", "Sales Dashboard");
+		utilities.Screenshotcapture.Getscreenshot("VerifyDateRange", "Sales filters");
 	}
 
     

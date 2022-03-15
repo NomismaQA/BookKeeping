@@ -183,7 +183,7 @@ String BNO;
 
  			Assert.fail("Unable to locate object: " + BillNoElem.toString());
          }
- 		elem.sendKeys(Keys.ENTER);
+ 		//elem.sendKeys(Keys.ENTER);
 
  		elem.sendKeys(BillNo);
  		System.out.println("debit Bill no enter");
@@ -214,6 +214,7 @@ String BNO;
           Select dropdown = new Select(ele);
 //
      		dropdown.selectByVisibleText(SupplierName);
+     		System.out.println(SupplierName);
 // 		elem.sendKeys(Keys.UP);
  		
 // 	elem.sendKeys(Keys.ENTER);

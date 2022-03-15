@@ -1063,8 +1063,8 @@ public class Expense_Reimbursement extends BasePage
      */
  	public void Enter_Enter_Description_33(String Enter_Description_33)
  	{
- 	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+ 		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cpHeaderRight_AddPaymentframe']")));
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
 
  		WebElement elem = getWebElement(Enter_Description_33Elem);
 
@@ -1094,7 +1094,7 @@ public class Expense_Reimbursement extends BasePage
  	public void Enter_Enter_Date_34(String Enter_Date_34)
  	{
  	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cpHeaderRight_AddPaymentframe']")));
 
  		WebElement elem = getWebElement(Enter_Date_34Elem);
 
@@ -1123,8 +1123,8 @@ public class Expense_Reimbursement extends BasePage
      */
     public void Select_Select_Paid_to_35(String Select_Paid_to_35)
  	{
- 	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+    	m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cpHeaderRight_AddPaymentframe']")));
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
 
  		WebElement elem = getWebElement(Select_Paid_to_35Elem);
 
@@ -1155,8 +1155,8 @@ public class Expense_Reimbursement extends BasePage
      */
  	public void Enter_Enter_Amount_36(String Enter_Amount_36)
  	{
- 	    
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+ 		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cpHeaderRight_AddPaymentframe']")));
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
 
  		WebElement elem = getWebElement(Enter_Amount_36Elem);
 
@@ -1186,8 +1186,8 @@ public class Expense_Reimbursement extends BasePage
      */
 	public void Click_Save_37() throws InterruptedException
 	{
-        
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cpHeaderRight_AddPaymentframe']")));
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div[5]/div/div/div[2]/iframe")));
 
 		WebElement elem = getWebElement(Save_37Elem);
 

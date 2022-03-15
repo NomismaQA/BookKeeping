@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "TC_01_BSBFFixedAsset1014_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_01_BSBFFixedAsset1014_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_02_BSBFFixedAsset1519_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_02_BSBFFixedAsset1519_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_03_BSBFFixedAsset2024_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_03_BSBFFixedAsset2024_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_04_BSBFFixedAsset2529_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_04_BSBFFixedAsset2529_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_05_BSBFFixedAsset3034_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_05_BSBFFixedAsset3034_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_06_BSBFFixedAsset3539_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_06_BSBFFixedAsset3539_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_07_BSBFFixedAsset4044_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_07_BSBFFixedAsset4044_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_09_BSBFFixedAsset200204_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_09_BSBFFixedAsset200204_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_10_BSBFFixedAsset205209_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_10_BSBFFixedAsset205209_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_11_BSBFFixedAsset210214_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_11_BSBFFixedAsset210214_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_12_BSBFFixedAsset215219_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_12_BSBFFixedAsset215219_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_13_BSBFFixedAsset220224_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_13_BSBFFixedAsset220224_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_14_BSBFFixedAsset225229_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_14_BSBFFixedAsset225229_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_15_BSBFFixedAsset230234_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_15_BSBFFixedAsset230234_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_16_BSBFFixedAsset235239_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_16_BSBFFixedAsset235239_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_17_BSBFFixedAsset240244_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_17_BSBFFixedAsset240244_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_18_BSBFFixedAsset245249_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_18_BSBFFixedAsset245249_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_19_BSBFFixedAsset250254_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_19_BSBFFixedAsset250254_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_20_BSBFFixedAsset255259_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_20_BSBFFixedAsset255259_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_21_BSBFFixedAsset260264_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_21_BSBFFixedAsset260264_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_22_BSBFFixedAsset265269_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_22_BSBFFixedAsset265269_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_23_BSBFFixedAsset270274_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_23_BSBFFixedAsset270274_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_24_BSBFFixedAsset275279_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_24_BSBFFixedAsset275279_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_25_BSBFFixedAsset280284_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_25_BSBFFixedAsset280284_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_26_BSBFFixedAsset285289_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_26_BSBFFixedAsset285289_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_27_BSBFFixedAsset600602_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_27_BSBFFixedAsset600602_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_28_BSBFFixedAsset605609_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_28_BSBFFixedAsset605609_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ <test name= "TC_29_BSBFFixedAsset630632_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_29_BSBFFixedAsset630632_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_30_BSBFFixedAsset635639_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_30_BSBFFixedAsset635639_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_31_BSBFProfitLoss31003103_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_31_BSBFProfitLoss31003103_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_32_BSBFProfitLoss30073010_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_32_BSBFProfitLoss30073010_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_33_BSBFTradeCreditor1070_DefaultProfile_JBI" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_33_BSBFTradeCreditor1070_DefaultProfile_JBI"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_34_BSBFDirector13001320_DefaultProfile_JB" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_34_BSBFDirector13001320_DefaultProfile_JB"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_35_BSBFDebtor13301339_DefaultProfile_JB" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_35_BSBFDebtor13301339_DefaultProfile_JB"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_36_BSBFDebtor14011420_DefaultProfile_JB" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_36_BSBFDebtor14011420_DefaultProfile_JB"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_37_BSBFDebtor1092_DefaultProfile_JB" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_37_BSBFDebtor1092_DefaultProfile_JB"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_38_BSBF_Bank10711073_DefaultProfile_JB" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_38_BSBF_Bank10711073_DefaultProfile_JB"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_39_BSBF_Bank1400_DefaultProfile_IssueInCode" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_39_BSBF_Bank1400_DefaultProfile_IssueInCode"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+<test name= "TC_40_BSBFTradeCreditor2060_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_40_BSBFTradeCreditor2060_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_41_BSBFTaxation109091_DefaultProfile_JB" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_41_BSBFTaxation109091_DefaultProfile_JB"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_42_BSBFTaxation11011102_DefaultProfile_JBEI" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_42_BSBFTaxation11011102_DefaultProfile_JBEI"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_43_BSBFDefferedTaxation11031104_DefaultProfile_JBEI" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_43_BSBFDefferedTaxation11031104_DefaultProfile_JBEI"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_44_BSBFTaxation1100_DefaultProfile_JBE" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_44_BSBFTaxation1100_DefaultProfile_JBE"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_45_BSBFTaxation2402_DefaultProfile_JB" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_45_BSBFTaxation2402_DefaultProfile_JB"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_46_BSBFDirector1321_DefaultProfile_JB" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_46_BSBFDirector1321_DefaultProfile_JB"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_47_BSBFEmployee1322_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_47_BSBFEmployee1322_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_48_BSBFPerson1323_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_48_BSBFPerson1323_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_49_BSBFCreditorDueWithinYear20002030_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_49_BSBFCreditorDueWithinYear20002030_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_50_BSBFCreditorDueWithinYear20402080_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_50_BSBFCreditorDueWithinYear20402080_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_51_BSBFCreditorDueWithinYear20902095_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_51_BSBFCreditorDueWithinYear20902095_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_52_BSBFCreditorDueAfterYear23002310_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_52_BSBFCreditorDueAfterYear23002310_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_53_BSBFCreditorDueAfterYear23202331_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_53_BSBFCreditorDueAfterYear23202331_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_54_BSBFCreditorDueAfterYear23322334_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_54_BSBFCreditorDueAfterYear23322334_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_55_BSBFCreditorDueAfterYear23362339_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_55_BSBFCreditorDueAfterYear23362339_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_56_BSBFProvisionForLiability24002403_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_56_BSBFProvisionForLiability24002403_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_57_BSBFProvisionForLiability24042406_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_57_BSBFProvisionForLiability24042406_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_58_BSBFShareCapital3000_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_58_BSBFShareCapital3000_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_59_BSBFCurrentAsset14101450_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_59_BSBFCurrentAsset14101450_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_60_BSBF_CurrentAsset1000_1060_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_60_BSBF_CurrentAsset1000_1060_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	<test name= "TC_61_BSBFBank1400_DefaultProfile" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "tests.BalanceSheet_Bf.TC_61_BSBFBank1400_DefaultProfile"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+ 
+	
+  	</suite>

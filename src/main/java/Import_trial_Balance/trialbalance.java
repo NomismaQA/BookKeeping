@@ -32,7 +32,7 @@ public class trialbalance extends BasePage
 
 	private By TrialbalanceEntry2Elem = By.xpath("//A[contains(text(),'Trial Balance Entry')]");
 
-	private By ctl00cPHFileUpload_csv1Elem = By.xpath("//label[normalize-space()= 'Upload CSV:']/../div/input");
+	private By ctl00cPHFileUpload_csv1Elem = By.xpath("//*[@id='FileUpload1']");
 
 	private By Upload_button3Elem = By.xpath("//label[normalize-space()= '']/../div/input");
 

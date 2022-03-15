@@ -489,11 +489,13 @@ public class BankRuleCr_NoVat_Crdit extends BasePage
 	public void GetTData() throws InterruptedException
 	{
       
-		List <WebElement> Pages=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[3]/div/ul/li"));
+		List <WebElement> Pages=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[6]/div/ul/li"));
+
 		int size3=Pages.size();
 		for(int l=1;l<size3-1;l++)
 		{
-			Pages=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[3]/div/ul/li"));
+			Pages=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[6]/div/ul/li"));
+
 			m_Driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			//WebElement pg =m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[3]/div/ul/li"));
 			jsExec.executeScript("arguments[0].scrollIntoView();",Pages.get(l));
@@ -502,7 +504,7 @@ public class BankRuleCr_NoVat_Crdit extends BasePage
 
 
 			System.out.println(l);
-			List <WebElement>  dataa=m_Driver.findElements(By.xpath("//*[@class='table table-bordered']/tbody/tr/td[1]"));
+			List <WebElement>  dataa=m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[4]/div[3]/div/div/div/div/table/tbody/tr"));
 		int Size1=dataa.size();
 			for(int t=0;t<Size1;t++)
 

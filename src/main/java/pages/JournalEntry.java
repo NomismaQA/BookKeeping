@@ -155,7 +155,9 @@ public class JournalEntry extends BasePage
  		 
         
  		elem.sendKeys(Enter_tDate);
- 		
+ 	 //    	Thread.sleep(5000);
+ 		elem.sendKeys(Keys.TAB);
+ 		Thread.sleep(4000);
 		m_Driver.switchTo().defaultContent();
 
  		
@@ -164,13 +166,14 @@ public class JournalEntry extends BasePage
   		TestModellerLogger.PassStep(m_Driver, "Enter_Enter_tDate " + Enter_tDate);
  	}
 
- 	public void Enter_Reverse_Date(String Reverse_Date)
+ 	public void Enter_Reverse_Date(String Reverse_Date) throws InterruptedException
  	{
  	    
 	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div[1]/div/div/div/div[1]/div/div/div/div[1]/div/div/div[2]/iframe")));
 		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_journalmodal1Iframe1']")));
+		WebElement elem1 = getWebElement(Slect_CurrencyElem);
  		WebElement elem = getWebElement(Reverse_DateElem);
-
+ 	
  		if (elem == null) {
     		ExtentReportManager.failStepWithScreenshot(m_Driver, "Enter_Reverse_Date", "Enter_Reverse_Date failed. Unable to locate object: " + Reverse_DateElem.toString());
 
@@ -178,10 +181,13 @@ public class JournalEntry extends BasePage
 
  			Assert.fail("Unable to locate object: " + Reverse_DateElem.toString());
          }
+         
+ 		
 
  		elem.sendKeys(Reverse_Date);
  		elem.sendKeys(Keys.ENTER);
  		elem.sendKeys(Keys.TAB);
+ 		
 		m_Driver.switchTo().defaultContent();
 
  		
@@ -534,7 +540,7 @@ m_Driver.findElement(By.xpath("/html/body/span/span/span[1]/input")).sendKeys(Ke
 
 		//elem.click();
 		jsExec.executeScript("arguments[0].click();", elem);
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		WebElement mes = m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 		String mes1 = mes.getText();
 		

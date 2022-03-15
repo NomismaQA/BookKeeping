@@ -115,7 +115,7 @@ System.out.println("Agent");
  		
  		//jsExec.executeScript("arguments[0].value='"+ctl00cPHFiltertxtAgentName+"';",elem);
         //elem.sendKeys(ctl00cPHFiltertxtAgentName);
-        System.out.println("hi");
+        System.out.println("Enter Agent Name");
         Thread.sleep(1000);
        
  		
@@ -146,7 +146,7 @@ System.out.println("Agent");
 		 
 		//ClosePopup.ValidateAndPopUp(m_Driver);
 		elem.click();
-		System.out.println("click2");
+		System.out.println("Click Search btn");
 		
           	
 		ExtentReportManager.passStep(m_Driver, "Click_Search");

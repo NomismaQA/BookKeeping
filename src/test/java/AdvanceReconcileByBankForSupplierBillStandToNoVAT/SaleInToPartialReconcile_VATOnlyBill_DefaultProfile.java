@@ -146,8 +146,8 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
   _VATOnlyBillSToFRS.Enter_SubTotal(data[8]);
   
 
-  TestModellerLogger.SetLastNodeGuid("75fcc555-aa18-4673-8841-61cd4a7bf1a7");
-  _VATOnlyBillSToFRS.Select_VATRateType(data[9]);
+//  TestModellerLogger.SetLastNodeGuid("75fcc555-aa18-4673-8841-61cd4a7bf1a7");
+  //_VATOnlyBillSToFRS.Select_VATRateType(data[9]);
   
 
 //  TestModellerLogger.SetLastNodeGuid("c9a1d57b-b2d4-4f32-a2de-15fc9d1eb7e1");
@@ -422,8 +422,8 @@ pages.PartialReconciledCases.Searchclient _Searchclient = new pages.PartialRecon
   _VATOnlyBillSToFRS.Enter_SubTotal(data[8]);
   
 
-  TestModellerLogger.SetLastNodeGuid("75fcc555-aa18-4673-8841-61cd4a7bf1a7");
-  _VATOnlyBillSToFRS.Select_VATRateType(data[9]);
+ // TestModellerLogger.SetLastNodeGuid("75fcc555-aa18-4673-8841-61cd4a7bf1a7");
+  //_VATOnlyBillSToFRS.Select_VATRateType(data[9]);
   
 
 //  TestModellerLogger.SetLastNodeGuid("c9a1d57b-b2d4-4f32-a2de-15fc9d1eb7e1");

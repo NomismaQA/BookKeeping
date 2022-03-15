@@ -20,6 +20,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+
+import Generic.WaitStatementLib;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import ie.curiositysoftware.testmodeller.TestModellerModule;
 import utilities.reports.ExtentReportManager;
@@ -62,7 +64,7 @@ public class nBANKTRN extends BasePage
 
       
 
-	private By _Save_Elem = By.xpath("/html/body/form/main/div[11]/div[3]/header/div/div/a[1]");
+	private By _Save_Elem = By.xpath("//*[@id='ctl00_cpHeaderRight_btnSaveAndOpenDashbord']");
 	
 	public void GoToUrl()
 	{
@@ -145,12 +147,11 @@ public class nBANKTRN extends BasePage
  		
  		
  		
+ 		WaitStatementLib wt=new WaitStatementLib();
+		wt.explicitWait_elementToBeClickable(m_Driver, 20, elem);
+ 		
  		elem.sendKeys(NDate);
-     
- 		Thread.sleep(2000);
- 		elem.sendKeys(Keys.ENTER);
  		elem.sendKeys(Keys.TAB);
- 		//elem.sendKeys(Keys.TAB);
  		utilities.PassScreenshot.Getscreenshot11("Enter Date", "Multilcurrency");
  		
  		 		
@@ -416,7 +417,7 @@ public class nBANKTRN extends BasePage
 		JavascriptExecutor jse = (JavascriptExecutor)m_Driver;
 		jse.executeScript("arguments[0].click()", elem);
 		Thread.sleep(2000);
-		 WebElement s=m_Driver.findElement(By.xpath("html/body/form/main/div[11]/div[3]/div/div[1]/div"));
+		 WebElement s=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div"));
 	     String transnno=s.getText();
 	     String arr[]=transnno.split(" ");
 	     String stn=arr[2];

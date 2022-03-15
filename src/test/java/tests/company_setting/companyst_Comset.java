@@ -55,8 +55,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -74,8 +74,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    	//    _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
@@ -122,8 +122,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -141,8 +141,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+    	 //   TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    	//    _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
@@ -199,8 +199,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -218,8 +218,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+   // 	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+   // 	    _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
@@ -248,13 +248,13 @@ public class companyst_Comset extends TestBase
     _setting.Click_Click_General_tab_2();
         _setting.editservice();
         /*Search Business with is marked as NONE(INACTIVE*/
-    _AgentSearch.GoToUrl();
+  //  _AgentSearch.GoToUrl();
        _AgentSearch.Click_Agents();
         _AgentSearch.Enter_ctl00cPHFiltertxtAgentName(data[3]);
     _AgentSearch.Click_Search();
         _AgentSearch.Click__Nidhi1_();
        pages.Company_Settings.Search_Inactiveclient _st=new pages.Company_Settings.Search_Inactiveclient(driver);
-      _st.GoToUrl();
+   //   _st.GoToUrl();
       _st.Click__Clients_();
       _st.Enter_ctl00ctl00ParentContentcPHFiltertxtSearchCompany(data[4]);
       _st.Select_status("Inactive");
@@ -291,8 +291,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    	  //  TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -310,8 +310,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    	//    _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
@@ -361,8 +361,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    //	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -380,8 +380,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    	//    _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
@@ -436,8 +436,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -455,8 +455,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    	//    _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
@@ -505,8 +505,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    //	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -524,8 +524,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+    	 //   TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    	 //   _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
@@ -574,8 +574,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -593,8 +593,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    	//    _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
@@ -644,8 +644,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    	//    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -663,9 +663,9 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
-    	    
+    //	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    //	    _Searchclient.GoToUrl();
+    //	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");
     	    _Searchclient.Click__Clients_();
@@ -714,8 +714,8 @@ public class companyst_Comset extends TestBase
 
     	pages.AgentSearch _AgentSearch = new pages.AgentSearch(driver);
 
-    	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
-    	    _AgentSearch.GoToUrl();
+    //	    TestModellerLogger.SetLastNodeGuid("7bf1bf3d-3f35-4ed2-bb5c-3cc6de7f40bc");
+    //	    _AgentSearch.GoToUrl();
     	    TestModellerLogger.SetLastNodeGuid("549c0b87-688a-4f18-ac03-9f3aad6dbf82");
     	    _AgentSearch.Click_Agents();
     	    
@@ -733,8 +733,8 @@ public class companyst_Comset extends TestBase
     	    
 
     	pages.Searchclient _Searchclient = new pages.Searchclient(driver);
-    	    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
-    	    _Searchclient.GoToUrl();
+    	//    TestModellerLogger.SetLastNodeGuid("6588bb30-8aa9-47e3-9c47-f23afcd5d814");
+    	//    _Searchclient.GoToUrl();
     	    
 
     	    TestModellerLogger.SetLastNodeGuid("8023221d-99f0-4bdf-bb06-f610defd9ebd");

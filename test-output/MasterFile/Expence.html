@@ -1,0 +1,1043 @@
+<html>
+<head>
+<title>TestNG:  Expence</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Expence</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 18 22:35:12 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>1729 seconds (1729257 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue90()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue90</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue90(SaleInvoice_nuinvoice.java:1100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1253971519", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1253971519'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue90(SaleInvoice_nuinvoice.java:1100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>18</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_8()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_8</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54130}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4de3b6253714f4c0eabec48b2bacb884
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at As_Supplier.Expense_Reimbursement.Click_Mileage_23(Expense_Reimbursement.java:778)
+	at test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_8(TestEnpenseReimbursement_DefaultProfile.java:1287)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace718181052", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace718181052'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;OB-SUM&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\Poonam\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54130}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4de3b6253714f4c0eabec48b2bacb884
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at As_Supplier.Expense_Reimbursement.Click_Mileage_23(Expense_Reimbursement.java:778)
+	at test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_8(TestEnpenseReimbursement_DefaultProfile.java:1287)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>39</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue84()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue84</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue84(SaleInvoice_nuinvoice.java:547)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1753090763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1753090763'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue84(SaleInvoice_nuinvoice.java:547)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue81()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue81</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue81(SaleInvoice_nuinvoice.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1150984732", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1150984732'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue81(SaleInvoice_nuinvoice.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue91()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue91</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue91(SaleInvoice_nuinvoice.java:1204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1532612318", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1532612318'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue91(SaleInvoice_nuinvoice.java:1204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>18</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue85()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue85</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue85(SaleInvoice_nuinvoice.java:650)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2127985054", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2127985054'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue85(SaleInvoice_nuinvoice.java:650)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue82()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue82</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue82(SaleInvoice_nuinvoice.java:228)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace186022559", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace186022559'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue82(SaleInvoice_nuinvoice.java:228)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue86()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue86</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue86(SaleInvoice_nuinvoice.java:748)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1708824742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1708824742'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue86(SaleInvoice_nuinvoice.java:748)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue83()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue83</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue83(SaleInvoice_nuinvoice.java:388)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace933602840", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace933602840'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue83(SaleInvoice_nuinvoice.java:388)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>18</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue87()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue87</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue87(SaleInvoice_nuinvoice.java:846)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1916666291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1916666291'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue87(SaleInvoice_nuinvoice.java:846)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>18</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+<tr>
+<td title='tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue89()'><b>ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue89</b><br>Test class: tests.Receive_Payment.SaleInvoice_nuinvoice</td>
+<td><div><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue89(SaleInvoice_nuinvoice.java:994)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace513641296", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace513641296'><pre>java.lang.AssertionError: Unable to locate object: By.xpath: //TD[@style=&apos;cursor: pointer;&apos;]
+	at org.testng.Assert.fail(Assert.java:99)
+	at pages.AgentSearch.Click__Nidhi1_(AgentSearch.java:172)
+	at tests.Receive_Payment.SaleInvoice_nuinvoice.ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue89(SaleInvoice_nuinvoice.java:994)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>tests.Receive_Payment.SaleInvoice_nuinvoice@28d6290</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ashiv.TestUseOfHome_TestCases.GoToUrlClickExpenditureClickViewClickUseofHomeasOfficePositiveSelectSelectPersonPositiveSelect()'><b>GoToUrlClickExpenditureClickViewClickUseofHomeasOfficePositiveSelectSelectPersonPositiveSelect</b><br>Test class: test.ashiv.TestUseOfHome_TestCases</td>
+<td></td>
+<td>38</td>
+<td>test.ashiv.TestUseOfHome_TestCases@56f6d40b</td></tr>
+<tr>
+<td title='test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterSupplierBill_1()'><b>GoToUrlAssertUrlPositiveEnterSupplierBill_1</b><br>Test class: test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile</td>
+<td></td>
+<td>44</td>
+<td>test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile@69637b10</td></tr>
+<tr>
+<td title='test.ashiv.TestSupplierList_TestCases.GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent</b><br>Test class: test.ashiv.TestSupplierList_TestCases</td>
+<td></td>
+<td>39</td>
+<td>test.ashiv.TestSupplierList_TestCases@6c8bca63</td></tr>
+<tr>
+<td title='test.ashiv.TestSupplierList_TestCases.GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_4()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_4</b><br>Test class: test.ashiv.TestSupplierList_TestCases</td>
+<td></td>
+<td>48</td>
+<td>test.ashiv.TestSupplierList_TestCases@6c8bca63</td></tr>
+<tr>
+<td title='test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonAgentClientBusinessExpenditure_NewVatOnly_SaveBtnSuccessMessageScreenWithBillNumRecallLastTrnschangeBillNum_2()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonAgentClientBusinessExpenditure_NewVatOnly_SaveBtnSuccessMessageScreenWithBillNumRecallLastTrnschangeBillNum_2</b><br>Test class: test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile</td>
+<td></td>
+<td>39</td>
+<td>test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile@65a4798f</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_7()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_7</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>41</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='test.ashiv.SubcontractorBill_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewSubcontrator_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum_1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewSubcontrator_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum_1</b><br>Test class: test.ashiv.SubcontractorBill_DefaultProfile</td>
+<td></td>
+<td>40</td>
+<td>test.ashiv.SubcontractorBill_DefaultProfile@665e9289</td></tr>
+<tr>
+<td title='test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterSupplierBill_2()'><b>GoToUrlAssertUrlPositiveEnterSupplierBill_2</b><br>Test class: test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile</td>
+<td></td>
+<td>41</td>
+<td>test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile@69637b10</td></tr>
+<tr>
+<td title='test.ashiv.TestSupplierList_TestCases.GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_5()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_5</b><br>Test class: test.ashiv.TestSupplierList_TestCases</td>
+<td></td>
+<td>43</td>
+<td>test.ashiv.TestSupplierList_TestCases@6c8bca63</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_1()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_1</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>41</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='test.ashiv.TestSupplierList_TestCases.GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_3()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_3</b><br>Test class: test.ashiv.TestSupplierList_TestCases</td>
+<td></td>
+<td>40</td>
+<td>test.ashiv.TestSupplierList_TestCases@6c8bca63</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_5()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_5</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>34</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterSupplierBill_3()'><b>GoToUrlAssertUrlPositiveEnterSupplierBill_3</b><br>Test class: test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile</td>
+<td></td>
+<td>62</td>
+<td>test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile@69637b10</td></tr>
+<tr>
+<td title='test.ashiv.TestLadgerRecon_DefaultProfile.GoToUrlClickView2ClickLedgerReconciliation3PositiveSelectAccountType48PositiveSelectAccount59C()'><b>GoToUrlClickView2ClickLedgerReconciliation3PositiveSelectAccountType48PositiveSelectAccount59C</b><br>Test class: test.ashiv.TestLadgerRecon_DefaultProfile</td>
+<td></td>
+<td>52</td>
+<td>test.ashiv.TestLadgerRecon_DefaultProfile@2692b61e</td></tr>
+<tr>
+<td title='test.ashiv.TestSupplierList_TestCases.GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_2()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_2</b><br>Test class: test.ashiv.TestSupplierList_TestCases</td>
+<td></td>
+<td>39</td>
+<td>test.ashiv.TestSupplierList_TestCases@6c8bca63</td></tr>
+<tr>
+<td title='test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum_1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum_1</b><br>Test class: test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile</td>
+<td></td>
+<td>43</td>
+<td>test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile@83298d7</td></tr>
+<tr>
+<td title='test.ashiv.TestSupplierList_TestCases.GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_1()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickSupplierList3PositiveSelectCategorySearch4Ent_1</b><br>Test class: test.ashiv.TestSupplierList_TestCases</td>
+<td></td>
+<td>35</td>
+<td>test.ashiv.TestSupplierList_TestCases@6c8bca63</td></tr>
+<tr>
+<td title='test.ashiv.TestNewSupplierBillBatch_UserStories.GoToUrlAssertUrlClickExpenditure1ClickViewNew2ClickNewSupplierBillBatch3ClickSave4PositiveSel()'><b>GoToUrlAssertUrlClickExpenditure1ClickViewNew2ClickNewSupplierBillBatch3ClickSave4PositiveSel</b><br>Test class: test.ashiv.TestNewSupplierBillBatch_UserStories</td>
+<td></td>
+<td>60</td>
+<td>test.ashiv.TestNewSupplierBillBatch_UserStories@2b491fee</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_9()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_9</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>104</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterSupplierBill()'><b>GoToUrlAssertUrlPositiveEnterSupplierBill</b><br>Test class: test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile</td>
+<td></td>
+<td>64</td>
+<td>test.ashiv.ScriptSupplierBillSToFRS_DefaultProfile@69637b10</td></tr>
+<tr>
+<td title='test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum_2()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum_2</b><br>Test class: test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile</td>
+<td></td>
+<td>42</td>
+<td>test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile@83298d7</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_6()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_6</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>41</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewDebitNote_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum</b><br>Test class: test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile</td>
+<td></td>
+<td>65</td>
+<td>test.ashiv.ScriptDebitNoteSToFRS_DefaultProfile@83298d7</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_4()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_4</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>42</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonAgentClientBusinessExpenditure_NewVatOnly_SaveBtnSuccessMessageScreenWithBillNumRecallLastTrnschangeBillNum_1()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonAgentClientBusinessExpenditure_NewVatOnly_SaveBtnSuccessMessageScreenWithBillNumRecallLastTrnschangeBillNum_1</b><br>Test class: test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile</td>
+<td></td>
+<td>42</td>
+<td>test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile@65a4798f</td></tr>
+<tr>
+<td title='test.ashiv.SubcontractorBill_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewSubcontrator_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonGoToUrlAssertAgentClientBusinessExpenditure_NewSubcontrator_SaveBtnSuccessMessageScreenWithInvoiceNumRecallLastTrnschangeBillNum</b><br>Test class: test.ashiv.SubcontractorBill_DefaultProfile</td>
+<td></td>
+<td>62</td>
+<td>test.ashiv.SubcontractorBill_DefaultProfile@665e9289</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>40</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_3()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_3</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>41</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+<tr>
+<td title='test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile.GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonAgentClientBusinessExpenditure_NewVatOnly_SaveBtnSuccessMessageScreenWithBillNumRecallLastTrnschangeBillNum()'><b>GoToUrlAssertUrlPositiveEnterUserNamePositiveEnterPasswordClickLoginButtonAgentClientBusinessExpenditure_NewVatOnly_SaveBtnSuccessMessageScreenWithBillNumRecallLastTrnschangeBillNum</b><br>Test class: test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile</td>
+<td></td>
+<td>52</td>
+<td>test.ashiv.ScriptVATOnlyBillSToFRS_DefaultProfile@65a4798f</td></tr>
+<tr>
+<td title='test.ashiv.TestEnpenseReimbursement_DefaultProfile.GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_2()'><b>GoToUrlAssertUrlClickExpenditure1ClickView2ClickExpenseReimbursement3PositiveSelectSelectMonth_2</b><br>Test class: test.ashiv.TestEnpenseReimbursement_DefaultProfile</td>
+<td></td>
+<td>40</td>
+<td>test.ashiv.TestEnpenseReimbursement_DefaultProfile@63192798</td></tr>
+</table><p>
+</body>
+</html>

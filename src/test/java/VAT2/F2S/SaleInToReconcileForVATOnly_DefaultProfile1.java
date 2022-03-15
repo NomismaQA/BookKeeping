@@ -477,7 +477,7 @@ pages.nBANKTRN _nBANKTRN = new pages.nBANKTRN(driver);
     
 
     TestModellerLogger.SetLastNodeGuid("8cb869ce-983f-422b-a7ab-11f2359ec333");
-    _nBANKTRN.Enter_BOX2(data[15]);
+    _nBANKTRN.Enter_BOX2(data[16]);
     
 
 //    TestModellerLogger.SetLastNodeGuid("8589c653-c831-4d3c-a70b-566928561494");

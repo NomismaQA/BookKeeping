@@ -145,11 +145,11 @@ public class TestNewBatchEntry_TC03 extends TestBase
   //  _New_Batch_entry.CustomerList();
     
     TestModellerLogger.SetLastNodeGuid("e0960b29-e2ed-445c-8b63-7477a316eff9");
-    _New_Batch_entry.Select_Select_Customer_4("Default Customer");
+    _New_Batch_entry.Select_Select_Customer_4(data[5]);
     
 
     TestModellerLogger.SetLastNodeGuid("d38928b1-daff-46f0-917f-957e834a2cd9");
-    _New_Batch_entry.Select_Select_InvoiceType_5("Invoice");
+    _New_Batch_entry.Select_Select_InvoiceType_5(data[6]);
     
 
     TestModellerLogger.SetLastNodeGuid("3067f98f-8c67-4494-92b5-a774f0aebdbe");
@@ -157,19 +157,19 @@ public class TestNewBatchEntry_TC03 extends TestBase
     
 
     TestModellerLogger.SetLastNodeGuid("7552c8da-6515-465a-a544-b3dcb0f26cd8");
-    _New_Batch_entry.Select_Seletc_Income_Type7("Sale");
+    _New_Batch_entry.Select_Seletc_Income_Type7(data[7]);
     
 
     TestModellerLogger.SetLastNodeGuid("261577c0-8cf2-4f3a-8956-71081a61b8cc");
-    _New_Batch_entry.Enter_Enter_Description_8("Ashiv");
+    _New_Batch_entry.Enter_Enter_Description_8(data[8]);
     
 
     TestModellerLogger.SetLastNodeGuid("2542408f-cb5f-40e4-8472-0824b905b2ce");
-    _New_Batch_entry.Enter_Enter_Amount_9("1000");
+    _New_Batch_entry.Enter_Enter_Amount_9(data[9]);
     
 
     TestModellerLogger.SetLastNodeGuid("0831a80b-b59b-4dbf-9738-afd15ad6ae32");
-    _New_Batch_entry.Select_Select_VATRate_10("No VAT");
+    _New_Batch_entry.Select_Select_VATRate_10(data[10]);
     
 
     TestModellerLogger.SetLastNodeGuid("7fb72128-ca93-4af1-9550-9076eef92927");

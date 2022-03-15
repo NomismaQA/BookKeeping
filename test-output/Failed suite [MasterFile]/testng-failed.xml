@@ -1,33 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Failed suite [MasterFile]]" guice-stage="DEVELOPMENT" verbose="10">
-  <test thread-count="5" name="VAT2_F2NoVAT(failed)(failed)" verbose="10">
+  <test thread-count="5" name="Expence(failed)(failed)" verbose="10">
     <classes>
-      <class name="VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1">
+      <class name="tests.Receive_Payment.SaleInvoice_nuinvoice">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
-          <include name="addvatrateGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl7"/>
+          <include name="ClickSaleNewmenu1PositiveSelectNuInvCustomer1PositiveEnterNuInvInvoiceDate2PositiveEnterNuInvDue91"/>
         </methods>
-      </class> <!-- VAT2.F2NOVAT.F2noVat_scriptaddvatrate_addvatrate1_1 -->
+      </class> <!-- tests.Receive_Payment.SaleInvoice_nuinvoice -->
     </classes>
-  </test> <!-- VAT2_F2NoVAT(failed)(failed) -->
-  <test thread-count="5" name="VAT2_S2NoVat(failed)(failed)" verbose="10">
+  </test> <!-- Expence(failed)(failed) -->
+  <test thread-count="5" name="Bank upload csv(failed)(failed)" verbose="10">
     <classes>
-      <class name="VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForVATOnly_StoF_33">
+      <class name="tests.Bank_Upload_CSV.uploadcsv">
         <methods>
           <include name="initDriver"/>
           <include name="closeReporter"/>
           <include name="allocateData"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP1"/>
-          <include name="GoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlClickAgentsP2"/>
           <include name="setupReporter"/>
           <include name="tearDown"/>
+          <include name="GoToUrlClickbankmenu1ClickUploadCSV2PositiveSelectSelectBank4EnterChooseUploadCSV4ClickUpload52"/>
         </methods>
-      </class> <!-- VAT2.S2NoVAT.S2noVAT_SaleInToReconcileForVATOnly_StoF_33 -->
+      </class> <!-- tests.Bank_Upload_CSV.uploadcsv -->
     </classes>
-  </test> <!-- VAT2_S2NoVat(failed)(failed) -->
+  </test> <!-- Bank upload csv(failed)(failed) -->
+  <test thread-count="5" name="Bank_Multicurrency(failed)(failed)" verbose="10">
+    <classes>
+      <class name="tests.Bank_Multicurrency.tr_Flat10Schem_Receive">
+        <methods>
+          <include name="initDriver"/>
+          <include name="closeReporter"/>
+          <include name="allocateData"/>
+          <include name="setupReporter"/>
+          <include name="tearDown"/>
+          <include name="nidbanktrnGoToUrlAssertUrlPositiveEnternLOGINPositiveEnternPASSClickLoginGoToUrlAssertUrlCl8"/>
+        </methods>
+      </class> <!-- tests.Bank_Multicurrency.tr_Flat10Schem_Receive -->
+    </classes>
+  </test> <!-- Bank_Multicurrency(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [MasterFile]] -->

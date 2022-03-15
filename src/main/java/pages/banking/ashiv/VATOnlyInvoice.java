@@ -600,4 +600,60 @@ public void RecallSuss() throws InterruptedException
 	utilities.Screenshotcapture.Getscreenshot("Recall The Last Transaction And Change Invoice No", "New VAT Only Invoice.");
 }
 
+public void VerifyVatInvoice()
+{
+	
+	String InvoiceNum=m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[1]/div")).getText();
+	String invAr[]=InvoiceNum.split(" ");
+	String invno=invAr[4];
+	
+	
+	WebElement	CatTY=m_Driver.findElement(By.xpath("//SELECT[@id='ctl00_cPHFilter_dd_Search']"));
+	
+	Select sl=new Select(CatTY);
+	sl.selectByVisibleText("Tran#");
+	
+	WebElement CatNM=m_Driver.findElement(By.xpath("//INPUT[@id='ctl00_cPHFilter_txtSearch']"));
+	CatNM.sendKeys(invno);
+	
+	m_Driver.findElement(By.xpath("//*[@id='btnSearch']")).click();
+	
+	
+	
+	
+}
+
+public void Verifyallcustomer()
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

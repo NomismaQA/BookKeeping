@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10">
+<listeners>
+ <listener class-name="reports.TestNGListener"/>
+<listener class-name="reports.ExtentTestListener" />
+</listeners>
+
+<test name= "TC_41_1_ExpenseHead_76032425__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_1_ExpenseHead_76032425__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	</test>
+ 	<test name= "TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_2_ExpenseHead_7602627__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	</test><test name= "TC_41_3_ExpenseHead_7602830__JournalEntry_Bank_Supplier" enabled="true">  
+  		 
+ 			<classes> 
+    				<class name= "Test_Trial_Balance_RE_Jour_Bank_Supp.TC_41_3_ExpenseHead_7602830__JournalEntry_Bank_Supplier"/>
+   			</classes> 
+  			
+ 	</test>
+ 	
+ 	
+	
+  	</suite>

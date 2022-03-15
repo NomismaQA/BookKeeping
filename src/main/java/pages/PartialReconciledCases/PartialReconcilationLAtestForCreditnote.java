@@ -173,7 +173,8 @@ public class PartialReconcilationLAtestForCreditnote extends BasePage
 		    System.out.println("R1");
 	          Rpno=t.confirmation();
 	       // InvoiceNo = in.message();
-	         int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
+	    //     int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
+	         int rowcount = m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[7]/div/table/tbody/tr")).size();
 	         int cl = rowcount-1;
 	         System.out.println("Row Count"+rowcount);
 	         System.out.println("BankTR no"   +Rpno);
@@ -188,8 +189,8 @@ public class PartialReconcilationLAtestForCreditnote extends BasePage
 		    	  System.out.println("i value "+i);
 		    	  
 		    	  /*column path to get data which is like bank trans number */
-		    		WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
-		   
+		    //		WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
+		    		WebElement m = m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[7]/div/table/tbody/tr["+i+"]/td[2]"));
 		    		String p=m.getText();
 	    	  System.out.println("what is in p"   +p);
 	    	 /*check bank transaction if there in aboeve xpath or not*/
@@ -270,8 +271,8 @@ public class PartialReconcilationLAtestForCreditnote extends BasePage
 
 		int num = Integer.parseInt(Rpno)-1;
 	    String InvoiceNo = String.valueOf(num);
-	int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
-
+//	int rowcount = m_Driver.findElements(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr")).size();
+	int rowcount = m_Driver.findElements(By.xpath("//*[@id='ctl00_divSubContent']/div[7]/div/table/tbody/tr")).size();
       System.out.println("Row Count2  "+rowcount);
       //System.out.println("BankTR no"   +Rpno);
       System.out.println("InvoiceNO2 :: "+InvoiceNo);
@@ -284,8 +285,8 @@ public class PartialReconcilationLAtestForCreditnote extends BasePage
 	    	  int j = i-1;
 	    	  System.out.println("i 2 value "+i);
 	    	 
-	    		WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
-	   
+	    	//	WebElement m = m_Driver.findElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[3]/div/div/div/table/tbody/tr[2]/td/div[2]/table/tbody/tr[1]/td/div/table/tbody/tr["+i+"]/td[2]"));
+	    		WebElement m = m_Driver.findElement(By.xpath("//*[@id='ctl00_divSubContent']/div[7]/div/table/tbody/tr["+i+"]/td[2]"));
 	    		String p=m.getText();
 	    	  System.out.println("what is in 2 p"   +p);
 	    	 /*check bank transaction if there in aboeve xpath or not*/
@@ -367,7 +368,8 @@ System.out.println("i valuejjjj "+i+"   j "+j);
  	{
  	    
 		//m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/div[2]/div[1]/div[2]/div[2]/div[1]/iframe")));
-    	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div/div[2]/iframe")));
+    //	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div/div[2]/iframe")));
+    	m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_modalReconcileFrame']")));
  		WebElement elem = getWebElement(SelectReconcileTypeElem);
 
  		if (elem == null) {
@@ -402,7 +404,8 @@ System.out.println("1111."+SelectReconcileType);
 	{
         
 		//m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/div[2]/div[1]/div[2]/div[2]/div[1]/iframe")));
-		m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div/div[2]/iframe")));
+	//	m_Driver.switchTo().frame(getWebElement(By.xpath("/html/body/form/main/div[11]/div[3]/div/div[4]/div/div/div[2]/iframe")));
+		m_Driver.switchTo().frame(getWebElement(By.xpath("//*[@id='ctl00_cPH_modalReconcileFrame']")));
 		WebElement elem = getWebElement(ReconcileButtonElem);
 
 		if (elem == null) {
